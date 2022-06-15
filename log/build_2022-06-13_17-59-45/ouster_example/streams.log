@@ -1,0 +1,730 @@
+[0.152s] Invoking command in '/home/msi/caato2_ws/build/ouster_example': /usr/bin/cmake /home/msi/caato2_ws/src/siot/ouster_example -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/ouster_example
+[0.295s] -- Build type not specified, using: Release
+[0.296s] -- The C compiler identification is GNU 8.4.0
+[0.305s] -- The CXX compiler identification is GNU 8.4.0
+[0.310s] -- Check for working C compiler: /usr/bin/cc
+[0.388s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.389s] -- Detecting C compiler ABI info
+[0.453s] -- Detecting C compiler ABI info - done
+[0.462s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.539s] -- Detecting CXX compiler ABI info
+[0.601s] -- Detecting CXX compiler ABI info - done
+[0.611s] -- Detecting CXX compile features
+[0.611s] -- Detecting CXX compile features - done
+[0.611s] -- Found Eigen3: /usr/include/eigen3  
+[0.624s] -- Found jsoncpp: /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake  
+[0.627s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so  
+[0.630s] -- glad NOT found, falling back to GLEW
+[0.666s] -- Found GLEW: /usr/include (found version "2.1.0") 
+[0.704s] -- Found glfw3: /usr/include (found version "3.3.2") 
+[0.705s] -- Ouster SDK client: Using EIGEN_MAX_ALIGN_BYTES = 32
+[0.706s] -- Configuring done
+[0.719s] -- Generating done
+[0.720s] -- Build files have been written to: /home/msi/caato2_ws/build/ouster_example
+[0.817s] Invoked command in '/home/msi/caato2_ws/build/ouster_example' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/ouster_example -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/ouster_example
+[0.818s] Invoking command in '/home/msi/caato2_ws/build/ouster_example': /usr/bin/cmake --build /home/msi/caato2_ws/build/ouster_example -- -j20 -l20
+[0.839s] [35m[1mScanning dependencies of target generate_build_header[0m
+[0.865s] [  0%] Built target generate_build_header
+[0.871s] [35m[1mScanning dependencies of target ouster_client[0m
+[0.912s] [ 16%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client.dir/src/client.cpp.o[0m
+[0.912s] [ 16%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[0.912s] [ 16%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client.dir/src/netcompat.cpp.o[0m
+[0.912s] [ 22%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[0.912s] [ 27%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client.dir/src/buffered_udp_source.cpp.o[0m
+[0.912s] [ 33%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[0.912s] [ 38%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[1.476s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.476s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:56:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.476s]          sensor::[01;35m[KRANGE[m[K;  ///< @deprecated
+[1.476s]                  [01;35m[K^~~~~[m[K
+[1.476s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.476s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[1.476s]                                                    [01;36m[K^[m[K
+[1.476s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:58:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.477s]          sensor::[01;35m[KSIGNAL[m[K;  ///< @deprecated
+[1.477s]                  [01;35m[K^~~~~~[m[K
+[1.477s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.477s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[1.477s]                                                    [01;36m[K^[m[K
+[1.477s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:60:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.477s]          sensor::[01;35m[KNEAR_IR[m[K;  ///< @deprecated
+[1.477s]                  [01;35m[K^~~~~~~[m[K
+[1.477s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.477s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[1.477s]                                                    [01;36m[K^[m[K
+[1.477s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:62:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.477s]          sensor::[01;35m[KREFLECTIVITY[m[K;  ///< @deprecated
+[1.478s]                  [01;35m[K^~~~~~~~~~~~[m[K
+[1.478s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.478s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[1.478s]                                                    [01;36m[K^[m[K
+[1.478s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:70:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing ts_t = std::chrono::nanoseconds[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.478s]          ts_t [01;35m[Ktimestamp[m[K;
+[1.478s]               [01;35m[K^~~~~~~~~[m[K
+[1.478s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:45:57:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.478s]      using ts_t [[deprecated]] = std::chrono::nanoseconds[01;36m[K;[m[K  ///< @deprecated
+[1.478s]                                                          [01;36m[K^[m[K
+[1.504s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.505s]      [[deprecated]] std::vector<[01;35m[KBlockHeader[m[K> headers{};
+[1.505s]                                 [01;35m[K^~~~~~~~~~~[m[K
+[1.505s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.505s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[1.505s]                            [01;36m[K^~~~~~~~~~~[m[K
+[1.509s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:195:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing ts_t = std::chrono::nanoseconds[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.509s]      [[deprecated]] std::vector<LidarScan::[01;35m[Kts_t[m[K> timestamps() const;
+[1.509s]                                            [01;35m[K^~~~[m[K
+[1.509s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:45:57:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.509s]      using ts_t [[deprecated]] = std::chrono::nanoseconds[01;36m[K;[m[K  ///< @deprecated
+[1.509s]                                                          [01;36m[K^[m[K
+[1.509s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:204:51:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.509s]      [[deprecated]] BlockHeader& header(size_t m_id[01;35m[K)[m[K;
+[1.510s]                                                    [01;35m[K^[m[K
+[1.510s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.511s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[1.511s]                            [01;36m[K^~~~~~~~~~~[m[K
+[1.512s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:207:59:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.512s]      [[deprecated]] const BlockHeader& header(size_t m_id) [01;35m[Kconst[m[K;
+[1.512s]                                                            [01;35m[K^~~~~[m[K
+[1.512s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.512s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[1.512s]                            [01;36m[K^~~~~~~~~~~[m[K
+[1.512s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:297:63:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.512s]                                 const LidarScan::BlockHeader& b[01;35m[K)[m[K;
+[1.512s]                                                                [01;35m[K^[m[K
+[1.512s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:297:63:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.578s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:[m[K In constructor ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::sensor_info&)[m[K’:
+[1.579s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:180:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.580s]        encoder_ticks_per_rev{impl::encoder_ticks_per_rev[01;35m[K}[m[K {
+[1.583s]                                                         [01;35m[K^[m[K
+[1.583s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:17[m[K:
+[1.583s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:752:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.583s]      [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[1.583s]                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.583s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:180:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.584s]        encoder_ticks_per_rev{impl::encoder_ticks_per_rev[01;35m[K}[m[K {
+[1.584s]                                                         [01;35m[K^[m[K
+[1.584s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:17[m[K:
+[1.585s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:752:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.587s]      [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[1.587s]                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.603s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kuint16_t ouster::sensor::packet_format::frame_id(const uint8_t*) const[m[K’:
+[1.603s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:275:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint16_t ouster::sensor::packet_format::col_frame_id(const uint8_t*) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.603s]          return col_frame_id(nth_col(0, lidar_buf)[01;35m[K)[m[K;
+[1.603s]                                                   [01;35m[K^[m[K
+[1.604s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/parsing.cpp:17[m[K:
+[1.604s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:850:29:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.604s]      [[deprecated]] uint16_t [01;36m[Kcol_frame_id[m[K(
+[1.604s]                              [01;36m[K^~~~~~~~~~~~[m[K
+[1.626s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kbool ouster::sensor::operator==(const ouster::sensor::sensor_info&, const ouster::sensor::sensor_info&)[m[K’:
+[1.626s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:117:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.626s]      return (lhs.[01;35m[Kname[m[K == rhs.name && lhs.sn == rhs.sn &&
+[1.626s]                  [01;35m[K^~~~[m[K
+[1.629s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.630s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.632s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.632s]          [01;36m[K^~~~[m[K
+[1.632s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:117:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.632s]      return (lhs.[01;35m[Kname[m[K == rhs.name && lhs.sn == rhs.sn &&
+[1.632s]                  [01;35m[K^~~~[m[K
+[1.633s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.634s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.634s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.636s]          [01;36m[K^~~~[m[K
+[1.637s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:117:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.637s]      return (lhs.[01;35m[Kname[m[K == rhs.name && lhs.sn == rhs.sn &&
+[1.637s]                  [01;35m[K^~~~[m[K
+[1.637s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.637s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.637s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.637s]          [01;36m[K^~~~[m[K
+[1.637s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:117:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.637s]      return (lhs.name == rhs.[01;35m[Kname[m[K && lhs.sn == rhs.sn &&
+[1.637s]                              [01;35m[K^~~~[m[K
+[1.637s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.637s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.637s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.637s]          [01;36m[K^~~~[m[K
+[1.637s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:117:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.637s]      return (lhs.name == rhs.[01;35m[Kname[m[K && lhs.sn == rhs.sn &&
+[1.638s]                              [01;35m[K^~~~[m[K
+[1.638s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.638s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.638s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.638s]          [01;36m[K^~~~[m[K
+[1.638s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:117:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.638s]      return (lhs.name == rhs.[01;35m[Kname[m[K && lhs.sn == rhs.sn &&
+[1.638s]                              [01;35m[K^~~~[m[K
+[1.639s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.641s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.641s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.641s]          [01;36m[K^~~~[m[K
+[1.648s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[1.648s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.649s]  struct [01;35m[Ksensor_info[m[K {
+[1.649s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.651s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.651s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.652s]          [01;36m[K^~~~[m[K
+[1.652s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.652s]  struct [01;35m[Ksensor_info[m[K {
+[1.652s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.652s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.653s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.653s]          [01;36m[K^~~~[m[K
+[1.655s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kouster::sensor::sensor_info ouster::sensor::default_sensor_info(ouster::sensor::lidar_mode)[m[K’:
+[1.655s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:229:33:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[1.655s]                                 0[01;36m[K}[m[K;
+[1.656s]                                  [01;36m[K^[m[K
+[1.656s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.656s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info(ouster::sensor::sensor_info&&)[m[K’:
+[1.656s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.656s]  struct [01;35m[Ksensor_info[m[K {
+[1.656s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.656s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.660s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.660s]          [01;36m[K^~~~[m[K
+[1.660s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.660s]  struct [01;35m[Ksensor_info[m[K {
+[1.660s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.661s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.661s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.663s]          [01;36m[K^~~~[m[K
+[1.664s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.664s]  struct [01;35m[Ksensor_info[m[K {
+[1.665s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.666s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.666s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.669s]          [01;36m[K^~~~[m[K
+[1.669s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.669s]  struct [01;35m[Ksensor_info[m[K {
+[1.670s]         [01;35m[K^~~~~~~~~~~[m[K
+[1.670s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.670s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.670s]          [01;36m[K^~~~[m[K
+[1.670s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kouster::sensor::sensor_info ouster::sensor::default_sensor_info(ouster::sensor::lidar_mode)[m[K’:
+[1.670s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:229:33:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info(ouster::sensor::sensor_info&&)[m[K’ first required here
+[1.670s]                                 0[01;36m[K}[m[K;
+[1.671s]                                  [01;36m[K^[m[K
+[1.685s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:[m[K In function ‘[01m[Kouster::sensor::sensor_info ouster::sensor::parse_legacy(const string&)[m[K’:
+[1.686s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:653:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.686s]      info.[01;35m[Kname[m[K = root["hostname"].asString();
+[1.686s]           [01;35m[K^~~~[m[K
+[1.686s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.686s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.686s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.687s]          [01;36m[K^~~~[m[K
+[1.687s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:653:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.688s]      info.[01;35m[Kname[m[K = root["hostname"].asString();
+[1.688s]           [01;35m[K^~~~[m[K
+[1.689s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.689s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.689s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.689s]          [01;36m[K^~~~[m[K
+[1.689s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:653:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.689s]      info.[01;35m[Kname[m[K = root["hostname"].asString();
+[1.689s]           [01;35m[K^~~~[m[K
+[1.690s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/types.cpp:6[m[K:
+[1.690s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.690s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[1.690s]          [01;36m[K^~~~[m[K
+[1.738s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:[m[K In constructor ‘[01m[Kouster::LidarScan::LidarScan()[m[K’:
+[1.738s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.738s]  class [01;35m[KLidarScan[m[K {
+[1.738s]        [01;35m[K^~~~~~~~~[m[K
+[1.738s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.738s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.739s]                                                      [01;36m[K^[m[K
+[1.739s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.739s]  class [01;35m[KLidarScan[m[K {
+[1.739s]        [01;35m[K^~~~~~~~~[m[K
+[1.739s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.739s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.739s]                                                      [01;36m[K^[m[K
+[1.739s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.740s]  class [01;35m[KLidarScan[m[K {
+[1.740s]        [01;35m[K^~~~~~~~~[m[K
+[1.740s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.740s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.740s]                                                      [01;36m[K^[m[K
+[1.740s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.740s]  class [01;35m[KLidarScan[m[K {
+[1.740s]        [01;35m[K^~~~~~~~~[m[K
+[1.740s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.740s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.740s]                                                      [01;36m[K^[m[K
+[1.740s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.740s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:26:26:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::LidarScan::LidarScan()[m[K’ first required here
+[1.740s]  LidarScan::LidarScan() = [01;36m[Kdefault[m[K;
+[1.740s]                           [01;36m[K^~~~~~~[m[K
+[1.740s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.740s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:[m[K In copy constructor ‘[01m[Kouster::LidarScan::LidarScan(const ouster::LidarScan&)[m[K’:
+[1.740s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.740s]  class [01;35m[KLidarScan[m[K {
+[1.740s]        [01;35m[K^~~~~~~~~[m[K
+[1.741s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.741s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.741s]                                                      [01;36m[K^[m[K
+[1.741s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.741s]  class [01;35m[KLidarScan[m[K {
+[1.741s]        [01;35m[K^~~~~~~~~[m[K
+[1.741s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.741s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.741s]                                                      [01;36m[K^[m[K
+[1.741s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.741s]  class [01;35m[KLidarScan[m[K {
+[1.741s]        [01;35m[K^~~~~~~~~[m[K
+[1.741s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.741s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.741s]                                                      [01;36m[K^[m[K
+[1.742s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.742s]  class [01;35m[KLidarScan[m[K {
+[1.742s]        [01;35m[K^~~~~~~~~[m[K
+[1.742s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.742s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.742s]                                                      [01;36m[K^[m[K
+[1.742s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.742s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:27:42:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::LidarScan::LidarScan(const ouster::LidarScan&)[m[K’ first required here
+[1.742s]  LidarScan::LidarScan(const LidarScan&) = [01;36m[Kdefault[m[K;
+[1.743s]                                           [01;36m[K^~~~~~~[m[K
+[1.743s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.745s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:[m[K In constructor ‘[01m[Kouster::LidarScan::LidarScan(ouster::LidarScan&&)[m[K’:
+[1.745s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.746s]  class [01;35m[KLidarScan[m[K {
+[1.746s]        [01;35m[K^~~~~~~~~[m[K
+[1.746s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.746s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.747s]                                                      [01;36m[K^[m[K
+[1.747s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.747s]  class [01;35m[KLidarScan[m[K {
+[1.748s]        [01;35m[K^~~~~~~~~[m[K
+[1.748s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.748s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.748s]                                                      [01;36m[K^[m[K
+[1.748s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.748s]  class [01;35m[KLidarScan[m[K {
+[1.748s]        [01;35m[K^~~~~~~~~[m[K
+[1.748s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.749s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.749s]                                                      [01;36m[K^[m[K
+[1.749s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.749s]  class [01;35m[KLidarScan[m[K {
+[1.749s]        [01;35m[K^~~~~~~~~[m[K
+[1.749s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.749s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.749s]                                                      [01;36m[K^[m[K
+[1.749s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.749s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:28:37:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::LidarScan::LidarScan(ouster::LidarScan&&)[m[K’ first required here
+[1.749s]  LidarScan::LidarScan(LidarScan&&) = [01;36m[Kdefault[m[K;
+[1.749s]                                      [01;36m[K^~~~~~~[m[K
+[1.750s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.750s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:[m[K In destructor ‘[01m[Kouster::LidarScan::~LidarScan()[m[K’:
+[1.750s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.750s]  class [01;35m[KLidarScan[m[K {
+[1.750s]        [01;35m[K^~~~~~~~~[m[K
+[1.750s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.750s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.750s]                                                      [01;36m[K^[m[K
+[1.750s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:40:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.750s]  class [01;35m[KLidarScan[m[K {
+[1.750s]        [01;35m[K^~~~~~~~~[m[K
+[1.750s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.750s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.750s]                                                      [01;36m[K^[m[K
+[1.751s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.751s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:31:27:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::LidarScan::~LidarScan()[m[K’ first required here
+[1.751s]  LidarScan::~LidarScan() = [01;36m[Kdefault[m[K;
+[1.751s]                            [01;36m[K^~~~~~~[m[K
+[1.763s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In constructor ‘[01m[Kouster::LidarScan::LidarScan(size_t, size_t, std::vector<std::pair<ouster::sensor::ChanField, ouster::sensor::ChanFieldType> >)[m[K’:
+[1.763s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:111:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.763s]        headers{w, BlockHeader{ts_t{0}, 0, 0}[01;35m[K}[m[K {
+[1.763s]                                             [01;35m[K^[m[K
+[1.763s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.763s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.763s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.763s]                                                      [01;36m[K^[m[K
+[1.764s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:111:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.764s]        headers{w, BlockHeader{ts_t{0}, 0, 0}[01;35m[K}[m[K {
+[1.764s]                                             [01;35m[K^[m[K
+[1.764s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.764s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.764s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.764s]                                                      [01;36m[K^[m[K
+[1.764s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:111:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.764s]        headers{w, BlockHeader{ts_t{0}, 0, 0}[01;35m[K}[m[K {
+[1.764s]                                             [01;35m[K^[m[K
+[1.764s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.764s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.764s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.764s]                                                      [01;36m[K^[m[K
+[1.764s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:111:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.764s]        headers{w, BlockHeader{ts_t{0}, 0, 0}[01;35m[K}[m[K {
+[1.765s]                                             [01;35m[K^[m[K
+[1.765s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.765s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.765s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.765s]                                                      [01;36m[K^[m[K
+[1.765s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.765s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:126:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing ts_t = std::chrono::nanoseconds[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.765s]  std::vector<LidarScan::[01;35m[Kts_t[m[K> LidarScan::timestamps() const {
+[1.765s]                         [01;35m[K^~~~[m[K
+[1.765s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.765s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:45:57:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.765s]      using ts_t [[deprecated]] = std::chrono::nanoseconds[01;36m[K;[m[K  ///< @deprecated
+[1.766s]                                                          [01;36m[K^[m[K
+[1.766s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In member function ‘[01m[Kstd::vector<std::chrono::duration<long int, std::ratio<1, 1000000000> > > ouster::LidarScan::timestamps() const[m[K’:
+[1.766s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:127:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing ts_t = std::chrono::nanoseconds[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.766s]      std::vector<LidarScan::[01;35m[Kts_t[m[K> res;
+[1.766s]                             [01;35m[K^~~~[m[K
+[1.766s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.766s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:45:57:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.766s]      using ts_t [[deprecated]] = std::chrono::nanoseconds[01;36m[K;[m[K  ///< @deprecated
+[1.766s]                                                          [01;36m[K^[m[K
+[1.766s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:128:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.766s]      res.reserve([01;35m[Kheaders[m[K.size());
+[1.766s]                  [01;35m[K^~~~~~~[m[K
+[1.766s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.766s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.766s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.767s]                                                      [01;36m[K^[m[K
+[1.767s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:128:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.767s]      res.reserve([01;35m[Kheaders[m[K.size());
+[1.767s]                  [01;35m[K^~~~~~~[m[K
+[1.767s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.767s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.767s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.767s]                                                      [01;36m[K^[m[K
+[1.767s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:129:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.767s]      for (const auto& h : [01;35m[Kheaders[m[K) res.push_back(h.timestamp);
+[1.767s]                           [01;35m[K^~~~~~~[m[K
+[1.767s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.767s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.767s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.767s]                                                      [01;36m[K^[m[K
+[1.767s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:129:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.767s]      for (const auto& h : [01;35m[Kheaders[m[K) res.push_back(h.timestamp);
+[1.767s]                           [01;35m[K^~~~~~~[m[K
+[1.767s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.767s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.768s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.768s]                                                      [01;36m[K^[m[K
+[1.768s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.768s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:133:54:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.768s]  LidarScan::BlockHeader& LidarScan::header(size_t m_id[01;35m[K)[m[K {
+[1.768s]                                                       [01;35m[K^[m[K
+[1.768s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.768s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.768s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[1.768s]                            [01;36m[K^~~~~~~~~~~[m[K
+[1.768s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In member function ‘[01m[Kouster::LidarScan::BlockHeader& ouster::LidarScan::header(size_t)[m[K’:
+[1.768s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:134:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.768s]      return [01;35m[Kheaders[m[K.at(m_id);
+[1.768s]             [01;35m[K^~~~~~~[m[K
+[1.768s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.768s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.769s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.769s]                                                      [01;36m[K^[m[K
+[1.769s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:134:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.769s]      return [01;35m[Kheaders[m[K.at(m_id);
+[1.769s]             [01;35m[K^~~~~~~[m[K
+[1.769s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.769s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.769s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.769s]                                                      [01;36m[K^[m[K
+[1.769s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.769s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:137:62:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.769s]  const LidarScan::BlockHeader& LidarScan::header(size_t m_id) [01;35m[Kconst[m[K {
+[1.769s]                                                               [01;35m[K^~~~~[m[K
+[1.769s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.769s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.769s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[1.769s]                            [01;36m[K^~~~~~~~~~~[m[K
+[1.769s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In member function ‘[01m[Kconst ouster::LidarScan::BlockHeader& ouster::LidarScan::header(size_t) const[m[K’:
+[1.769s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:138:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.769s]      return [01;35m[Kheaders[m[K.at(m_id);
+[1.769s]             [01;35m[K^~~~~~~[m[K
+[1.770s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.770s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.770s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.770s]                                                      [01;36m[K^[m[K
+[1.770s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:138:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.770s]      return [01;35m[Kheaders[m[K.at(m_id);
+[1.770s]             [01;35m[K^~~~~~~[m[K
+[1.770s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.770s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.770s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[1.770s]                                                      [01;36m[K^[m[K
+[1.855s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K At global scope:
+[1.856s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:192:48:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.858s]                  const LidarScan::BlockHeader& b[01;35m[K)[m[K {
+[1.858s]                                                 [01;35m[K^[m[K
+[1.858s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:192:48:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.977s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In function ‘[01m[Kouster::LidarScan::Points ouster::cartesian(const Eigen::Ref<const Eigen::Array<unsigned int, -1, -1, 1, -1, -1> >&, const ouster::XYZLut&)[m[K’:
+[1.977s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:269:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing raw_t = uint32_t[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[1.977s]      auto reshaped = Eigen::Map<const Eigen::Array<LidarScan::[01;35m[Kraw_t[m[K, -1, 1>>(
+[1.978s]                                                               [01;35m[K^~~~~[m[K
+[1.978s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[1.978s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:44:42:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.978s]      using raw_t [[deprecated]] = uint32_t[01;36m[K;[m[K                 ///< @deprecated
+[1.978s]                                           [01;36m[K^[m[K
+[2.056s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:20[m[K,
+[2.057s]                  from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[2.057s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:[m[K In copy constructor ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’:
+[2.057s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:728:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.057s]  class [01;35m[Kpacket_format[m[K final {
+[2.060s]        [01;35m[K^~~~~~~~~~~~~[m[K
+[2.060s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:752:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.060s]      [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[2.060s]                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.060s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:728:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.060s]  class [01;35m[Kpacket_format[m[K final {
+[2.060s]        [01;35m[K^~~~~~~~~~~~~[m[K
+[2.061s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:752:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.061s]      [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[2.061s]                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.061s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In constructor ‘[01m[Kouster::ScanBatcher::ScanBatcher(size_t, const ouster::sensor::packet_format&)[m[K’:
+[2.061s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:280:12:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’ first required here
+[2.061s]        pf(pf[01;36m[K)[m[K {}
+[2.061s]             [01;36m[K^[m[K
+[2.090s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In function ‘[01m[Kvoid ouster::{anonymous}::zero_header_cols(ouster::LidarScan&, std::ptrdiff_t, std::ptrdiff_t)[m[K’:
+[2.090s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:307:63:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::BlockHeader& ouster::LidarScan::header(size_t)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.091s]      for (auto m_id = start; m_id < end; m_id++) ls.header(m_id[01;35m[K)[m[K = {};
+[2.091s]                                                                [01;35m[K^[m[K
+[2.091s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:133:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.091s]  LidarScan::BlockHeader& [01;36m[KLidarScan[m[K::header(size_t m_id) {
+[2.091s]                          [01;36m[K^~~~~~~~~[m[K
+[2.091s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:[m[K In member function ‘[01m[Kbool ouster::ScanBatcher::operator()(const uint8_t*, ouster::LidarScan&)[m[K’:
+[2.093s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:358:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kuint32_t ouster::sensor::packet_format::col_encoder(const uint8_t*) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.093s]          const uint32_t encoder = pf.col_encoder(col_buf[01;35m[K)[m[K;
+[2.093s]                                                         [01;35m[K^[m[K
+[2.094s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:20[m[K,
+[2.094s]                  from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:6[m[K:
+[2.094s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:848:29:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.094s]      [[deprecated]] uint32_t [01;36m[Kcol_encoder[m[K(
+[2.094s]                              [01;36m[K^~~~~~~~~~~[m[K
+[2.094s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:373:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::BlockHeader& ouster::LidarScan::header(size_t)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[2.094s]          ls.header(m_id[01;35m[K)[m[K = {ts, encoder, status};
+[2.094s]                        [01;35m[K^[m[K
+[2.094s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/lidar_scan.cpp:133:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.095s]  LidarScan::BlockHeader& [01;36m[KLidarScan[m[K::header(size_t m_id) {
+[2.095s]                          [01;36m[K^~~~~~~~~[m[K
+[5.399s] [ 44%] [32m[1mLinking CXX static library libouster_client.a[0m
+[5.420s] [ 44%] Built target ouster_client
+[5.426s] [35m[1mScanning dependencies of target ouster_client_example[0m
+[5.426s] [35m[1mScanning dependencies of target ouster_viz[0m
+[5.440s] [ 50%] [32mBuilding CXX object ouster_client/CMakeFiles/ouster_client_example.dir/src/example.cpp.o[0m
+[5.451s] [ 66%] [32mBuilding CXX object ouster_viz/CMakeFiles/ouster_viz.dir/src/cloud.cpp.o[0m
+[5.451s] [ 66%] [32mBuilding CXX object ouster_viz/CMakeFiles/ouster_viz.dir/src/point_viz.cpp.o[0m
+[5.451s] [ 66%] [32mBuilding CXX object ouster_viz/CMakeFiles/ouster_viz.dir/src/camera.cpp.o[0m
+[5.451s] [ 72%] [32mBuilding CXX object ouster_viz/CMakeFiles/ouster_viz.dir/src/image.cpp.o[0m
+[5.451s] [ 77%] [32mBuilding CXX object ouster_viz/CMakeFiles/ouster_viz.dir/src/gltext.cpp.o[0m
+[5.451s] [ 83%] [32mBuilding CXX object ouster_viz/CMakeFiles/ouster_viz.dir/src/misc.cpp.o[0m
+[5.452s] [ 88%] [32mBuilding CXX object ouster_viz/CMakeFiles/ouster_viz.dir/src/glfw.cpp.o[0m
+[5.884s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:13[m[K:
+[5.884s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:56:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.884s]          sensor::[01;35m[KRANGE[m[K;  ///< @deprecated
+[5.884s]                  [01;35m[K^~~~~[m[K
+[5.884s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.884s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[5.884s]                                                    [01;36m[K^[m[K
+[5.884s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:58:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.885s]          sensor::[01;35m[KSIGNAL[m[K;  ///< @deprecated
+[5.885s]                  [01;35m[K^~~~~~[m[K
+[5.885s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.885s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[5.885s]                                                    [01;36m[K^[m[K
+[5.885s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:60:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.885s]          sensor::[01;35m[KNEAR_IR[m[K;  ///< @deprecated
+[5.885s]                  [01;35m[K^~~~~~~[m[K
+[5.885s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.885s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[5.885s]                                                    [01;36m[K^[m[K
+[5.885s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:62:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Field = enum ouster::sensor::ChanField[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.885s]          sensor::[01;35m[KREFLECTIVITY[m[K;  ///< @deprecated
+[5.885s]                  [01;35m[K^~~~~~~~~~~~[m[K
+[5.885s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:54:51:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.885s]      using Field [[deprecated]] = sensor::ChanField[01;36m[K;[m[K  ///< @deprecated
+[5.885s]                                                    [01;36m[K^[m[K
+[5.885s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:70:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing ts_t = std::chrono::nanoseconds[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.885s]          ts_t [01;35m[Ktimestamp[m[K;
+[5.885s]               [01;35m[K^~~~~~~~~[m[K
+[5.885s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:45:57:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.885s]      using ts_t [[deprecated]] = std::chrono::nanoseconds[01;36m[K;[m[K  ///< @deprecated
+[5.885s]                                                          [01;36m[K^[m[K
+[5.903s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.903s]      [[deprecated]] std::vector<[01;35m[KBlockHeader[m[K> headers{};
+[5.903s]                                 [01;35m[K^~~~~~~~~~~[m[K
+[5.903s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.903s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[5.903s]                            [01;36m[K^~~~~~~~~~~[m[K
+[5.904s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:195:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing ts_t = std::chrono::nanoseconds[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.904s]      [[deprecated]] std::vector<LidarScan::[01;35m[Kts_t[m[K> timestamps() const;
+[5.904s]                                            [01;35m[K^~~~[m[K
+[5.904s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:45:57:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.904s]      using ts_t [[deprecated]] = std::chrono::nanoseconds[01;36m[K;[m[K  ///< @deprecated
+[5.904s]                                                          [01;36m[K^[m[K
+[5.905s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:204:51:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.905s]      [[deprecated]] BlockHeader& header(size_t m_id[01;35m[K)[m[K;
+[5.905s]                                                    [01;35m[K^[m[K
+[5.905s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.905s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[5.905s]                            [01;36m[K^~~~~~~~~~~[m[K
+[5.905s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:207:59:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.905s]      [[deprecated]] const BlockHeader& header(size_t m_id) [01;35m[Kconst[m[K;
+[5.905s]                                                            [01;35m[K^~~~~[m[K
+[5.905s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:69:27:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.905s]      struct [[deprecated]] [01;36m[KBlockHeader[m[K {
+[5.905s]                            [01;36m[K^~~~~~~~~~~[m[K
+[5.905s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:297:63:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.905s]                                 const LidarScan::BlockHeader& b[01;35m[K)[m[K;
+[5.905s]                                                                [01;35m[K^[m[K
+[5.905s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:297:63:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.075s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/client.h:15[m[K,
+[6.075s]                  from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:12[m[K:
+[6.075s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:[m[K In destructor ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’:
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.076s]  struct [01;35m[Ksensor_info[m[K {
+[6.076s]         [01;35m[K^~~~~~~~~~~[m[K
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.076s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[6.076s]          [01;36m[K^~~~[m[K
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.076s]  struct [01;35m[Ksensor_info[m[K {
+[6.076s]         [01;35m[K^~~~~~~~~~~[m[K
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.076s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[6.076s]          [01;36m[K^~~~[m[K
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:68:63:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::~sensor_info()[m[K’ first required here
+[6.076s]      sensor::sensor_info info = sensor::parse_metadata(metadata[01;36m[K)[m[K;
+[6.076s]                                                                [01;36m[K^[m[K
+[6.076s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/client.h:15[m[K,
+[6.076s]                  from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:12[m[K:
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:[m[K In constructor ‘[01m[Kouster::sensor::sensor_info::sensor_info(ouster::sensor::sensor_info&&)[m[K’:
+[6.076s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.077s]  struct [01;35m[Ksensor_info[m[K {
+[6.077s]         [01;35m[K^~~~~~~~~~~[m[K
+[6.077s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.077s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[6.077s]          [01;36m[K^~~~[m[K
+[6.077s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.077s]  struct [01;35m[Ksensor_info[m[K {
+[6.077s]         [01;35m[K^~~~~~~~~~~[m[K
+[6.077s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.077s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[6.077s]          [01;36m[K^~~~[m[K
+[6.077s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.077s]  struct [01;35m[Ksensor_info[m[K {
+[6.077s]         [01;35m[K^~~~~~~~~~~[m[K
+[6.077s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.077s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[6.077s]          [01;36m[K^~~~[m[K
+[6.077s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:340:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::sensor_info::name[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.077s]  struct [01;35m[Ksensor_info[m[K {
+[6.077s]         [01;35m[K^~~~~~~~~~~[m[K
+[6.077s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:342:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.077s]          [01;36m[Kname[m[K;            ///< @deprecated: will be removed in the next version
+[6.077s]          [01;36m[K^~~~[m[K
+[6.078s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.078s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:68:63:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::sensor_info::sensor_info(ouster::sensor::sensor_info&&)[m[K’ first required here
+[6.078s]      sensor::sensor_info info = sensor::parse_metadata(metadata[01;36m[K)[m[K;
+[6.078s]                                                                [01;36m[K^[m[K
+[6.079s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/client.h:15[m[K,
+[6.079s]                  from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:12[m[K:
+[6.079s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:[m[K In copy constructor ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’:
+[6.079s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:728:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.079s]  class [01;35m[Kpacket_format[m[K final {
+[6.079s]        [01;35m[K^~~~~~~~~~~~~[m[K
+[6.079s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:752:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.079s]      [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[6.079s]                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.079s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:728:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::sensor::packet_format::encoder_ticks_per_rev[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.079s]  class [01;35m[Kpacket_format[m[K final {
+[6.080s]        [01;35m[K^~~~~~~~~~~~~[m[K
+[6.080s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/types.h:752:30:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.080s]      [[deprecated]] const int [01;36m[Kencoder_ticks_per_rev[m[K;  ///< @deprecated
+[6.080s]                               [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.080s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.080s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:92:55:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kouster::sensor::packet_format::packet_format(const ouster::sensor::packet_format&)[m[K’ first required here
+[6.080s]      sensor::packet_format pf = sensor::get_format(info[01;36m[K)[m[K;
+[6.080s]                                                        [01;36m[K^[m[K
+[6.083s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:123:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.083s]                      scans[i].[01;35m[Kheaders[m[K.begin(), scans[i].headers.end(),
+[6.083s]                               [01;35m[K^~~~~~~[m[K
+[6.083s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:13[m[K:
+[6.083s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.083s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[6.083s]                                                      [01;36m[K^[m[K
+[6.083s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:123:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.083s]                      scans[i].[01;35m[Kheaders[m[K.begin(), scans[i].headers.end(),
+[6.083s]                               [01;35m[K^~~~~~~[m[K
+[6.083s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:13[m[K:
+[6.084s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.084s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[6.084s]                                                      [01;36m[K^[m[K
+[6.084s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:123:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.084s]                      scans[i].[01;35m[Kheaders[m[K.begin(), scans[i].headers.end(),
+[6.084s]                               [01;35m[K^~~~~~~[m[K
+[6.084s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:13[m[K:
+[6.084s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.084s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[6.084s]                                                      [01;36m[K^[m[K
+[6.084s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.084s]                      scans[i].headers.begin(), scans[i].[01;35m[Kheaders[m[K.end(),
+[6.084s]                                                         [01;35m[K^~~~~~~[m[K
+[6.084s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:13[m[K:
+[6.084s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.084s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[6.084s]                                                      [01;36m[K^[m[K
+[6.084s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.084s]                      scans[i].headers.begin(), scans[i].[01;35m[Kheaders[m[K.end(),
+[6.084s]                                                         [01;35m[K^~~~~~~[m[K
+[6.084s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:13[m[K:
+[6.084s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.085s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[6.085s]                                                      [01;36m[K^[m[K
+[6.085s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:123:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kouster::LidarScan::headers[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.085s]                      scans[i].headers.begin(), scans[i].[01;35m[Kheaders[m[K.end(),
+[6.085s]                                                         [01;35m[K^~~~~~~[m[K
+[6.085s] In file included from [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:13[m[K:
+[6.085s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/include/ouster/lidar_scan.h:112:53:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.085s]      [[deprecated]] std::vector<BlockHeader> headers{[01;36m[K}[m[K;
+[6.085s]                                                      [01;36m[K^[m[K
+[6.085s] [01m[K/home/msi/caato2_ws/src/siot/ouster_example/ouster_client/src/example.cpp:124:55:[m[K [01;35m[Kwarning: [m[K‘[01m[KBlockHeader[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.085s]                      [](const LidarScan::BlockHeader& h[01;35m[K)[m[K {
+[6.085s]                                                        [01;35m[K^[m[K
+[6.452s] [ 94%] [32m[1mLinking CXX executable ouster_client_example[0m
+[6.506s] [ 94%] Built target ouster_client_example
+[6.939s] [100%] [32m[1mLinking CXX static library libouster_viz.a[0m
+[6.958s] [100%] Built target ouster_viz
+[6.965s] Invoked command in '/home/msi/caato2_ws/build/ouster_example' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/ouster_example -- -j20 -l20
+[6.980s] Invoking command in '/home/msi/caato2_ws/build/ouster_example': /usr/bin/cmake --install /home/msi/caato2_ws/build/ouster_example
+[6.985s] -- Install configuration: "Release"
+[6.985s] -- Installing: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKTargets.cmake
+[6.985s] -- Installing: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake
+[6.985s] -- Installing: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+[6.985s] -- Installing: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+[6.985s] -- Installing: /home/msi/caato2_ws/install/ouster_example/share/LICENSE
+[6.985s] -- Installing: /home/msi/caato2_ws/install/ouster_example/share/LICENSE-bin
+[6.985s] -- Installing: /home/msi/caato2_ws/install/ouster_example/lib/libouster_client.a
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/bin/ouster_client_example
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/version.h
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/types.h
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl/netcompat.h
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl/lidar_scan_impl.h
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/image_processing.h
+[6.986s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/client.h
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/lidar_scan.h
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/buffered_udp_source.h
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/optional-lite
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/LICENSE.txt
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/nonstd
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/nonstd/optional.hpp
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/lib/libouster_viz.a
+[6.987s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster
+[6.987s] -- Installing: /home/msi/caato2_ws/install/ouster_example/include/ouster/point_viz.h
+[6.989s] Invoked command in '/home/msi/caato2_ws/build/ouster_example' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/ouster_example

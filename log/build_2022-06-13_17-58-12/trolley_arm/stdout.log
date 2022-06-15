@@ -1,0 +1,132 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/trolley_arm/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/trolley_arm/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- trolley_arm: 0 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/trolley_arm
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _trolley_arm_generate_messages_check_deps_arm[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _trolley_arm_generate_messages_check_deps_arm
+[35m[1mScanning dependencies of target trolley_arm_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target trolley_arm_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target trolley_arm_generate_messages_py[0m
+[35m[1mScanning dependencies of target trolley_arm_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target trolley_arm_generate_messages_eus[0m
+[  9%] [34m[1mGenerating Lisp code from trolley_arm/arm.srv[0m
+[ 18%] [34m[1mGenerating C++ code from trolley_arm/arm.srv[0m
+[ 27%] [34m[1mGenerating Python code from SRV trolley_arm/arm[0m
+[ 36%] [34m[1mGenerating Javascript code from trolley_arm/arm.srv[0m
+[ 45%] [34m[1mGenerating EusLisp code from trolley_arm/arm.srv[0m
+[ 54%] [34m[1mGenerating EusLisp manifest code for trolley_arm[0m
+[ 54%] Built target trolley_arm_generate_messages_lisp
+[ 54%] Built target trolley_arm_generate_messages_nodejs
+[ 63%] [34m[1mGenerating Python srv __init__.py for trolley_arm[0m
+[ 63%] Built target trolley_arm_generate_messages_cpp
+[35m[1mScanning dependencies of target trolley_arm_gencpp[0m
+[ 63%] Built target trolley_arm_gencpp
+[35m[1mScanning dependencies of target arm_client[0m
+[35m[1mScanning dependencies of target arm_server[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/arm_client.dir/src/arm_client.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/arm_server.dir/src/arm_server.cpp.o[0m
+[ 81%] Built target trolley_arm_generate_messages_py
+[ 81%] Built target trolley_arm_generate_messages_eus
+[35m[1mScanning dependencies of target trolley_arm_generate_messages[0m
+[ 81%] Built target trolley_arm_generate_messages
+[ 90%] [32m[1mLinking CXX executable devel/lib/trolley_arm/arm_client[0m
+[ 90%] Built target arm_client
+[100%] [32m[1mLinking CXX executable devel/lib/trolley_arm/arm_server[0m
+[100%] Built target arm_server
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/srv/arm.srv
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_arm-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm/armRequest.h
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm/armResponse.h
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm/arm.h
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm/manifest.l
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm/srv
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm/srv/arm.l
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/arm.lisp
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/_package_arm.lisp
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/trolley_arm-srv.asd
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/_index.js
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/srv
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/srv/_index.js
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/srv/arm.js
+Listing '/home/msi/caato2_ws/build/trolley_arm/devel/lib/python3/dist-packages/trolley_arm'...
+Compiling '/home/msi/caato2_ws/build/trolley_arm/devel/lib/python3/dist-packages/trolley_arm/__init__.py'...
+Listing '/home/msi/caato2_ws/build/trolley_arm/devel/lib/python3/dist-packages/trolley_arm/srv'...
+Compiling '/home/msi/caato2_ws/build/trolley_arm/devel/lib/python3/dist-packages/trolley_arm/srv/__init__.py'...
+Compiling '/home/msi/caato2_ws/build/trolley_arm/devel/lib/python3/dist-packages/trolley_arm/srv/_arm.py'...
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/_arm.py
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__init__.py
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__pycache__
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__pycache__/_arm.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/__init__.py
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/__pycache__
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/pkgconfig/trolley_arm.pc
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_arm-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_armConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_armConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/package.xml
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/launch
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/launch/arm.launch
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/src
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/src/arm_server.cpp
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/src/arm_client.cpp
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/trolley_arm/arm_server
+-- Set runtime path of "/home/msi/caato2_ws/install/trolley_arm/lib/trolley_arm/arm_server" to ""
+-- Installing: /home/msi/caato2_ws/install/trolley_arm/lib/trolley_arm/arm_client
+-- Set runtime path of "/home/msi/caato2_ws/install/trolley_arm/lib/trolley_arm/arm_client" to ""

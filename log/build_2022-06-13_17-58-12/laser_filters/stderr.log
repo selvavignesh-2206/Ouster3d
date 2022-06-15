@@ -1,0 +1,126 @@
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/box_filter.h:50[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/box_filter.cpp:45[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/polygon_filter.h:46[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/polygon_filter.cpp:43[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/array_filter.h:41[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/array_filter.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/median.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/median.h> is deprecated, include <filters/median.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/median.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:41[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:30[m[K:
+[01m[K/opt/ros/noetic/include/filters/median.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/median.h> is deprecated, include <filters/median.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/median.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:41[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/median_filter.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/median.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/median.h> is deprecated, include <filters/median.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/median.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/scan_to_scan_filter_chain.cpp:36[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/array_filter.h:42[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/array_filter.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/mean.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/mean.h> is deprecated, include <filters/mean.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/mean.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/array_filter.h:43[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/array_filter.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/intensity_filter.h:42[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/intensity_filter.cpp:39[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/generic_laser_filter_node.cpp:36[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/sector_filter.h:38[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/sector_filter.cpp:34[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/scan_to_cloud_filter_chain.cpp:52[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:42[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:30[m[K:
+[01m[K/opt/ros/noetic/include/filters/mean.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/mean.h> is deprecated, include <filters/mean.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/mean.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:43[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:30[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/speckle_filter.h:44[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:40[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:42[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/median_filter.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/mean.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/mean.h> is deprecated, include <filters/mean.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/mean.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:43[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/median_filter.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/point_cloud_footprint_filter.h:45[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/pointcloud_filters.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/intensity_filter.h:42[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:32[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/scan_to_cloud_filter_chain.cpp:52[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:50[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/speckle_filter.h:43[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:40[m[K:
+[01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:[m[K In member function ‘[01m[Kvirtual bool laser_filters::LaserScanSpeckleFilter::update(const LaserScan&, sensor_msgs::LaserScan&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:82:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+     ROS_ERROR([01;35m[K"Scan ranges size is too small: size = %i"[m[K, [32m[Koutput_scan.ranges.size()[m[K);
+               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:82:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+     [01;36m[KROS_ERROR[m[K("Scan ranges size is too small: size = %i", output_scan.ranges.size());
+     [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/test/test_scan_filter_chain.cpp:31[m[K:
+[01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K

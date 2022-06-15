@@ -1,0 +1,550 @@
+[0.056s] Invoking command in '/home/msi/caato2_ws/build/atc_msgs': /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_meta_package/atc_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/atc_msgs
+[0.125s] -- The C compiler identification is GNU 8.4.0
+[0.176s] -- The CXX compiler identification is GNU 8.4.0
+[0.182s] -- Check for working C compiler: /usr/bin/cc
+[0.264s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.265s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.357s] -- Detecting C compile features
+[0.357s] -- Detecting C compile features - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.442s] -- Detecting CXX compiler ABI info
+[0.543s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Detecting CXX compile features
+[0.564s] -- Detecting CXX compile features - done
+[0.567s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/atc_msgs/devel
+[0.567s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.567s] -- This workspace overlays: /opt/ros/noetic
+[0.596s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.597s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.598s] -- Using Debian Python package layout
+[0.635s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.635s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.799s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.799s] -- Call enable_testing()
+[0.801s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/atc_msgs/test_results
+[1.117s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.117s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.117s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.149s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.151s] -- Found Threads: TRUE  
+[1.157s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.230s] -- catkin 0.8.10
+[1.234s] -- BUILD_SHARED_LIBS is on
+[1.486s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.872s] -- atc_msgs: 11 messages, 13 services
+[2.179s] -- Configuring done
+[2.257s] -- Generating done
+[2.277s] -- Build files have been written to: /home/msi/caato2_ws/build/atc_msgs
+[2.341s] Invoked command in '/home/msi/caato2_ws/build/atc_msgs' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_meta_package/atc_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/atc_msgs
+[2.342s] Invoking command in '/home/msi/caato2_ws/build/atc_msgs': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs -- -j20 -l20
+[2.463s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Navigate_To_Trolley[0m
+[2.474s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Delete_Wp[0m
+[2.481s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[2.495s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Reset_ClearCostMap[0m
+[2.571s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Navigate_To_Trolley
+[2.590s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Detector[0m
+[2.590s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Update_Movement_Mode[0m
+[2.617s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.619s] [35m[1mScanning dependencies of target move_base_msgs_generate_messages_cpp[0m
+[2.619s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Save_Wp[0m
+[2.619s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Load_Wp[0m
+[2.621s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_waypointArray[0m
+[2.621s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_waypoint_msg[0m
+[2.622s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[2.623s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Wp_2_Group[0m
+[2.623s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_RunSpecificWp[0m
+[2.653s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Reset_ClearCostMap
+[2.687s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Delete_Wp
+[2.814s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Detector
+[2.820s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Update_Movement_Mode
+[2.825s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Load_Wp
+[2.825s] [  0%] Built target _atc_msgs_generate_messages_check_deps_waypoint_msg
+[2.869s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.870s] [  0%] Built target move_base_msgs_generate_messages_cpp
+[2.884s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_BoundingBox[0m
+[2.906s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Wp_2_Group
+[2.921s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_AGVStatus[0m
+[2.926s] [  0%] Built target _atc_msgs_generate_messages_check_deps_RunSpecificWp
+[2.975s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Groups_Wp[0m
+[2.975s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Save_Wp
+[2.975s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Detector_Has_Solution[0m
+[2.975s] [  0%] Built target _atc_msgs_generate_messages_check_deps_waypointArray
+[3.012s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Latch[0m
+[3.045s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_waypoint_group[0m
+[3.053s] [  0%] Built target _atc_msgs_generate_messages_check_deps_BoundingBox
+[3.065s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Stop_To_STM[0m
+[3.089s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Click_To_Turn[0m
+[3.098s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Run_Specific_Wp[0m
+[3.111s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_AprilTag_Has_Solution[0m
+[3.128s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Run_Wp[0m
+[3.153s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Dock_To_Tag[0m
+[3.189s] [  0%] Built target _atc_msgs_generate_messages_check_deps_AGVStatus
+[3.189s] [35m[1mScanning dependencies of target _atc_msgs_generate_messages_check_deps_Stop_Wp[0m
+[3.226s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Groups_Wp
+[3.303s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Latch
+[3.323s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Detector_Has_Solution
+[3.372s] [  0%] Built target _atc_msgs_generate_messages_check_deps_waypoint_group
+[3.393s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Click_To_Turn
+[3.414s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Run_Specific_Wp
+[3.436s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Stop_To_STM
+[3.446s] [  0%] Built target _atc_msgs_generate_messages_check_deps_AprilTag_Has_Solution
+[3.446s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Run_Wp
+[3.463s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Dock_To_Tag
+[3.486s] [35m[1mScanning dependencies of target move_base_msgs_generate_messages_py[0m
+[3.506s] [  0%] Built target _atc_msgs_generate_messages_check_deps_Stop_Wp
+[3.510s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[3.536s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[3.557s] [35m[1mScanning dependencies of target move_base_msgs_generate_messages_lisp[0m
+[3.577s] [  0%] Built target std_msgs_generate_messages_py
+[3.585s] [  0%] Built target move_base_msgs_generate_messages_py
+[3.593s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.611s] [  0%] Built target move_base_msgs_generate_messages_lisp
+[3.621s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[3.628s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[3.655s] [35m[1mScanning dependencies of target move_base_msgs_generate_messages_nodejs[0m
+[3.655s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[3.681s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[3.723s] [35m[1mScanning dependencies of target move_base_msgs_generate_messages_eus[0m
+[3.793s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.801s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.809s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.833s] [  0%] Built target move_base_msgs_generate_messages_eus
+[3.833s] [  0%] Built target move_base_msgs_generate_messages_nodejs
+[3.889s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.889s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[3.895s] [35m[1mScanning dependencies of target atc_msgs_generate_messages_cpp[0m
+[3.914s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[3.926s] [35m[1mScanning dependencies of target atc_msgs_generate_messages_py[0m
+[3.936s] [35m[1mScanning dependencies of target atc_msgs_generate_messages_lisp[0m
+[3.953s] [35m[1mScanning dependencies of target atc_msgs_generate_messages_nodejs[0m
+[4.008s] [  0%] [34m[1mGenerating C++ code from atc_msgs/BoundingBox.msg[0m
+[4.025s] [  1%] [34m[1mGenerating Python from MSG atc_msgs/AprilTag_Has_Solution[0m
+[4.030s] [  2%] [34m[1mGenerating C++ code from atc_msgs/AprilTag_Has_Solution.msg[0m
+[4.033s] [  2%] [34m[1mGenerating Python from MSG atc_msgs/BoundingBox[0m
+[4.045s] [  3%] [34m[1mGenerating Python from MSG atc_msgs/Detector[0m
+[4.054s] [  4%] [34m[1mGenerating Javascript code from atc_msgs/BoundingBox.msg[0m
+[4.068s] [  5%] [34m[1mGenerating C++ code from atc_msgs/Detector.msg[0m
+[4.077s] [  5%] Built target geometry_msgs_generate_messages_eus
+[4.077s] [  6%] [34m[1mGenerating Lisp code from atc_msgs/BoundingBox.msg[0m
+[4.081s] [  7%] [34m[1mGenerating Lisp code from atc_msgs/Detector.msg[0m
+[4.117s] [  7%] Built target std_msgs_generate_messages_eus
+[4.121s] [  8%] [34m[1mGenerating C++ code from atc_msgs/Detector_Has_Solution.msg[0m
+[4.122s] [  9%] [34m[1mGenerating Python from MSG atc_msgs/Detector_Has_Solution[0m
+[4.122s] [ 10%] [34m[1mGenerating Javascript code from atc_msgs/AprilTag_Has_Solution.msg[0m
+[4.122s] [ 10%] [34m[1mGenerating Lisp code from atc_msgs/AprilTag_Has_Solution.msg[0m
+[4.122s] [ 11%] [34m[1mGenerating C++ code from atc_msgs/Stop_To_STM.msg[0m
+[4.122s] [ 11%] [34m[1mGenerating C++ code from atc_msgs/AGVStatus.msg[0m
+[4.159s] [ 11%] [34m[1mGenerating Javascript code from atc_msgs/Detector_Has_Solution.msg[0m
+[4.161s] [ 12%] [34m[1mGenerating Lisp code from atc_msgs/Detector_Has_Solution.msg[0m
+[4.161s] [ 13%] [34m[1mGenerating Javascript code from atc_msgs/Detector.msg[0m
+[4.162s] [ 13%] [34m[1mGenerating Python from MSG atc_msgs/AGVStatus[0m
+[4.162s] [ 15%] [34m[1mGenerating Javascript code from atc_msgs/AGVStatus.msg[0m
+[4.316s] [ 16%] [34m[1mGenerating C++ code from atc_msgs/waypoint_msg.msg[0m
+[4.317s] [ 17%] [34m[1mGenerating C++ code from atc_msgs/Latch.msg[0m
+[4.350s] [ 18%] [34m[1mGenerating Javascript code from atc_msgs/Stop_To_STM.msg[0m
+[4.357s] [ 19%] [34m[1mGenerating Javascript code from atc_msgs/Latch.msg[0m
+[4.366s] [ 20%] [34m[1mGenerating Lisp code from atc_msgs/AGVStatus.msg[0m
+[4.386s] [ 21%] [34m[1mGenerating Lisp code from atc_msgs/Latch.msg[0m
+[4.386s] [ 21%] [34m[1mGenerating Lisp code from atc_msgs/Stop_To_STM.msg[0m
+[4.396s] [ 22%] [34m[1mGenerating Python from MSG atc_msgs/Stop_To_STM[0m
+[4.405s] [ 22%] [34m[1mGenerating C++ code from atc_msgs/waypoint_group.msg[0m
+[4.500s] [ 23%] [34m[1mGenerating C++ code from atc_msgs/waypointArray.msg[0m
+[4.538s] [ 24%] [34m[1mGenerating Python from MSG atc_msgs/Latch[0m
+[4.581s] [ 25%] [34m[1mGenerating Python from MSG atc_msgs/waypoint_msg[0m
+[4.681s] [ 26%] [34m[1mGenerating C++ code from atc_msgs/RunSpecificWp.msg[0m
+[4.685s] [ 27%] [34m[1mGenerating Lisp code from atc_msgs/waypoint_msg.msg[0m
+[4.699s] [35m[1mScanning dependencies of target atc_msgs_generate_messages_eus[0m
+[4.701s] [ 29%] [34m[1mGenerating C++ code from atc_msgs/Update_Movement_Mode.srv[0m
+[4.709s] [ 29%] [34m[1mGenerating Javascript code from atc_msgs/waypoint_msg.msg[0m
+[4.723s] [ 30%] [34m[1mGenerating Lisp code from atc_msgs/waypointArray.msg[0m
+[4.725s] [ 31%] [34m[1mGenerating Lisp code from atc_msgs/waypoint_group.msg[0m
+[4.726s] [ 31%] [34m[1mGenerating Python from MSG atc_msgs/waypoint_group[0m
+[4.775s] [ 31%] [34m[1mGenerating C++ code from atc_msgs/Navigate_To_Trolley.srv[0m
+[4.810s] [ 32%] [34m[1mGenerating EusLisp code from atc_msgs/BoundingBox.msg[0m
+[4.901s] [ 33%] [34m[1mGenerating Python from MSG atc_msgs/waypointArray[0m
+[4.941s] [ 33%] [34m[1mGenerating Lisp code from atc_msgs/RunSpecificWp.msg[0m
+[4.969s] [ 34%] [34m[1mGenerating C++ code from atc_msgs/Dock_To_Tag.srv[0m
+[4.981s] [ 35%] [34m[1mGenerating Python from MSG atc_msgs/RunSpecificWp[0m
+[4.987s] [ 36%] [34m[1mGenerating Javascript code from atc_msgs/waypoint_group.msg[0m
+[5.003s] [ 37%] [34m[1mGenerating C++ code from atc_msgs/Click_To_Turn.srv[0m
+[5.060s] [ 38%] [34m[1mGenerating Python code from SRV atc_msgs/Update_Movement_Mode[0m
+[5.062s] [ 39%] [34m[1mGenerating Lisp code from atc_msgs/Update_Movement_Mode.srv[0m
+[5.099s] [ 39%] [34m[1mGenerating EusLisp code from atc_msgs/AprilTag_Has_Solution.msg[0m
+[5.121s] [ 39%] [34m[1mGenerating Python code from SRV atc_msgs/Navigate_To_Trolley[0m
+[5.122s] [ 40%] [34m[1mGenerating Lisp code from atc_msgs/Navigate_To_Trolley.srv[0m
+[5.195s] [ 41%] [34m[1mGenerating EusLisp code from atc_msgs/Detector.msg[0m
+[5.202s] [ 43%] [34m[1mGenerating C++ code from atc_msgs/Save_Wp.srv[0m
+[5.208s] [ 44%] [34m[1mGenerating EusLisp code from atc_msgs/Detector_Has_Solution.msg[0m
+[5.246s] [ 45%] [34m[1mGenerating Lisp code from atc_msgs/Dock_To_Tag.srv[0m
+[5.246s] [ 46%] [34m[1mGenerating Javascript code from atc_msgs/waypointArray.msg[0m
+[5.302s] [ 47%] [34m[1mGenerating EusLisp code from atc_msgs/AGVStatus.msg[0m
+[5.327s] [ 47%] [34m[1mGenerating EusLisp code from atc_msgs/Stop_To_STM.msg[0m
+[5.358s] [ 48%] [34m[1mGenerating Python code from SRV atc_msgs/Dock_To_Tag[0m
+[5.365s] [ 48%] [34m[1mGenerating Lisp code from atc_msgs/Click_To_Turn.srv[0m
+[5.391s] [ 48%] [34m[1mGenerating C++ code from atc_msgs/Load_Wp.srv[0m
+[5.429s] [ 49%] [34m[1mGenerating Lisp code from atc_msgs/Save_Wp.srv[0m
+[5.435s] [ 50%] [34m[1mGenerating C++ code from atc_msgs/Run_Wp.srv[0m
+[5.455s] [ 51%] [34m[1mGenerating EusLisp code from atc_msgs/Latch.msg[0m
+[5.521s] [ 52%] [34m[1mGenerating EusLisp code from atc_msgs/waypoint_msg.msg[0m
+[5.529s] [ 53%] [34m[1mGenerating Lisp code from atc_msgs/Load_Wp.srv[0m
+[5.545s] [ 54%] [34m[1mGenerating Javascript code from atc_msgs/RunSpecificWp.msg[0m
+[5.576s] [ 55%] [34m[1mGenerating Lisp code from atc_msgs/Run_Wp.srv[0m
+[5.602s] [ 55%] [34m[1mGenerating Javascript code from atc_msgs/Update_Movement_Mode.srv[0m
+[5.643s] [ 55%] [34m[1mGenerating Lisp code from atc_msgs/Run_Specific_Wp.srv[0m
+[5.646s] [ 56%] [34m[1mGenerating Python code from SRV atc_msgs/Click_To_Turn[0m
+[5.647s] [ 58%] [34m[1mGenerating EusLisp code from atc_msgs/waypoint_group.msg[0m
+[5.676s] [ 59%] [34m[1mGenerating Python code from SRV atc_msgs/Save_Wp[0m
+[5.691s] [ 59%] [34m[1mGenerating EusLisp code from atc_msgs/waypointArray.msg[0m
+[5.691s] [ 60%] [34m[1mGenerating Python code from SRV atc_msgs/Load_Wp[0m
+[5.725s] [ 61%] [34m[1mGenerating Javascript code from atc_msgs/Navigate_To_Trolley.srv[0m
+[5.738s] [ 61%] [34m[1mGenerating Python code from SRV atc_msgs/Run_Wp[0m
+[5.750s] [ 62%] [34m[1mGenerating EusLisp code from atc_msgs/RunSpecificWp.msg[0m
+[5.763s] [ 63%] [34m[1mGenerating Lisp code from atc_msgs/Stop_Wp.srv[0m
+[5.764s] [ 64%] [34m[1mGenerating Lisp code from atc_msgs/Delete_Wp.srv[0m
+[5.783s] [ 65%] [34m[1mGenerating Javascript code from atc_msgs/Dock_To_Tag.srv[0m
+[5.815s] [ 66%] [34m[1mGenerating Javascript code from atc_msgs/Click_To_Turn.srv[0m
+[5.815s] [ 67%] [34m[1mGenerating EusLisp code from atc_msgs/Update_Movement_Mode.srv[0m
+[5.831s] [ 68%] [34m[1mGenerating C++ code from atc_msgs/Run_Specific_Wp.srv[0m
+[5.841s] [ 69%] [34m[1mGenerating Lisp code from atc_msgs/Groups_Wp.srv[0m
+[5.873s] [ 70%] [34m[1mGenerating EusLisp code from atc_msgs/Navigate_To_Trolley.srv[0m
+[5.911s] [ 72%] [34m[1mGenerating Python code from SRV atc_msgs/Run_Specific_Wp[0m
+[5.963s] [ 73%] [34m[1mGenerating Python code from SRV atc_msgs/Stop_Wp[0m
+[5.984s] [ 74%] [34m[1mGenerating Python code from SRV atc_msgs/Delete_Wp[0m
+[6.003s] [ 75%] [34m[1mGenerating Lisp code from atc_msgs/Reset_ClearCostMap.srv[0m
+[6.013s] [ 76%] [34m[1mGenerating EusLisp code from atc_msgs/Dock_To_Tag.srv[0m
+[6.018s] [ 76%] [34m[1mGenerating Lisp code from atc_msgs/Wp_2_Group.srv[0m
+[6.034s] [ 76%] [34m[1mGenerating Javascript code from atc_msgs/Save_Wp.srv[0m
+[6.060s] [ 77%] [34m[1mGenerating C++ code from atc_msgs/Stop_Wp.srv[0m
+[6.110s] [ 77%] [34m[1mGenerating Python code from SRV atc_msgs/Groups_Wp[0m
+[6.123s] [ 78%] [34m[1mGenerating Javascript code from atc_msgs/Load_Wp.srv[0m
+[6.130s] [ 79%] [34m[1mGenerating C++ code from atc_msgs/Delete_Wp.srv[0m
+[6.137s] [ 79%] [34m[1mGenerating EusLisp code from atc_msgs/Click_To_Turn.srv[0m
+[6.150s] [ 79%] [34m[1mGenerating C++ code from atc_msgs/Groups_Wp.srv[0m
+[6.226s] [ 80%] [34m[1mGenerating Javascript code from atc_msgs/Run_Wp.srv[0m
+[6.226s] [ 81%] [34m[1mGenerating C++ code from atc_msgs/Wp_2_Group.srv[0m
+[6.226s] [ 82%] [34m[1mGenerating EusLisp code from atc_msgs/Save_Wp.srv[0m
+[6.240s] [ 83%] [34m[1mGenerating Javascript code from atc_msgs/Run_Specific_Wp.srv[0m
+[6.246s] [ 83%] Built target atc_msgs_generate_messages_lisp
+[6.282s] [ 84%] [34m[1mGenerating Python code from SRV atc_msgs/Wp_2_Group[0m
+[6.317s] [ 86%] [34m[1mGenerating EusLisp code from atc_msgs/Load_Wp.srv[0m
+[6.354s] [ 86%] [34m[1mGenerating Javascript code from atc_msgs/Stop_Wp.srv[0m
+[6.400s] [ 87%] [34m[1mGenerating Javascript code from atc_msgs/Delete_Wp.srv[0m
+[6.444s] [ 88%] [34m[1mGenerating Javascript code from atc_msgs/Groups_Wp.srv[0m
+[6.446s] [ 89%] [34m[1mGenerating Python code from SRV atc_msgs/Reset_ClearCostMap[0m
+[6.473s] [ 90%] [34m[1mGenerating EusLisp code from atc_msgs/Run_Wp.srv[0m
+[6.495s] [ 91%] [34m[1mGenerating Javascript code from atc_msgs/Wp_2_Group.srv[0m
+[6.506s] [ 92%] [34m[1mGenerating C++ code from atc_msgs/Reset_ClearCostMap.srv[0m
+[6.533s] [ 92%] [34m[1mGenerating EusLisp code from atc_msgs/Run_Specific_Wp.srv[0m
+[6.579s] [ 93%] [34m[1mGenerating Javascript code from atc_msgs/Reset_ClearCostMap.srv[0m
+[6.623s] [ 94%] [34m[1mGenerating EusLisp code from atc_msgs/Stop_Wp.srv[0m
+[6.623s] [ 95%] [34m[1mGenerating EusLisp code from atc_msgs/Groups_Wp.srv[0m
+[6.652s] [ 95%] [34m[1mGenerating EusLisp code from atc_msgs/Wp_2_Group.srv[0m
+[6.663s] [ 96%] [34m[1mGenerating EusLisp code from atc_msgs/Reset_ClearCostMap.srv[0m
+[6.664s] [ 97%] [34m[1mGenerating EusLisp code from atc_msgs/Delete_Wp.srv[0m
+[6.751s] [ 98%] [34m[1mGenerating EusLisp manifest code for atc_msgs[0m
+[6.796s] [ 98%] Built target atc_msgs_generate_messages_nodejs
+[6.955s] [ 98%] Built target atc_msgs_generate_messages_cpp
+[7.118s] [100%] [34m[1mGenerating Python msg __init__.py for atc_msgs[0m
+[7.130s] [100%] [34m[1mGenerating Python srv __init__.py for atc_msgs[0m
+[7.895s] [100%] Built target atc_msgs_generate_messages_py
+[8.118s] [100%] Built target atc_msgs_generate_messages_eus
+[8.188s] [35m[1mScanning dependencies of target atc_msgs_generate_messages[0m
+[8.237s] [100%] Built target atc_msgs_generate_messages
+[8.339s] Invoked command in '/home/msi/caato2_ws/build/atc_msgs' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs -- -j20 -l20
+[9.710s] Invoking command in '/home/msi/caato2_ws/build/atc_msgs': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs --target tests -- -j20 -l20
+[10.620s] [35m[1mScanning dependencies of target tests[0m
+[10.620s] Built target tests
+[10.726s] Invoked command in '/home/msi/caato2_ws/build/atc_msgs' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs --target tests -- -j20 -l20
+[11.880s] Invoking command in '/home/msi/caato2_ws/build/atc_msgs': /usr/bin/cmake --install /home/msi/caato2_ws/build/atc_msgs
+[15.050s] -- Install configuration: ""
+[15.050s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/BoundingBox.msg
+[15.050s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/AprilTag_Has_Solution.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/Detector.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/Detector_Has_Solution.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/AGVStatus.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/Stop_To_STM.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/Latch.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/waypoint_msg.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/waypoint_group.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/waypointArray.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/msg/RunSpecificWp.msg
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Update_Movement_Mode.srv
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Navigate_To_Trolley.srv
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Dock_To_Tag.srv
+[15.051s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Click_To_Turn.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Save_Wp.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Load_Wp.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Run_Wp.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Run_Specific_Wp.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Stop_Wp.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Delete_Wp.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Groups_Wp.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Wp_2_Group.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/srv/Reset_ClearCostMap.srv
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/cmake/atc_msgs-msg-paths.cmake
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Navigate_To_TrolleyRequest.h
+[15.052s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Detector_Has_Solution.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Save_Wp.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Run_WpRequest.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Click_To_Turn.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Save_WpResponse.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Stop_Wp.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/BoundingBox.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Detector.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Groups_Wp.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Run_WpResponse.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/AGVStatus.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Run_Specific_Wp.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Reset_ClearCostMapResponse.h
+[15.053s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/waypointArray.h
+[15.054s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Load_WpRequest.h
+[15.054s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Navigate_To_Trolley.h
+[15.054s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Wp_2_GroupRequest.h
+[15.054s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Navigate_To_TrolleyResponse.h
+[15.054s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Stop_WpResponse.h
+[15.054s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Update_Movement_ModeRequest.h
+[15.058s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Run_Specific_WpResponse.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/AprilTag_Has_Solution.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Save_WpRequest.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Dock_To_TagResponse.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Click_To_TurnResponse.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Click_To_TurnRequest.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Groups_WpRequest.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Load_WpResponse.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Wp_2_GroupResponse.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Update_Movement_ModeResponse.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Reset_ClearCostMapRequest.h
+[15.059s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Update_Movement_Mode.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Reset_ClearCostMap.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Delete_WpRequest.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Delete_Wp.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Run_Wp.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Delete_WpResponse.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Load_Wp.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Run_Specific_WpRequest.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Latch.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Stop_WpRequest.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/RunSpecificWp.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/waypoint_group.h
+[15.060s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Stop_To_STM.h
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/waypoint_msg.h
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Wp_2_Group.h
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Dock_To_Tag.h
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Groups_WpResponse.h
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/include/atc_msgs/Dock_To_TagRequest.h
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/Detector_Has_Solution.l
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/AprilTag_Has_Solution.l
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/AGVStatus.l
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/Latch.l
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/BoundingBox.l
+[15.061s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/waypoint_msg.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/waypointArray.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/RunSpecificWp.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/Stop_To_STM.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/Detector.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/msg/waypoint_group.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/manifest.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Navigate_To_Trolley.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Run_Specific_Wp.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Groups_Wp.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Wp_2_Group.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Update_Movement_Mode.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Load_Wp.l
+[15.062s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Run_Wp.l
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Reset_ClearCostMap.l
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Save_Wp.l
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Delete_Wp.l
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Click_To_Turn.l
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Stop_Wp.l
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/roseus/ros/atc_msgs/srv/Dock_To_Tag.l
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package.lisp
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/Stop_To_STM.lisp
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_AprilTag_Has_Solution.lisp
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/atc_msgs-msg.asd
+[15.063s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/RunSpecificWp.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_BoundingBox.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_AGVStatus.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/BoundingBox.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_Stop_To_STM.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/waypoint_msg.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/waypoint_group.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_Detector_Has_Solution.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_RunSpecificWp.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/Detector.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_Latch.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/waypointArray.lisp
+[15.064s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/AprilTag_Has_Solution.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_Detector.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_waypointArray.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_waypoint_msg.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/Latch.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/_package_waypoint_group.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/Detector_Has_Solution.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/msg/AGVStatus.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Dock_To_Tag.lisp
+[15.065s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Run_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Click_To_Turn.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Delete_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/atc_msgs-srv.asd
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Run_Specific_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Wp_2_Group.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Groups_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Stop_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Save_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Delete_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Run_Specific_Wp.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Click_To_Turn.lisp
+[15.066s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Navigate_To_Trolley.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Stop_Wp.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Wp_2_Group.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Load_Wp.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Update_Movement_Mode.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Navigate_To_Trolley.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Groups_Wp.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Dock_To_Tag.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/_package_Reset_ClearCostMap.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Reset_ClearCostMap.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Update_Movement_Mode.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Save_Wp.lisp
+[15.067s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Load_Wp.lisp
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/common-lisp/ros/atc_msgs/srv/Run_Wp.lisp
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/_index.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/_index.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/Stop_To_STM.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/RunSpecificWp.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/Latch.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/waypoint_group.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/Detector_Has_Solution.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/waypointArray.js
+[15.068s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/BoundingBox.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/Detector.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/AprilTag_Has_Solution.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/waypoint_msg.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/msg/AGVStatus.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/_index.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Run_Specific_Wp.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Reset_ClearCostMap.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Save_Wp.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Dock_To_Tag.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Run_Wp.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Stop_Wp.js
+[15.069s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Delete_Wp.js
+[15.070s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Update_Movement_Mode.js
+[15.070s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Load_Wp.js
+[15.070s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Wp_2_Group.js
+[15.070s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Groups_Wp.js
+[15.082s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Navigate_To_Trolley.js
+[15.082s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/gennodejs/ros/atc_msgs/srv/Click_To_Turn.js
+[15.173s] Listing '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/__init__.py'...
+[15.174s] Listing '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_AGVStatus.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_AprilTag_Has_Solution.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_BoundingBox.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_Detector.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_Detector_Has_Solution.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_Latch.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_RunSpecificWp.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_Stop_To_STM.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/__init__.py'...
+[15.174s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_waypointArray.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_waypoint_group.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/msg/_waypoint_msg.py'...
+[15.175s] Listing '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Click_To_Turn.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Delete_Wp.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Dock_To_Tag.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Groups_Wp.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Load_Wp.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Navigate_To_Trolley.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Reset_ClearCostMap.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Run_Specific_Wp.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Run_Wp.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Save_Wp.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Stop_Wp.py'...
+[15.175s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Update_Movement_Mode.py'...
+[15.176s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/_Wp_2_Group.py'...
+[15.176s] Compiling '/home/msi/caato2_ws/build/atc_msgs/devel/lib/python3/dist-packages/atc_msgs/srv/__init__.py'...
+[15.187s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs
+[15.188s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg
+[15.188s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_Stop_To_STM.py
+[15.188s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_AGVStatus.py
+[15.188s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_AprilTag_Has_Solution.py
+[15.188s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_waypoint_group.py
+[15.189s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_BoundingBox.py
+[15.189s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_waypointArray.py
+[15.189s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_waypoint_msg.py
+[15.189s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_Latch.py
+[15.189s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_Detector.py
+[15.190s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_RunSpecificWp.py
+[15.190s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/_Detector_Has_Solution.py
+[15.190s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__init__.py
+[15.190s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__
+[15.191s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_RunSpecificWp.cpython-38.pyc
+[15.191s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_BoundingBox.cpython-38.pyc
+[15.191s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_waypoint_msg.cpython-38.pyc
+[15.192s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_Detector_Has_Solution.cpython-38.pyc
+[15.192s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_AprilTag_Has_Solution.cpython-38.pyc
+[15.192s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_Stop_To_STM.cpython-38.pyc
+[15.192s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_Detector.cpython-38.pyc
+[15.193s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_waypoint_group.cpython-38.pyc
+[15.193s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/__init__.cpython-38.pyc
+[15.193s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_waypointArray.cpython-38.pyc
+[15.193s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_AGVStatus.cpython-38.pyc
+[15.194s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/msg/__pycache__/_Latch.cpython-38.pyc
+[15.194s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv
+[15.194s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Update_Movement_Mode.py
+[15.194s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Stop_Wp.py
+[15.195s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Wp_2_Group.py
+[15.195s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Reset_ClearCostMap.py
+[15.201s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Run_Specific_Wp.py
+[15.201s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Click_To_Turn.py
+[15.201s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Dock_To_Tag.py
+[15.201s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Navigate_To_Trolley.py
+[15.201s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Save_Wp.py
+[15.201s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Delete_Wp.py
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Run_Wp.py
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__init__.py
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Load_Wp.py
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/_Groups_Wp.py
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Run_Specific_Wp.cpython-38.pyc
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Navigate_To_Trolley.cpython-38.pyc
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Stop_Wp.cpython-38.pyc
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Reset_ClearCostMap.cpython-38.pyc
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Load_Wp.cpython-38.pyc
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Groups_Wp.cpython-38.pyc
+[15.202s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Dock_To_Tag.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Wp_2_Group.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Click_To_Turn.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Update_Movement_Mode.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/__init__.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Delete_Wp.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Save_Wp.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/srv/__pycache__/_Run_Wp.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/__init__.py
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/__pycache__
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages/atc_msgs/__pycache__/__init__.cpython-38.pyc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig/atc_msgs.pc
+[15.203s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/cmake/atc_msgs-msg-extras.cmake
+[15.204s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/cmake/atc_msgsConfig.cmake
+[15.204s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/cmake/atc_msgsConfig-version.cmake
+[15.204s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/package.xml
+[15.204s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/files
+[15.204s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/files/mbc_set1_wp.txt
+[15.204s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/files/Readme.txt
+[15.204s] -- Installing: /home/msi/caato2_ws/install/atc_msgs/share/atc_msgs/files/mbc_set1_gr.txt
+[15.212s] Invoked command in '/home/msi/caato2_ws/build/atc_msgs' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/atc_msgs

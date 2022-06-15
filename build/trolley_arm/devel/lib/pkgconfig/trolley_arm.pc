@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/trolley_arm/devel
+
+Name: trolley_arm
+Description: Description of trolley_arm
+Version: 0.0.0
+Cflags: -I/home/msi/caato2_ws/build/trolley_arm/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

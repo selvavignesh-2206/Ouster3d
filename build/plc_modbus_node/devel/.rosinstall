@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/msi/caato2_ws/build/plc_modbus_node/devel/setup.sh

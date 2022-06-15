@@ -1,0 +1,332 @@
+[0.064s] Invoking command in '/home/msi/caato2_ws/build/laser_filters': /usr/bin/cmake /home/msi/caato2_ws/src/siot/laser_filters -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/laser_filters
+[1.988s] -- The C compiler identification is GNU 8.4.0
+[1.988s] -- The CXX compiler identification is GNU 8.4.0
+[1.988s] -- Check for working C compiler: /usr/bin/cc
+[1.988s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.988s] -- Detecting C compiler ABI info
+[1.988s] -- Detecting C compiler ABI info - done
+[1.988s] -- Detecting C compile features
+[1.988s] -- Detecting C compile features - done
+[1.989s] -- Check for working CXX compiler: /usr/bin/c++
+[1.989s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.989s] -- Detecting CXX compiler ABI info
+[1.989s] -- Detecting CXX compiler ABI info - done
+[1.989s] -- Detecting CXX compile features
+[1.989s] -- Detecting CXX compile features - done
+[1.989s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/laser_filters/devel
+[1.989s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[1.989s] -- This workspace overlays: /opt/ros/noetic
+[1.989s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.989s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.989s] -- Using Debian Python package layout
+[1.990s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.990s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.990s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.990s] -- Call enable_testing()
+[1.990s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/laser_filters/test_results
+[1.990s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.990s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.990s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.990s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.990s] -- Found Threads: TRUE  
+[1.990s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.990s] -- catkin 0.8.10
+[1.990s] -- BUILD_SHARED_LIBS is on
+[1.990s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.991s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[2.196s] -- Configuring done
+[2.278s] -- Generating done
+[2.288s] -- Build files have been written to: /home/msi/caato2_ws/build/laser_filters
+[2.422s] Invoked command in '/home/msi/caato2_ws/build/laser_filters' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/laser_filters -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/laser_filters
+[2.423s] Invoking command in '/home/msi/caato2_ws/build/laser_filters': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters -- -j20 -l20
+[3.507s] [35m[1mScanning dependencies of target gtest[0m
+[3.508s] [35m[1mScanning dependencies of target laser_filters_gencfg[0m
+[3.508s] [35m[1mScanning dependencies of target scan_to_cloud_filter_chain[0m
+[3.508s] [35m[1mScanning dependencies of target generic_laser_filter_node[0m
+[3.511s] [  3%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.512s] [  6%] [34m[1mGenerating dynamic reconfigure files from cfg/IntensityFilter.cfg: /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/IntensityFilterConfig.h /home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/IntensityFilterConfig.py[0m
+[3.512s] [35m[1mScanning dependencies of target scan_to_scan_filter_chain[0m
+[3.512s] [ 10%] [34m[1mGenerating dynamic reconfigure files from cfg/RangeFilter.cfg: /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/RangeFilterConfig.h /home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/RangeFilterConfig.py[0m
+[3.512s] [ 13%] [34m[1mGenerating dynamic reconfigure files from cfg/SpeckleFilter.cfg: /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/SpeckleFilterConfig.h /home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/SpeckleFilterConfig.py[0m
+[3.512s] [ 17%] [32mBuilding CXX object CMakeFiles/generic_laser_filter_node.dir/src/generic_laser_filter_node.cpp.o[0m
+[3.512s] [ 20%] [34m[1mGenerating dynamic reconfigure files from cfg/ScanShadowsFilter.cfg: /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/ScanShadowsFilterConfig.h /home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/ScanShadowsFilterConfig.py[0m
+[3.512s] [35m[1mScanning dependencies of target pointcloud_filters[0m
+[3.512s] [ 27%] [34m[1mGenerating dynamic reconfigure files from cfg/SectorFilter.cfg: /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/SectorFilterConfig.h /home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/SectorFilterConfig.py[0m
+[3.512s] [ 24%] [32mBuilding CXX object CMakeFiles/scan_to_cloud_filter_chain.dir/src/scan_to_cloud_filter_chain.cpp.o[0m
+[3.512s] [ 31%] [34m[1mGenerating dynamic reconfigure files from cfg/PolygonFilter.cfg: /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/PolygonFilterConfig.h /home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/PolygonFilterConfig.py[0m
+[3.513s] [35m[1mScanning dependencies of target scan_to_cloud_filter_chain_nodelet[0m
+[3.513s] [ 34%] [32mBuilding CXX object CMakeFiles/scan_to_scan_filter_chain.dir/src/scan_to_scan_filter_chain.cpp.o[0m
+[3.513s] [ 37%] [32mBuilding CXX object CMakeFiles/pointcloud_filters.dir/src/pointcloud_filters.cpp.o[0m
+[3.513s] [ 41%] [32mBuilding CXX object CMakeFiles/scan_to_cloud_filter_chain_nodelet.dir/src/scan_to_cloud_filter_chain.cpp.o[0m
+[3.513s] Generating reconfiguration files for PolygonFilter in laser_filters
+[3.513s] Wrote header file in /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/PolygonFilterConfig.h
+[3.513s] Generating reconfiguration files for IntensityFilter in laser_filters
+[3.513s] Generating reconfiguration files for RangeFilter in laser_filters
+[3.513s] Wrote header file in /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/IntensityFilterConfig.h
+[3.513s] Wrote header file in /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/RangeFilterConfig.h
+[3.513s] Generating reconfiguration files for SectorFilter in laser_filters
+[3.513s] Wrote header file in /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/SectorFilterConfig.h
+[3.513s] Generating reconfiguration files for SpeckleFilter in laser_filters
+[3.514s] Generating reconfiguration files for ScanShadowsFilter in laser_filters
+[3.514s] Wrote header file in /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/ScanShadowsFilterConfig.h
+[3.514s] Wrote header file in /home/msi/caato2_ws/build/laser_filters/devel/include/laser_filters/SpeckleFilterConfig.h
+[3.514s] [ 41%] Built target laser_filters_gencfg
+[3.514s] [35m[1mScanning dependencies of target laser_scan_filters[0m
+[3.514s] [ 44%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/laser_scan_filters.cpp.o[0m
+[3.536s] [ 48%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/median_filter.cpp.o[0m
+[3.543s] [ 51%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/array_filter.cpp.o[0m
+[3.558s] [ 55%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/box_filter.cpp.o[0m
+[3.606s] [ 58%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/polygon_filter.cpp.o[0m
+[3.635s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/box_filter.h:50[m[K,
+[3.635s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/box_filter.cpp:45[m[K:
+[3.635s] [01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[3.635s]  #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+[3.635s]   [01;35m[K^~~~~~~[m[K
+[3.667s] [ 62%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/intensity_filter.cpp.o[0m
+[3.672s] [ 65%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/speckle_filter.cpp.o[0m
+[3.682s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/polygon_filter.h:46[m[K,
+[3.682s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/polygon_filter.cpp:43[m[K:
+[3.682s] [01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[3.682s]  #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+[3.683s]   [01;35m[K^~~~~~~[m[K
+[3.687s] [ 68%] [32mBuilding CXX object CMakeFiles/laser_scan_filters.dir/src/sector_filter.cpp.o[0m
+[4.212s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/array_filter.h:41[m[K,
+[4.212s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/array_filter.cpp:31[m[K:
+[4.212s] [01m[K/opt/ros/noetic/include/filters/median.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/median.h> is deprecated, include <filters/median.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[4.212s]  #[01;35m[Kwarning[m[K Including header <filters/median.h> is deprecated, \
+[4.212s]   [01;35m[K^~~~~~~[m[K
+[4.567s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:41[m[K,
+[4.567s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:30[m[K:
+[4.567s] [01m[K/opt/ros/noetic/include/filters/median.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/median.h> is deprecated, include <filters/median.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[4.567s]  #[01;35m[Kwarning[m[K Including header <filters/median.h> is deprecated, \
+[4.568s]   [01;35m[K^~~~~~~[m[K
+[4.683s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:41[m[K,
+[4.683s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/median_filter.cpp:31[m[K:
+[4.683s] [01m[K/opt/ros/noetic/include/filters/median.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/median.h> is deprecated, include <filters/median.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[4.683s]  #[01;35m[Kwarning[m[K Including header <filters/median.h> is deprecated, \
+[4.684s]   [01;35m[K^~~~~~~[m[K
+[5.258s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/scan_to_scan_filter_chain.cpp:36[m[K:
+[5.259s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.259s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[5.259s]   [01;35m[K^~~~~~~[m[K
+[5.275s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/array_filter.h:42[m[K,
+[5.276s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/array_filter.cpp:31[m[K:
+[5.276s] [01m[K/opt/ros/noetic/include/filters/mean.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/mean.h> is deprecated, include <filters/mean.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.276s]  #[01;35m[Kwarning[m[K Including header <filters/mean.h> is deprecated, \
+[5.276s]   [01;35m[K^~~~~~~[m[K
+[5.278s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/array_filter.h:43[m[K,
+[5.278s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/array_filter.cpp:31[m[K:
+[5.278s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.278s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[5.279s]   [01;35m[K^~~~~~~[m[K
+[5.475s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/intensity_filter.h:42[m[K,
+[5.475s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/intensity_filter.cpp:39[m[K:
+[5.475s] [01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.475s]  #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+[5.475s]   [01;35m[K^~~~~~~[m[K
+[5.511s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/generic_laser_filter_node.cpp:36[m[K:
+[5.511s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.511s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[5.512s]   [01;35m[K^~~~~~~[m[K
+[5.521s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/sector_filter.h:38[m[K,
+[5.521s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/sector_filter.cpp:34[m[K:
+[5.521s] [01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.522s]  #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+[5.522s]   [01;35m[K^~~~~~~[m[K
+[5.763s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/scan_to_cloud_filter_chain.cpp:52[m[K:
+[5.763s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.763s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[5.763s]   [01;35m[K^~~~~~~[m[K
+[5.765s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:42[m[K,
+[5.765s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:30[m[K:
+[5.765s] [01m[K/opt/ros/noetic/include/filters/mean.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/mean.h> is deprecated, include <filters/mean.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.765s]  #[01;35m[Kwarning[m[K Including header <filters/mean.h> is deprecated, \
+[5.765s]   [01;35m[K^~~~~~~[m[K
+[5.780s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:43[m[K,
+[5.780s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:30[m[K:
+[5.780s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.780s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[5.780s]   [01;35m[K^~~~~~~[m[K
+[5.808s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/speckle_filter.h:44[m[K,
+[5.808s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:40[m[K:
+[5.808s] [01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.808s]  #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+[5.808s]   [01;35m[K^~~~~~~[m[K
+[5.942s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:42[m[K,
+[5.942s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/median_filter.cpp:31[m[K:
+[5.942s] [01m[K/opt/ros/noetic/include/filters/mean.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/mean.h> is deprecated, include <filters/mean.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.942s]  #[01;35m[Kwarning[m[K Including header <filters/mean.h> is deprecated, \
+[5.942s]   [01;35m[K^~~~~~~[m[K
+[5.949s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/median_filter.h:43[m[K,
+[5.949s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/median_filter.cpp:31[m[K:
+[5.949s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[5.949s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[5.949s]   [01;35m[K^~~~~~~[m[K
+[6.147s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/point_cloud_footprint_filter.h:45[m[K,
+[6.147s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/pointcloud_filters.cpp:31[m[K:
+[6.147s] [01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[6.147s]  #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+[6.148s]   [01;35m[K^~~~~~~[m[K
+[6.338s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/intensity_filter.h:42[m[K,
+[6.338s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/laser_scan_filters.cpp:32[m[K:
+[6.338s] [01m[K/opt/ros/noetic/include/filters/filter_base.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_base.h> is deprecated, include <filters/filter_base.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[6.338s]  #[01;35m[Kwarning[m[K Including header <filters/filter_base.h> is deprecated, \
+[6.338s]   [01;35m[K^~~~~~~[m[K
+[6.746s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/scan_to_cloud_filter_chain.cpp:52[m[K:
+[6.746s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[6.746s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[6.746s]   [01;35m[K^~~~~~~[m[K
+[7.669s] In file included from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+[7.669s]                  from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+[7.669s]                  from [01m[K/opt/ros/noetic/include/ros/publisher.h:32[m[K,
+[7.669s]                  from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+[7.670s]                  from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:50[m[K,
+[7.670s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/include/laser_filters/speckle_filter.h:43[m[K,
+[7.670s]                  from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:40[m[K:
+[7.670s] [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:[m[K In member function ‘[01m[Kvirtual bool laser_filters::LaserScanSpeckleFilter::update(const LaserScan&, sensor_msgs::LaserScan&)[m[K’:
+[7.670s] [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:82:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.671s]      ROS_ERROR([01;35m[K"Scan ranges size is too small: size = %i"[m[K, [32m[Koutput_scan.ranges.size()[m[K);
+[7.671s]                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.671s] [01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[7.671s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[7.671s]                                                                                                                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[7.671s] [01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[7.671s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[7.671s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.672s] [01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[7.672s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[7.672s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[7.672s] [01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[7.672s]  #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[7.672s]                         [01;36m[K^~~~~~~[m[K
+[7.672s] [01m[K/home/msi/caato2_ws/src/siot/laser_filters/src/speckle_filter.cpp:82:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+[7.673s]      [01;36m[KROS_ERROR[m[K("Scan ranges size is too small: size = %i", output_scan.ranges.size());
+[7.673s]      [01;36m[K^~~~~~~~~[m[K
+[10.801s] [ 72%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[11.077s] [ 72%] Built target gtest
+[13.147s] [ 75%] [32m[1mLinking CXX shared library devel/lib/libpointcloud_filters.so[0m
+[13.370s] [ 75%] Built target pointcloud_filters
+[13.430s] [ 79%] [32m[1mLinking CXX executable devel/lib/laser_filters/generic_laser_filter_node[0m
+[13.956s] [ 79%] Built target generic_laser_filter_node
+[14.016s] [ 82%] [32m[1mLinking CXX executable devel/lib/laser_filters/scan_to_scan_filter_chain[0m
+[14.447s] [ 82%] Built target scan_to_scan_filter_chain
+[16.173s] [ 86%] [32m[1mLinking CXX executable devel/lib/laser_filters/scan_to_cloud_filter_chain[0m
+[16.795s] [ 86%] Built target scan_to_cloud_filter_chain
+[18.162s] [ 89%] [32m[1mLinking CXX shared library devel/lib/libscan_to_cloud_filter_chain_nodelet.so[0m
+[18.477s] [ 93%] [32m[1mLinking CXX shared library devel/lib/liblaser_scan_filters.so[0m
+[18.542s] [ 93%] Built target scan_to_cloud_filter_chain_nodelet
+[19.331s] [ 93%] Built target laser_scan_filters
+[19.344s] [35m[1mScanning dependencies of target test_scan_filter_chain[0m
+[19.373s] [ 96%] [32mBuilding CXX object CMakeFiles/test_scan_filter_chain.dir/test/test_scan_filter_chain.cpp.o[0m
+[19.450s] In file included from [01m[K/home/msi/caato2_ws/src/siot/laser_filters/test/test_scan_filter_chain.cpp:31[m[K:
+[19.450s] [01m[K/opt/ros/noetic/include/filters/filter_chain.h:40:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <filters/filter_chain.h> is deprecated, include <filters/filter_chain.hpp> instead. [[01;35m[K-Wcpp[m[K]
+[19.451s]  #[01;35m[Kwarning[m[K Including header <filters/filter_chain.h> is deprecated, \
+[19.451s]   [01;35m[K^~~~~~~[m[K
+[24.556s] [100%] [32m[1mLinking CXX executable devel/lib/laser_filters/test_scan_filter_chain[0m
+[25.048s] [100%] Built target test_scan_filter_chain
+[25.097s] Invoked command in '/home/msi/caato2_ws/build/laser_filters' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters -- -j20 -l20
+[26.225s] Invoking command in '/home/msi/caato2_ws/build/laser_filters': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters --target tests -- -j20 -l20
+[26.769s] [ 50%] Built target gtest
+[26.769s] [35m[1mScanning dependencies of target test_shadow_detector[0m
+[26.769s] [ 75%] [32mBuilding CXX object CMakeFiles/test_shadow_detector.dir/test/test_shadow_detector.cpp.o[0m
+[27.258s] [100%] [32m[1mLinking CXX executable devel/lib/laser_filters/test_shadow_detector[0m
+[27.499s] [100%] Built target test_shadow_detector
+[27.521s] [35m[1mScanning dependencies of target tests[0m
+[27.526s] [100%] Built target tests
+[27.622s] Invoked command in '/home/msi/caato2_ws/build/laser_filters' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters --target tests -- -j20 -l20
+[27.917s] Invoking command in '/home/msi/caato2_ws/build/laser_filters': /usr/bin/cmake --install /home/msi/caato2_ws/build/laser_filters
+[27.930s] -- Install configuration: ""
+[27.931s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/IntensityFilterConfig.h
+[27.932s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/PolygonFilterConfig.h
+[27.934s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/RangeFilterConfig.h
+[27.935s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/ScanShadowsFilterConfig.h
+[27.935s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/SpeckleFilterConfig.h
+[27.935s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/SectorFilterConfig.h
+[27.935s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/__init__.py
+[27.967s] Listing '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg'...
+[27.967s] Compiling '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/IntensityFilterConfig.py'...
+[27.967s] Compiling '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/PolygonFilterConfig.py'...
+[27.967s] Compiling '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/RangeFilterConfig.py'...
+[27.967s] Compiling '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/ScanShadowsFilterConfig.py'...
+[27.967s] Compiling '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/SectorFilterConfig.py'...
+[27.967s] Compiling '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/SpeckleFilterConfig.py'...
+[27.967s] Compiling '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg/__init__.py'...
+[27.975s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg
+[27.975s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/RangeFilterConfig.py
+[27.976s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/PolygonFilterConfig.py
+[27.976s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/SectorFilterConfig.py
+[27.977s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/ScanShadowsFilterConfig.py
+[27.977s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__init__.py
+[27.977s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/SpeckleFilterConfig.py
+[27.978s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__
+[27.978s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/PolygonFilterConfig.cpython-38.pyc
+[27.978s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/SpeckleFilterConfig.cpython-38.pyc
+[27.979s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/IntensityFilterConfig.cpython-38.pyc
+[27.979s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/__init__.cpython-38.pyc
+[27.979s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/ScanShadowsFilterConfig.cpython-38.pyc
+[27.979s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/RangeFilterConfig.cpython-38.pyc
+[27.980s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/SectorFilterConfig.cpython-38.pyc
+[27.980s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/IntensityFilterConfig.py
+[27.981s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/pkgconfig/laser_filters.pc
+[27.981s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[27.981s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[27.982s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/package.xml
+[27.985s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/libpointcloud_filters.so
+[27.985s] -- Set runtime path of "/home/msi/caato2_ws/install/laser_filters/lib/libpointcloud_filters.so" to ""
+[27.985s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/liblaser_scan_filters.so
+[27.987s] -- Set runtime path of "/home/msi/caato2_ws/install/laser_filters/lib/liblaser_scan_filters.so" to ""
+[28.001s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[28.007s] -- Set runtime path of "/home/msi/caato2_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain" to ""
+[28.007s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/libscan_to_cloud_filter_chain_nodelet.so
+[28.007s] -- Set runtime path of "/home/msi/caato2_ws/install/laser_filters/lib/libscan_to_cloud_filter_chain_nodelet.so" to ""
+[28.007s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[28.008s] -- Set runtime path of "/home/msi/caato2_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain" to ""
+[28.010s] -- Installing: /home/msi/caato2_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[28.010s] -- Set runtime path of "/home/msi/caato2_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node" to ""
+[28.010s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters
+[28.010s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[28.010s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/median_filter.h
+[28.010s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/polygon_filter.h
+[28.010s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_blob_filter.h
+[28.010s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/footprint_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/range_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/speckle_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/sector_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/interpolation_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/box_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/array_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/point_cloud_footprint_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/intensity_filter.h
+[28.011s] -- Installing: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/laser_filters_plugins.xml
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/nodelets.xml
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.xml
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch
+[28.012s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter.yaml
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/point_cloud_footprint_filter_example.yaml
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/median_filter_5_example.yaml
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.launch
+[28.013s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/box_filter.yaml
+[28.014s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch
+[28.014s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[28.014s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/range_filter.yaml
+[28.017s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch
+[28.017s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/sector_filter.yaml
+[28.018s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.launch
+[28.018s] -- Installing: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/median_filter_5_example.launch
+[28.018s] Invoked command in '/home/msi/caato2_ws/build/laser_filters' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/laser_filters

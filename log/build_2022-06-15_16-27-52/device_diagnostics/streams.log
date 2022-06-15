@@ -1,0 +1,57 @@
+[0.146s] Invoking command in '/home/msi/caato2_ws/build/device_diagnostics': /usr/bin/cmake --build /home/msi/caato2_ws/build/device_diagnostics -- -j20 -l20
+[0.260s] [  0%] Built target std_msgs_generate_messages_eus
+[0.260s] [  0%] Built target std_msgs_generate_messages_py
+[0.260s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.262s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.267s] [ 22%] Built target device_status_checker_node
+[0.277s] [ 22%] Built target std_msgs_generate_messages_cpp
+[0.305s] [ 22%] Built target _device_diagnostics_generate_messages_check_deps_device_connection
+[0.329s] [ 33%] Built target device_diagnostics_generate_messages_nodejs
+[0.340s] [ 55%] Built target device_diagnostics_generate_messages_eus
+[0.349s] [ 66%] Built target device_diagnostics_generate_messages_cpp
+[0.351s] [ 88%] Built target device_diagnostics_generate_messages_py
+[0.352s] [100%] Built target device_diagnostics_generate_messages_lisp
+[0.370s] [100%] Built target device_diagnostics_generate_messages
+[0.396s] Invoked command in '/home/msi/caato2_ws/build/device_diagnostics' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/device_diagnostics -- -j20 -l20
+[0.483s] Invoking command in '/home/msi/caato2_ws/build/device_diagnostics': /usr/bin/cmake --build /home/msi/caato2_ws/build/device_diagnostics --target tests -- -j20 -l20
+[0.526s] Built target tests
+[0.566s] Invoked command in '/home/msi/caato2_ws/build/device_diagnostics' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/device_diagnostics --target tests -- -j20 -l20
+[0.645s] Invoking command in '/home/msi/caato2_ws/build/device_diagnostics': /usr/bin/cmake --install /home/msi/caato2_ws/build/device_diagnostics
+[0.694s] -- Install configuration: ""
+[0.694s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/device_diagnostics/msg/device_connection.msg
+[0.694s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/device_diagnostics/cmake/device_diagnostics-msg-paths.cmake
+[0.694s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/include/device_diagnostics
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/include/device_diagnostics/device_connection.h
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/roseus/ros/device_diagnostics
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/roseus/ros/device_diagnostics/msg
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/roseus/ros/device_diagnostics/msg/device_connection.l
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/roseus/ros/device_diagnostics/manifest.l
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/common-lisp/ros/device_diagnostics
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/common-lisp/ros/device_diagnostics/msg
+[0.695s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/common-lisp/ros/device_diagnostics/msg/_package.lisp
+[0.696s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/common-lisp/ros/device_diagnostics/msg/_package_device_connection.lisp
+[0.696s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/common-lisp/ros/device_diagnostics/msg/device_connection.lisp
+[0.696s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/common-lisp/ros/device_diagnostics/msg/device_diagnostics-msg.asd
+[0.696s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/gennodejs/ros/device_diagnostics
+[0.696s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/gennodejs/ros/device_diagnostics/_index.js
+[0.696s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/gennodejs/ros/device_diagnostics/msg
+[0.697s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/gennodejs/ros/device_diagnostics/msg/_index.js
+[0.697s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/gennodejs/ros/device_diagnostics/msg/device_connection.js
+[0.697s] Listing '/home/msi/caato2_ws/build/device_diagnostics/devel/lib/python3/dist-packages/device_diagnostics'...
+[0.697s] Listing '/home/msi/caato2_ws/build/device_diagnostics/devel/lib/python3/dist-packages/device_diagnostics/msg'...
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/msg
+[0.722s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/msg/_device_connection.py
+[0.723s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/msg/__init__.py
+[0.724s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/msg/__pycache__
+[0.724s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/msg/__pycache__/__init__.cpython-38.pyc
+[0.724s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/msg/__pycache__/_device_connection.cpython-38.pyc
+[0.724s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/__init__.py
+[0.724s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/__pycache__
+[0.724s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages/device_diagnostics/__pycache__/__init__.cpython-38.pyc
+[0.724s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/lib/pkgconfig/device_diagnostics.pc
+[0.725s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/device_diagnostics/cmake/device_diagnostics-msg-extras.cmake
+[0.725s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/device_diagnostics/cmake/device_diagnosticsConfig.cmake
+[0.725s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/device_diagnostics/cmake/device_diagnosticsConfig-version.cmake
+[0.726s] -- Up-to-date: /home/msi/caato2_ws/install/device_diagnostics/share/device_diagnostics/package.xml
+[0.787s] Invoked command in '/home/msi/caato2_ws/build/device_diagnostics' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/device_diagnostics

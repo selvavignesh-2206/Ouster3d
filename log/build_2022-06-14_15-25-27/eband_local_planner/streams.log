@@ -1,0 +1,31 @@
+[0.197s] Invoking command in '/home/msi/caato2_ws/build/eband_local_planner': /usr/bin/cmake --build /home/msi/caato2_ws/build/eband_local_planner -- -j20 -l20
+[0.333s] [ 14%] Built target eband_local_planner_gencfg
+[0.361s] [100%] Built target eband_local_planner
+[0.457s] Invoked command in '/home/msi/caato2_ws/build/eband_local_planner' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/eband_local_planner -- -j20 -l20
+[0.606s] Invoking command in '/home/msi/caato2_ws/build/eband_local_planner': /usr/bin/cmake --build /home/msi/caato2_ws/build/eband_local_planner --target tests -- -j20 -l20
+[0.643s] Built target tests
+[0.708s] Invoked command in '/home/msi/caato2_ws/build/eband_local_planner' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/eband_local_planner --target tests -- -j20 -l20
+[0.928s] Invoking command in '/home/msi/caato2_ws/build/eband_local_planner': /usr/bin/cmake --install /home/msi/caato2_ws/build/eband_local_planner
+[1.000s] -- Install configuration: ""
+[1.001s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/EBandPlannerConfig.h
+[1.001s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/__init__.py
+[1.001s] Listing '/home/msi/caato2_ws/build/eband_local_planner/devel/lib/python3/dist-packages/eband_local_planner/cfg'...
+[1.001s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg
+[1.001s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/EBandPlannerConfig.py
+[1.001s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__init__.py
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__pycache__
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__pycache__/EBandPlannerConfig.cpython-38.pyc
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__pycache__/__init__.cpython-38.pyc
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/pkgconfig/eband_local_planner.pc
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/cmake/eband_local_plannerConfig.cmake
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/cmake/eband_local_plannerConfig-version.cmake
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/package.xml
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_local_planner_ros.h
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/conversions_and_types.h
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_local_planner.h
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_trajectory_controller.h
+[1.002s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_visualization.h
+[1.003s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/lib/libeband_local_planner.so
+[1.003s] -- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/elp_plugin.xml
+[1.065s] Invoked command in '/home/msi/caato2_ws/build/eband_local_planner' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/eband_local_planner

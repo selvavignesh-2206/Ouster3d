@@ -1,0 +1,8 @@
+/home/msi/caato2_ws/install/rosserial_windows/lib/pkgconfig/rosserial_windows.pc
+/home/msi/caato2_ws/install/rosserial_windows/share/rosserial_windows/cmake/rosserial_windowsConfig.cmake
+/home/msi/caato2_ws/install/rosserial_windows/share/rosserial_windows/cmake/rosserial_windowsConfig-version.cmake
+/home/msi/caato2_ws/install/rosserial_windows/share/rosserial_windows/package.xml
+/home/msi/caato2_ws/install/rosserial_windows/share/rosserial_windows/src/ros_lib/WindowsSocket.h
+/home/msi/caato2_ws/install/rosserial_windows/share/rosserial_windows/src/ros_lib/WindowsSocket.cpp
+/home/msi/caato2_ws/install/rosserial_windows/share/rosserial_windows/src/ros_lib/ros.h
+/home/msi/caato2_ws/install/rosserial_windows/lib/rosserial_windows/make_libraries.py

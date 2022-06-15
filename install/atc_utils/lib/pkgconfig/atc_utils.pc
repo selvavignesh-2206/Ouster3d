@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/install/atc_utils
+
+Name: atc_utils
+Description: Description of atc_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -latc_utils
+Requires: 

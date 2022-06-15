@@ -1,0 +1,75 @@
+[0.331s] Invoking command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_embeddedlinux -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/rosserial_embeddedlinux
+[2.583s] -- The C compiler identification is GNU 8.4.0
+[2.583s] -- The CXX compiler identification is GNU 8.4.0
+[2.586s] -- Check for working C compiler: /usr/bin/cc
+[2.586s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.586s] -- Detecting C compiler ABI info
+[2.587s] -- Detecting C compiler ABI info - done
+[2.587s] -- Detecting C compile features
+[2.587s] -- Detecting C compile features - done
+[2.587s] -- Check for working CXX compiler: /usr/bin/c++
+[2.587s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.587s] -- Detecting CXX compiler ABI info
+[2.587s] -- Detecting CXX compiler ABI info - done
+[2.587s] -- Detecting CXX compile features
+[2.587s] -- Detecting CXX compile features - done
+[2.587s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/rosserial_embeddedlinux/devel
+[2.587s] -- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+[2.588s] -- This workspace overlays: /home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+[2.588s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.588s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.588s] -- Using Debian Python package layout
+[2.588s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.588s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.642s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.642s] -- Call enable_testing()
+[2.645s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/rosserial_embeddedlinux/test_results
+[3.362s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.362s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.362s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.431s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.433s] -- Found Threads: TRUE  
+[3.439s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.548s] -- catkin 0.8.10
+[3.548s] -- BUILD_SHARED_LIBS is on
+[4.167s] -- Installing devel-space wrapper /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_embeddedlinux/src/rosserial_embeddedlinux/make_libraries.py to /home/msi/caato2_ws/build/rosserial_embeddedlinux/devel/lib/rosserial_embeddedlinux
+[4.169s] -- Configuring done
+[4.199s] -- Generating done
+[4.201s] -- Build files have been written to: /home/msi/caato2_ws/build/rosserial_embeddedlinux
+[4.218s] Invoked command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_embeddedlinux -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/rosserial_embeddedlinux
+[4.219s] Invoking command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_embeddedlinux -- -j20 -l20
+[4.422s] Invoked command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_embeddedlinux -- -j20 -l20
+[4.537s] Invoking command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_embeddedlinux --target tests -- -j20 -l20
+[4.751s] [35m[1mScanning dependencies of target tests[0m
+[4.762s] Built target tests
+[4.834s] Invoked command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_embeddedlinux --target tests -- -j20 -l20
+[4.939s] Invoking command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_embeddedlinux
+[5.013s] -- Install configuration: ""
+[5.013s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/lib/pkgconfig/rosserial_embeddedlinux.pc
+[5.013s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig.cmake
+[5.013s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/cmake/rosserial_embeddedlinuxConfig-version.cmake
+[5.013s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/package.xml
+[5.013s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/ros_lib
+[5.013s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/ros_lib/ros.h
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/ros_lib/embedded_linux_comms.c
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/ros_lib/embedded_linux_hardware.h
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/HelloRos
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/HelloRos/HelloROS.cpp
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/ExampleSubscriber
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/ExampleSubscriber/ExampleSubscriber.cpp
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProMotor13Subscribe
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProMotor13Subscribe/VEXProMotor13Subscribe.cpp
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/ExampleService
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/ExampleService/ExampleService.cpp
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProRangeMotorLoop
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProRangeMotorLoop/VEXProRangeMotorLoop.cpp
+[5.014s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProServoSubscribe
+[5.015s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProServoSubscribe/VEXProServoSubscribe.cpp
+[5.015s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/ExampleServiceClient
+[5.015s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/ExampleServiceClient/ExampleServiceClient.cpp
+[5.015s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/ExampleServiceClient/exampleService.py
+[5.015s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProRangePublish
+[5.015s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/share/rosserial_embeddedlinux/src/examples/VEXProRangePublish/VEXProRangePublish.cpp
+[5.015s] -- Installing: /home/msi/caato2_ws/install/rosserial_embeddedlinux/lib/rosserial_embeddedlinux/make_libraries.py
+[5.073s] Invoked command in '/home/msi/caato2_ws/build/rosserial_embeddedlinux' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_embeddedlinux

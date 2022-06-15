@@ -1,0 +1,73 @@
+[0.060s] Invoking command in '/home/msi/caato2_ws/build/teleop_twist_joy': /usr/bin/cmake /home/msi/caato2_ws/src/thirdparty/teleop_twist_joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/teleop_twist_joy
+[0.337s] -- The C compiler identification is GNU 8.4.0
+[0.535s] -- The CXX compiler identification is GNU 8.4.0
+[0.546s] -- Check for working C compiler: /usr/bin/cc
+[0.835s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.835s] -- Detecting C compiler ABI info
+[1.166s] -- Detecting C compiler ABI info - done
+[1.187s] -- Detecting C compile features
+[1.189s] -- Detecting C compile features - done
+[1.199s] -- Check for working CXX compiler: /usr/bin/c++
+[1.570s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.572s] -- Detecting CXX compiler ABI info
+[1.949s] -- Detecting CXX compiler ABI info - done
+[1.980s] -- Detecting CXX compile features
+[1.983s] -- Detecting CXX compile features - done
+[1.992s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/teleop_twist_joy/devel
+[1.992s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[1.993s] -- This workspace overlays: /opt/ros/noetic
+[2.081s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.081s] -- Using Debian Python package layout
+[2.173s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.173s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.506s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.506s] -- Call enable_testing()
+[2.511s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/teleop_twist_joy/test_results
+[3.673s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.673s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.673s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.748s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.751s] -- Found Threads: TRUE  
+[3.757s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.910s] -- catkin 0.8.10
+[3.910s] -- BUILD_SHARED_LIBS is on
+[4.892s] -- Configuring done
+[4.927s] -- Generating done
+[4.935s] -- Build files have been written to: /home/msi/caato2_ws/build/teleop_twist_joy
+[4.955s] Invoked command in '/home/msi/caato2_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/thirdparty/teleop_twist_joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/teleop_twist_joy
+[4.963s] Invoking command in '/home/msi/caato2_ws/build/teleop_twist_joy': /usr/bin/cmake --build /home/msi/caato2_ws/build/teleop_twist_joy -- -j20 -l20
+[7.146s] [35m[1mScanning dependencies of target teleop_twist_joy[0m
+[7.146s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[8.044s] [ 50%] [32m[1mLinking CXX shared library devel/lib/libteleop_twist_joy.so[0m
+[8.417s] [ 50%] Built target teleop_twist_joy
+[8.441s] [35m[1mScanning dependencies of target teleop_twist_joy_node[0m
+[8.460s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[10.271s] [100%] [32m[1mLinking CXX executable devel/lib/teleop_twist_joy/teleop_node[0m
+[10.496s] [100%] Built target teleop_twist_joy_node
+[10.556s] Invoked command in '/home/msi/caato2_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/teleop_twist_joy -- -j20 -l20
+[10.895s] Invoking command in '/home/msi/caato2_ws/build/teleop_twist_joy': /usr/bin/cmake --build /home/msi/caato2_ws/build/teleop_twist_joy --target tests -- -j20 -l20
+[11.029s] [35m[1mScanning dependencies of target tests[0m
+[11.051s] Built target tests
+[11.072s] Invoked command in '/home/msi/caato2_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/teleop_twist_joy --target tests -- -j20 -l20
+[11.217s] Invoking command in '/home/msi/caato2_ws/build/teleop_twist_joy': /usr/bin/cmake --install /home/msi/caato2_ws/build/teleop_twist_joy
+[11.279s] -- Install configuration: ""
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[11.279s] -- Set runtime path of "/home/msi/caato2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[11.279s] -- Set runtime path of "/home/msi/caato2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/include/teleop_twist_joy
+[11.279s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.h
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop.launch
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[11.280s] -- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[11.318s] Invoked command in '/home/msi/caato2_ws/build/teleop_twist_joy' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/teleop_twist_joy

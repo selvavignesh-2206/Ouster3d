@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/caato2_navigation/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/caato2_bringup;/home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/map_server;/home/msi/caato2_ws/install/ira_laser_tools;/home/msi/caato2_ws/install/caato2_description;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/caato2_bringup;/home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/map_server;/home/msi/caato2_ws/install/ira_laser_tools;/home/msi/caato2_ws/install/caato2_description;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/caato2_navigation/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/caato2_navigation
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/lib/pkgconfig/caato2_navigation.pc
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/cmake/caato2_navigationConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/cmake/caato2_navigationConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/package.xml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch/caato2_cartographer_2d.launch
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch/caato2_docking.launch
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch/move_base
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch/move_base/move_base_eband.launch
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch/move_base/amcl.launch
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch/move_base/move_base_dwa.launch
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/launch/move_base/move_base_teb.launch
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/130622_L9.pgm
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/070622_L9.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/130622_L9.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/070622_L9.pgm
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/trl_l2_caato2.pgm
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/mbc_L10.pgm
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/mbc_L10.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/maps/trl_l2_caato2.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/dwa_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/eband_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/teb_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/tb3_default
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/tb3_default/local_costmap_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/tb3_default/global_costmap_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/tb3_default/base_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/tb3_default/move_base_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/tb3_default/costmap_common_params_waffle.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/dwa_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/ekf_caato.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/eband_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/global_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/costmap_common_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/local_costmap_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/global_costmap_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/move_base_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/param/caato1/teb_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/rviz
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/rviz/caato2_navigation.rviz
+-- Installing: /home/msi/caato2_ws/install/caato2_navigation/share/caato2_navigation/rviz/atc.rviz

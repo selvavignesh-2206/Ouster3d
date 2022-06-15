@@ -1,0 +1,4 @@
+/home/msi/caato2_ws/install/caato_alexa/lib/pkgconfig/caato_alexa.pc
+/home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/cmake/caato_alexaConfig.cmake
+/home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/cmake/caato_alexaConfig-version.cmake
+/home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/package.xml

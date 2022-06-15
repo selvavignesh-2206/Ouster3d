@@ -1,0 +1,30 @@
+[  0%] Built target generate_build_header
+[ 44%] Built target ouster_client
+[ 72%] Built target ouster_client_example
+[100%] Built target ouster_viz
+-- Install configuration: "Release"
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKTargets.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/share/LICENSE
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/share/LICENSE-bin
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/libouster_client.a
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/bin/ouster_client_example
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/version.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/types.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl/netcompat.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl/lidar_scan_impl.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/image_processing.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/client.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/lidar_scan.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/buffered_udp_source.h
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/LICENSE.txt
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/nonstd
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/nonstd/optional.hpp
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/libouster_viz.a
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster
+-- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/point_viz.h

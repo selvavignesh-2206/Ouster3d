@@ -1,0 +1,68 @@
+[0.139s] Invoking command in '/home/msi/caato2_ws/build/trolley_arm': /usr/bin/cmake --build /home/msi/caato2_ws/build/trolley_arm -- -j20 -l20
+[0.179s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.190s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.190s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.197s] [  0%] Built target std_msgs_generate_messages_eus
+[0.199s] [  0%] Built target std_msgs_generate_messages_py
+[0.214s] [  0%] Built target _trolley_arm_generate_messages_check_deps_arm
+[0.243s] [ 18%] Built target trolley_arm_generate_messages_py
+[0.243s] [ 36%] Built target trolley_arm_generate_messages_nodejs
+[0.243s] [ 36%] Built target trolley_arm_generate_messages_cpp
+[0.243s] [ 54%] Built target trolley_arm_generate_messages_eus
+[0.249s] [ 63%] Built target trolley_arm_generate_messages_lisp
+[0.261s] [ 63%] Built target trolley_arm_gencpp
+[0.267s] [ 63%] Built target trolley_arm_generate_messages
+[0.287s] [ 81%] Built target arm_server
+[0.291s] [100%] Built target arm_client
+[0.391s] Invoked command in '/home/msi/caato2_ws/build/trolley_arm' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/trolley_arm -- -j20 -l20
+[0.543s] Invoking command in '/home/msi/caato2_ws/build/trolley_arm': /usr/bin/cmake --build /home/msi/caato2_ws/build/trolley_arm --target tests -- -j20 -l20
+[0.629s] Built target tests
+[0.715s] Invoked command in '/home/msi/caato2_ws/build/trolley_arm' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/trolley_arm --target tests -- -j20 -l20
+[0.775s] Invoking command in '/home/msi/caato2_ws/build/trolley_arm': /usr/bin/cmake --install /home/msi/caato2_ws/build/trolley_arm
+[0.787s] -- Install configuration: ""
+[0.787s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/srv/arm.srv
+[0.787s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_arm-msg-paths.cmake
+[0.787s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm
+[0.787s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm/armRequest.h
+[0.787s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm/armResponse.h
+[0.787s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/include/trolley_arm/arm.h
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm/manifest.l
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm/srv
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/roseus/ros/trolley_arm/srv/arm.l
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/_package.lisp
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/arm.lisp
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/_package_arm.lisp
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/common-lisp/ros/trolley_arm/srv/trolley_arm-srv.asd
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/_index.js
+[0.788s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/srv
+[0.789s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/srv/_index.js
+[0.789s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/gennodejs/ros/trolley_arm/srv/arm.js
+[0.837s] Listing '/home/msi/caato2_ws/build/trolley_arm/devel/lib/python3/dist-packages/trolley_arm'...
+[0.837s] Listing '/home/msi/caato2_ws/build/trolley_arm/devel/lib/python3/dist-packages/trolley_arm/srv'...
+[0.838s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm
+[0.838s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv
+[0.838s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/_arm.py
+[0.839s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__init__.py
+[0.839s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__pycache__
+[0.839s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__pycache__/_arm.cpython-38.pyc
+[0.839s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/srv/__pycache__/__init__.cpython-38.pyc
+[0.840s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/__init__.py
+[0.840s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/__pycache__
+[0.841s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages/trolley_arm/__pycache__/__init__.cpython-38.pyc
+[0.841s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/pkgconfig/trolley_arm.pc
+[0.841s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_arm-msg-extras.cmake
+[0.841s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_armConfig.cmake
+[0.842s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/cmake/trolley_armConfig-version.cmake
+[0.843s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/package.xml
+[0.843s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/launch
+[0.844s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/launch/arm.launch
+[0.844s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/src
+[0.845s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/src/arm_server.cpp
+[0.845s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/share/trolley_arm/src/arm_client.cpp
+[0.845s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/trolley_arm/arm_server
+[0.846s] -- Up-to-date: /home/msi/caato2_ws/install/trolley_arm/lib/trolley_arm/arm_client
+[0.904s] Invoked command in '/home/msi/caato2_ws/build/trolley_arm' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/trolley_arm

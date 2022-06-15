@@ -1,0 +1,8 @@
+/home/msi/caato2_ws/install/rosserial_chibios/lib/pkgconfig/rosserial_chibios.pc
+/home/msi/caato2_ws/install/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig.cmake
+/home/msi/caato2_ws/install/rosserial_chibios/share/rosserial_chibios/cmake/rosserial_chibiosConfig-version.cmake
+/home/msi/caato2_ws/install/rosserial_chibios/share/rosserial_chibios/package.xml
+/home/msi/caato2_ws/install/rosserial_chibios/share/rosserial_chibios/src/ros_lib/ChibiOSHardware.h
+/home/msi/caato2_ws/install/rosserial_chibios/share/rosserial_chibios/src/ros_lib/ros_lib.mk
+/home/msi/caato2_ws/install/rosserial_chibios/share/rosserial_chibios/src/ros_lib/ros.h
+/home/msi/caato2_ws/install/rosserial_chibios/share/rosserial_chibios/make_libraries.py

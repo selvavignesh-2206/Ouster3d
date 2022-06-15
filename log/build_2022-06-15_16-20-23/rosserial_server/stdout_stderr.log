@@ -1,0 +1,52 @@
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target rosserial_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[ 12%] Built target rosserial_msgs_generate_messages_py
+[ 25%] Built target rosserial_server_lookup
+[ 25%] Built target topic_tools_generate_messages_lisp
+[ 25%] Built target std_msgs_generate_messages_lisp
+[ 25%] Built target rosserial_msgs_generate_messages_nodejs
+[ 25%] Built target rosserial_msgs_generate_messages_lisp
+[ 25%] Built target rosserial_msgs_generate_messages_cpp
+[ 25%] Built target rosgraph_msgs_generate_messages_lisp
+[ 25%] Built target topic_tools_generate_messages_py
+[ 25%] Built target roscpp_generate_messages_eus
+[ 25%] Built target topic_tools_generate_messages_nodejs
+[ 25%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 25%] Built target std_msgs_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_nodejs
+[ 25%] Built target roscpp_generate_messages_lisp
+[ 25%] Built target std_msgs_generate_messages_py
+[ 25%] Built target rosgraph_msgs_generate_messages_eus
+[100%] Built target rosserial_server_socket_node
+[100%] Built target rosserial_server_serial_node
+[100%] Built target rosserial_server_udp_socket_node
+Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig/rosserial_server.pc
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/cmake/rosserial_serverConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/cmake/rosserial_serverConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/librosserial_server_lookup.so
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/serial_node
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/socket_node
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/udp_socket_node
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/serial.launch
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/udp_socket.launch
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/socket.launch
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/udp_stream.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/udp_socket_session.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/tcp_server.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/session.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/msg_lookup.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/topic_handlers.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/async_read_buffer.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/serial_session.h

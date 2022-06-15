@@ -1,0 +1,156 @@
+[0.093s] Invoking command in '/home/msi/caato2_ws/build/xnergy_charger_rcu': /usr/bin/cmake --build /home/msi/caato2_ws/build/xnergy_charger_rcu -- -j20 -l20
+[0.166s] [  0%] Built target std_msgs_generate_messages_py
+[0.170s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.171s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.176s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.195s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargeActionResult
+[0.195s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.203s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargeResult
+[0.203s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargeActionFeedback
+[0.203s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargeFeedback
+[0.204s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargerState
+[0.205s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.206s] [  0%] Built target std_msgs_generate_messages_eus
+[0.213s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargeAction
+[0.215s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.219s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargeActionGoal
+[0.219s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.224s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.226s] [  0%] Built target _xnergy_charger_rcu_generate_messages_check_deps_ChargeGoal
+[0.235s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.236s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.242s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.245s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.245s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.250s] [ 19%] Built target xnergy_charger_rcu_generate_messages_nodejs
+[0.250s] [ 61%] Built target xnergy_charger_rcu_generate_messages_eus
+[0.250s] [ 61%] Built target xnergy_charger_rcu_generate_messages_py
+[0.257s] [ 80%] Built target xnergy_charger_rcu_generate_messages_cpp
+[0.263s] [100%] Built target xnergy_charger_rcu_generate_messages_lisp
+[0.277s] [100%] Built target xnergy_charger_rcu_generate_messages
+[0.311s] Invoked command in '/home/msi/caato2_ws/build/xnergy_charger_rcu' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/xnergy_charger_rcu -- -j20 -l20
+[0.452s] Invoking command in '/home/msi/caato2_ws/build/xnergy_charger_rcu': /usr/bin/cmake --build /home/msi/caato2_ws/build/xnergy_charger_rcu --target tests -- -j20 -l20
+[0.515s] Built target tests
+[0.556s] Invoked command in '/home/msi/caato2_ws/build/xnergy_charger_rcu' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/xnergy_charger_rcu --target tests -- -j20 -l20
+[0.641s] Invoking command in '/home/msi/caato2_ws/build/xnergy_charger_rcu': /usr/bin/cmake --install /home/msi/caato2_ws/build/xnergy_charger_rcu
+[0.680s] -- Install configuration: ""
+[0.681s] + cd /home/msi/caato2_ws/src/siot/xnergy_charger_rcu
+[0.681s] + mkdir -p /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages
+[0.681s] + /usr/bin/env PYTHONPATH=/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages:/home/msi/caato2_ws/build/xnergy_charger_rcu/lib/python3/dist-packages:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages:/home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_mbed/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages:/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages:/home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages:/home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages:/home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages:/home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/msi/caato2_ws/build/xnergy_charger_rcu /usr/bin/python3 /home/msi/caato2_ws/src/siot/xnergy_charger_rcu/setup.py egg_info --egg-base /home/msi/caato2_ws/build/xnergy_charger_rcu build --build-base /home/msi/caato2_ws/build/xnergy_charger_rcu install --root=/ --install-layout=deb --prefix=/home/msi/caato2_ws/install/xnergy_charger_rcu --install-scripts=/home/msi/caato2_ws/install/xnergy_charger_rcu/bin
+[0.868s] running egg_info
+[0.868s] writing /home/msi/caato2_ws/build/xnergy_charger_rcu/xnergy_charger_rcu.egg-info/PKG-INFO
+[0.868s] writing dependency_links to /home/msi/caato2_ws/build/xnergy_charger_rcu/xnergy_charger_rcu.egg-info/dependency_links.txt
+[0.868s] writing top-level names to /home/msi/caato2_ws/build/xnergy_charger_rcu/xnergy_charger_rcu.egg-info/top_level.txt
+[0.895s] reading manifest file '/home/msi/caato2_ws/build/xnergy_charger_rcu/xnergy_charger_rcu.egg-info/SOURCES.txt'
+[0.896s] writing manifest file '/home/msi/caato2_ws/build/xnergy_charger_rcu/xnergy_charger_rcu.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] running install
+[0.896s] running install_lib
+[0.897s] running install_egg_info
+[0.902s] removing '/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu-0.1.0.egg-info' (and everything under it)
+[0.902s] Copying /home/msi/caato2_ws/build/xnergy_charger_rcu/xnergy_charger_rcu.egg-info to /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu-0.1.0.egg-info
+[0.902s] Skipping SOURCES.txt
+[0.903s] running install_scripts
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargerState.msg
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/action/Charge.action
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargeAction.msg
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargeActionGoal.msg
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargeActionResult.msg
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargeActionFeedback.msg
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargeGoal.msg
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargeResult.msg
+[0.977s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/msg/ChargeFeedback.msg
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/cmake/xnergy_charger_rcu-msg-paths.cmake
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargeActionResult.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargeResult.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargeGoal.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargeActionGoal.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargeFeedback.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargerState.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargeAction.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/include/xnergy_charger_rcu/ChargeActionFeedback.h
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargeActionFeedback.l
+[0.978s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargeAction.l
+[0.979s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargerState.l
+[0.979s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargeFeedback.l
+[0.979s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargeActionResult.l
+[0.979s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargeActionGoal.l
+[0.980s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargeGoal.l
+[0.980s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/msg/ChargeResult.l
+[0.980s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/roseus/ros/xnergy_charger_rcu/manifest.l
+[0.980s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu
+[0.980s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargerState.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargeResult.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargeActionFeedback.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargeGoal.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargeAction.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargerState.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargeActionFeedback.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargeActionGoal.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargeActionResult.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/xnergy_charger_rcu-msg.asd
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargeFeedback.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargeActionResult.lisp
+[0.981s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargeResult.lisp
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargeAction.lisp
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/_package_ChargeActionGoal.lisp
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargeGoal.lisp
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/common-lisp/ros/xnergy_charger_rcu/msg/ChargeFeedback.lisp
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/_index.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/_index.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargeAction.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargeActionGoal.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargeActionFeedback.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargeFeedback.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargerState.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargeResult.js
+[0.982s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargeActionResult.js
+[0.983s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/gennodejs/ros/xnergy_charger_rcu/msg/ChargeGoal.js
+[0.985s] Listing '/home/msi/caato2_ws/build/xnergy_charger_rcu/devel/lib/python3/dist-packages/xnergy_charger_rcu'...
+[0.985s] Listing '/home/msi/caato2_ws/build/xnergy_charger_rcu/devel/lib/python3/dist-packages/xnergy_charger_rcu/msg'...
+[0.986s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargerState.py
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargeFeedback.py
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargeResult.py
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargeActionGoal.py
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargeAction.py
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargeGoal.py
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargeGoal.cpython-38.pyc
+[0.987s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargeActionResult.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargeAction.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/__init__.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargeResult.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargeFeedback.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargeActionFeedback.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargerState.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__/_ChargeActionGoal.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargeActionFeedback.py
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/_ChargeActionResult.py
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/__pycache__
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/__pycache__/__init__.cpython-38.pyc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__init__.py
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/msg/__pycache__
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages/xnergy_charger_rcu/__pycache__
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/pkgconfig/xnergy_charger_rcu.pc
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/cmake/xnergy_charger_rcu-msg-extras.cmake
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/cmake/xnergy_charger_rcuConfig.cmake
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/cmake/xnergy_charger_rcuConfig-version.cmake
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/package.xml
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/launch
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/launch/xnergy_charger_modbus.launch
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/launch/xnergy_charger_gpio.launch
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/share/xnergy_charger_rcu/launch/xnergy_charger_canbus.launch
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/xnergy_charger_rcu/lib/xnergy_charger_rcu/xnergy_charger_node.py
+[1.043s] Invoked command in '/home/msi/caato2_ws/build/xnergy_charger_rcu' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/xnergy_charger_rcu

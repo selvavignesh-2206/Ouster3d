@@ -1,0 +1,9 @@
+source;share/ouster_example/hook/cmake_prefix_path.ps1
+source;share/ouster_example/hook/cmake_prefix_path.dsv
+source;share/ouster_example/hook/cmake_prefix_path.sh
+source;share/ouster_example/hook/path.ps1
+source;share/ouster_example/hook/path.dsv
+source;share/ouster_example/hook/path.sh
+source;share/ouster_example/hook/pythonscriptspath.ps1
+source;share/ouster_example/hook/pythonscriptspath.dsv
+source;share/ouster_example/hook/pythonscriptspath.sh

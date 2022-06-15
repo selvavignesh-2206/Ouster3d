@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/install/atc_stm
+
+Name: atc_stm
+Description: Description of atc_stm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

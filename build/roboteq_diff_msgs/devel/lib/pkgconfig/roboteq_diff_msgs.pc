@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/roboteq_diff_msgs/devel
+
+Name: roboteq_diff_msgs
+Description: Description of roboteq_diff_msgs
+Version: 0.1.0
+Cflags: -I/home/msi/caato2_ws/build/roboteq_diff_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

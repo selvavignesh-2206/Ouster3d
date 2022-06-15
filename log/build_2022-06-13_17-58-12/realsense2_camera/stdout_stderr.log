@@ -1,0 +1,364 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/realsense2_camera/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/realsense2_camera/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Create Release Build.
+-- realsense2_camera: 2 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/realsense2_camera
+[35m[1mScanning dependencies of target _realsense2_camera_generate_messages_check_deps_Extrinsics[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _realsense2_camera_generate_messages_check_deps_IMUInfo[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target _realsense2_camera_generate_messages_check_deps_Extrinsics
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _realsense2_camera_generate_messages_check_deps_IMUInfo
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target diagnostic_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target diagnostic_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target diagnostic_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target diagnostic_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target realsense2_camera_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target realsense2_camera_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target realsense2_camera_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target realsense2_camera_generate_messages_eus[0m
+[  6%] [34m[1mGenerating Javascript code from realsense2_camera/IMUInfo.msg[0m
+[ 12%] [34m[1mGenerating Javascript code from realsense2_camera/Extrinsics.msg[0m
+[35m[1mScanning dependencies of target realsense2_camera_generate_messages_py[0m
+[ 18%] [34m[1mGenerating Lisp code from realsense2_camera/Extrinsics.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from realsense2_camera/IMUInfo.msg[0m
+[ 31%] [34m[1mGenerating C++ code from realsense2_camera/IMUInfo.msg[0m
+[ 37%] [34m[1mGenerating EusLisp code from realsense2_camera/Extrinsics.msg[0m
+[ 43%] [34m[1mGenerating EusLisp code from realsense2_camera/IMUInfo.msg[0m
+[ 50%] [34m[1mGenerating Python from MSG realsense2_camera/IMUInfo[0m
+[ 56%] [34m[1mGenerating EusLisp manifest code for realsense2_camera[0m
+[ 62%] [34m[1mGenerating C++ code from realsense2_camera/Extrinsics.msg[0m
+[ 68%] [34m[1mGenerating Python from MSG realsense2_camera/Extrinsics[0m
+[ 68%] Built target realsense2_camera_generate_messages_nodejs
+[ 68%] Built target realsense2_camera_generate_messages_lisp
+[ 68%] Built target realsense2_camera_generate_messages_cpp
+[35m[1mScanning dependencies of target realsense2_camera[0m
+[ 75%] [34m[1mGenerating Python msg __init__.py for realsense2_camera[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o[0m
+[ 93%] Built target realsense2_camera_generate_messages_eus
+[ 93%] Built target realsense2_camera_generate_messages_py
+[35m[1mScanning dependencies of target realsense2_camera_generate_messages[0m
+[ 93%] Built target realsense2_camera_generate_messages
+In file included from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/src/../include/../include/realsense_node_factory.h:12[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/src/../include/base_realsense_node.h:6[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/src/base_realsense_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1047:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1069:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1091:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/src/../include/realsense_node_factory.h:12[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1047:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1069:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1091:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_sensor.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_device.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_record_playback.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_context.hpp:8[m[K,
+                 from [01m[K/opt/ros/noetic/include/librealsense2/rs.hpp:9[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/include/../include/realsense_node_factory.h:12[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/include/base_realsense_node.h:6[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/src/../include/t265_realsense_node.h:3[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1047:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1069:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:[m[K In lambda function:
+[01m[K/opt/ros/noetic/include/librealsense2/hpp/rs_frame.hpp:1091:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+                         [01;35m[Kfrm.get_profile().stream_index() == index[m[K) f = frm;
+                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library devel/lib/librealsense2_camera.so[0m
+[100%] Built target realsense2_camera
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: "Release"
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/msg/IMUInfo.msg
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/msg/Extrinsics.msg
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_camera-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/IMUInfo.h
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/Extrinsics.h
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/msg
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/msg/IMUInfo.l
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/msg/Extrinsics.l
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/manifest.l
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package_Extrinsics.lisp
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/realsense2_camera-msg.asd
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package_IMUInfo.lisp
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/Extrinsics.lisp
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/IMUInfo.lisp
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/_index.js
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/Extrinsics.js
+Listing '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera'...
+Compiling '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera/__init__.py'...
+Listing '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera/msg'...
+Compiling '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera/msg/_Extrinsics.py'...
+Compiling '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera/msg/_IMUInfo.py'...
+Compiling '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera/msg/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/_Extrinsics.py
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__/_IMUInfo.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__/_Extrinsics.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/_IMUInfo.py
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/__init__.py
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/__pycache__
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_camera-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+-- Set runtime path of "/home/msi/caato2_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+-- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/t265_realsense_node.h
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/realsense_node_factory.h
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/base_realsense_node.h
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/constants.h
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/includes
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/includes/nodelet.launch.xml
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_from_file.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d435_camera_with_model.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_rgbd.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_rtabmap.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_camera.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/opensource_tracking.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_t265.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multiple_devices.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_pointcloud.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_aligned_depth.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_t265.launch
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/rviz
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/rviz/t265.rviz
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/rviz/pointcloud.rviz
+-- Installing: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/nodelet_plugins.xml

@@ -1,0 +1,7 @@
+/home/msi/caato2_ws/install/caato_bringup/lib/pkgconfig/caato_bringup.pc
+/home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/cmake/caato_bringupConfig.cmake
+/home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/cmake/caato_bringupConfig-version.cmake
+/home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/package.xml
+/home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_realsense.launch
+/home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_ouster.launch
+/home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_core.launch

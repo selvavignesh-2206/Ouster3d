@@ -1,0 +1,10 @@
+/home/msi/caato2_ws/install/caato2_bringup/lib/pkgconfig/caato2_bringup.pc
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/cmake/caato2_bringupConfig.cmake
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/cmake/caato2_bringupConfig-version.cmake
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/package.xml
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/robot.launch
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/robot_3d.launch
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/caato2_lasers.launch
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/description_caato_3d.launch
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/description.launch
+/home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/caato2_motors.launch

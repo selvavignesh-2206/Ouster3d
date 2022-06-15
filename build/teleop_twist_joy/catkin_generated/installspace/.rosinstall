@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/msi/caato2_ws/install/teleop_twist_joy/setup.sh

@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _trolley_arm_generate_messages_check_deps_arm
+[ 27%] Built target trolley_arm_generate_messages_nodejs
+[ 27%] Built target trolley_arm_generate_messages_py
+[ 45%] Built target trolley_arm_generate_messages_eus
+[ 54%] Built target trolley_arm_generate_messages_lisp
+[ 63%] Built target trolley_arm_generate_messages_cpp
+[ 63%] Built target trolley_arm_generate_messages
+[ 63%] Built target trolley_arm_gencpp
+[ 81%] Built target arm_server
+[100%] Built target arm_client

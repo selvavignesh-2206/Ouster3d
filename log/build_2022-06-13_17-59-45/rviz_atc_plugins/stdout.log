@@ -1,0 +1,25 @@
+[ 12%] [34m[1mAutomatic MOC for target rviz_atc_plugins[0m
+[ 12%] Built target rviz_atc_plugins_autogen
+[100%] Built target rviz_atc_plugins
+Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/lib/pkgconfig/rviz_atc_plugins.pc
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/cmake/rviz_atc_pluginsConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/cmake/rviz_atc_pluginsConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/lib/librviz_atc_plugins.so
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/plugin_description.xml
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/atc_rviz.sim.rviz
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/atc_rviz.rviz
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/with_tag_detection.rviz
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/flag2.dae
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/flag.dae
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/arrow.dae
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/PlantFlag.png
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/Imu.png
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/Teleop.png
+-- Up-to-date: /home/msi/caato2_ws/install/rviz_atc_plugins/lib/rviz_atc_plugins/send_test_msgs.py

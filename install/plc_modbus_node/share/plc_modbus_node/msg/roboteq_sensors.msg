@@ -1,0 +1,10 @@
+int32 speed_left
+int32 speed_right
+uint32 encoder_left
+uint32 encoder_right
+float32 amps_left 
+float32 amps_right
+float32 volts_batt
+string fault_flag
+uint16 refresh_rate
+uint16 time_elapsed

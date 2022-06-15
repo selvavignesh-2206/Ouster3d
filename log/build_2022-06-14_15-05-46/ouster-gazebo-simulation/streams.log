@@ -1,0 +1,75 @@
+[0.159s] Invoking command in '/home/msi/caato2_ws/build/ouster-gazebo-simulation': /usr/bin/cmake --build /home/msi/caato2_ws/build/ouster-gazebo-simulation -- -j20 -l20
+[0.275s] /usr/bin/cmake -S/home/msi/caato2_ws/src/siot/ouster-gazebo-simulation -B/home/msi/caato2_ws/build/ouster-gazebo-simulation --check-build-system CMakeFiles/Makefile.cmake 0
+[0.275s] /usr/bin/cmake -E cmake_progress_start /home/msi/caato2_ws/build/ouster-gazebo-simulation/CMakeFiles /home/msi/caato2_ws/build/ouster-gazebo-simulation/CMakeFiles/progress.marks
+[0.276s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[0.276s] make[1]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.276s] /usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/depend
+[0.276s] make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.276s] cd /home/msi/caato2_ws/build/ouster-gazebo-simulation && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/DependInfo.cmake --color=
+[0.276s] /usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/depend
+[0.276s] make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.276s] cd /home/msi/caato2_ws/build/ouster-gazebo-simulation && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/DependInfo.cmake --color=
+[0.276s] make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.276s] /usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/build
+[0.276s] make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.276s] /usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/build
+[0.295s] make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.295s] make[2]: Nothing to be done for 'ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/build'.
+[0.295s] make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.300s] make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.300s] make[2]: Nothing to be done for 'ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/build'.
+[0.300s] make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.306s] [ 50%] Built target gazebo_ros_ouster_gpu_laser
+[0.307s] [100%] Built target gazebo_ros_ouster_laser
+[0.308s] make[1]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[0.308s] /usr/bin/cmake -E cmake_progress_start /home/msi/caato2_ws/build/ouster-gazebo-simulation/CMakeFiles 0
+[0.373s] Invoked command in '/home/msi/caato2_ws/build/ouster-gazebo-simulation' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/ouster-gazebo-simulation -- -j20 -l20
+[0.482s] Invoking command in '/home/msi/caato2_ws/build/ouster-gazebo-simulation': /usr/bin/cmake --install /home/msi/caato2_ws/build/ouster-gazebo-simulation
+[0.498s] -- Install configuration: ""
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster/gazebo/simulation/config.hh
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster/gazebo/simulation/deprecated.hh
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster/gazebo/simulation/warning.hh
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig/ouster-gazebo-simulation.pc
+[0.499s] -- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/_setup_util.py
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/env.sh
+[0.500s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.bash
+[0.500s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.bash
+[0.501s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.sh
+[0.501s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.sh
+[0.501s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.zsh
+[0.501s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.zsh
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/.rosinstall
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig/ouster_gazebo_plugins.pc
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_gazebo_plugins/cmake/ouster_gazebo_pluginsConfig.cmake
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_gazebo_plugins/cmake/ouster_gazebo_pluginsConfig-version.cmake
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_gazebo_plugins/package.xml
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/libgazebo_ros_ouster_laser.so
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/libgazebo_ros_ouster_gpu_laser.so
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster_gazebo_plugins
+[0.503s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster_gazebo_plugins/GazeboRosOusterLaser.h
+[0.504s] -- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/_setup_util.py
+[0.505s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/env.sh
+[0.505s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.bash
+[0.505s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.bash
+[0.505s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.sh
+[0.505s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.sh
+[0.506s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.zsh
+[0.506s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.zsh
+[0.507s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/.rosinstall
+[0.507s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig/ouster_os1_64.pc
+[0.507s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/cmake/ouster_os1_64Config.cmake
+[0.507s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/cmake/ouster_os1_64Config-version.cmake
+[0.507s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/package.xml
+[0.507s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/launch
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/launch/os1_64_alone.launch
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/launch/test_ouster.test
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/meshes
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/meshes/os1_64_reduced.stl
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/meshes/os1_64.stl
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/urdf
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/urdf/os1_64.urdf.xacro
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/urdf/example_robot.urdf.xacro
+[0.508s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/worlds
+[0.509s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/worlds/alone.world
+[0.509s] -- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/ouster_os1_64/test_ouster.py
+[0.516s] Invoked command in '/home/msi/caato2_ws/build/ouster-gazebo-simulation' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/ouster-gazebo-simulation

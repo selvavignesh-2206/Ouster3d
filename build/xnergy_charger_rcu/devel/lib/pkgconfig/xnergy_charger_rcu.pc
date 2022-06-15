@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/xnergy_charger_rcu/devel
+
+Name: xnergy_charger_rcu
+Description: Description of xnergy_charger_rcu
+Version: 0.1.0
+Cflags: -I/home/msi/caato2_ws/build/xnergy_charger_rcu/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs rospy sensor_msgs std_msgs message_runtime diagnostic_updater std_srvs

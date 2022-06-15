@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/rosserial_xbee/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/rosserial_xbee/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/rosserial_xbee
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/rosserial_xbee/lib/pkgconfig/rosserial_xbee.pc
+-- Installing: /home/msi/caato2_ws/install/rosserial_xbee/share/rosserial_xbee/cmake/rosserial_xbeeConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/rosserial_xbee/share/rosserial_xbee/cmake/rosserial_xbeeConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/rosserial_xbee/share/rosserial_xbee/package.xml
++ cd /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_xbee
++ mkdir -p /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages:/home/msi/caato2_ws/build/rosserial_xbee/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/msi/caato2_ws/build/rosserial_xbee /usr/bin/python3 /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_xbee/setup.py build --build-base /home/msi/caato2_ws/build/rosserial_xbee install --root=/ --install-layout=deb --prefix=/home/msi/caato2_ws/install/rosserial_xbee --install-scripts=/home/msi/caato2_ws/install/rosserial_xbee/bin
+running build
+running build_py
+creating /home/msi/caato2_ws/build/rosserial_xbee/lib
+creating /home/msi/caato2_ws/build/rosserial_xbee/lib/rosserial_xbee
+copying src/rosserial_xbee/__init__.py -> /home/msi/caato2_ws/build/rosserial_xbee/lib/rosserial_xbee
+creating /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee
+copying src/xbee/frame.py -> /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee
+copying src/xbee/base.py -> /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee
+copying src/xbee/zigbee.py -> /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee
+copying src/xbee/__init__.py -> /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee
+copying src/xbee/ieee.py -> /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee
+running install
+running install_lib
+creating /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/rosserial_xbee
+copying /home/msi/caato2_ws/build/rosserial_xbee/lib/rosserial_xbee/__init__.py -> /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/rosserial_xbee
+creating /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee
+copying /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee/frame.py -> /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee
+copying /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee/base.py -> /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee
+copying /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee/zigbee.py -> /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee
+copying /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee/__init__.py -> /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee
+copying /home/msi/caato2_ws/build/rosserial_xbee/lib/xbee/ieee.py -> /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee
+byte-compiling /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/rosserial_xbee/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee/frame.py to frame.cpython-38.pyc
+byte-compiling /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee/base.py to base.cpython-38.pyc
+byte-compiling /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee/zigbee.py to zigbee.cpython-38.pyc
+byte-compiling /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/xbee/ieee.py to ieee.cpython-38.pyc
+running install_egg_info
+Writing /home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages/rosserial_xbee-0.9.2.egg-info
+-- Installing: /home/msi/caato2_ws/install/rosserial_xbee/lib/rosserial_xbee/setup_xbee.py
+-- Installing: /home/msi/caato2_ws/install/rosserial_xbee/lib/rosserial_xbee/xbee_network.py

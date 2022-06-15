@@ -1,0 +1,32 @@
+[0.059s] Invoking command in '/home/msi/caato2_ws/build/caato2_description': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_description -- -j20 -l20
+[0.289s] Invoked command in '/home/msi/caato2_ws/build/caato2_description' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_description -- -j20 -l20
+[0.423s] Invoking command in '/home/msi/caato2_ws/build/caato2_description': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_description --target tests -- -j20 -l20
+[0.472s] Built target tests
+[0.520s] Invoked command in '/home/msi/caato2_ws/build/caato2_description' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_description --target tests -- -j20 -l20
+[0.598s] Invoking command in '/home/msi/caato2_ws/build/caato2_description': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato2_description
+[0.605s] -- Install configuration: ""
+[0.605s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/lib/pkgconfig/caato2_description.pc
+[0.606s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/cmake/caato2_descriptionConfig.cmake
+[0.607s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/cmake/caato2_descriptionConfig-version.cmake
+[0.607s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/package.xml
+[0.607s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes
+[0.607s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/wheels
+[0.608s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/wheels/Wheel.stl
+[0.608s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/wheels/caster_wheel.stl
+[0.609s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/sensors
+[0.609s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/sensors/hokuyo_laser_scanner.stl
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/sensors/pal.stl
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/bases
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/bases/body_with_arm.stl
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/bases/body_caato2_3d_lidar.stl
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/meshes/bases/Body.stl
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/urdf
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/urdf/common_properties.xacro
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/urdf/accessories
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/urdf/accessories/caato2.gazebo.xacro
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/urdf/accessories/sick_scan.urdf.xacro
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/urdf/caato2_3d.urdf.xacro
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/urdf/caato2.urdf.xacro
+[0.610s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/rviz
+[0.611s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_description/share/caato2_description/rviz/test.rviz
+[0.685s] Invoked command in '/home/msi/caato2_ws/build/caato2_description' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato2_description

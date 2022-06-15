@@ -1,0 +1,232 @@
+-- Package version (git describe): 2.1.1
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Performing Test R-pedantic
+-- Performing Test R-pedantic - Success
+-- Performing Test R-Wno-long-long
+-- Performing Test R-Wno-long-long - Success
+-- Performing Test R-Wall
+-- Performing Test R-Wall - Success
+-- Performing Test R-Wextra
+-- Performing Test R-Wextra - Success
+-- Performing Test R-Wcast-align
+-- Performing Test R-Wcast-align - Success
+-- Performing Test R-Wcast-qual
+-- Performing Test R-Wcast-qual - Success
+-- Performing Test R-Wformat
+-- Performing Test R-Wformat - Success
+-- Performing Test R-Wwrite-strings
+-- Performing Test R-Wwrite-strings - Success
+-- Performing Test R-Wconversion
+-- Performing Test R-Wconversion - Success
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+CMake Warning at cmake/doxygen.cmake:496 (MESSAGE):
+  Failed to find Doxygen, documentation will not be generated.
+Call Stack (most recent call first):
+  cmake/post-project.cmake:59 (_SETUP_PROJECT_DOCUMENTATION)
+  CMakeLists.txt:17 (project)
+
+
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/ouster-gazebo-simulation/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/ouster-gazebo-simulation/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /opt/ros/noetic/include (found suitable version "0.6.1", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.11.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.11.0
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.9.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.11.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.9.0
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.11.0
+-- Looking for ignition-fuel_tools4 -- found version 4.4.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.2.2
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.14.0
+-- Looking for ignition-math6 -- found version 6.11.0
+-- Looking for ignition-msgs5 -- found version 5.9.0
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/ouster-gazebo-simulation/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/ouster-gazebo-simulation/test_results
+-- Found gmock: gmock and gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Installing devel-space wrapper /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_os1_64/tests/test_ouster.py to /home/msi/caato2_ws/build/ouster-gazebo-simulation/devel/lib/ouster_os1_64
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/ouster-gazebo-simulation
+/usr/bin/cmake -S/home/msi/caato2_ws/src/siot/ouster-gazebo-simulation -B/home/msi/caato2_ws/build/ouster-gazebo-simulation --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/msi/caato2_ws/build/ouster-gazebo-simulation/CMakeFiles /home/msi/caato2_ws/build/ouster-gazebo-simulation/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+/usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/depend
+/usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/depend
+make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+cd /home/msi/caato2_ws/build/ouster-gazebo-simulation && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+cd /home/msi/caato2_ws/build/ouster-gazebo-simulation && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/DependInfo.cmake --color=
+[35m[1mScanning dependencies of target gazebo_ros_ouster_laser[0m
+[35m[1mScanning dependencies of target gazebo_ros_ouster_gpu_laser[0m
+make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+/usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/build
+make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+/usr/bin/make -f ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/build.make ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/build
+make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+make[2]: Entering directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[ 50%] [32mBuilding CXX object ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_laser.dir/src/GazeboRosOusterLaser.cpp.o[0m
+[ 50%] [32mBuilding CXX object ouster_gazebo_plugins/CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/src/GazeboRosOusterLaser.cpp.o[0m
+cd /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins && /usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_TEST_DYN_LINK -DBOOST_THREAD_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ouster_gazebo_plugins\" -Dgazebo_ros_ouster_laser_EXPORTS -I/home/msi/caato2_ws/build/ouster-gazebo-simulation -I/home/msi/caato2_ws/build/ouster-gazebo-simulation/include -I/home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/include -I/home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/sdformat-9.8 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /opt/ros/noetic/include -isystem /usr/include/simbody -isystem /usr/include/ignition/math6 -isystem /usr/include/ignition/transport8 -isystem /usr/include/ignition/msgs5 -isystem /usr/include/ignition/common3 -isystem /usr/include/ignition/fuel_tools4 -isystem /usr/include/eigen3 -isystem /usr/include/sdformat-9.8/sdf/.. -isystem /usr/include/ignition/cmake2 -isystem /usr/include/uuid  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion   -fPIC   -I/usr/include/uuid -std=gnu++17 -o CMakeFiles/gazebo_ros_ouster_laser.dir/src/GazeboRosOusterLaser.cpp.o -c /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins/src/GazeboRosOusterLaser.cpp
+cd /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins && /usr/bin/c++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_TEST_DYN_LINK -DBOOST_THREAD_DYN_LINK -DGAZEBO_GPU_RAY=1 -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ouster_gazebo_plugins\" -Dgazebo_ros_ouster_gpu_laser_EXPORTS -I/home/msi/caato2_ws/build/ouster-gazebo-simulation -I/home/msi/caato2_ws/build/ouster-gazebo-simulation/include -I/home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/include -I/home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/sdformat-9.8 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /opt/ros/noetic/include -isystem /usr/include/simbody -isystem /usr/include/ignition/math6 -isystem /usr/include/ignition/transport8 -isystem /usr/include/ignition/msgs5 -isystem /usr/include/ignition/common3 -isystem /usr/include/ignition/fuel_tools4 -isystem /usr/include/eigen3 -isystem /usr/include/sdformat-9.8/sdf/.. -isystem /usr/include/ignition/cmake2 -isystem /usr/include/uuid  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion   -fPIC   -I/usr/include/uuid -std=gnu++17 -o CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/src/GazeboRosOusterLaser.cpp.o -c /home/msi/caato2_ws/src/siot/ouster-gazebo-simulation/ouster_gazebo_plugins/src/GazeboRosOusterLaser.cpp
+[ 75%] [32m[1mLinking CXX shared library ../devel/lib/libgazebo_ros_ouster_gpu_laser.so[0m
+cd /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins && /usr/bin/cmake -E cmake_link_script CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion   -lpthread -shared -Wl,-soname,libgazebo_ros_ouster_gpu_laser.so -o ../devel/lib/libgazebo_ros_ouster_gpu_laser.so CMakeFiles/gazebo_ros_ouster_gpu_laser.dir/src/GazeboRosOusterLaser.cpp.o   -L/usr/lib/x86_64-linux-gnu/gazebo-11/plugins  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so -ltinyxml /opt/ros/noetic/lib/libroslib.so /opt/ros/noetic/lib/librospack.so -lpython3.8 /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0 -ltinyxml2 /opt/ros/noetic/lib/libtf.so /opt/ros/noetic/lib/libtf2_ros.so /opt/ros/noetic/lib/libactionlib.so /opt/ros/noetic/lib/libmessage_filters.so /opt/ros/noetic/lib/libroscpp.so -lpthread /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libtf2.so /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0 /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4 -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so.3.6 /usr/lib/x86_64-linux-gnu/libdart.so.6.9.2 -lgazebo -lgazebo_client -lgazebo_gui -lgazebo_sensors -lgazebo_rendering -lgazebo_physics -lgazebo_ode -lgazebo_transport -lgazebo_msgs -lgazebo_util -lgazebo_common -lgazebo_gimpact -lgazebo_opcode -lgazebo_opende_ou /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 -lprotobuf -lpthread /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.8.0 -lOgreMain /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 -lOgreTerrain -lOgrePaging /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.14.0 -lGpuRayPlugin /usr/lib/x86_64-linux-gnu/libSimTKmath.so.3.6 /usr/lib/x86_64-linux-gnu/libSimTKcommon.so.3.6 -lblas -llapack -lblas -llapack -lrt -lm -ldl /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.2 -lccd /opt/ros/noetic/lib/x86_64-linux-gnu/libfcl.so -lassimp /opt/ros/noetic/lib/liboctomap.so.1.9.8 /opt/ros/noetic/lib/liboctomath.so.1.9.8 /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0 /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.2.1 /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.4.0 /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.9.0 /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.11.0 /usr/lib/x86_64-linux-gnu/libprotobuf.so -lpthread /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.14.0 -lpthread /usr/lib/x86_64-linux-gnu/libuuid.so -luuid 
+[100%] [32m[1mLinking CXX shared library ../devel/lib/libgazebo_ros_ouster_laser.so[0m
+cd /home/msi/caato2_ws/build/ouster-gazebo-simulation/ouster_gazebo_plugins && /usr/bin/cmake -E cmake_link_script CMakeFiles/gazebo_ros_ouster_laser.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC  -pedantic -Wno-long-long -Wall -Wextra -Wcast-align -Wcast-qual -Wformat -Wwrite-strings -Wconversion   -lpthread -shared -Wl,-soname,libgazebo_ros_ouster_laser.so -o ../devel/lib/libgazebo_ros_ouster_laser.so CMakeFiles/gazebo_ros_ouster_laser.dir/src/GazeboRosOusterLaser.cpp.o   -L/usr/lib/x86_64-linux-gnu/gazebo-11/plugins  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so -ltinyxml /opt/ros/noetic/lib/libroslib.so /opt/ros/noetic/lib/librospack.so -lpython3.8 /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0 -ltinyxml2 /opt/ros/noetic/lib/libtf.so /opt/ros/noetic/lib/libtf2_ros.so /opt/ros/noetic/lib/libactionlib.so /opt/ros/noetic/lib/libmessage_filters.so /opt/ros/noetic/lib/libroscpp.so -lpthread /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 /opt/ros/noetic/lib/libxmlrpcpp.so /opt/ros/noetic/lib/libtf2.so /opt/ros/noetic/lib/librosconsole.so /opt/ros/noetic/lib/librosconsole_log4cxx.so /opt/ros/noetic/lib/librosconsole_backend_interface.so -llog4cxx /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0 /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so /opt/ros/noetic/lib/libroscpp_serialization.so /opt/ros/noetic/lib/librostime.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 /opt/ros/noetic/lib/libcpp_common.so /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4 -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so.3.6 /usr/lib/x86_64-linux-gnu/libdart.so.6.9.2 -lgazebo -lgazebo_client -lgazebo_gui -lgazebo_sensors -lgazebo_rendering -lgazebo_physics -lgazebo_ode -lgazebo_transport -lgazebo_msgs -lgazebo_util -lgazebo_common -lgazebo_gimpact -lgazebo_opcode -lgazebo_opende_ou /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 -lprotobuf -lpthread /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.8.0 -lOgreMain /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0 /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0 -lOgreTerrain -lOgrePaging /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.14.0 -lRayPlugin /usr/lib/x86_64-linux-gnu/libSimTKmath.so.3.6 /usr/lib/x86_64-linux-gnu/libSimTKcommon.so.3.6 -lblas -llapack -lblas -llapack -lrt -lm -ldl /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.2 -lccd /opt/ros/noetic/lib/x86_64-linux-gnu/libfcl.so -lassimp /opt/ros/noetic/lib/liboctomap.so.1.9.8 /opt/ros/noetic/lib/liboctomath.so.1.9.8 /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0 /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.2.1 /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.4.0 /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.9.0 /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.11.0 /usr/lib/x86_64-linux-gnu/libprotobuf.so -lpthread /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.14.0 -lpthread /usr/lib/x86_64-linux-gnu/libuuid.so -luuid 
+make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[100%] Built target gazebo_ros_ouster_gpu_laser
+make[2]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+[100%] Built target gazebo_ros_ouster_laser
+make[1]: Leaving directory '/home/msi/caato2_ws/build/ouster-gazebo-simulation'
+/usr/bin/cmake -E cmake_progress_start /home/msi/caato2_ws/build/ouster-gazebo-simulation/CMakeFiles 0
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster/gazebo/simulation/config.hh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster/gazebo/simulation/deprecated.hh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster/gazebo/simulation/warning.hh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig/ouster-gazebo-simulation.pc
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/_setup_util.py
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/env.sh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.bash
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.bash
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.sh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.sh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.zsh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.zsh
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/.rosinstall
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig/ouster_gazebo_plugins.pc
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_gazebo_plugins/cmake/ouster_gazebo_pluginsConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_gazebo_plugins/cmake/ouster_gazebo_pluginsConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_gazebo_plugins/package.xml
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/libgazebo_ros_ouster_laser.so
+-- Set runtime path of "/home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/libgazebo_ros_ouster_laser.so" to ""
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/libgazebo_ros_ouster_gpu_laser.so
+-- Set runtime path of "/home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/libgazebo_ros_ouster_gpu_laser.so" to ""
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster_gazebo_plugins
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/include/ouster_gazebo_plugins/GazeboRosOusterLaser.h
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/_setup_util.py
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/env.sh
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.bash
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.bash
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.sh
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.sh
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/setup.zsh
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/local_setup.zsh
+-- Up-to-date: /home/msi/caato2_ws/install/ouster-gazebo-simulation/.rosinstall
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig/ouster_os1_64.pc
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/cmake/ouster_os1_64Config.cmake
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/cmake/ouster_os1_64Config-version.cmake
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/package.xml
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/launch
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/launch/os1_64_alone.launch
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/launch/test_ouster.test
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/meshes
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/meshes/os1_64_reduced.stl
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/meshes/os1_64.stl
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/urdf
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/urdf/os1_64.urdf.xacro
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/urdf/example_robot.urdf.xacro
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/worlds
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/share/ouster_os1_64/worlds/alone.world
+-- Installing: /home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/ouster_os1_64/test_ouster.py

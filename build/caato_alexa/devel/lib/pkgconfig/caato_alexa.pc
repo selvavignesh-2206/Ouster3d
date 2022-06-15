@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/caato_alexa/devel
+
+Name: caato_alexa
+Description: Description of caato_alexa
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

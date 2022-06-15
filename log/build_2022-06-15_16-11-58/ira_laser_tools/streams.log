@@ -1,0 +1,32 @@
+[0.108s] Invoking command in '/home/msi/caato2_ws/build/ira_laser_tools': /usr/bin/cmake --build /home/msi/caato2_ws/build/ira_laser_tools -- -j20 -l20
+[0.301s] [ 33%] Built target ira_laser_tools_gencfg
+[0.301s] [ 66%] Built target laserscan_virtualizer
+[0.302s] [100%] Built target laserscan_multi_merger
+[0.365s] Invoked command in '/home/msi/caato2_ws/build/ira_laser_tools' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/ira_laser_tools -- -j20 -l20
+[0.630s] Invoking command in '/home/msi/caato2_ws/build/ira_laser_tools': /usr/bin/cmake --build /home/msi/caato2_ws/build/ira_laser_tools --target tests -- -j20 -l20
+[0.681s] Built target tests
+[0.740s] Invoked command in '/home/msi/caato2_ws/build/ira_laser_tools' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/ira_laser_tools --target tests -- -j20 -l20
+[0.899s] Invoking command in '/home/msi/caato2_ws/build/ira_laser_tools': /usr/bin/cmake --install /home/msi/caato2_ws/build/ira_laser_tools
+[0.946s] -- Install configuration: ""
+[0.947s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/include/ira_laser_tools/laserscan_multi_mergerConfig.h
+[0.947s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/include/ira_laser_tools/laserscan_virtualizerConfig.h
+[0.947s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/__init__.py
+[0.947s] Listing '/home/msi/caato2_ws/build/ira_laser_tools/devel/lib/python3/dist-packages/ira_laser_tools/cfg'...
+[0.947s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg
+[0.948s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/laserscan_multi_mergerConfig.py
+[0.948s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/laserscan_virtualizerConfig.py
+[0.948s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/__init__.py
+[0.950s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/__pycache__
+[0.950s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/__pycache__/laserscan_virtualizerConfig.cpython-38.pyc
+[0.950s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/__pycache__/laserscan_multi_mergerConfig.cpython-38.pyc
+[0.950s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages/ira_laser_tools/cfg/__pycache__/__init__.cpython-38.pyc
+[0.950s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/pkgconfig/ira_laser_tools.pc
+[0.950s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig.cmake
+[0.950s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/share/ira_laser_tools/cmake/ira_laser_toolsConfig-version.cmake
+[0.951s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/share/ira_laser_tools/package.xml
+[0.952s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/ira_laser_tools/laserscan_multi_merger
+[0.952s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/lib/ira_laser_tools/laserscan_virtualizer
+[0.952s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/share/ira_laser_tools/launch
+[0.952s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_virtualizer.launch
+[0.952s] -- Up-to-date: /home/msi/caato2_ws/install/ira_laser_tools/share/ira_laser_tools/launch/laserscan_multi_merger.launch
+[0.992s] Invoked command in '/home/msi/caato2_ws/build/ira_laser_tools' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/ira_laser_tools

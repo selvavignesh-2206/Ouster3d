@@ -1,0 +1,163 @@
+[0.138s] Invoking command in '/home/msi/caato2_ws/build/realsense2_camera': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_camera -- -j20 -l20
+[0.185s] [  0%] Built target std_msgs_generate_messages_eus
+[0.185s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.186s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.186s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.187s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.187s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[0.187s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.191s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.191s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.194s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.194s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.194s] [  0%] Built target std_msgs_generate_messages_py
+[0.195s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.195s] [  0%] Built target tf_generate_messages_lisp
+[0.195s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.195s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.195s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.195s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[0.210s] [  0%] Built target _realsense2_camera_generate_messages_check_deps_IMUInfo
+[0.212s] [  0%] Built target _realsense2_camera_generate_messages_check_deps_Extrinsics
+[0.226s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.226s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[0.230s] [  0%] Built target actionlib_generate_messages_py
+[0.230s] [  0%] Built target actionlib_generate_messages_cpp
+[0.230s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.230s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.230s] [  0%] Built target tf_generate_messages_nodejs
+[0.230s] [  0%] Built target roscpp_generate_messages_eus
+[0.233s] [  0%] Built target nav_msgs_generate_messages_eus
+[0.233s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.234s] [  0%] Built target tf_generate_messages_py
+[0.252s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.252s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.252s] [  0%] Built target tf_generate_messages_cpp
+[0.252s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.256s] [  0%] Built target actionlib_generate_messages_lisp
+[0.259s] [  0%] Built target _catkin_empty_exported_target
+[0.260s] [  0%] Built target nodelet_generate_messages_lisp
+[0.260s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.260s] [  0%] Built target roscpp_generate_messages_lisp
+[0.265s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.290s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[0.290s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.290s] [  0%] Built target tf_generate_messages_eus
+[0.291s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.291s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.291s] [  0%] Built target std_srvs_generate_messages_cpp
+[0.296s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.297s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.297s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.297s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.297s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.297s] [  0%] Built target nav_msgs_generate_messages_cpp
+[0.298s] [  0%] Built target roscpp_generate_messages_cpp
+[0.298s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.299s] [  0%] Built target roscpp_generate_messages_py
+[0.299s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.300s] [  0%] Built target nav_msgs_generate_messages_lisp
+[0.315s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.317s] [  0%] Built target actionlib_generate_messages_eus
+[0.317s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.317s] [  0%] Built target std_srvs_generate_messages_py
+[0.317s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[0.318s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.318s] [  0%] Built target bond_generate_messages_cpp
+[0.318s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[0.318s] [  0%] Built target bond_generate_messages_eus
+[0.319s] [  0%] Built target bond_generate_messages_lisp
+[0.321s] [  0%] Built target std_srvs_generate_messages_eus
+[0.324s] [  0%] Built target std_srvs_generate_messages_lisp
+[0.325s] [  0%] Built target bond_generate_messages_nodejs
+[0.325s] [  0%] Built target nodelet_generate_messages_eus
+[0.325s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.326s] [  0%] Built target nodelet_generate_messages_nodejs
+[0.326s] [  0%] Built target nodelet_generate_messages_cpp
+[0.331s] [ 12%] Built target realsense2_camera_generate_messages_nodejs
+[0.331s] [ 12%] Built target nav_msgs_generate_messages_py
+[0.332s] [ 25%] Built target realsense2_camera_generate_messages_lisp
+[0.332s] [ 25%] Built target bond_generate_messages_py
+[0.332s] [ 25%] Built target nodelet_generate_messages_py
+[0.332s] [ 25%] Built target std_srvs_generate_messages_nodejs
+[0.332s] [ 43%] Built target realsense2_camera_generate_messages_py
+[0.334s] [ 62%] Built target realsense2_camera_generate_messages_eus
+[0.335s] [ 75%] Built target realsense2_camera_generate_messages_cpp
+[0.350s] [ 75%] Built target realsense2_camera_generate_messages
+[0.357s] [100%] Built target realsense2_camera
+[0.436s] Invoked command in '/home/msi/caato2_ws/build/realsense2_camera' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_camera -- -j20 -l20
+[0.540s] Invoking command in '/home/msi/caato2_ws/build/realsense2_camera': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_camera --target tests -- -j20 -l20
+[0.608s] Built target tests
+[0.633s] Invoked command in '/home/msi/caato2_ws/build/realsense2_camera' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_camera --target tests -- -j20 -l20
+[0.724s] Invoking command in '/home/msi/caato2_ws/build/realsense2_camera': /usr/bin/cmake --install /home/msi/caato2_ws/build/realsense2_camera
+[0.727s] -- Install configuration: "Release"
+[0.728s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/msg/IMUInfo.msg
+[0.728s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/msg/Extrinsics.msg
+[0.728s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_camera-msg-paths.cmake
+[0.729s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera
+[0.729s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/IMUInfo.h
+[0.729s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/Extrinsics.h
+[0.730s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera
+[0.730s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/msg
+[0.730s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/msg/IMUInfo.l
+[0.730s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/msg/Extrinsics.l
+[0.730s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/roseus/ros/realsense2_camera/manifest.l
+[0.731s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera
+[0.732s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg
+[0.732s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package_Extrinsics.lisp
+[0.733s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package.lisp
+[0.733s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/realsense2_camera-msg.asd
+[0.733s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/_package_IMUInfo.lisp
+[0.733s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/Extrinsics.lisp
+[0.734s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/common-lisp/ros/realsense2_camera/msg/IMUInfo.lisp
+[0.734s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera
+[0.734s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/_index.js
+[0.734s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg
+[0.735s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js
+[0.735s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/_index.js
+[0.735s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/Extrinsics.js
+[0.738s] Listing '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera'...
+[0.739s] Listing '/home/msi/caato2_ws/build/realsense2_camera/devel/lib/python3/dist-packages/realsense2_camera/msg'...
+[0.739s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera
+[0.740s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg
+[0.740s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/_Extrinsics.py
+[0.740s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__init__.py
+[0.740s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__
+[0.740s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__/__init__.cpython-38.pyc
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__/_IMUInfo.cpython-38.pyc
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/__pycache__/_Extrinsics.cpython-38.pyc
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/msg/_IMUInfo.py
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/__init__.py
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/__pycache__
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages/realsense2_camera/__pycache__/__init__.cpython-38.pyc
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc
+[0.742s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_camera-msg-extras.cmake
+[0.743s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[0.743s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[0.743s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[0.743s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[0.743s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera
+[0.743s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/t265_realsense_node.h
+[0.743s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/realsense_node_factory.h
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/base_realsense_node.h
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/include/realsense2_camera/constants.h
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/includes
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/includes/nodelet.launch.xml
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_from_file.launch
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d435_camera_with_model.launch
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265.launch
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_rgbd.launch
+[0.744s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_rtabmap.launch
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_camera.launch
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/opensource_tracking.launch
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_t265.launch
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multiple_devices.launch
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_pointcloud.launch
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_aligned_depth.launch
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_t265.launch
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/rviz
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/rviz/t265.rviz
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/rviz/pointcloud.rviz
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_camera/share/realsense2_camera/nodelet_plugins.xml
+[0.757s] Invoked command in '/home/msi/caato2_ws/build/realsense2_camera' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/realsense2_camera

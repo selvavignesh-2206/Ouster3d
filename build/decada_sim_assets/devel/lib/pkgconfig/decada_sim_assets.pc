@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/decada_sim_assets/devel
+
+Name: decada_sim_assets
+Description: Description of decada_sim_assets
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs geometry_msgs nav_msgs tf gazebo_ros

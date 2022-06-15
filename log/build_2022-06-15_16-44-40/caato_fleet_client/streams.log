@@ -1,0 +1,15 @@
+[0.106s] Invoking command in '/home/msi/caato2_ws/build/caato_fleet_client': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_fleet_client -- -j20 -l20
+[0.356s] Invoked command in '/home/msi/caato2_ws/build/caato_fleet_client' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_fleet_client -- -j20 -l20
+[0.425s] Invoking command in '/home/msi/caato2_ws/build/caato_fleet_client': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_fleet_client --target tests -- -j20 -l20
+[0.470s] Built target tests
+[0.519s] Invoked command in '/home/msi/caato2_ws/build/caato_fleet_client' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_fleet_client --target tests -- -j20 -l20
+[0.613s] Invoking command in '/home/msi/caato2_ws/build/caato_fleet_client': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_fleet_client
+[0.623s] -- Install configuration: ""
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/caato_fleet_client/lib/pkgconfig/caato_fleet_client.pc
+[0.624s] -- Up-to-date: /home/msi/caato2_ws/install/caato_fleet_client/share/caato_fleet_client/cmake/caato_fleet_clientConfig.cmake
+[0.624s] -- Up-to-date: /home/msi/caato2_ws/install/caato_fleet_client/share/caato_fleet_client/cmake/caato_fleet_clientConfig-version.cmake
+[0.625s] -- Up-to-date: /home/msi/caato2_ws/install/caato_fleet_client/share/caato_fleet_client/package.xml
+[0.625s] -- Up-to-date: /home/msi/caato2_ws/install/caato_fleet_client/lib/caato_fleet_client/talker.py
+[0.626s] -- Up-to-date: /home/msi/caato2_ws/install/caato_fleet_client/lib/caato_fleet_client/listener.py
+[0.626s] -- Up-to-date: /home/msi/caato2_ws/install/caato_fleet_client/lib/caato_fleet_client/REST_API_Server.py
+[0.673s] Invoked command in '/home/msi/caato2_ws/build/caato_fleet_client' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_fleet_client

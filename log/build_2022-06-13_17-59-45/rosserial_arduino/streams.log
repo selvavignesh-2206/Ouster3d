@@ -1,0 +1,150 @@
+[0.124s] Invoking command in '/home/msi/caato2_ws/build/rosserial_arduino': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_arduino -- -j20 -l20
+[0.180s] [  0%] Built target _rosserial_arduino_generate_messages_check_deps_Adc
+[0.180s] [  0%] Built target _rosserial_arduino_generate_messages_check_deps_Test
+[0.185s] [ 15%] Built target rosserial_arduino_generate_messages_nodejs
+[0.189s] [ 69%] Built target rosserial_arduino_generate_messages_py
+[0.189s] [ 69%] Built target rosserial_arduino_generate_messages_eus
+[0.189s] [ 84%] Built target rosserial_arduino_generate_messages_lisp
+[0.189s] [100%] Built target rosserial_arduino_generate_messages_cpp
+[0.207s] [100%] Built target rosserial_arduino_generate_messages
+[0.278s] Invoked command in '/home/msi/caato2_ws/build/rosserial_arduino' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_arduino -- -j20 -l20
+[0.373s] Invoking command in '/home/msi/caato2_ws/build/rosserial_arduino': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_arduino --target tests -- -j20 -l20
+[0.425s] Built target tests
+[0.507s] Invoked command in '/home/msi/caato2_ws/build/rosserial_arduino' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_arduino --target tests -- -j20 -l20
+[0.539s] Invoking command in '/home/msi/caato2_ws/build/rosserial_arduino': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_arduino
+[0.584s] -- Install configuration: ""
+[0.584s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/msg/Adc.msg
+[0.584s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/srv/Test.srv
+[0.584s] + cd /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_arduino
+[0.585s] + mkdir -p /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages
+[0.585s] + /usr/bin/env PYTHONPATH=/home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages:/home/msi/caato2_ws/build/rosserial_arduino/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/msi/caato2_ws/build/rosserial_arduino /usr/bin/python3 /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_arduino/setup.py build --build-base /home/msi/caato2_ws/build/rosserial_arduino install --root=/ --install-layout=deb --prefix=/home/msi/caato2_ws/install/rosserial_arduino --install-scripts=/home/msi/caato2_ws/install/rosserial_arduino/bin
+[0.608s] running build
+[0.608s] running build_py
+[0.609s] running install
+[0.609s] running install_lib
+[0.609s] running install_egg_info
+[0.610s] Removing /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino-0.9.2.egg-info
+[0.610s] Writing /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino-0.9.2.egg-info
+[0.616s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/cmake/rosserial_arduino-msg-paths.cmake
+[0.616s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/include/rosserial_arduino
+[0.616s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/include/rosserial_arduino/TestResponse.h
+[0.616s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/include/rosserial_arduino/Adc.h
+[0.617s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/include/rosserial_arduino/TestRequest.h
+[0.617s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/include/rosserial_arduino/Test.h
+[0.617s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/roseus/ros/rosserial_arduino
+[0.618s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/roseus/ros/rosserial_arduino/msg
+[0.618s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/roseus/ros/rosserial_arduino/msg/Adc.l
+[0.618s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/roseus/ros/rosserial_arduino/manifest.l
+[0.618s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/roseus/ros/rosserial_arduino/srv
+[0.618s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/roseus/ros/rosserial_arduino/srv/Test.l
+[0.619s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino
+[0.619s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/msg
+[0.619s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/msg/_package.lisp
+[0.620s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/msg/rosserial_arduino-msg.asd
+[0.620s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/msg/_package_Adc.lisp
+[0.620s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/msg/Adc.lisp
+[0.620s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/srv
+[0.621s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/srv/_package.lisp
+[0.622s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/srv/Test.lisp
+[0.622s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/srv/_package_Test.lisp
+[0.622s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/common-lisp/ros/rosserial_arduino/srv/rosserial_arduino-srv.asd
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/_index.js
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/msg
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/msg/_index.js
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/msg/Adc.js
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/srv
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/srv/_index.js
+[0.623s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/gennodejs/ros/rosserial_arduino/srv/Test.js
+[0.625s] Listing '/home/msi/caato2_ws/build/rosserial_arduino/devel/lib/python3/dist-packages/rosserial_arduino'...
+[0.625s] Listing '/home/msi/caato2_ws/build/rosserial_arduino/devel/lib/python3/dist-packages/rosserial_arduino/msg'...
+[0.625s] Listing '/home/msi/caato2_ws/build/rosserial_arduino/devel/lib/python3/dist-packages/rosserial_arduino/srv'...
+[0.625s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino
+[0.625s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg
+[0.625s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg/_Adc.py
+[0.626s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg/__pycache__
+[0.626s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg/__pycache__/__init__.cpython-38.pyc
+[0.626s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg/__pycache__/_Adc.cpython-38.pyc
+[0.627s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv
+[0.627s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv/_Test.py
+[0.627s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv/__pycache__
+[0.627s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv/__pycache__/__init__.cpython-38.pyc
+[0.627s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv/__pycache__/_Test.cpython-38.pyc
+[0.627s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/__pycache__
+[0.628s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/__pycache__/__init__.cpython-38.pyc
+[0.629s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino
+[0.629s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg
+[0.629s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg/__init__.py
+[0.629s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/msg/__pycache__
+[0.629s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv
+[0.630s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv/__init__.py
+[0.630s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/srv/__pycache__
+[0.631s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages/rosserial_arduino/__pycache__
+[0.631s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/pkgconfig/rosserial_arduino.pc
+[0.631s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/cmake/rosserial_arduino-msg-extras.cmake
+[0.631s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/cmake/rosserial_arduino-extras.cmake
+[0.631s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/cmake/rosserial_arduinoConfig.cmake
+[0.632s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/cmake/rosserial_arduinoConfig-version.cmake
+[0.632s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/package.xml
+[0.632s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib
+[0.632s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/ArduinoHardware.h
+[0.634s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/ArduinoTcpHardware.h
+[0.634s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/tests
+[0.634s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/tests/time_test
+[0.634s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/tests/time_test/time_test.pde
+[0.634s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/tests/float64_test
+[0.635s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/tests/float64_test/float64_test.pde
+[0.635s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/tests/array_test
+[0.635s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/tests/array_test/array_test.pde
+[0.636s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples
+[0.637s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/BlinkM
+[0.637s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/BlinkM/BlinkM.pde
+[0.637s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/BlinkM/BlinkM_funcs.h
+[0.638s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/pubsub
+[0.638s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/pubsub/pubsub.pde
+[0.639s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Logging
+[0.639s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Logging/Logging.pde
+[0.640s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ServoControl
+[0.640s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ServoControl/ServoControl.pde
+[0.641s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ADC
+[0.642s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ADC/ADC.pde
+[0.645s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Blink
+[0.645s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Blink/Blink.pde
+[0.646s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Clapper
+[0.647s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Clapper/Clapper.pde
+[0.647s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/IrRanger
+[0.648s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/IrRanger/IrRanger.pde
+[0.648s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/TimeTF
+[0.648s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/TimeTF/TimeTF.pde
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/HelloWorld
+[0.651s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/HelloWorld/HelloWorld.pde
+[0.651s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Temperature
+[0.651s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Temperature/Temperature.pde
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/TcpBlink
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/TcpBlink/TcpBlink.ino
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Odom
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Odom/Odom.pde
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/button_example
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/button_example/button_example.pde
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ServiceServer
+[0.653s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ServiceServer/ServiceServer.pde
+[0.653s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Esp8266HelloWorld
+[0.653s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Esp8266HelloWorld/Esp8266HelloWorld.ino
+[0.653s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/BlinkerWithClass
+[0.653s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/BlinkerWithClass/BlinkerWithClass.ino
+[0.653s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Ultrasound
+[0.654s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/Ultrasound/Ultrasound.pde
+[0.654s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/TcpHelloWorld
+[0.654s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/TcpHelloWorld/TcpHelloWorld.ino
+[0.654s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ServiceClient
+[0.654s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ServiceClient/ServiceClient.pde
+[0.654s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/examples/ServiceClient/client.py
+[0.654s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/src/ros_lib/ros.h
+[0.655s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/arduino-cmake
+[0.655s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/arduino-cmake/cmake
+[0.656s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/arduino-cmake/cmake/ArduinoToolchain.cmake
+[0.656s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/arduino-cmake/cmake/Platform
+[0.656s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/share/rosserial_arduino/arduino-cmake/cmake/Platform/Arduino.cmake
+[0.657s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/rosserial_arduino/make_libraries.py
+[0.657s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_arduino/lib/rosserial_arduino/serial_node.py
+[0.686s] Invoked command in '/home/msi/caato2_ws/build/rosserial_arduino' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_arduino

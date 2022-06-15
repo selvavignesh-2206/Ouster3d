@@ -1,0 +1,5 @@
+/home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc
+/home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+/home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+/home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/package.xml
+/home/msi/caato2_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions.h

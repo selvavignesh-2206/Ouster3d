@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/atc_msgs/devel
+
+Name: atc_msgs
+Description: Description of atc_msgs
+Version: 0.0.0
+Cflags: -I/home/msi/caato2_ws/build/atc_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/install/caato_description
+
+Name: caato_description
+Description: Description of caato_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

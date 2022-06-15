@@ -1,0 +1,111 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/rosinrange_msg/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/amcl3d/amcl3d/devel;/opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/rosinrange_msg/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rosinrange_msg: 1 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/rosinrange_msg
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target _rosinrange_msg_generate_messages_check_deps_RangePose[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _rosinrange_msg_generate_messages_check_deps_RangePose
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_py[0m
+[ 28%] [34m[1mGenerating C++ code from rosinrange_msg/RangePose.msg[0m
+[ 28%] [34m[1mGenerating EusLisp code from rosinrange_msg/RangePose.msg[0m
+[ 42%] [34m[1mGenerating Lisp code from rosinrange_msg/RangePose.msg[0m
+[ 57%] [34m[1mGenerating Python from MSG rosinrange_msg/RangePose[0m
+[ 71%] [34m[1mGenerating Javascript code from rosinrange_msg/RangePose.msg[0m
+[ 85%] [34m[1mGenerating EusLisp manifest code for rosinrange_msg[0m
+[ 85%] Built target rosinrange_msg_generate_messages_lisp
+[ 85%] Built target rosinrange_msg_generate_messages_nodejs
+[ 85%] Built target rosinrange_msg_generate_messages_cpp
+[100%] [34m[1mGenerating Python msg __init__.py for rosinrange_msg[0m
+[100%] Built target rosinrange_msg_generate_messages_py
+[100%] Built target rosinrange_msg_generate_messages_eus
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages[0m
+[100%] Built target rosinrange_msg_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/rosinrange_msg/msg/RangePose.msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/rosinrange_msg/cmake/rosinrange_msg-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/include/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/include/rosinrange_msg/RangePose.h
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/roseus/ros/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/roseus/ros/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/roseus/ros/rosinrange_msg/msg/RangePose.l
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/roseus/ros/rosinrange_msg/manifest.l
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/common-lisp/ros/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/common-lisp/ros/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/common-lisp/ros/rosinrange_msg/msg/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/common-lisp/ros/rosinrange_msg/msg/rosinrange_msg-msg.asd
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/common-lisp/ros/rosinrange_msg/msg/_package_RangePose.lisp
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/common-lisp/ros/rosinrange_msg/msg/RangePose.lisp
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/gennodejs/ros/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/gennodejs/ros/rosinrange_msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/gennodejs/ros/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/gennodejs/ros/rosinrange_msg/msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/gennodejs/ros/rosinrange_msg/msg/RangePose.js
+Listing '/home/msi/caato2_ws/build/rosinrange_msg/devel/lib/python3/dist-packages/rosinrange_msg'...
+Compiling '/home/msi/caato2_ws/build/rosinrange_msg/devel/lib/python3/dist-packages/rosinrange_msg/__init__.py'...
+Listing '/home/msi/caato2_ws/build/rosinrange_msg/devel/lib/python3/dist-packages/rosinrange_msg/msg'...
+Compiling '/home/msi/caato2_ws/build/rosinrange_msg/devel/lib/python3/dist-packages/rosinrange_msg/msg/_RangePose.py'...
+Compiling '/home/msi/caato2_ws/build/rosinrange_msg/devel/lib/python3/dist-packages/rosinrange_msg/msg/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/msg/_RangePose.py
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/msg/__pycache__/_RangePose.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages/rosinrange_msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/lib/pkgconfig/rosinrange_msg.pc
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/rosinrange_msg/cmake/rosinrange_msg-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/rosinrange_msg/cmake/rosinrange_msgConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/rosinrange_msg/cmake/rosinrange_msgConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/rosinrange_msg/share/rosinrange_msg/package.xml

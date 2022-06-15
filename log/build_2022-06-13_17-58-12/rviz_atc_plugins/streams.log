@@ -1,0 +1,83 @@
+[0.128s] Invoking command in '/home/msi/caato2_ws/build/rviz_atc_plugins': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_meta_package/rviz_atc_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/rviz_atc_plugins
+[0.902s] -- The C compiler identification is GNU 8.4.0
+[0.902s] -- The CXX compiler identification is GNU 8.4.0
+[0.905s] -- Check for working C compiler: /usr/bin/cc
+[0.905s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.906s] -- Detecting C compiler ABI info
+[0.906s] -- Detecting C compiler ABI info - done
+[0.906s] -- Detecting C compile features
+[0.906s] -- Detecting C compile features - done
+[0.906s] -- Check for working CXX compiler: /usr/bin/c++
+[0.910s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.911s] -- Detecting CXX compiler ABI info
+[1.070s] -- Detecting CXX compiler ABI info - done
+[1.103s] -- Detecting CXX compile features
+[1.103s] -- Detecting CXX compile features - done
+[1.106s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/rviz_atc_plugins/devel
+[1.107s] -- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/plc_modbus_node;/home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/opt/ros/noetic
+[1.107s] -- This workspace overlays: /home/msi/caato2_ws/install/plc_modbus_node;/home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/opt/ros/noetic
+[1.140s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.140s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.140s] -- Using Debian Python package layout
+[1.189s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.190s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.389s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.389s] -- Call enable_testing()
+[1.392s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/rviz_atc_plugins/test_results
+[1.988s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.989s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.989s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.032s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.032s] -- Found Threads: TRUE  
+[2.032s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.107s] -- catkin 0.8.10
+[2.107s] -- BUILD_SHARED_LIBS is on
+[2.463s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.099s] -- Using Qt5 based on the rviz_QT_VERSION: 5.12.8
+[3.121s] -- Installing devel-space wrapper /home/msi/caato2_ws/src/siot/atc_meta_package/rviz_atc_plugins/scripts/send_test_msgs.py to /home/msi/caato2_ws/build/rviz_atc_plugins/devel/lib/rviz_atc_plugins
+[3.129s] -- Configuring done
+[3.240s] -- Generating done
+[3.261s] -- Build files have been written to: /home/msi/caato2_ws/build/rviz_atc_plugins
+[3.291s] Invoked command in '/home/msi/caato2_ws/build/rviz_atc_plugins' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_meta_package/rviz_atc_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/rviz_atc_plugins
+[3.292s] Invoking command in '/home/msi/caato2_ws/build/rviz_atc_plugins': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rviz_atc_plugins -- -j20 -l20
+[3.546s] [35m[1mScanning dependencies of target rviz_atc_plugins_autogen[0m
+[3.612s] [ 12%] [34m[1mAutomatic MOC for target rviz_atc_plugins[0m
+[5.094s] [ 12%] Built target rviz_atc_plugins_autogen
+[5.123s] [35m[1mScanning dependencies of target rviz_atc_plugins[0m
+[5.324s] [ 25%] [32mBuilding CXX object CMakeFiles/rviz_atc_plugins.dir/rviz_atc_plugins_autogen/mocs_compilation.cpp.o[0m
+[5.349s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_atc_plugins.dir/src/drive_widget.cpp.o[0m
+[5.368s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_atc_plugins.dir/src/ImageTrackerInfo.cpp.o[0m
+[5.375s] [ 62%] [32mBuilding CXX object CMakeFiles/rviz_atc_plugins.dir/src/image_click_tool.cpp.o[0m
+[5.404s] [ 75%] [32mBuilding CXX object CMakeFiles/rviz_atc_plugins.dir/src/image_tracker_panel.cpp.o[0m
+[5.473s] [ 87%] [32mBuilding CXX object CMakeFiles/rviz_atc_plugins.dir/src/image_tracker_display.cpp.o[0m
+[14.454s] [100%] [32m[1mLinking CXX shared library devel/lib/librviz_atc_plugins.so[0m
+[15.234s] [100%] Built target rviz_atc_plugins
+[15.240s] Invoked command in '/home/msi/caato2_ws/build/rviz_atc_plugins' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rviz_atc_plugins -- -j20 -l20
+[15.285s] Invoking command in '/home/msi/caato2_ws/build/rviz_atc_plugins': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rviz_atc_plugins --target tests -- -j20 -l20
+[15.320s] [35m[1mScanning dependencies of target tests[0m
+[15.326s] Built target tests
+[15.334s] Invoked command in '/home/msi/caato2_ws/build/rviz_atc_plugins' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rviz_atc_plugins --target tests -- -j20 -l20
+[15.379s] Invoking command in '/home/msi/caato2_ws/build/rviz_atc_plugins': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rviz_atc_plugins
+[15.385s] -- Install configuration: ""
+[15.385s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/lib/pkgconfig/rviz_atc_plugins.pc
+[15.385s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/cmake/rviz_atc_pluginsConfig.cmake
+[15.385s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/cmake/rviz_atc_pluginsConfig-version.cmake
+[15.385s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/package.xml
+[15.386s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/lib/librviz_atc_plugins.so
+[15.387s] -- Set runtime path of "/home/msi/caato2_ws/install/rviz_atc_plugins/lib/librviz_atc_plugins.so" to ""
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/plugin_description.xml
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/atc_rviz.sim.rviz
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/atc_rviz.rviz
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/with_tag_detection.rviz
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/flag2.dae
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/flag.dae
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/arrow.dae
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons
+[15.387s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes
+[15.388s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/PlantFlag.png
+[15.388s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/Imu.png
+[15.388s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/Teleop.png
+[15.388s] -- Installing: /home/msi/caato2_ws/install/rviz_atc_plugins/lib/rviz_atc_plugins/send_test_msgs.py
+[15.389s] Invoked command in '/home/msi/caato2_ws/build/rviz_atc_plugins' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rviz_atc_plugins

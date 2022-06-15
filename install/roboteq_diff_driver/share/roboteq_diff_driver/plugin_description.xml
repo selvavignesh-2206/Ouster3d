@@ -1,0 +1,9 @@
+<library path="lib/libroboteq_diff_driver">
+  <class name="roboteq_plugin/Roboteq"
+         type="roboteq_plugin::RoboteqPanel"
+         base_class_type="rviz::Panel">
+    <description>
+      Roboteq panel to display motor controller information.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,1004 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'pcl_ros']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], bazel_args=None, bazel_task=None, build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe02a7c8eb0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['pcl_ros'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=20, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe02a7c8eb0>, verb_name='build', verb_parser=<colcon_alias.argument_parser.alias.AliasArgumentDecorator object at 0x7fe02a7d6820>)
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.150s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/msi/caato2_ws'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['bazel', 'cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'bazel'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['bazel', 'cmake', 'python']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'bazel'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'ros'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extensions ['bazel', 'cmake', 'python']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'bazel'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'cmake'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'python'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extensions ['python_setup_py']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot) by extension 'python_setup_py'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/amcl3d) by extension 'ros'
+[0.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/amcl3d' with type 'ros.catkin' and name 'amcl3d'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extensions ['bazel', 'cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'bazel'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'cmake'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'python'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extensions ['python_setup_py']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_msgs) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/atc_meta_package/atc_msgs' with type 'ros.catkin' and name 'atc_msgs'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_stm) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/atc_meta_package/atc_stm' with type 'ros.catkin' and name 'atc_stm'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_utils) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/atc_meta_package/atc_utils' with type 'ros.catkin' and name 'atc_utils'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/atc_waypoints) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/atc_meta_package/atc_waypoints' with type 'ros.catkin' and name 'atc_waypoints'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_meta_package/rviz_atc_plugins) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/atc_meta_package/rviz_atc_plugins' with type 'ros.catkin' and name 'rviz_atc_plugins'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extensions ['bazel', 'cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'bazel'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing) by extension 'python_setup_py'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/atc_vision_servoing/apriltag' with type 'ros.cmake' and name 'apriltag'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/atc_vision_servoing/apriltag_ros) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/atc_vision_servoing/apriltag_ros' with type 'ros.catkin' and name 'apriltag_ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extensions ['bazel', 'cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'bazel'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato/caato' with type 'ros.catkin' and name 'caato'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_bringup) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato/caato_bringup' with type 'ros.catkin' and name 'caato_bringup'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_description) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato/caato_description' with type 'ros.catkin' and name 'caato_description'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_gazebo) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato/caato_gazebo' with type 'ros.catkin' and name 'caato_gazebo'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_navigation) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato/caato_navigation' with type 'ros.catkin' and name 'caato_navigation'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_slam) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato/caato_slam' with type 'ros.catkin' and name 'caato_slam'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato/caato_teleop) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato/caato_teleop' with type 'ros.catkin' and name 'caato_teleop'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extensions ['bazel', 'cmake', 'python']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'bazel'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'cmake'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'python'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extensions ['python_setup_py']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2) by extension 'python_setup_py'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_bringup) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato2/caato2_bringup' with type 'ros.catkin' and name 'caato2_bringup'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_cmd_mux) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato2/caato2_cmd_mux' with type 'ros.catkin' and name 'caato2_cmd_mux'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_description) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato2/caato2_description' with type 'ros.catkin' and name 'caato2_description'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_examples) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato2/caato2_examples' with type 'ros.catkin' and name 'caato2_examples'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_gazebo) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato2/caato2_gazebo' with type 'ros.catkin' and name 'caato2_gazebo'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato2_navigation) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato2/caato2_navigation' with type 'ros.catkin' and name 'caato2_navigation'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/caato2/caato_fleet_client) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/caato2/caato_fleet_client' with type 'ros.catkin' and name 'caato_fleet_client'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/decada_sim_assets) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/decada_sim_assets' with type 'ros.catkin' and name 'decada_sim_assets'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ds4_driver) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/ds4_driver' with type 'ros.catkin' and name 'ds4_driver'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/flask_ask_ros_caato) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/flask_ask_ros_caato' with type 'ros.catkin' and name 'caato_alexa'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ira_laser_tools) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/ira_laser_tools' with type 'ros.catkin' and name 'ira_laser_tools'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/laser_filters) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/laser_filters' with type 'ros.catkin' and name 'laser_filters'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extensions ['bazel', 'cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'bazel'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_mapping) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/octomap_mapping/octomap_mapping' with type 'ros.catkin' and name 'octomap_mapping'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/octomap_mapping/octomap_server) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/octomap_mapping/octomap_server' with type 'ros.catkin' and name 'octomap_server'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extensions ['bazel', 'cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'bazel'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster-gazebo-simulation) by extension 'python'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/ouster-gazebo-simulation' with type 'cmake' and name 'ouster-gazebo-simulation'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extensions ['bazel', 'cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'bazel'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/ouster_example) by extension 'python'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/ouster_example' with type 'cmake' and name 'ouster_example'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extensions ['bazel', 'cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'bazel'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_conversions) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/perception_pcl/pcl_conversions' with type 'ros.catkin' and name 'pcl_conversions'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/pcl_ros) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/perception_pcl/pcl_ros' with type 'ros.catkin' and name 'pcl_ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/perception_pcl/perception_pcl) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/perception_pcl/perception_pcl' with type 'ros.catkin' and name 'perception_pcl'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extensions ['bazel', 'cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'bazel'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/device_diagnostics) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/plc-rosbridge/device_diagnostics' with type 'ros.catkin' and name 'device_diagnostics'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/plc-rosbridge/plc_modbus_node) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/plc-rosbridge/plc_modbus_node' with type 'ros.catkin' and name 'plc_modbus_node'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extensions ['bazel', 'cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'bazel'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_camera) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/realsense-ros/realsense2_camera' with type 'ros.catkin' and name 'realsense2_camera'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense-ros/realsense2_description) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/realsense-ros/realsense2_description' with type 'ros.catkin' and name 'realsense2_description'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/realsense_gazebo_plugin) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/realsense_gazebo_plugin' with type 'ros.catkin' and name 'realsense_gazebo_plugin'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extensions ['bazel', 'cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'bazel'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_driver) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/roboteq_diff_driver/roboteq_diff_driver' with type 'ros.catkin' and name 'roboteq_diff_driver'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/roboteq_diff_driver/roboteq_diff_msgs) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/roboteq_diff_driver/roboteq_diff_msgs' with type 'ros.catkin' and name 'roboteq_diff_msgs'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/rosinrange_msg) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/rosinrange_msg' with type 'ros.catkin' and name 'rosinrange_msg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/trolley_arm) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/trolley_arm' with type 'ros.catkin' and name 'trolley_arm'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/siot/xnergy_charger_rcu) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/siot/xnergy_charger_rcu' with type 'ros.catkin' and name 'xnergy_charger_rcu'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extensions ['bazel', 'cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'bazel'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/eband_local_planner) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/eband_local_planner' with type 'ros.catkin' and name 'eband_local_planner'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/map_server) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/map_server' with type 'ros.catkin' and name 'map_server'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extensions ['bazel', 'cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'bazel'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial' with type 'ros.catkin' and name 'rosserial'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_arduino) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_arduino' with type 'ros.catkin' and name 'rosserial_arduino'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_chibios) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_chibios' with type 'ros.catkin' and name 'rosserial_chibios'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_client) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_client' with type 'ros.catkin' and name 'rosserial_client'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_embeddedlinux) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_embeddedlinux' with type 'ros.catkin' and name 'rosserial_embeddedlinux'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_mbed) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_mbed' with type 'ros.catkin' and name 'rosserial_mbed'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_msgs) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_msgs' with type 'ros.catkin' and name 'rosserial_msgs'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_python) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_python' with type 'ros.catkin' and name 'rosserial_python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_server) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_server' with type 'ros.catkin' and name 'rosserial_server'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_test) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_test' with type 'ros.catkin' and name 'rosserial_test'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_tivac) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_tivac' with type 'ros.catkin' and name 'rosserial_tivac'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_cortex) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_vex_cortex' with type 'ros.catkin' and name 'rosserial_vex_cortex'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_vex_v5) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_vex_v5' with type 'ros.catkin' and name 'rosserial_vex_v5'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_windows) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_windows' with type 'ros.catkin' and name 'rosserial_windows'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/rosserial/rosserial_xbee) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/rosserial/rosserial_xbee' with type 'ros.catkin' and name 'rosserial_xbee'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/thirdparty/teleop_twist_joy) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/thirdparty/teleop_twist_joy' with type 'ros.catkin' and name 'teleop_twist_joy'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'ros'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extensions ['bazel', 'cmake', 'python']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'bazel'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'cmake'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'python'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extensions ['python_setup_py']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(test_ssh_key) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'apriltag' in 'src/siot/atc_vision_servoing/apriltag'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'atc_msgs' in 'src/siot/atc_meta_package/atc_msgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'atc_utils' in 'src/siot/atc_meta_package/atc_utils'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato2_cmd_mux' in 'src/siot/caato2/caato2_cmd_mux'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato2_description' in 'src/siot/caato2/caato2_description'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_alexa' in 'src/siot/flask_ask_ros_caato'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_description' in 'src/siot/caato/caato_description'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_fleet_client' in 'src/siot/caato2/caato_fleet_client'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_gazebo' in 'src/siot/caato/caato_gazebo'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'decada_sim_assets' in 'src/siot/decada_sim_assets'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'device_diagnostics' in 'src/siot/plc-rosbridge/device_diagnostics'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ds4_driver' in 'src/siot/ds4_driver'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'eband_local_planner' in 'src/thirdparty/eband_local_planner'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'laser_filters' in 'src/siot/laser_filters'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'map_server' in 'src/thirdparty/map_server'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ouster-gazebo-simulation' in 'src/siot/ouster-gazebo-simulation'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ouster_example' in 'src/siot/ouster_example'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pcl_conversions' in 'src/siot/perception_pcl/pcl_conversions'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'plc_modbus_node' in 'src/siot/plc-rosbridge/plc_modbus_node'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera' in 'src/siot/realsense-ros/realsense2_camera'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_description' in 'src/siot/realsense-ros/realsense2_description'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense_gazebo_plugin' in 'src/siot/realsense_gazebo_plugin'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'roboteq_diff_msgs' in 'src/siot/roboteq_diff_driver/roboteq_diff_msgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosinrange_msg' in 'src/siot/rosinrange_msg'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_msgs' in 'src/thirdparty/rosserial/rosserial_msgs'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop_twist_joy' in 'src/thirdparty/teleop_twist_joy'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'trolley_arm' in 'src/siot/trolley_arm'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'xnergy_charger_rcu' in 'src/siot/xnergy_charger_rcu'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'apriltag_ros' in 'src/siot/atc_vision_servoing/apriltag_ros'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'atc_waypoints' in 'src/siot/atc_meta_package/atc_waypoints'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato2_gazebo' in 'src/siot/caato2/caato2_gazebo'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'roboteq_diff_driver' in 'src/siot/roboteq_diff_driver/roboteq_diff_driver'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_client' in 'src/thirdparty/rosserial/rosserial_client'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_python' in 'src/thirdparty/rosserial/rosserial_python'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_server' in 'src/thirdparty/rosserial/rosserial_server'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rviz_atc_plugins' in 'src/siot/atc_meta_package/rviz_atc_plugins'
+[0.258s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'amcl3d' in 'src/siot/amcl3d'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'atc_stm' in 'src/siot/atc_meta_package/atc_stm'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ira_laser_tools' in 'src/siot/ira_laser_tools'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'octomap_server' in 'src/siot/octomap_mapping/octomap_server'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'perception_pcl' in 'src/siot/perception_pcl/perception_pcl'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial' in 'src/thirdparty/rosserial/rosserial'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_arduino' in 'src/thirdparty/rosserial/rosserial_arduino'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_chibios' in 'src/thirdparty/rosserial/rosserial_chibios'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_embeddedlinux' in 'src/thirdparty/rosserial/rosserial_embeddedlinux'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_mbed' in 'src/thirdparty/rosserial/rosserial_mbed'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_test' in 'src/thirdparty/rosserial/rosserial_test'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_tivac' in 'src/thirdparty/rosserial/rosserial_tivac'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_vex_cortex' in 'src/thirdparty/rosserial/rosserial_vex_cortex'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_vex_v5' in 'src/thirdparty/rosserial/rosserial_vex_v5'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_windows' in 'src/thirdparty/rosserial/rosserial_windows'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosserial_xbee' in 'src/thirdparty/rosserial/rosserial_xbee'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato2_bringup' in 'src/siot/caato2/caato2_bringup'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato2_examples' in 'src/siot/caato2/caato2_examples'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_bringup' in 'src/siot/caato/caato_bringup'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'octomap_mapping' in 'src/siot/octomap_mapping/octomap_mapping'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato2_navigation' in 'src/siot/caato2/caato2_navigation'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_navigation' in 'src/siot/caato/caato_navigation'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_slam' in 'src/siot/caato/caato_slam'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato_teleop' in 'src/siot/caato/caato_teleop'
+[0.259s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'caato' in 'src/siot/caato/caato'
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 59 installed packages in /home/msi/caato2_ws/install
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /opt/ros/noetic
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.268s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'pcl_ros' is in: /home/msi/caato2_ws/install/pcl_ros
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding pcl_ros
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'bazel_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'bazel_task' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_ros' with the following arguments: {'ament_cmake_args': None, 'bazel_args': None, 'bazel_task': None, 'build_base': '/home/msi/caato2_ws/build/pcl_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/msi/caato2_ws/install/pcl_ros', 'merge_install': False, 'path': '/home/msi/caato2_ws/src/siot/perception_pcl/pcl_ros', 'symlink_install': False, 'test_result_base': None}
+[0.269s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.271s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/msi/caato2_ws/src/siot/perception_pcl/pcl_ros' with build type 'catkin'
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/msi/caato2_ws/src/siot/perception_pcl/pcl_ros'
+[0.274s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/msi/caato2_ws/install/ouster-gazebo-simulation'
+[0.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/msi/caato2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/pcl_conversions:/home/msi/caato2_ws/install/xnergy_charger_rcu:/home/msi/caato2_ws/install/trolley_arm:/home/msi/caato2_ws/install/teleop_twist_joy:/home/msi/caato2_ws/install/rviz_atc_plugins:/home/msi/caato2_ws/install/rosserial_xbee:/home/msi/caato2_ws/install/rosserial_windows:/home/msi/caato2_ws/install/rosserial_vex_v5:/home/msi/caato2_ws/install/rosserial_vex_cortex:/home/msi/caato2_ws/install/rosserial_tivac:/home/msi/caato2_ws/install/rosserial_test:/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_arduino:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_mbed:/home/msi/caato2_ws/install/rosserial_embeddedlinux:/home/msi/caato2_ws/install/rosserial_chibios:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:/home/msi/caato2_ws/install/rosinrange_msg:/home/msi/caato2_ws/install/caato_teleop:/home/msi/caato2_ws/install/caato_slam:/home/msi/caato2_ws/install/caato_navigation:/home/msi/caato2_ws/install/caato_bringup:/home/msi/caato2_ws/install/caato2_navigation:/home/msi/caato2_ws/install/caato2_examples:/home/msi/caato2_ws/install/caato2_bringup:/home/msi/caato2_ws/install/roboteq_diff_driver:/home/msi/caato2_ws/install/roboteq_diff_msgs:/home/msi/caato2_ws/install/realsense_gazebo_plugin:/home/msi/caato2_ws/install/realsense2_description:/home/msi/caato2_ws/install/realsense2_camera:/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/ira_laser_tools:/home/msi/caato2_ws/install/ouster_example:/home/msi/caato2_ws/install/ouster-gazebo-simulation:/home/msi/caato2_ws/install/map_server:/home/msi/caato2_ws/install/laser_filters:/home/msi/caato2_ws/install/eband_local_planner:/home/msi/caato2_ws/install/ds4_driver:/home/msi/caato2_ws/install/device_diagnostics:/home/msi/caato2_ws/install/decada_sim_assets:/home/msi/caato2_ws/install/caato_gazebo:/home/msi/caato2_ws/install/caato_fleet_client:/home/msi/caato2_ws/install/caato_description:/home/msi/caato2_ws/install/caato_alexa:/home/msi/caato2_ws/install/caato2_gazebo:/home/msi/caato2_ws/install/caato2_description:/home/msi/caato2_ws/install/caato2_cmd_mux:/home/msi/caato2_ws/install/atc_waypoints:/home/msi/caato2_ws/install/atc_stm:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:/home/msi/caato2_ws/install/apriltag_ros:/home/msi/caato2_ws/install/apriltag:/opt/ros/noetic PKG_CONFIG_PATH=/home/msi/caato2_ws/install/pcl_conversions/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/pkgconfig:/home/msi/caato2_ws/install/trolley_arm/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/trolley_arm/lib/pkgconfig:/home/msi/caato2_ws/install/teleop_twist_joy/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/teleop_twist_joy/lib/pkgconfig:/home/msi/caato2_ws/install/rviz_atc_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rviz_atc_plugins/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_xbee/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_xbee/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_windows/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_windows/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_tivac/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_tivac/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_test/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_test/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_arduino/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_arduino/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_mbed/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_mbed/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_embeddedlinux/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_embeddedlinux/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_chibios/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_chibios/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:/home/msi/caato2_ws/install/amcl3d/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/amcl3d/lib/pkgconfig:/home/msi/caato2_ws/install/rosinrange_msg/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosinrange_msg/lib/pkgconfig:/home/msi/caato2_ws/install/caato/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato/lib/pkgconfig:/home/msi/caato2_ws/install/caato_teleop/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_teleop/lib/pkgconfig:/home/msi/caato2_ws/install/caato_slam/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_slam/lib/pkgconfig:/home/msi/caato2_ws/install/caato_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_navigation/lib/pkgconfig:/home/msi/caato2_ws/install/caato_bringup/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_bringup/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_navigation/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_examples/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_examples/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_bringup/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_bringup/lib/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_driver/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_driver/lib/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:/home/msi/caato2_ws/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/realsense_gazebo_plugin/lib/pkgconfig:/home/msi/caato2_ws/install/realsense2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/realsense2_description/lib/pkgconfig:/home/msi/caato2_ws/install/realsense2_camera/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/realsense2_camera/lib/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/ira_laser_tools/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/ira_laser_tools/lib/pkgconfig:/home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig:/home/msi/caato2_ws/install/map_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/map_server/lib/pkgconfig:/home/msi/caato2_ws/install/laser_filters/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/laser_filters/lib/pkgconfig:/home/msi/caato2_ws/install/eband_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/eband_local_planner/lib/pkgconfig:/home/msi/caato2_ws/install/ds4_driver/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/ds4_driver/lib/pkgconfig:/home/msi/caato2_ws/install/device_diagnostics/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/device_diagnostics/lib/pkgconfig:/home/msi/caato2_ws/install/decada_sim_assets/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/decada_sim_assets/lib/pkgconfig:/home/msi/caato2_ws/install/caato_gazebo/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_gazebo/lib/pkgconfig:/home/msi/caato2_ws/install/caato_fleet_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_fleet_client/lib/pkgconfig:/home/msi/caato2_ws/install/caato_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_description/lib/pkgconfig:/home/msi/caato2_ws/install/caato_alexa/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_alexa/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_gazebo/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_gazebo/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_cmd_mux/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_cmd_mux/lib/pkgconfig:/home/msi/caato2_ws/install/atc_waypoints/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_waypoints/lib/pkgconfig:/home/msi/caato2_ws/install/atc_stm/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_stm/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:/home/msi/caato2_ws/install/apriltag_ros/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag_ros/lib/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/pcl_conversions/share:/home/msi/caato2_ws/install/xnergy_charger_rcu/share:/home/msi/caato2_ws/install/trolley_arm/share:/home/msi/caato2_ws/install/teleop_twist_joy/share:/home/msi/caato2_ws/install/rviz_atc_plugins/share:/home/msi/caato2_ws/install/rosserial_xbee/share:/home/msi/caato2_ws/install/rosserial_windows/share:/home/msi/caato2_ws/install/rosserial_vex_v5/share:/home/msi/caato2_ws/install/rosserial_vex_cortex/share:/home/msi/caato2_ws/install/rosserial_tivac/share:/home/msi/caato2_ws/install/rosserial_test/share:/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_arduino/share:/home/msi/caato2_ws/install/rosserial/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_mbed/share:/home/msi/caato2_ws/install/rosserial_embeddedlinux/share:/home/msi/caato2_ws/install/rosserial_chibios/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:/home/msi/caato2_ws/install/amcl3d/share:/home/msi/caato2_ws/install/rosinrange_msg/share:/home/msi/caato2_ws/install/caato/share:/home/msi/caato2_ws/install/caato_teleop/share:/home/msi/caato2_ws/install/caato_slam/share:/home/msi/caato2_ws/install/caato_navigation/share:/home/msi/caato2_ws/install/caato_bringup/share:/home/msi/caato2_ws/install/caato2_navigation/share:/home/msi/caato2_ws/install/caato2_examples/share:/home/msi/caato2_ws/install/caato2_bringup/share:/home/msi/caato2_ws/install/roboteq_diff_driver/share:/home/msi/caato2_ws/install/roboteq_diff_msgs/share:/home/msi/caato2_ws/install/realsense_gazebo_plugin/share:/home/msi/caato2_ws/install/realsense2_description/share:/home/msi/caato2_ws/install/realsense2_camera/share:/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/ira_laser_tools/share:/home/msi/caato2_ws/install/map_server/share:/home/msi/caato2_ws/install/laser_filters/share:/home/msi/caato2_ws/install/eband_local_planner/share:/home/msi/caato2_ws/install/ds4_driver/share:/home/msi/caato2_ws/install/device_diagnostics/share:/home/msi/caato2_ws/install/decada_sim_assets/share:/home/msi/caato2_ws/install/caato_gazebo/share:/home/msi/caato2_ws/install/caato_fleet_client/share:/home/msi/caato2_ws/install/caato_description/share:/home/msi/caato2_ws/install/caato_alexa/share:/home/msi/caato2_ws/install/caato2_gazebo/share:/home/msi/caato2_ws/install/caato2_description/share:/home/msi/caato2_ws/install/caato2_cmd_mux/share:/home/msi/caato2_ws/install/atc_waypoints/share:/home/msi/caato2_ws/install/atc_stm/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:/home/msi/caato2_ws/install/apriltag_ros/share:/opt/ros/noetic/share /usr/bin/cmake /home/msi/caato2_ws/src/siot/perception_pcl/pcl_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/pcl_ros
+[0.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/msi/caato2_ws/build/pcl_ros' returned '1': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/pcl_conversions:/home/msi/caato2_ws/install/xnergy_charger_rcu:/home/msi/caato2_ws/install/trolley_arm:/home/msi/caato2_ws/install/teleop_twist_joy:/home/msi/caato2_ws/install/rviz_atc_plugins:/home/msi/caato2_ws/install/rosserial_xbee:/home/msi/caato2_ws/install/rosserial_windows:/home/msi/caato2_ws/install/rosserial_vex_v5:/home/msi/caato2_ws/install/rosserial_vex_cortex:/home/msi/caato2_ws/install/rosserial_tivac:/home/msi/caato2_ws/install/rosserial_test:/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_arduino:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_mbed:/home/msi/caato2_ws/install/rosserial_embeddedlinux:/home/msi/caato2_ws/install/rosserial_chibios:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:/home/msi/caato2_ws/install/rosinrange_msg:/home/msi/caato2_ws/install/caato_teleop:/home/msi/caato2_ws/install/caato_slam:/home/msi/caato2_ws/install/caato_navigation:/home/msi/caato2_ws/install/caato_bringup:/home/msi/caato2_ws/install/caato2_navigation:/home/msi/caato2_ws/install/caato2_examples:/home/msi/caato2_ws/install/caato2_bringup:/home/msi/caato2_ws/install/roboteq_diff_driver:/home/msi/caato2_ws/install/roboteq_diff_msgs:/home/msi/caato2_ws/install/realsense_gazebo_plugin:/home/msi/caato2_ws/install/realsense2_description:/home/msi/caato2_ws/install/realsense2_camera:/home/msi/caato2_ws/install/plc_modbus_node:/home/msi/caato2_ws/install/ira_laser_tools:/home/msi/caato2_ws/install/ouster_example:/home/msi/caato2_ws/install/ouster-gazebo-simulation:/home/msi/caato2_ws/install/map_server:/home/msi/caato2_ws/install/laser_filters:/home/msi/caato2_ws/install/eband_local_planner:/home/msi/caato2_ws/install/ds4_driver:/home/msi/caato2_ws/install/device_diagnostics:/home/msi/caato2_ws/install/decada_sim_assets:/home/msi/caato2_ws/install/caato_gazebo:/home/msi/caato2_ws/install/caato_fleet_client:/home/msi/caato2_ws/install/caato_description:/home/msi/caato2_ws/install/caato_alexa:/home/msi/caato2_ws/install/caato2_gazebo:/home/msi/caato2_ws/install/caato2_description:/home/msi/caato2_ws/install/caato2_cmd_mux:/home/msi/caato2_ws/install/atc_waypoints:/home/msi/caato2_ws/install/atc_stm:/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:/home/msi/caato2_ws/install/apriltag_ros:/home/msi/caato2_ws/install/apriltag:/opt/ros/noetic PKG_CONFIG_PATH=/home/msi/caato2_ws/install/pcl_conversions/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/pkgconfig:/home/msi/caato2_ws/install/trolley_arm/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/trolley_arm/lib/pkgconfig:/home/msi/caato2_ws/install/teleop_twist_joy/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/teleop_twist_joy/lib/pkgconfig:/home/msi/caato2_ws/install/rviz_atc_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rviz_atc_plugins/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_xbee/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_xbee/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_windows/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_windows/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_tivac/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_tivac/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_test/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_test/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_arduino/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_arduino/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_mbed/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_mbed/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_embeddedlinux/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_embeddedlinux/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_chibios/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_chibios/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:/home/msi/caato2_ws/install/amcl3d/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/amcl3d/lib/pkgconfig:/home/msi/caato2_ws/install/rosinrange_msg/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosinrange_msg/lib/pkgconfig:/home/msi/caato2_ws/install/caato/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato/lib/pkgconfig:/home/msi/caato2_ws/install/caato_teleop/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_teleop/lib/pkgconfig:/home/msi/caato2_ws/install/caato_slam/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_slam/lib/pkgconfig:/home/msi/caato2_ws/install/caato_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_navigation/lib/pkgconfig:/home/msi/caato2_ws/install/caato_bringup/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_bringup/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_navigation/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_examples/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_examples/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_bringup/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_bringup/lib/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_driver/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_driver/lib/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:/home/msi/caato2_ws/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/realsense_gazebo_plugin/lib/pkgconfig:/home/msi/caato2_ws/install/realsense2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/realsense2_description/lib/pkgconfig:/home/msi/caato2_ws/install/realsense2_camera/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/realsense2_camera/lib/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig:/home/msi/caato2_ws/install/ira_laser_tools/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/ira_laser_tools/lib/pkgconfig:/home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/pkgconfig:/home/msi/caato2_ws/install/map_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/map_server/lib/pkgconfig:/home/msi/caato2_ws/install/laser_filters/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/laser_filters/lib/pkgconfig:/home/msi/caato2_ws/install/eband_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/eband_local_planner/lib/pkgconfig:/home/msi/caato2_ws/install/ds4_driver/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/ds4_driver/lib/pkgconfig:/home/msi/caato2_ws/install/device_diagnostics/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/device_diagnostics/lib/pkgconfig:/home/msi/caato2_ws/install/decada_sim_assets/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/decada_sim_assets/lib/pkgconfig:/home/msi/caato2_ws/install/caato_gazebo/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_gazebo/lib/pkgconfig:/home/msi/caato2_ws/install/caato_fleet_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_fleet_client/lib/pkgconfig:/home/msi/caato2_ws/install/caato_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_description/lib/pkgconfig:/home/msi/caato2_ws/install/caato_alexa/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato_alexa/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_gazebo/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_gazebo/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:/home/msi/caato2_ws/install/caato2_cmd_mux/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_cmd_mux/lib/pkgconfig:/home/msi/caato2_ws/install/atc_waypoints/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_waypoints/lib/pkgconfig:/home/msi/caato2_ws/install/atc_stm/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_stm/lib/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:/home/msi/caato2_ws/install/apriltag_ros/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag_ros/lib/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/pcl_conversions/share:/home/msi/caato2_ws/install/xnergy_charger_rcu/share:/home/msi/caato2_ws/install/trolley_arm/share:/home/msi/caato2_ws/install/teleop_twist_joy/share:/home/msi/caato2_ws/install/rviz_atc_plugins/share:/home/msi/caato2_ws/install/rosserial_xbee/share:/home/msi/caato2_ws/install/rosserial_windows/share:/home/msi/caato2_ws/install/rosserial_vex_v5/share:/home/msi/caato2_ws/install/rosserial_vex_cortex/share:/home/msi/caato2_ws/install/rosserial_tivac/share:/home/msi/caato2_ws/install/rosserial_test/share:/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_arduino/share:/home/msi/caato2_ws/install/rosserial/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_mbed/share:/home/msi/caato2_ws/install/rosserial_embeddedlinux/share:/home/msi/caato2_ws/install/rosserial_chibios/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:/home/msi/caato2_ws/install/amcl3d/share:/home/msi/caato2_ws/install/rosinrange_msg/share:/home/msi/caato2_ws/install/caato/share:/home/msi/caato2_ws/install/caato_teleop/share:/home/msi/caato2_ws/install/caato_slam/share:/home/msi/caato2_ws/install/caato_navigation/share:/home/msi/caato2_ws/install/caato_bringup/share:/home/msi/caato2_ws/install/caato2_navigation/share:/home/msi/caato2_ws/install/caato2_examples/share:/home/msi/caato2_ws/install/caato2_bringup/share:/home/msi/caato2_ws/install/roboteq_diff_driver/share:/home/msi/caato2_ws/install/roboteq_diff_msgs/share:/home/msi/caato2_ws/install/realsense_gazebo_plugin/share:/home/msi/caato2_ws/install/realsense2_description/share:/home/msi/caato2_ws/install/realsense2_camera/share:/home/msi/caato2_ws/install/plc_modbus_node/share:/home/msi/caato2_ws/install/ira_laser_tools/share:/home/msi/caato2_ws/install/map_server/share:/home/msi/caato2_ws/install/laser_filters/share:/home/msi/caato2_ws/install/eband_local_planner/share:/home/msi/caato2_ws/install/ds4_driver/share:/home/msi/caato2_ws/install/device_diagnostics/share:/home/msi/caato2_ws/install/decada_sim_assets/share:/home/msi/caato2_ws/install/caato_gazebo/share:/home/msi/caato2_ws/install/caato_fleet_client/share:/home/msi/caato2_ws/install/caato_description/share:/home/msi/caato2_ws/install/caato_alexa/share:/home/msi/caato2_ws/install/caato2_gazebo/share:/home/msi/caato2_ws/install/caato2_description/share:/home/msi/caato2_ws/install/caato2_cmd_mux/share:/home/msi/caato2_ws/install/atc_waypoints/share:/home/msi/caato2_ws/install/atc_stm/share:/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:/home/msi/caato2_ws/install/apriltag_ros/share:/opt/ros/noetic/share /usr/bin/cmake /home/msi/caato2_ws/src/siot/perception_pcl/pcl_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/pcl_ros
+[0.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_ros)
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/msi/caato2_ws/install/pcl_ros' for CMake module files
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/msi/caato2_ws/install/pcl_ros' for CMake config files
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/msi/caato2_ws/install/pcl_ros/bin'
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/msi/caato2_ws/install/pcl_ros/lib/pkgconfig/pcl_ros.pc'
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/msi/caato2_ws/install/pcl_ros/lib/python3.8/site-packages'
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/msi/caato2_ws/install/pcl_ros/bin'
+[0.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/msi/caato2_ws/install/pcl_ros/share/pcl_ros/package.ps1'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/msi/caato2_ws/install/pcl_ros/share/pcl_ros/package.dsv'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/msi/caato2_ws/install/pcl_ros/share/pcl_ros/package.sh'
+[0.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/msi/caato2_ws/install/pcl_ros/share/pcl_ros/package.bash'
+[0.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/msi/caato2_ws/install/pcl_ros/share/pcl_ros/package.zsh'
+[0.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/msi/caato2_ws/install/pcl_ros/share/colcon-core/packages/pcl_ros)
+[0.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.324s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.338s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/msi/caato2_ws/install/local_setup.ps1'
+[0.339s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/msi/caato2_ws/install/_local_setup_util_ps1.py'
+[0.340s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/msi/caato2_ws/install/setup.ps1'
+[0.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/msi/caato2_ws/install/local_setup.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/msi/caato2_ws/install/_local_setup_util_sh.py'
+[0.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/msi/caato2_ws/install/setup.sh'
+[0.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/msi/caato2_ws/install/local_setup.bash'
+[0.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/msi/caato2_ws/install/setup.bash'
+[0.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/msi/caato2_ws/install/local_setup.zsh'
+[0.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/msi/caato2_ws/install/setup.zsh'

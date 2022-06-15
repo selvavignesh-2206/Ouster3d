@@ -1,0 +1,10 @@
+[ 50%] Built target gtest
+[100%] Built target test_pcl_conversions
+[100%] Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc
+-- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/include/pcl_conversions
+-- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions.h

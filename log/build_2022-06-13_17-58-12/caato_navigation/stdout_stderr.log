@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/caato_navigation/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/caato_bringup;/home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/map_server;/home/msi/caato2_ws/install/ira_laser_tools;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/caato_bringup;/home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/map_server;/home/msi/caato2_ws/install/ira_laser_tools;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/caato_navigation/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/caato_navigation
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/lib/pkgconfig/caato_navigation.pc
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/cmake/caato_navigationConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/cmake/caato_navigationConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/package.xml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/gazebo_gt_level10.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.eband.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/move_base.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.mbc.percept.GDB.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.teb.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.dwa.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.mbc.percept.noGDB.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/gt_level10_room.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/common
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/common/navigation.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/amcl.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/gardens_corridor.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/gazebo_gt_level10_with_wp_server.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.mbc.caato_v1f.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/ekf_caato.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/move_base_teb.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/gardens_supertree.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/gt_level10.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/launch/single_caato_ff.mbc.launch
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/mymap.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/corridor.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/govtech_L10.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/room.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens_supertree_round.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/govtech_L10.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens_corridor_new.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/level10_2.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens_corridor_new.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/corridor.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/mymap.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/level10_1.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/level10_gmapping.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens_corridor.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/level10_gmapping.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/room.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens_corridor.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens1.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens1.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/level10_1.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/gardens_supertree_round.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/maps/level10_2.pgm
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/dwa_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/ekf_caato.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/eband_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/global_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/costmap_common_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/local_costmap_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/global_costmap_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/base_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/move_base_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/teb_local_planner_params.yaml
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/param/costmap_common_params.yaml.bkup
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/rviz
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/rviz/navigation.rviz
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/rviz/gt_level10_with_wp_panel.rviz
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/rviz/gazebo_level10.rviz
+-- Installing: /home/msi/caato2_ws/install/caato_navigation/share/caato_navigation/rviz/gazebo_level10_with_wp_panel.rviz

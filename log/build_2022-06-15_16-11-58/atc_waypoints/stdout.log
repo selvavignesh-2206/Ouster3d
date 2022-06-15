@@ -1,0 +1,31 @@
+[ 12%] Built target atc_waypoints
+[ 12%] Built target std_msgs_generate_messages_cpp
+[ 12%] Built target geometry_msgs_generate_messages_py
+[ 12%] Built target geometry_msgs_generate_messages_cpp
+[ 12%] Built target std_msgs_generate_messages_nodejs
+[ 12%] Built target std_msgs_generate_messages_py
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_Wp_2_Group
+[ 12%] Built target geometry_msgs_generate_messages_nodejs
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_Run_Wp
+[ 12%] Built target geometry_msgs_generate_messages_eus
+[ 12%] Built target std_msgs_generate_messages_lisp
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_Load_Wp
+[ 12%] Built target std_msgs_generate_messages_eus
+[ 12%] Built target geometry_msgs_generate_messages_lisp
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_waypoint_msg
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_waypointArray
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_Delete_Wp
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_waypoint_group
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_Groups_Wp
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_Save_Wp
+[ 12%] Built target _atc_waypoints_generate_messages_check_deps_Stop_Wp
+[ 27%] Built target atc_waypoints_generate_messages_lisp
+[ 84%] Built target atc_waypoints_generate_messages_cpp
+[ 84%] Built target atc_waypoints_generate_messages_nodejs
+[ 86%] Built target atc_waypoints_generate_messages_py
+[ 93%] Built target atc_waypoints_generate_messages_eus
+[ 93%] Built target atc_waypoints_gencpp
+[ 93%] Built target atc_waypoints_generate_messages
+[100%] Built target waypoints_server
+[100%] Built target debug_waypoints
+Built target tests

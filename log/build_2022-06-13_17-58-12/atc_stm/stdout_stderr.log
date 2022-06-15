@@ -1,0 +1,152 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/atc_stm/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/apriltag_ros;/home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/home/msi/caato2_ws/install/apriltag;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/apriltag_ros;/home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/atc_stm/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/atc_stm
+[35m[1mScanning dependencies of target atc_stm[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/atc_stm_main.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/stm_utils.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/callbacks.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/StateTransitionManager.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/AprilTagLogic/AprilTagLogic.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/AprilTagLogic/apriltag_utils.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/ManualModeLogic/ManualModeLogic.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/DetectorLogic/DetectorLogic.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/atc_stm.dir/src/WaypointLogic/WaypointLogic.cpp.o[0m
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/StateTransitionManager.cpp:[m[K In member function ‘[01m[Kbool atc_stm::StateTransitionManager::doWaypointDockingMode(ros::Publisher&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/StateTransitionManager.cpp:236:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Kstd::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+    sprintf(cbuffer, [01;35m[K"Docking to Trolley, TagID:%i, SampleSize:%i"[m[K, aprilTagLogic_ptr->getClosestTrolleyID(), [32m[KaprilTagLogic_ptr->marker_pose_vec_.size()[m[K);
+                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                            [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.h:11[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:8[m[K:
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:[m[K In member function ‘[01m[Kvoid atc_stm::WaypointLogic::PublishWp()[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:222:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<atc_msgs::waypoint_msg_<std::allocator<void> >, std::allocator<atc_msgs::waypoint_msg_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  ROS_INFO([01;35m[K" WptLogic::PublishWp() arrayWp.waypoints.size(%i)"[m[K, [32m[KarrayWp.waypoints.size()[m[K);
+           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:222:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  [01;36m[KROS_INFO[m[K(" WptLogic::PublishWp() arrayWp.waypoints.size(%i)", arrayWp.waypoints.size());
+  [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/AprilTagLogic/AprilTagLogic.h:11[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/AprilTagLogic/AprilTagLogic.cpp:8[m[K:
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/AprilTagLogic/AprilTagLogic.cpp:[m[K In member function ‘[01m[Kbool atc_stm::AprilTagLogic::calcDockingCmds(double&, double&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/AprilTagLogic/AprilTagLogic.cpp:531:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<geometry_msgs::PoseStamped_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+      ROS_INFO([01;35m[K"calcDockingCmds() - Docking state to aquire more data:%i < MAX_POSE_COUNT:%i"[m[K, [32m[Kmarker_pose_vec_.size()[m[K, MAX_POSE_COUNT);
+               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/AprilTagLogic/AprilTagLogic.cpp:531:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+      [01;36m[KROS_INFO[m[K("calcDockingCmds() - Docking state to aquire more data:%i < MAX_POSE_COUNT:%i", marker_pose_vec_.size(), MAX_POSE_COUNT);
+      [01;36m[K^~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:[m[K In member function ‘[01m[Kbool atc_stm::WaypointLogic::RunWp(atc_msgs::Run_Wp::Request&, atc_msgs::Run_Wp::Response&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:306:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  ROS_INFO([01;35m[K" do(), wp_list.size():%i "[m[K, [32m[Kwp_list.size()[m[K);
+           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:306:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  [01;36m[KROS_INFO[m[K(" do(), wp_list.size():%i ", wp_list.size());
+  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:[m[K In member function ‘[01m[Kvoid atc_stm::WaypointLogic::CallbackRunSpecificWp(atc_msgs::RunSpecificWp)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:605:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  ROS_INFO([01;35m[K" do(), wp_list.size():%i "[m[K, [32m[Kwp_list.size()[m[K);
+           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_stm/src/WaypointLogic/WaypointLogic.cpp:605:2:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+  [01;36m[KROS_INFO[m[K(" do(), wp_list.size():%i ", wp_list.size());
+  [01;36m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable devel/lib/atc_stm/atc_stm[0m
+[100%] Built target atc_stm
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/atc_stm/lib/pkgconfig/atc_stm.pc
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/cmake/atc_stmConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/cmake/atc_stmConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/package.xml
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/atc_stm
+-- Set runtime path of "/home/msi/caato2_ws/install/atc_stm/share/atc_stm/atc_stm" to ""
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.noGDB.launch
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.noGDB.2.launch
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.frontbackAT.noGDB.launch
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/tutorial.launch
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.GDB.launch
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.launch
+-- Installing: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.apriltag.launch

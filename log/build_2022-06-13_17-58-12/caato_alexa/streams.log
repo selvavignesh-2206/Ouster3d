@@ -1,0 +1,51 @@
+[0.055s] Invoking command in '/home/msi/caato2_ws/build/caato_alexa': /usr/bin/cmake /home/msi/caato2_ws/src/siot/flask_ask_ros_caato -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/caato_alexa
+[0.130s] -- The C compiler identification is GNU 8.4.0
+[0.170s] -- The CXX compiler identification is GNU 8.4.0
+[0.177s] -- Check for working C compiler: /usr/bin/cc
+[0.253s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.254s] -- Detecting C compiler ABI info
+[0.330s] -- Detecting C compiler ABI info - done
+[0.343s] -- Detecting C compile features
+[0.343s] -- Detecting C compile features - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.431s] -- Detecting CXX compiler ABI info
+[0.527s] -- Detecting CXX compiler ABI info - done
+[0.543s] -- Detecting CXX compile features
+[0.543s] -- Detecting CXX compile features - done
+[0.546s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/caato_alexa/devel
+[0.546s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.546s] -- This workspace overlays: /opt/ros/noetic
+[0.573s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.573s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.573s] -- Using Debian Python package layout
+[0.614s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.614s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.774s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.774s] -- Call enable_testing()
+[0.776s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/caato_alexa/test_results
+[1.097s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.097s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.097s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.127s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.128s] -- Found Threads: TRUE  
+[1.133s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.210s] -- catkin 0.8.10
+[1.210s] -- BUILD_SHARED_LIBS is on
+[1.571s] -- Configuring done
+[1.582s] -- Generating done
+[1.586s] -- Build files have been written to: /home/msi/caato2_ws/build/caato_alexa
+[1.602s] Invoked command in '/home/msi/caato2_ws/build/caato_alexa' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/flask_ask_ros_caato -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/caato_alexa
+[1.608s] Invoking command in '/home/msi/caato2_ws/build/caato_alexa': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa -- -j20 -l20
+[2.275s] Invoked command in '/home/msi/caato2_ws/build/caato_alexa' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa -- -j20 -l20
+[2.471s] Invoking command in '/home/msi/caato2_ws/build/caato_alexa': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa --target tests -- -j20 -l20
+[5.368s] [35m[1mScanning dependencies of target tests[0m
+[5.368s] Built target tests
+[5.472s] Invoked command in '/home/msi/caato2_ws/build/caato_alexa' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa --target tests -- -j20 -l20
+[6.118s] Invoking command in '/home/msi/caato2_ws/build/caato_alexa': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_alexa
+[7.349s] -- Install configuration: ""
+[7.349s] -- Installing: /home/msi/caato2_ws/install/caato_alexa/lib/pkgconfig/caato_alexa.pc
+[7.349s] -- Installing: /home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/cmake/caato_alexaConfig.cmake
+[7.349s] -- Installing: /home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/cmake/caato_alexaConfig-version.cmake
+[7.349s] -- Installing: /home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/package.xml
+[7.460s] Invoked command in '/home/msi/caato2_ws/build/caato_alexa' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_alexa

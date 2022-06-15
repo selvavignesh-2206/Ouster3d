@@ -1,0 +1,21 @@
+
+(cl:in-package :asdf)
+
+(defsystem "roboteq_diff_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils )
+  :components ((:file "_package")
+    (:file "Duplex" :depends-on ("_package_Duplex"))
+    (:file "_package_Duplex" :depends-on ("_package"))
+    (:file "OdometryCovariances" :depends-on ("_package_OdometryCovariances"))
+    (:file "_package_OdometryCovariances" :depends-on ("_package"))
+    (:file "Point" :depends-on ("_package_Point"))
+    (:file "_package_Point" :depends-on ("_package"))
+    (:file "Pose" :depends-on ("_package_Pose"))
+    (:file "_package_Pose" :depends-on ("_package"))
+    (:file "Quaternion" :depends-on ("_package_Quaternion"))
+    (:file "_package_Quaternion" :depends-on ("_package"))
+    (:file "Twist" :depends-on ("_package_Twist"))
+    (:file "_package_Twist" :depends-on ("_package"))
+    (:file "Vector3" :depends-on ("_package_Vector3"))
+    (:file "_package_Vector3" :depends-on ("_package"))
+  ))

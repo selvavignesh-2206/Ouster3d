@@ -1,0 +1,99 @@
+[0.196s] Invoking command in '/home/msi/caato2_ws/build/laser_filters': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters -- -j20 -l20
+[0.338s] [  6%] Built target gtest
+[0.338s] [ 27%] Built target laser_filters_gencfg
+[0.347s] [ 34%] Built target scan_to_cloud_filter_chain
+[0.372s] [ 41%] Built target generic_laser_filter_node
+[0.411s] [ 48%] Built target scan_to_scan_filter_chain
+[0.435s] [ 55%] Built target pointcloud_filters
+[0.440s] [ 86%] Built target laser_scan_filters
+[0.448s] [ 93%] Built target scan_to_cloud_filter_chain_nodelet
+[0.479s] [100%] Built target test_scan_filter_chain
+[0.569s] Invoked command in '/home/msi/caato2_ws/build/laser_filters' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters -- -j20 -l20
+[0.733s] Invoking command in '/home/msi/caato2_ws/build/laser_filters': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters --target tests -- -j20 -l20
+[0.804s] [ 50%] Built target gtest
+[0.826s] [100%] Built target test_shadow_detector
+[0.840s] [100%] Built target tests
+[0.940s] Invoked command in '/home/msi/caato2_ws/build/laser_filters' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/laser_filters --target tests -- -j20 -l20
+[1.124s] Invoking command in '/home/msi/caato2_ws/build/laser_filters': /usr/bin/cmake --install /home/msi/caato2_ws/build/laser_filters
+[1.215s] -- Install configuration: ""
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/IntensityFilterConfig.h
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/PolygonFilterConfig.h
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/RangeFilterConfig.h
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/ScanShadowsFilterConfig.h
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/SpeckleFilterConfig.h
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/SectorFilterConfig.h
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/__init__.py
+[1.216s] Listing '/home/msi/caato2_ws/build/laser_filters/devel/lib/python3/dist-packages/laser_filters/cfg'...
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg
+[1.216s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/RangeFilterConfig.py
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/PolygonFilterConfig.py
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/SectorFilterConfig.py
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/ScanShadowsFilterConfig.py
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__init__.py
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/SpeckleFilterConfig.py
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/PolygonFilterConfig.cpython-38.pyc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/SpeckleFilterConfig.cpython-38.pyc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/IntensityFilterConfig.cpython-38.pyc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/__init__.cpython-38.pyc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/ScanShadowsFilterConfig.cpython-38.pyc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/RangeFilterConfig.cpython-38.pyc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/__pycache__/SectorFilterConfig.cpython-38.pyc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages/laser_filters/cfg/IntensityFilterConfig.py
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/pkgconfig/laser_filters.pc
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig.cmake
+[1.217s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/cmake/laser_filtersConfig-version.cmake
+[1.218s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/package.xml
+[1.218s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/libpointcloud_filters.so
+[1.218s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/liblaser_scan_filters.so
+[1.218s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/laser_filters/scan_to_cloud_filter_chain
+[1.218s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/libscan_to_cloud_filter_chain_nodelet.so
+[1.218s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/laser_filters/scan_to_scan_filter_chain
+[1.218s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/lib/laser_filters/generic_laser_filter_node
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter_in_place.h
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/median_filter.h
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/polygon_filter.h
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_blob_filter.h
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/footprint_filter.h
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/range_filter.h
+[1.219s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/speckle_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_mask_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/sector_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/interpolation_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_shadows_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/box_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/angular_bounds_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/array_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/point_cloud_footprint_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/intensity_filter.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/include/laser_filters/scan_shadow_detector.h
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/laser_filters_plugins.xml
+[1.220s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/nodelets.xml
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/box_filter_example.launch
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.xml
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.launch
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.yaml
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.launch
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.launch
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/shadow_filter_example.yaml
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/pass_through_example.launch
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/footprint_filter_example.yaml
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter.yaml
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.yaml
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/multiple_filters_example.launch
+[1.221s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/speckle_filter_example.launch
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/point_cloud_footprint_filter_example.yaml
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/intensity_filter_example.yaml
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/median_filter_5_example.yaml
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/polygon_filter_example.launch
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/box_filter.yaml
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.launch
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/mask_filter_example.yaml
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/range_filter.yaml
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/range_filter_example.launch
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/sector_filter.yaml
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/sector_filter_example.launch
+[1.222s] -- Up-to-date: /home/msi/caato2_ws/install/laser_filters/share/laser_filters/examples/median_filter_5_example.launch
+[1.393s] Invoked command in '/home/msi/caato2_ws/build/laser_filters' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/laser_filters

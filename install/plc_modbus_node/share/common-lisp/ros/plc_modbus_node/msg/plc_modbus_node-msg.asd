@@ -1,0 +1,26 @@
+
+(cl:in-package :asdf)
+
+(defsystem "plc_modbus_node-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "ByteArray" :depends-on ("_package_ByteArray"))
+    (:file "_package_ByteArray" :depends-on ("_package"))
+    (:file "MultiByteArray" :depends-on ("_package_MultiByteArray"))
+    (:file "_package_MultiByteArray" :depends-on ("_package"))
+    (:file "MultiUInt16Array" :depends-on ("_package_MultiUInt16Array"))
+    (:file "_package_MultiUInt16Array" :depends-on ("_package"))
+    (:file "UInt16Array" :depends-on ("_package_UInt16Array"))
+    (:file "_package_UInt16Array" :depends-on ("_package"))
+    (:file "forklift_sensors" :depends-on ("_package_forklift_sensors"))
+    (:file "_package_forklift_sensors" :depends-on ("_package"))
+    (:file "main_controller" :depends-on ("_package_main_controller"))
+    (:file "_package_main_controller" :depends-on ("_package"))
+    (:file "register_msg" :depends-on ("_package_register_msg"))
+    (:file "_package_register_msg" :depends-on ("_package"))
+    (:file "roboteq_sensors" :depends-on ("_package_roboteq_sensors"))
+    (:file "_package_roboteq_sensors" :depends-on ("_package"))
+    (:file "xnergy_sensors" :depends-on ("_package_xnergy_sensors"))
+    (:file "_package_xnergy_sensors" :depends-on ("_package"))
+  ))

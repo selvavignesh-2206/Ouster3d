@@ -1,0 +1,16 @@
+/home/msi/caato2_ws/install/rviz_atc_plugins/lib/pkgconfig/rviz_atc_plugins.pc
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/cmake/rviz_atc_pluginsConfig.cmake
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/cmake/rviz_atc_pluginsConfig-version.cmake
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/package.xml
+/home/msi/caato2_ws/install/rviz_atc_plugins/lib/librviz_atc_plugins.so
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/plugin_description.xml
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/atc_rviz.sim.rviz
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/atc_rviz.rviz
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/rviz/with_tag_detection.rviz
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/flag2.dae
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/flag.dae
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/media/arrow.dae
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/PlantFlag.png
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/Imu.png
+/home/msi/caato2_ws/install/rviz_atc_plugins/share/rviz_atc_plugins/icons/classes/Teleop.png
+/home/msi/caato2_ws/install/rviz_atc_plugins/lib/rviz_atc_plugins/send_test_msgs.py

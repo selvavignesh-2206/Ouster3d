@@ -1,0 +1,55 @@
+[0.057s] Invoking command in '/home/msi/caato2_ws/build/apriltag': /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag -- -j20 -l20
+[0.277s] [ 79%] Built target apriltag
+[0.277s] [ 84%] Built target opencv_demo
+[0.277s] [ 89%] Built target apriltag_demo
+[0.279s] [100%] Built target apriltag_python
+[0.385s] Invoked command in '/home/msi/caato2_ws/build/apriltag' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag -- -j20 -l20
+[0.508s] Invoking command in '/home/msi/caato2_ws/build/apriltag': /usr/bin/cmake --install /home/msi/caato2_ws/build/apriltag
+[0.528s] -- Install configuration: "Release"
+[0.528s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/lib/libapriltag.so.3.1.0
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/lib/libapriltag.so.3
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/lib/libapriltag.so
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/apriltag.h
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/apriltag_math.h
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/doubles.h
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/floats.h
+[0.529s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/g2d.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/getopt.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/homography.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_types.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_u8.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/matd.h
+[0.530s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/math_util.h
+[0.531s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/pam.h
+[0.534s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[0.534s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/pnm.h
+[0.534s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[0.534s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/string_util.h
+[0.534s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/svd22.h
+[0.534s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/time_util.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/unionfind.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/workerpool.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/zarray.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/zhash.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tag16h5.h
+[0.535s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tag25h9.h
+[0.538s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tag36h11.h
+[0.538s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[0.538s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[0.538s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[0.539s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[0.539s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[0.539s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[0.539s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[0.539s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[0.540s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[0.542s] -- Up-to-date: /home/msi/.local/lib/python3.8/site-packages/apriltag.cpython-38-x86_64-linux-gnu.so
+[0.543s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/bin/opencv_demo
+[0.543s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag/bin/apriltag_demo
+[0.557s] Invoked command in '/home/msi/caato2_ws/build/apriltag' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/apriltag

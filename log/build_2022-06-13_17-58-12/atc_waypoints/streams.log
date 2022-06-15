@@ -1,0 +1,453 @@
+[0.056s] Invoking command in '/home/msi/caato2_ws/build/atc_waypoints': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/atc_waypoints
+[0.802s] -- The C compiler identification is GNU 8.4.0
+[0.802s] -- The CXX compiler identification is GNU 8.4.0
+[0.802s] -- Check for working C compiler: /usr/bin/cc
+[0.802s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.802s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.841s] -- Detecting C compile features
+[0.842s] -- Detecting C compile features - done
+[0.854s] -- Check for working CXX compiler: /usr/bin/c++
+[1.119s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.120s] -- Detecting CXX compiler ABI info
+[1.295s] -- Detecting CXX compiler ABI info - done
+[1.313s] -- Detecting CXX compile features
+[1.314s] -- Detecting CXX compile features - done
+[1.316s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/atc_waypoints/devel
+[1.317s] -- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/opt/ros/noetic
+[1.317s] -- This workspace overlays: /home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/opt/ros/noetic
+[1.405s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.405s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.405s] -- Using Debian Python package layout
+[1.448s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.448s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.622s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.623s] -- Call enable_testing()
+[1.643s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/atc_waypoints/test_results
+[2.340s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[2.340s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.340s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.383s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.385s] -- Found Threads: TRUE  
+[2.392s] -- Using Python nosetests: /usr/bin/nosetests3
+[2.485s] -- catkin 0.8.10
+[2.485s] -- BUILD_SHARED_LIBS is on
+[2.952s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.528s] -- atc_waypoints: 3 messages, 7 services
+[3.763s] -- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/msi/caato2_ws/build/atc_waypoints/class_loader_hide_library_symbols__atc_waypoints.script"
+[3.848s] -- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/msi/caato2_ws/build/atc_waypoints/class_loader_hide_library_symbols__atc_waypoints.script" - yes
+[3.852s] -- Configuring done
+[3.947s] -- Generating done
+[3.958s] -- Build files have been written to: /home/msi/caato2_ws/build/atc_waypoints
+[3.976s] Invoked command in '/home/msi/caato2_ws/build/atc_waypoints' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/atc_waypoints
+[3.977s] Invoking command in '/home/msi/caato2_ws/build/atc_waypoints': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_waypoints -- -j20 -l20
+[4.051s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[4.063s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Wp_2_Group[0m
+[4.073s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Load_Wp[0m
+[4.077s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Delete_Wp[0m
+[4.081s] [  1%] [34m[1mGenerating ui_waypointPanel.h[0m
+[4.081s] [  3%] [34m[1mGenerating include/moc_waypoints_tool.cpp[0m
+[4.082s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_waypointArray[0m
+[4.088s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_waypoint_msg[0m
+[4.089s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Stop_Wp[0m
+[4.094s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Run_Wp[0m
+[4.116s] [  4%] [34m[1mGenerating include/moc_waypointPanel.cpp[0m
+[4.225s] [  4%] Built target std_msgs_generate_messages_cpp
+[4.245s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_Wp_2_Group
+[4.265s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_Delete_Wp
+[4.265s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_Run_Wp
+[4.265s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_waypointArray
+[4.273s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_waypoint_msg
+[4.281s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_Load_Wp
+[4.284s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_waypoint_group[0m
+[4.287s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[4.294s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_Stop_Wp
+[4.297s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Save_Wp[0m
+[4.303s] [35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Groups_Wp[0m
+[4.313s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.322s] [  4%] Built target geometry_msgs_generate_messages_cpp
+[4.325s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[4.360s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.373s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[4.384s] [  4%] Built target geometry_msgs_generate_messages_py
+[4.387s] [  4%] Built target std_msgs_generate_messages_py
+[4.417s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[4.429s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_waypoint_group
+[4.437s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_Groups_Wp
+[4.448s] [  4%] Built target _atc_waypoints_generate_messages_check_deps_Save_Wp
+[4.459s] [35m[1mScanning dependencies of target atc_waypoints_generate_messages_cpp[0m
+[4.460s] [  4%] Built target std_msgs_generate_messages_nodejs
+[4.462s] [  4%] Built target geometry_msgs_generate_messages_eus
+[4.467s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.469s] [  4%] Built target geometry_msgs_generate_messages_nodejs
+[4.471s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.474s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[4.490s] [35m[1mScanning dependencies of target atc_waypoints_generate_messages_py[0m
+[4.512s] [  4%] Built target std_msgs_generate_messages_eus
+[4.521s] [  7%] [34m[1mGenerating C++ code from atc_waypoints/waypoint_msg.msg[0m
+[4.521s] [  7%] [34m[1mGenerating C++ code from atc_waypoints/waypoint_group.msg[0m
+[4.524s] [  7%] Built target geometry_msgs_generate_messages_lisp
+[4.532s] [ 10%] [34m[1mGenerating Python from MSG atc_waypoints/waypoint_msg[0m
+[4.532s] [ 10%] [34m[1mGenerating Python from MSG atc_waypoints/waypoint_group[0m
+[4.539s] [ 13%] [34m[1mGenerating Python from MSG atc_waypoints/waypointArray[0m
+[4.539s] [ 13%] [34m[1mGenerating C++ code from atc_waypoints/waypointArray.msg[0m
+[4.540s] [ 13%] Built target std_msgs_generate_messages_lisp
+[4.542s] [35m[1mScanning dependencies of target atc_waypoints_generate_messages_eus[0m
+[4.547s] [35m[1mScanning dependencies of target atc_waypoints_generate_messages_nodejs[0m
+[4.549s] [ 15%] [34m[1mGenerating C++ code from atc_waypoints/Save_Wp.srv[0m
+[4.549s] [ 16%] [34m[1mGenerating Python code from SRV atc_waypoints/Save_Wp[0m
+[4.567s] [ 18%] [34m[1mGenerating Python code from SRV atc_waypoints/Load_Wp[0m
+[4.570s] [ 20%] [34m[1mGenerating Python code from SRV atc_waypoints/Stop_Wp[0m
+[4.576s] [ 21%] [34m[1mGenerating C++ code from atc_waypoints/Run_Wp.srv[0m
+[4.581s] [ 23%] [34m[1mGenerating EusLisp code from atc_waypoints/waypointArray.msg[0m
+[4.585s] [ 24%] [34m[1mGenerating C++ code from atc_waypoints/Load_Wp.srv[0m
+[4.587s] [ 26%] [34m[1mGenerating Python code from SRV atc_waypoints/Run_Wp[0m
+[4.590s] [ 27%] [34m[1mGenerating Javascript code from atc_waypoints/waypoint_msg.msg[0m
+[4.601s] [ 30%] [34m[1mGenerating C++ code from atc_waypoints/Stop_Wp.srv[0m
+[4.601s] [ 30%] [34m[1mGenerating EusLisp code from atc_waypoints/waypoint_group.msg[0m
+[4.606s] [ 32%] [34m[1mGenerating Python code from SRV atc_waypoints/Delete_Wp[0m
+[4.624s] [ 33%] [34m[1mGenerating EusLisp code from atc_waypoints/waypoint_msg.msg[0m
+[4.723s] [ 35%] [34m[1mGenerating Javascript code from atc_waypoints/waypoint_group.msg[0m
+[4.799s] [ 36%] [34m[1mGenerating Python code from SRV atc_waypoints/Groups_Wp[0m
+[4.863s] [ 38%] [34m[1mGenerating EusLisp code from atc_waypoints/Save_Wp.srv[0m
+[4.869s] [ 40%] [34m[1mGenerating C++ code from atc_waypoints/Delete_Wp.srv[0m
+[4.882s] [ 41%] [34m[1mGenerating EusLisp code from atc_waypoints/Run_Wp.srv[0m
+[4.917s] [ 43%] [34m[1mGenerating EusLisp code from atc_waypoints/Load_Wp.srv[0m
+[4.917s] [ 44%] [34m[1mGenerating Javascript code from atc_waypoints/waypointArray.msg[0m
+[4.919s] [35m[1mScanning dependencies of target atc_waypoints_generate_messages_lisp[0m
+[4.937s] [ 46%] [34m[1mGenerating Python code from SRV atc_waypoints/Wp_2_Group[0m
+[4.941s] [ 47%] [34m[1mGenerating Javascript code from atc_waypoints/Save_Wp.srv[0m
+[4.948s] [ 49%] [34m[1mGenerating EusLisp code from atc_waypoints/Stop_Wp.srv[0m
+[4.963s] [ 50%] [34m[1mGenerating C++ code from atc_waypoints/Wp_2_Group.srv[0m
+[4.982s] [ 52%] [34m[1mGenerating C++ code from atc_waypoints/Groups_Wp.srv[0m
+[4.988s] [ 53%] [34m[1mGenerating EusLisp code from atc_waypoints/Delete_Wp.srv[0m
+[4.991s] [ 55%] [34m[1mGenerating Lisp code from atc_waypoints/waypoint_msg.msg[0m
+[5.013s] [ 56%] [34m[1mGenerating EusLisp code from atc_waypoints/Groups_Wp.srv[0m
+[5.013s] [ 60%] [34m[1mGenerating Lisp code from atc_waypoints/waypointArray.msg[0m
+[5.014s] [ 58%] [34m[1mGenerating Lisp code from atc_waypoints/waypoint_group.msg[0m
+[5.014s] [ 61%] [34m[1mGenerating Javascript code from atc_waypoints/Load_Wp.srv[0m
+[5.055s] [ 63%] [34m[1mGenerating EusLisp code from atc_waypoints/Wp_2_Group.srv[0m
+[5.074s] [ 64%] [34m[1mGenerating Lisp code from atc_waypoints/Save_Wp.srv[0m
+[5.076s] [ 66%] [34m[1mGenerating Javascript code from atc_waypoints/Run_Wp.srv[0m
+[5.099s] [ 67%] [34m[1mGenerating Javascript code from atc_waypoints/Stop_Wp.srv[0m
+[5.103s] [ 69%] [34m[1mGenerating EusLisp manifest code for atc_waypoints[0m
+[5.112s] [ 70%] [34m[1mGenerating Lisp code from atc_waypoints/Load_Wp.srv[0m
+[5.158s] [ 72%] [34m[1mGenerating Lisp code from atc_waypoints/Run_Wp.srv[0m
+[5.182s] [ 73%] [34m[1mGenerating Lisp code from atc_waypoints/Stop_Wp.srv[0m
+[5.190s] [ 75%] [34m[1mGenerating Javascript code from atc_waypoints/Delete_Wp.srv[0m
+[5.206s] [ 76%] [34m[1mGenerating Javascript code from atc_waypoints/Wp_2_Group.srv[0m
+[5.214s] [35m[1mScanning dependencies of target atc_waypoints[0m
+[5.223s] [ 78%] [34m[1mGenerating Lisp code from atc_waypoints/Delete_Wp.srv[0m
+[5.240s] [ 80%] [34m[1mGenerating Javascript code from atc_waypoints/Groups_Wp.srv[0m
+[5.242s] [ 81%] [34m[1mGenerating Lisp code from atc_waypoints/Groups_Wp.srv[0m
+[5.262s] [ 83%] [34m[1mGenerating Lisp code from atc_waypoints/Wp_2_Group.srv[0m
+[5.270s] [ 83%] Built target atc_waypoints_generate_messages_cpp
+[5.305s] [35m[1mScanning dependencies of target atc_waypoints_gencpp[0m
+[5.343s] [ 84%] [34m[1mGenerating Python msg __init__.py for atc_waypoints[0m
+[5.351s] [ 86%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/src/waypoints_tool.cpp.o[0m
+[5.355s] [ 87%] [34m[1mGenerating Python srv __init__.py for atc_waypoints[0m
+[5.361s] [ 89%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/src/waypointPanel.cpp.o[0m
+[5.366s] [ 90%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/include/moc_waypoints_tool.cpp.o[0m
+[5.367s] [ 90%] Built target atc_waypoints_generate_messages_lisp
+[5.371s] [ 90%] Built target atc_waypoints_generate_messages_nodejs
+[5.378s] [ 92%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/include/moc_waypointPanel.cpp.o[0m
+[5.384s] [ 92%] Built target atc_waypoints_gencpp
+[5.441s] [35m[1mScanning dependencies of target waypoints_server[0m
+[5.457s] [35m[1mScanning dependencies of target debug_waypoints[0m
+[5.515s] [ 93%] [32mBuilding CXX object CMakeFiles/waypoints_server.dir/src/waypoints_server.cpp.o[0m
+[5.554s] [ 95%] [32mBuilding CXX object CMakeFiles/debug_waypoints.dir/src/debug_waypoints.cpp.o[0m
+[5.693s] [ 95%] Built target atc_waypoints_generate_messages_py
+[6.105s] [ 95%] Built target atc_waypoints_generate_messages_eus
+[6.189s] [35m[1mScanning dependencies of target atc_waypoints_generate_messages[0m
+[6.262s] [ 95%] Built target atc_waypoints_generate_messages
+[7.931s] In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+[7.931s]                  from [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:1[m[K:
+[7.931s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:[m[K In member function ‘[01m[Kvoid WaypointServer::CallbackStop(std_msgs::Int8)[m[K’:
+[7.931s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:128:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd_msgs::Int8[m[K’ {aka ‘[01m[Kstd_msgs::Int8_<std::allocator<void> >[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.932s]       ROS_INFO([01;35m[K"WaypointsServer::CallbackStop(%i)"[m[K, [32m[Kstop_msg[m[K);
+[7.932s]                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+[7.932s] [01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[7.932s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[7.932s]                                                                                                                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[7.932s] [01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[7.932s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[7.932s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.932s] [01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[7.932s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[7.932s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[7.932s] [01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[7.932s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[7.933s]                        [01;36m[K^~~~~~~[m[K
+[7.933s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:128:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[7.933s]       [01;36m[KROS_INFO[m[K("WaypointsServer::CallbackStop(%i)", stop_msg);
+[7.933s]       [01;36m[K^~~~~~~~[m[K
+[7.933s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:[m[K In member function ‘[01m[Kvoid WaypointServer::CallbackMissionPlan(std_msgs::Int8)[m[K’:
+[7.933s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:147:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd_msgs::Int8[m[K’ {aka ‘[01m[Kstd_msgs::Int8_<std::allocator<void> >[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.933s]       ROS_INFO([01;35m[K"WaypointsServer::CallbackMissionPlan(%i)"[m[K, [32m[Kmission_plan_msg[m[K);
+[7.933s]                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~[m[K
+[7.933s] [01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[7.933s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[7.933s]                                                                                                                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[7.933s] [01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[7.933s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[7.933s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.933s] [01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[7.934s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[7.934s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[7.934s] [01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[7.934s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[7.934s]                        [01;36m[K^~~~~~~[m[K
+[7.934s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:147:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[7.934s]       [01;36m[KROS_INFO[m[K("WaypointsServer::CallbackMissionPlan(%i)", mission_plan_msg);
+[7.934s]       [01;36m[K^~~~~~~~[m[K
+[7.942s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:[m[K In member function ‘[01m[Kvoid WaypointServer::PublishWp()[m[K’:
+[7.942s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:209:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<atc_waypoints::waypoint_msg_<std::allocator<void> >, std::allocator<atc_waypoints::waypoint_msg_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.942s]       ROS_INFO([01;35m[K"WaypointsServer::PublishWp() arrayWp.waypoints.size(%i)"[m[K, [32m[KarrayWp.waypoints.size()[m[K);
+[7.942s]                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.942s] [01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[7.942s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[7.942s]                                                                                                                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[7.942s] [01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[7.942s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[7.943s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.943s] [01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[7.943s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[7.943s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[7.943s] [01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[7.943s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[7.943s]                        [01;36m[K^~~~~~~[m[K
+[7.943s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:209:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[7.943s]       [01;36m[KROS_INFO[m[K("WaypointsServer::PublishWp() arrayWp.waypoints.size(%i)", arrayWp.waypoints.size());
+[7.943s]       [01;36m[K^~~~~~~~[m[K
+[7.954s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:[m[K In member function ‘[01m[Kbool WaypointServer::RunWp(atc_waypoints::Run_Wp::Request&, atc_waypoints::Run_Wp::Response&)[m[K’:
+[7.954s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:276:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[7.954s]       ROS_INFO([01;35m[K" do(), wp_list.size():%i "[m[K, [32m[Kwp_list.size()[m[K);
+[7.954s]                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~[m[K
+[7.954s] [01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[7.955s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[7.955s]                                                                                                                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[7.955s] [01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[7.955s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[7.955s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.955s] [01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[7.955s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[7.955s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[7.955s] [01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[7.956s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[7.956s]                        [01;36m[K^~~~~~~[m[K
+[7.956s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypoints_server.cpp:276:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[7.956s]       [01;36m[KROS_INFO[m[K(" do(), wp_list.size():%i ", wp_list.size());
+[7.956s]       [01;36m[K^~~~~~~~[m[K
+[8.247s] In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+[8.247s]                  from [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/include/waypointPanel.h:4[m[K,
+[8.247s]                  from [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypointPanel.cpp:1[m[K:
+[8.247s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypointPanel.cpp:[m[K In member function ‘[01m[Kvoid atc_waypoints::waypointPanel::Callback(atc_msgs::waypointArray)[m[K’:
+[8.247s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypointPanel.cpp:113:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, atc_msgs::waypoint_msg_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[8.247s]       ROS_INFO([01;35m[K" wp_map.size:%i"[m[K, [32m[Kwp_map.size()[m[K);
+[8.247s]                [01;35m[K^~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+[8.247s] [01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[8.247s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[8.247s]                                                                                                                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[8.247s] [01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[8.247s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[8.247s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.248s] [01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[8.248s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[8.248s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[8.248s] [01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[8.248s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[8.248s]                        [01;36m[K^~~~~~~[m[K
+[8.248s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypointPanel.cpp:113:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[8.248s]       [01;36m[KROS_INFO[m[K(" wp_map.size:%i", wp_map.size());
+[8.248s]       [01;36m[K^~~~~~~~[m[K
+[8.249s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypointPanel.cpp:122:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%i[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, atc_msgs::waypoint_group_<std::allocator<void> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[8.249s]       ROS_INFO([01;35m[K" groups.size:%i"[m[K, [32m[Kgroups.size()[m[K);
+[8.249s]                [01;35m[K^~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+[8.249s] [01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[8.249s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+[8.250s]                                                                                                                                                                      [01;36m[K^~~~~~~~~~~[m[K
+[8.250s] [01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[8.250s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[8.250s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.250s] [01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[8.250s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[8.250s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[8.250s] [01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[8.250s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[8.250s]                        [01;36m[K^~~~~~~[m[K
+[8.250s] [01m[K/home/msi/caato2_ws/src/siot/atc_meta_package/atc_waypoints/src/waypointPanel.cpp:122:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[8.250s]       [01;36m[KROS_INFO[m[K(" groups.size:%i", groups.size());
+[8.250s]       [01;36m[K^~~~~~~~[m[K
+[8.437s] [ 96%] [32m[1mLinking CXX executable devel/lib/atc_waypoints/debug_waypoints[0m
+[8.850s] [ 96%] Built target debug_waypoints
+[11.003s] [ 98%] [32m[1mLinking CXX shared library devel/lib/libatc_waypoints.so[0m
+[12.279s] [ 98%] Built target atc_waypoints
+[13.313s] [100%] [32m[1mLinking CXX executable devel/lib/atc_waypoints/waypoints_server[0m
+[13.639s] [100%] Built target waypoints_server
+[13.648s] Invoked command in '/home/msi/caato2_ws/build/atc_waypoints' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_waypoints -- -j20 -l20
+[13.703s] Invoking command in '/home/msi/caato2_ws/build/atc_waypoints': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_waypoints --target tests -- -j20 -l20
+[13.743s] [35m[1mScanning dependencies of target tests[0m
+[13.750s] Built target tests
+[13.759s] Invoked command in '/home/msi/caato2_ws/build/atc_waypoints' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_waypoints --target tests -- -j20 -l20
+[13.816s] Invoking command in '/home/msi/caato2_ws/build/atc_waypoints': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/atc_waypoints
+[13.824s] -- Install configuration: ""
+[13.825s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/msg/waypoint_msg.msg
+[13.825s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/msg/waypoint_group.msg
+[13.825s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/msg/waypointArray.msg
+[13.825s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Save_Wp.srv
+[13.826s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Load_Wp.srv
+[13.826s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Run_Wp.srv
+[13.826s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Stop_Wp.srv
+[13.826s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Delete_Wp.srv
+[13.826s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Groups_Wp.srv
+[13.827s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Wp_2_Group.srv
+[13.827s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypoints-msg-paths.cmake
+[13.827s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints
+[13.827s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Save_Wp.h
+[13.827s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Run_WpRequest.h
+[13.827s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Save_WpResponse.h
+[13.827s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Stop_Wp.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Groups_Wp.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Run_WpResponse.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/waypointArray.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Load_WpRequest.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Wp_2_GroupRequest.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Stop_WpResponse.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Save_WpRequest.h
+[13.828s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Groups_WpRequest.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Load_WpResponse.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Wp_2_GroupResponse.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Delete_WpRequest.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Delete_Wp.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Run_Wp.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Delete_WpResponse.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Load_Wp.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Stop_WpRequest.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/waypoint_group.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/waypoint_msg.h
+[13.829s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Wp_2_Group.h
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Groups_WpResponse.h
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg/waypoint_msg.l
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg/waypointArray.l
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg/waypoint_group.l
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/manifest.l
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv
+[13.830s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Groups_Wp.l
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Wp_2_Group.l
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Load_Wp.l
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Run_Wp.l
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Save_Wp.l
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Delete_Wp.l
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Stop_Wp.l
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package.lisp
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/waypoint_msg.lisp
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/waypoint_group.lisp
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/waypointArray.lisp
+[13.831s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/atc_waypoints-msg.asd
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package_waypointArray.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package_waypoint_msg.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package_waypoint_group.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Run_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Delete_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Wp_2_Group.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Groups_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Stop_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Save_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Delete_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Stop_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Wp_2_Group.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Load_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Groups_Wp.lisp
+[13.832s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/atc_waypoints-srv.asd
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Save_Wp.lisp
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Load_Wp.lisp
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Run_Wp.lisp
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/_index.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/_index.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/waypoint_group.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/waypointArray.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/waypoint_msg.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/_index.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Save_Wp.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Run_Wp.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Stop_Wp.js
+[13.833s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Delete_Wp.js
+[13.834s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Load_Wp.js
+[13.834s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Wp_2_Group.js
+[13.834s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Groups_Wp.js
+[13.860s] Listing '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints'...
+[13.860s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/__init__.py'...
+[13.860s] Listing '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg'...
+[13.860s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/__init__.py'...
+[13.860s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/_waypointArray.py'...
+[13.860s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_group.py'...
+[13.860s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_msg.py'...
+[13.860s] Listing '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv'...
+[13.861s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Delete_Wp.py'...
+[13.861s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Groups_Wp.py'...
+[13.861s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Load_Wp.py'...
+[13.862s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Run_Wp.py'...
+[13.862s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Save_Wp.py'...
+[13.862s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Stop_Wp.py'...
+[13.862s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Wp_2_Group.py'...
+[13.862s] Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/__init__.py'...
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_group.py
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/_waypointArray.py
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_msg.py
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__init__.py
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/_waypoint_msg.cpython-38.pyc
+[13.865s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/_waypoint_group.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/__init__.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/_waypointArray.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Stop_Wp.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Wp_2_Group.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Save_Wp.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Delete_Wp.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Run_Wp.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__init__.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Load_Wp.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Groups_Wp.py
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Stop_Wp.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Load_Wp.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Groups_Wp.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Wp_2_Group.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/__init__.cpython-38.pyc
+[13.866s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Delete_Wp.cpython-38.pyc
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Save_Wp.cpython-38.pyc
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Run_Wp.cpython-38.pyc
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/__init__.py
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/__pycache__
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/__pycache__/__init__.cpython-38.pyc
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/pkgconfig/atc_waypoints.pc
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypoints-msg-extras.cmake
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypointsConfig.cmake
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypointsConfig-version.cmake
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/package.xml
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/libatc_waypoints.so
+[13.867s] -- Set runtime path of "/home/msi/caato2_ws/install/atc_waypoints/lib/libatc_waypoints.so" to ""
+[13.867s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/waypoints_server
+[13.869s] -- Set runtime path of "/home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/waypoints_server" to ""
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/debug_waypoints
+[13.869s] -- Set runtime path of "/home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/debug_waypoints" to ""
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/launch
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/launch/wpt_controller.launch
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files/mbc_set1_wp.txt
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files/Readme.txt
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files/mbc_set1_gr.txt
+[13.869s] -- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/plugin_description.xml
+[13.895s] Invoked command in '/home/msi/caato2_ws/build/atc_waypoints' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/atc_utils:/home/msi/caato2_ws/install/atc_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/atc_utils/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/atc_utils/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_utils/lib/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/atc_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/atc_utils/share:/home/msi/caato2_ws/install/atc_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/atc_waypoints

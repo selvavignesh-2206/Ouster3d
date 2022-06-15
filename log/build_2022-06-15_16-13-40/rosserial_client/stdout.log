@@ -1,0 +1,38 @@
+[ 20%] Built target gtest
+[ 60%] Built target time_test
+[ 80%] Built target float64_test
+[100%] Built target subscriber_test
+[100%] Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig/rosserial_client.pc
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/cmake/rosserial_client-extras.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/cmake/rosserial_clientConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/cmake/rosserial_clientConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/package.xml
++ cd /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_client
++ mkdir -p /home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/build/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages:/home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_mbed/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages:/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages:/home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages:/home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages:/home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages:/home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages:/home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/msi/caato2_ws/build/rosserial_client /usr/bin/python3 /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_client/setup.py build --build-base /home/msi/caato2_ws/build/rosserial_client install --root=/ --install-layout=deb --prefix=/home/msi/caato2_ws/install/rosserial_client --install-scripts=/home/msi/caato2_ws/install/rosserial_client/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages/rosserial_client-0.9.2.egg-info
+Writing /home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages/rosserial_client-0.9.2.egg-info
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/node_handle.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/service_server.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/time.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/subscriber.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/msg.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/service_client.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/duration.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/ros/publisher.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/time.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/tf
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/tf/transform_broadcaster.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/tf/tf.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/share/rosserial_client/src/ros_lib/duration.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/lib/rosserial_client/make_libraries
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_client/lib/rosserial_client/make_library.py

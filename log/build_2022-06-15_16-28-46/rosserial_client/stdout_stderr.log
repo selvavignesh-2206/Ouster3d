@@ -1,0 +1,5 @@
+[ 20%] Built target gtest
+[ 90%] Built target float64_test
+[100%] Built target subscriber_test
+[100%] Built target time_test
+[100%] Built target tests

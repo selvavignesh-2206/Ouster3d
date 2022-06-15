@@ -1,0 +1,145 @@
+[0.060s] Invoking command in '/home/msi/caato2_ws/build/plc_modbus_node': /usr/bin/cmake --build /home/msi/caato2_ws/build/plc_modbus_node -- -j20 -l20
+[0.241s] [  0%] Built target roscpp_generate_messages_cpp
+[0.241s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_MultiByteArray
+[0.241s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.242s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_main_controller
+[0.242s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.242s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_ByteArray
+[0.242s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_MultiUInt16Array
+[0.243s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_UInt16Array
+[0.243s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_xnergy_sensors
+[0.243s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.243s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_forklift_sensors
+[0.243s] [  0%] Built target _plc_modbus_node_generate_messages_check_deps_roboteq_sensors
+[0.243s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.250s] [  0%] Built target std_msgs_generate_messages_eus
+[0.250s] [  0%] Built target std_msgs_generate_messages_py
+[0.292s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.296s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.304s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.305s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.310s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.315s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.324s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.325s] [  0%] Built target roscpp_generate_messages_lisp
+[0.348s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.348s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.349s] [  0%] Built target roscpp_generate_messages_eus
+[0.356s] [  0%] Built target roscpp_generate_messages_py
+[0.357s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.373s] [ 17%] Built target plc_modbus_node_generate_messages_nodejs
+[0.373s] [ 21%] Built target plc_read_translator_node
+[0.385s] [ 39%] Built target plc_modbus_node_generate_messages_lisp
+[0.388s] [ 63%] Built target plc_modbus_node_generate_messages_py
+[0.388s] [ 78%] Built target plc_modbus_node_generate_messages_eus
+[0.396s] [ 95%] Built target plc_modbus_node_generate_messages_cpp
+[0.409s] [ 95%] Built target plc_modbus_node_generate_messages
+[0.416s] [100%] Built target ros_plc_modbus
+[0.448s] Invoked command in '/home/msi/caato2_ws/build/plc_modbus_node' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/plc_modbus_node -- -j20 -l20
+[0.546s] Invoking command in '/home/msi/caato2_ws/build/plc_modbus_node': /usr/bin/cmake --build /home/msi/caato2_ws/build/plc_modbus_node --target tests -- -j20 -l20
+[0.572s] Built target tests
+[0.622s] Invoked command in '/home/msi/caato2_ws/build/plc_modbus_node' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/plc_modbus_node --target tests -- -j20 -l20
+[0.759s] Invoking command in '/home/msi/caato2_ws/build/plc_modbus_node': /usr/bin/cmake --install /home/msi/caato2_ws/build/plc_modbus_node
+[0.811s] -- Install configuration: ""
+[0.811s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/roboteq_sensors.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/forklift_sensors.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/main_controller.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/xnergy_sensors.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/ByteArray.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/MultiByteArray.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/UInt16Array.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/MultiUInt16Array.msg
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_node-msg-paths.cmake
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/main_controller.h
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/UInt16Array.h
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/roboteq_sensors.h
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/MultiByteArray.h
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/forklift_sensors.h
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/xnergy_sensors.h
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/MultiUInt16Array.h
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/ByteArray.h
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/forklift_sensors.l
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/UInt16Array.l
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/roboteq_sensors.l
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/main_controller.l
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/MultiByteArray.l
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/MultiUInt16Array.l
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/ByteArray.l
+[0.815s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/xnergy_sensors.l
+[0.815s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/manifest.l
+[0.815s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node
+[0.815s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg
+[0.816s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package.lisp
+[0.816s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_ByteArray.lisp
+[0.816s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/ByteArray.lisp
+[0.816s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_MultiUInt16Array.lisp
+[0.816s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_MultiByteArray.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/xnergy_sensors.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_forklift_sensors.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_main_controller.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_roboteq_sensors.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/roboteq_sensors.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/MultiByteArray.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_xnergy_sensors.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/MultiUInt16Array.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/UInt16Array.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/forklift_sensors.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/main_controller.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_UInt16Array.lisp
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/plc_modbus_node-msg.asd
+[0.817s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/_index.js
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/_index.js
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/roboteq_sensors.js
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/ByteArray.js
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/MultiByteArray.js
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/MultiUInt16Array.js
+[0.818s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/xnergy_sensors.js
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/forklift_sensors.js
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/main_controller.js
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/UInt16Array.js
+[0.819s] Listing '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node'...
+[0.819s] Listing '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg'...
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_UInt16Array.py
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_MultiUInt16Array.py
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_ByteArray.py
+[0.819s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_forklift_sensors.py
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__init__.py
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_main_controller.py
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_MultiUInt16Array.cpython-38.pyc
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_xnergy_sensors.cpython-38.pyc
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_forklift_sensors.cpython-38.pyc
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_MultiByteArray.cpython-38.pyc
+[0.820s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_roboteq_sensors.cpython-38.pyc
+[0.821s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/__init__.cpython-38.pyc
+[0.821s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_main_controller.cpython-38.pyc
+[0.821s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_ByteArray.cpython-38.pyc
+[0.821s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_UInt16Array.cpython-38.pyc
+[0.821s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_xnergy_sensors.py
+[0.821s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_MultiByteArray.py
+[0.821s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_roboteq_sensors.py
+[0.822s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/__init__.py
+[0.822s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/__pycache__
+[0.822s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/__pycache__/__init__.cpython-38.pyc
+[0.822s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig/plc_modbus_node.pc
+[0.822s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_node-msg-extras.cmake
+[0.822s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_nodeConfig.cmake
+[0.822s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_nodeConfig-version.cmake
+[0.823s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/package.xml
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/ros_plc_modbus
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/plc_read_translator_node
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/config
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/config/plc_addresses.yaml
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/config/forklift_only.yaml
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch/PLC_mock.launch
+[0.824s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch/PLC_forklift.launch
+[0.825s] -- Up-to-date: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch/PLC_main.launch
+[0.905s] Invoked command in '/home/msi/caato2_ws/build/plc_modbus_node' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/plc_modbus_node

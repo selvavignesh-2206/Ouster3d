@@ -1,0 +1,9 @@
+/home/msi/caato2_ws/install/map_server/lib/pkgconfig/map_server.pc
+/home/msi/caato2_ws/install/map_server/share/map_server/cmake/map_serverConfig.cmake
+/home/msi/caato2_ws/install/map_server/share/map_server/cmake/map_serverConfig-version.cmake
+/home/msi/caato2_ws/install/map_server/share/map_server/package.xml
+/home/msi/caato2_ws/install/map_server/lib/map_server/map_saver
+/home/msi/caato2_ws/install/map_server/lib/map_server/map_server
+/home/msi/caato2_ws/install/map_server/lib/libimage_loader.so
+/home/msi/caato2_ws/install/map_server/include/map_server/image_loader.h
+/home/msi/caato2_ws/install/map_server/lib/map_server/crop_map

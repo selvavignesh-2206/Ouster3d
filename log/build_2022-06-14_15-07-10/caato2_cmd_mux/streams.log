@@ -1,0 +1,77 @@
+[0.074s] Invoking command in '/home/msi/caato2_ws/build/caato2_cmd_mux': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_cmd_mux -- -j20 -l20
+[0.255s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.255s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.255s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.255s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.255s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.255s] [  0%] Built target _caato2_cmd_mux_generate_messages_check_deps_change_sub_topic
+[0.255s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.255s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.256s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.256s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.256s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.256s] [  0%] Built target roscpp_generate_messages_cpp
+[0.256s] [  0%] Built target roscpp_generate_messages_lisp
+[0.261s] [  0%] Built target roscpp_generate_messages_eus
+[0.297s] [  0%] Built target std_msgs_generate_messages_py
+[0.299s] [  0%] Built target roscpp_generate_messages_py
+[0.308s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.308s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.309s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.310s] [  0%] Built target std_msgs_generate_messages_eus
+[0.315s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.332s] [ 11%] Built target caato2_cmd_mux_generate_messages_cpp
+[0.335s] [ 22%] Built target caato2_cmd_mux_generate_messages_nodejs
+[0.336s] [ 44%] Built target caato2_cmd_mux_generate_messages_eus
+[0.348s] [ 66%] Built target caato2_cmd_mux_generate_messages_py
+[0.358s] [ 77%] Built target caato2_cmd_mux_generate_messages_lisp
+[0.378s] [ 77%] Built target caato2_cmd_mux_generate_messages
+[0.384s] [100%] Built target caato2_cmd_mux_node
+[0.418s] Invoked command in '/home/msi/caato2_ws/build/caato2_cmd_mux' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_cmd_mux -- -j20 -l20
+[0.495s] Invoking command in '/home/msi/caato2_ws/build/caato2_cmd_mux': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_cmd_mux --target tests -- -j20 -l20
+[0.538s] Built target tests
+[0.588s] Invoked command in '/home/msi/caato2_ws/build/caato2_cmd_mux' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_cmd_mux --target tests -- -j20 -l20
+[0.690s] Invoking command in '/home/msi/caato2_ws/build/caato2_cmd_mux': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato2_cmd_mux
+[0.745s] -- Install configuration: ""
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/srv/change_sub_topic.srv
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_mux-msg-paths.cmake
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux/change_sub_topicRequest.h
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux/change_sub_topic.h
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux/change_sub_topicResponse.h
+[0.745s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux/manifest.l
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux/srv
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux/srv/change_sub_topic.l
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/_package.lisp
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/change_sub_topic.lisp
+[0.746s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/_package_change_sub_topic.lisp
+[0.747s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/caato2_cmd_mux-srv.asd
+[0.747s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux
+[0.747s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/_index.js
+[0.747s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/srv
+[0.747s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/srv/_index.js
+[0.747s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/srv/change_sub_topic.js
+[0.747s] Listing '/home/msi/caato2_ws/build/caato2_cmd_mux/devel/lib/python3/dist-packages/caato2_cmd_mux'...
+[0.747s] Listing '/home/msi/caato2_ws/build/caato2_cmd_mux/devel/lib/python3/dist-packages/caato2_cmd_mux/srv'...
+[0.748s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux
+[0.748s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv
+[0.748s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__init__.py
+[0.748s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/_change_sub_topic.py
+[0.749s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__pycache__
+[0.749s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__pycache__/_change_sub_topic.cpython-38.pyc
+[0.749s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__pycache__/__init__.cpython-38.pyc
+[0.749s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/__init__.py
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/__pycache__
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/__pycache__/__init__.cpython-38.pyc
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/pkgconfig/caato2_cmd_mux.pc
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_mux-msg-extras.cmake
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_muxConfig.cmake
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_muxConfig-version.cmake
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/package.xml
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/caato2_cmd_mux/caato2_cmd_mux_node
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/launch
+[0.750s] -- Up-to-date: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/launch/cmd_vel_mux.launch
+[0.860s] Invoked command in '/home/msi/caato2_ws/build/caato2_cmd_mux' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato2_cmd_mux

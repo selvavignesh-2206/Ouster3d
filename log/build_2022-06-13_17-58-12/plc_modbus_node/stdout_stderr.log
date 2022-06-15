@@ -1,0 +1,358 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/plc_modbus_node/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/plc_modbus_node/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- plc_modbus_node: 8 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/plc_modbus_node
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_main_controller[0m
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_MultiUInt16Array[0m
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_MultiByteArray[0m
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_ByteArray[0m
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_UInt16Array[0m
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_main_controller
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_xnergy_sensors[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_MultiUInt16Array
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_ByteArray
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_roboteq_sensors[0m
+[35m[1mScanning dependencies of target _plc_modbus_node_generate_messages_check_deps_forklift_sensors[0m
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_MultiByteArray
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_xnergy_sensors
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_UInt16Array
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_roboteq_sensors
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _plc_modbus_node_generate_messages_check_deps_forklift_sensors
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target plc_read_translator_node[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  2%] [32mBuilding CXX object CMakeFiles/plc_read_translator_node.dir/src/plc_read_translator_node.cpp.o[0m
+[  2%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target plc_modbus_node_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target plc_modbus_node_generate_messages_py[0m
+[35m[1mScanning dependencies of target plc_modbus_node_generate_messages_eus[0m
+[35m[1mScanning dependencies of target plc_modbus_node_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target plc_modbus_node_generate_messages_nodejs[0m
+[  4%] [34m[1mGenerating Lisp code from plc_modbus_node/roboteq_sensors.msg[0m
+[  6%] [34m[1mGenerating Lisp code from plc_modbus_node/forklift_sensors.msg[0m
+[  8%] [34m[1mGenerating EusLisp code from plc_modbus_node/roboteq_sensors.msg[0m
+[ 10%] [34m[1mGenerating Python from MSG plc_modbus_node/forklift_sensors[0m
+[ 13%] [34m[1mGenerating Lisp code from plc_modbus_node/main_controller.msg[0m
+[ 15%] [34m[1mGenerating Python from MSG plc_modbus_node/roboteq_sensors[0m
+[ 17%] [34m[1mGenerating Javascript code from plc_modbus_node/roboteq_sensors.msg[0m
+[ 19%] [34m[1mGenerating Python from MSG plc_modbus_node/main_controller[0m
+[ 21%] [34m[1mGenerating Javascript code from plc_modbus_node/forklift_sensors.msg[0m
+[ 23%] [34m[1mGenerating Lisp code from plc_modbus_node/xnergy_sensors.msg[0m
+[ 26%] [34m[1mGenerating Javascript code from plc_modbus_node/main_controller.msg[0m
+[ 28%] [34m[1mGenerating Python from MSG plc_modbus_node/xnergy_sensors[0m
+[ 30%] [34m[1mGenerating C++ code from plc_modbus_node/forklift_sensors.msg[0m
+[ 32%] [34m[1mGenerating Javascript code from plc_modbus_node/xnergy_sensors.msg[0m
+[ 34%] [34m[1mGenerating C++ code from plc_modbus_node/roboteq_sensors.msg[0m
+[ 36%] [34m[1mGenerating Javascript code from plc_modbus_node/ByteArray.msg[0m
+[ 39%] [34m[1mGenerating C++ code from plc_modbus_node/main_controller.msg[0m
+[ 41%] [34m[1mGenerating EusLisp code from plc_modbus_node/forklift_sensors.msg[0m
+[ 43%] [34m[1mGenerating Javascript code from plc_modbus_node/MultiByteArray.msg[0m
+[ 45%] [34m[1mGenerating C++ code from plc_modbus_node/xnergy_sensors.msg[0m
+[ 47%] [34m[1mGenerating Lisp code from plc_modbus_node/MultiByteArray.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from plc_modbus_node/UInt16Array.msg[0m
+[ 52%] [34m[1mGenerating Lisp code from plc_modbus_node/ByteArray.msg[0m
+[ 54%] [34m[1mGenerating Javascript code from plc_modbus_node/MultiUInt16Array.msg[0m
+[ 56%] [34m[1mGenerating C++ code from plc_modbus_node/ByteArray.msg[0m
+[ 60%] [34m[1mGenerating Lisp code from plc_modbus_node/UInt16Array.msg[0m
+[ 60%] [34m[1mGenerating C++ code from plc_modbus_node/MultiByteArray.msg[0m
+[ 63%] [34m[1mGenerating C++ code from plc_modbus_node/UInt16Array.msg[0m
+[ 65%] [34m[1mGenerating Lisp code from plc_modbus_node/MultiUInt16Array.msg[0m
+[ 67%] [34m[1mGenerating EusLisp code from plc_modbus_node/xnergy_sensors.msg[0m
+[ 69%] Built target plc_modbus_node_generate_messages_nodejs
+[ 69%] [34m[1mGenerating EusLisp code from plc_modbus_node/main_controller.msg[0m
+[ 71%] [34m[1mGenerating C++ code from plc_modbus_node/MultiUInt16Array.msg[0m
+[ 73%] [34m[1mGenerating EusLisp code from plc_modbus_node/ByteArray.msg[0m
+[ 76%] [34m[1mGenerating Python from MSG plc_modbus_node/ByteArray[0m
+[ 78%] [34m[1mGenerating Python from MSG plc_modbus_node/MultiByteArray[0m
+[ 78%] Built target plc_modbus_node_generate_messages_lisp
+[ 80%] [34m[1mGenerating EusLisp code from plc_modbus_node/MultiByteArray.msg[0m
+[ 82%] [34m[1mGenerating Python from MSG plc_modbus_node/UInt16Array[0m
+[ 84%] [34m[1mGenerating Python from MSG plc_modbus_node/MultiUInt16Array[0m
+[ 89%] [34m[1mGenerating EusLisp code from plc_modbus_node/UInt16Array.msg[0m
+[ 89%] [34m[1mGenerating EusLisp code from plc_modbus_node/MultiUInt16Array.msg[0m
+[ 91%] [34m[1mGenerating EusLisp manifest code for plc_modbus_node[0m
+[ 91%] Built target plc_modbus_node_generate_messages_cpp
+[ 93%] [34m[1mGenerating Python msg __init__.py for plc_modbus_node[0m
+[ 93%] Built target plc_modbus_node_generate_messages_py
+[ 93%] Built target plc_modbus_node_generate_messages_eus
+[35m[1mScanning dependencies of target ros_plc_modbus[0m
+[35m[1mScanning dependencies of target plc_modbus_node_generate_messages[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/ros_plc_modbus.dir/src/ros_plc_modbus.cpp.o[0m
+[ 95%] Built target plc_modbus_node_generate_messages
+In file included from [01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/modbus_wrapper.h:4[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:13[m[K:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/test_modbus/modbus_mock.h:[m[K In member function ‘[01m[Kchar* modbus_mock::modbus_strerror()[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/test_modbus/modbus_mock.h:91:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+         return [01;35m[K"Invalid Address"[m[K;
+                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:5[m[K:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:[m[K In member function ‘[01m[Kvoid plc_modbus_manager::regs_callBack(const ConstPtr&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d registers to write but only %d given!"[m[K, [32m[Kit->second.regs_write_addr.size()[m[K, regs_data->data.size());
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d registers to write but only %d given!", it->second.regs_write_addr.size(), regs_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::vector<short unsigned int, std::allocator<short unsigned int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d registers to write but only %d given!"[m[K, it->second.regs_write_addr.size(), [32m[Kregs_data->data.size()[m[K);
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d registers to write but only %d given!", it->second.regs_write_addr.size(), regs_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:[m[K In member function ‘[01m[Kvoid plc_modbus_manager::coils_callBack(const ConstPtr&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d coils to write but %d given!"[m[K, [32m[Kit->second.coils_addr.size()[m[K, coils_data->data.size());
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d coils to write but %d given!", it->second.coils_addr.size(), coils_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d coils to write but %d given!"[m[K, it->second.coils_addr.size(), [32m[Kcoils_data->data.size()[m[K);
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d coils to write but %d given!", it->second.coils_addr.size(), coils_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K
+[ 97%] [32m[1mLinking CXX executable devel/lib/plc_modbus_node/plc_read_translator_node[0m
+[ 97%] Built target plc_read_translator_node
+[100%] [32m[1mLinking CXX executable devel/lib/plc_modbus_node/ros_plc_modbus[0m
+[100%] Built target ros_plc_modbus
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/roboteq_sensors.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/forklift_sensors.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/main_controller.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/xnergy_sensors.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/ByteArray.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/MultiByteArray.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/UInt16Array.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/msg/MultiUInt16Array.msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_node-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/main_controller.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/UInt16Array.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/roboteq_sensors.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/MultiByteArray.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/forklift_sensors.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/xnergy_sensors.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/MultiUInt16Array.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/include/plc_modbus_node/ByteArray.h
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/forklift_sensors.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/UInt16Array.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/roboteq_sensors.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/main_controller.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/MultiByteArray.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/MultiUInt16Array.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/ByteArray.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/msg/xnergy_sensors.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/roseus/ros/plc_modbus_node/manifest.l
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_ByteArray.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/ByteArray.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_MultiUInt16Array.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_MultiByteArray.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/xnergy_sensors.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_forklift_sensors.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_main_controller.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_roboteq_sensors.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/roboteq_sensors.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/MultiByteArray.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_xnergy_sensors.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/MultiUInt16Array.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/UInt16Array.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/forklift_sensors.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/main_controller.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/_package_UInt16Array.lisp
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/common-lisp/ros/plc_modbus_node/msg/plc_modbus_node-msg.asd
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/_index.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/roboteq_sensors.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/ByteArray.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/MultiByteArray.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/MultiUInt16Array.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/xnergy_sensors.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/forklift_sensors.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/main_controller.js
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/gennodejs/ros/plc_modbus_node/msg/UInt16Array.js
+Listing '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/__init__.py'...
+Listing '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_ByteArray.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_MultiByteArray.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_MultiUInt16Array.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_UInt16Array.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/__init__.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_forklift_sensors.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_main_controller.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_roboteq_sensors.py'...
+Compiling '/home/msi/caato2_ws/build/plc_modbus_node/devel/lib/python3/dist-packages/plc_modbus_node/msg/_xnergy_sensors.py'...
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_UInt16Array.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_MultiUInt16Array.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_ByteArray.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_forklift_sensors.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_main_controller.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_MultiUInt16Array.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_xnergy_sensors.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_forklift_sensors.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_MultiByteArray.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_roboteq_sensors.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_main_controller.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_ByteArray.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/__pycache__/_UInt16Array.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_xnergy_sensors.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_MultiByteArray.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/msg/_roboteq_sensors.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/__init__.py
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/__pycache__
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages/plc_modbus_node/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/lib/pkgconfig/plc_modbus_node.pc
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_node-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_nodeConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/cmake/plc_modbus_nodeConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/package.xml
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/ros_plc_modbus
+-- Set runtime path of "/home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/ros_plc_modbus" to ""
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/plc_read_translator_node
+-- Set runtime path of "/home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/plc_read_translator_node" to ""
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/config
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/config/plc_addresses.yaml
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/config/forklift_only.yaml
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch/PLC_mock.launch
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch/PLC_forklift.launch
+-- Installing: /home/msi/caato2_ws/install/plc_modbus_node/share/plc_modbus_node/launch/PLC_main.launch

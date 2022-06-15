@@ -1,0 +1,224 @@
+[0.060s] Invoking command in '/home/msi/caato2_ws/build/ds4_driver': /usr/bin/cmake /home/msi/caato2_ws/src/siot/ds4_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/ds4_driver
+[1.809s] -- The C compiler identification is GNU 8.4.0
+[1.812s] -- The CXX compiler identification is GNU 8.4.0
+[1.812s] -- Check for working C compiler: /usr/bin/cc
+[1.812s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.812s] -- Detecting C compiler ABI info
+[1.812s] -- Detecting C compiler ABI info - done
+[1.812s] -- Detecting C compile features
+[1.812s] -- Detecting C compile features - done
+[1.812s] -- Check for working CXX compiler: /usr/bin/c++
+[1.813s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.813s] -- Detecting CXX compiler ABI info
+[1.813s] -- Detecting CXX compiler ABI info - done
+[1.813s] -- Detecting CXX compile features
+[1.813s] -- Detecting CXX compile features - done
+[1.813s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/ds4_driver/devel
+[1.813s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[1.813s] -- This workspace overlays: /opt/ros/noetic
+[1.813s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.813s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.813s] -- Using Debian Python package layout
+[1.813s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[1.814s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[1.814s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.814s] -- Call enable_testing()
+[1.814s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/ds4_driver/test_results
+[1.814s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.814s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.814s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.814s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.814s] -- Found Threads: TRUE  
+[1.814s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.814s] -- catkin 0.8.10
+[1.815s] -- BUILD_SHARED_LIBS is on
+[1.815s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.817s] -- ds4_driver: 4 messages, 0 services
+[3.403s] -- Installing devel-space wrapper /home/msi/caato2_ws/src/siot/ds4_driver/nodes/ds4_driver_node.py to /home/msi/caato2_ws/build/ds4_driver/devel/lib/ds4_driver
+[3.404s] -- Installing devel-space wrapper /home/msi/caato2_ws/src/siot/ds4_driver/nodes/ds4_twist_node.py to /home/msi/caato2_ws/build/ds4_driver/devel/lib/ds4_driver
+[3.405s] -- Installing devel-space wrapper /home/msi/caato2_ws/src/siot/ds4_driver/nodes/demo.py to /home/msi/caato2_ws/build/ds4_driver/devel/lib/ds4_driver
+[3.408s] -- Configuring done
+[3.461s] -- Generating done
+[3.466s] -- Build files have been written to: /home/msi/caato2_ws/build/ds4_driver
+[3.520s] Invoked command in '/home/msi/caato2_ws/build/ds4_driver' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/ds4_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/ds4_driver
+[3.521s] Invoking command in '/home/msi/caato2_ws/build/ds4_driver': /usr/bin/cmake --build /home/msi/caato2_ws/build/ds4_driver -- -j20 -l20
+[7.328s] [35m[1mScanning dependencies of target _ds4_driver_generate_messages_check_deps_Trackpad[0m
+[7.329s] [35m[1mScanning dependencies of target _ds4_driver_generate_messages_check_deps_Report[0m
+[7.329s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[7.329s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[7.329s] [35m[1mScanning dependencies of target _ds4_driver_generate_messages_check_deps_Status[0m
+[7.330s] [35m[1mScanning dependencies of target _ds4_driver_generate_messages_check_deps_Feedback[0m
+[7.330s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[7.331s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[7.331s] [  0%] Built target std_msgs_generate_messages_eus
+[7.331s] [  0%] Built target _ds4_driver_generate_messages_check_deps_Trackpad
+[7.331s] [  0%] Built target _ds4_driver_generate_messages_check_deps_Report
+[7.334s] [  0%] Built target sensor_msgs_generate_messages_eus
+[7.334s] [  0%] Built target _ds4_driver_generate_messages_check_deps_Feedback
+[7.334s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.334s] [  0%] Built target std_msgs_generate_messages_lisp
+[7.334s] [  0%] Built target _ds4_driver_generate_messages_check_deps_Status
+[7.334s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[7.334s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[7.334s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[7.334s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[7.335s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[7.335s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[7.335s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[7.335s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.335s] [  0%] Built target std_msgs_generate_messages_py
+[7.335s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.335s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.335s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[7.335s] [35m[1mScanning dependencies of target ds4_driver_generate_messages_eus[0m
+[7.335s] [35m[1mScanning dependencies of target ds4_driver_generate_messages_lisp[0m
+[7.335s] [35m[1mScanning dependencies of target ds4_driver_generate_messages_cpp[0m
+[7.335s] [35m[1mScanning dependencies of target ds4_driver_generate_messages_nodejs[0m
+[7.335s] [35m[1mScanning dependencies of target ds4_driver_generate_messages_py[0m
+[7.335s] [  4%] [34m[1mGenerating EusLisp code from ds4_driver/Report.msg[0m
+[7.336s] [  9%] [34m[1mGenerating EusLisp code from ds4_driver/Feedback.msg[0m
+[7.336s] [ 18%] [34m[1mGenerating EusLisp code from ds4_driver/Status.msg[0m
+[7.336s] [ 22%] [34m[1mGenerating C++ code from ds4_driver/Report.msg[0m
+[7.336s] [ 27%] [34m[1mGenerating Lisp code from ds4_driver/Feedback.msg[0m
+[7.336s] [ 13%] [34m[1mGenerating EusLisp code from ds4_driver/Trackpad.msg[0m
+[7.336s] [ 31%] [34m[1mGenerating Lisp code from ds4_driver/Status.msg[0m
+[7.336s] [ 36%] [34m[1mGenerating C++ code from ds4_driver/Status.msg[0m
+[7.336s] [ 40%] [34m[1mGenerating EusLisp manifest code for ds4_driver[0m
+[7.336s] [ 45%] [34m[1mGenerating Lisp code from ds4_driver/Trackpad.msg[0m
+[7.336s] [ 50%] [34m[1mGenerating Lisp code from ds4_driver/Report.msg[0m
+[7.336s] [ 54%] [34m[1mGenerating C++ code from ds4_driver/Feedback.msg[0m
+[7.336s] [ 59%] [34m[1mGenerating Python from MSG ds4_driver/Report[0m
+[7.336s] [ 63%] [34m[1mGenerating Python from MSG ds4_driver/Feedback[0m
+[7.337s] [ 68%] [34m[1mGenerating Python from MSG ds4_driver/Status[0m
+[7.337s] [ 72%] [34m[1mGenerating C++ code from ds4_driver/Trackpad.msg[0m
+[7.337s] [ 77%] [34m[1mGenerating Javascript code from ds4_driver/Feedback.msg[0m
+[7.337s] [ 81%] [34m[1mGenerating Javascript code from ds4_driver/Report.msg[0m
+[7.337s] [ 86%] [34m[1mGenerating Javascript code from ds4_driver/Status.msg[0m
+[7.337s] [ 90%] [34m[1mGenerating Python from MSG ds4_driver/Trackpad[0m
+[7.337s] [ 95%] [34m[1mGenerating Javascript code from ds4_driver/Trackpad.msg[0m
+[7.337s] [ 95%] Built target ds4_driver_generate_messages_lisp
+[7.337s] [ 95%] Built target ds4_driver_generate_messages_nodejs
+[7.337s] [ 95%] Built target ds4_driver_generate_messages_cpp
+[7.337s] [100%] [34m[1mGenerating Python msg __init__.py for ds4_driver[0m
+[7.337s] [100%] Built target ds4_driver_generate_messages_py
+[7.337s] [100%] Built target ds4_driver_generate_messages_eus
+[7.337s] [35m[1mScanning dependencies of target ds4_driver_generate_messages[0m
+[7.338s] [100%] Built target ds4_driver_generate_messages
+[7.394s] Invoked command in '/home/msi/caato2_ws/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/ds4_driver -- -j20 -l20
+[8.458s] Invoking command in '/home/msi/caato2_ws/build/ds4_driver': /usr/bin/cmake --build /home/msi/caato2_ws/build/ds4_driver --target tests -- -j20 -l20
+[9.739s] [35m[1mScanning dependencies of target tests[0m
+[9.739s] Built target tests
+[9.766s] Invoked command in '/home/msi/caato2_ws/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/ds4_driver --target tests -- -j20 -l20
+[10.756s] Invoking command in '/home/msi/caato2_ws/build/ds4_driver': /usr/bin/cmake --install /home/msi/caato2_ws/build/ds4_driver
+[12.886s] -- Install configuration: ""
+[12.888s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/msg/Feedback.msg
+[12.889s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/msg/Report.msg
+[12.889s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/msg/Status.msg
+[12.889s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/msg/Trackpad.msg
+[12.889s] + cd /home/msi/caato2_ws/src/siot/ds4_driver
+[12.889s] + mkdir -p /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages
+[12.890s] + /usr/bin/env PYTHONPATH=/home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages:/home/msi/caato2_ws/build/ds4_driver/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/msi/caato2_ws/build/ds4_driver /usr/bin/python3 /home/msi/caato2_ws/src/siot/ds4_driver/setup.py build --build-base /home/msi/caato2_ws/build/ds4_driver install --root=/ --install-layout=deb --prefix=/home/msi/caato2_ws/install/ds4_driver --install-scripts=/home/msi/caato2_ws/install/ds4_driver/bin
+[12.890s] running build
+[12.890s] running build_py
+[12.890s] creating /home/msi/caato2_ws/build/ds4_driver/lib
+[12.890s] creating /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver
+[12.890s] copying src/ds4_driver/logger.py -> /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver
+[12.890s] copying src/ds4_driver/controller_ros.py -> /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver
+[12.890s] copying src/ds4_driver/__init__.py -> /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver
+[12.890s] copying src/ds4_driver/controller.py -> /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver
+[12.890s] running install
+[12.890s] running install_lib
+[12.891s] creating /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver
+[12.891s] copying /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver/logger.py -> /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver
+[12.891s] copying /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver/controller_ros.py -> /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver
+[12.891s] copying /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver/__init__.py -> /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver
+[12.891s] copying /home/msi/caato2_ws/build/ds4_driver/lib/ds4_driver/controller.py -> /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver
+[12.891s] byte-compiling /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/logger.py to logger.cpython-38.pyc
+[12.891s] byte-compiling /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/controller_ros.py to controller_ros.cpython-38.pyc
+[12.891s] byte-compiling /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/__init__.py to __init__.cpython-38.pyc
+[12.891s] byte-compiling /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/controller.py to controller.cpython-38.pyc
+[12.891s] running install_egg_info
+[12.891s] Writing /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver-0.2.1.egg-info
+[12.891s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driver-msg-paths.cmake
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/include/ds4_driver
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/include/ds4_driver/Trackpad.h
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/include/ds4_driver/Status.h
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/include/ds4_driver/Report.h
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/include/ds4_driver/Feedback.h
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/roseus/ros/ds4_driver
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/roseus/ros/ds4_driver/msg
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/roseus/ros/ds4_driver/msg/Status.l
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/roseus/ros/ds4_driver/msg/Report.l
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/roseus/ros/ds4_driver/msg/Trackpad.l
+[12.892s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/roseus/ros/ds4_driver/msg/Feedback.l
+[12.893s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/roseus/ros/ds4_driver/manifest.l
+[12.893s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver
+[12.893s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg
+[12.893s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/_package.lisp
+[12.893s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/_package_Report.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/Status.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/_package_Feedback.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/Report.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/Trackpad.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/ds4_driver-msg.asd
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/_package_Status.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/_package_Trackpad.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/common-lisp/ros/ds4_driver/msg/Feedback.lisp
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver/_index.js
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver/msg
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver/msg/_index.js
+[12.894s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver/msg/Status.js
+[12.895s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver/msg/Report.js
+[12.895s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver/msg/Trackpad.js
+[12.895s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/gennodejs/ros/ds4_driver/msg/Feedback.js
+[12.895s] Listing '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver'...
+[12.895s] Compiling '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver/__init__.py'...
+[12.895s] Listing '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver/msg'...
+[12.895s] Compiling '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver/msg/_Feedback.py'...
+[12.895s] Compiling '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver/msg/_Report.py'...
+[12.895s] Compiling '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver/msg/_Status.py'...
+[12.895s] Compiling '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver/msg/_Trackpad.py'...
+[12.895s] Compiling '/home/msi/caato2_ws/build/ds4_driver/devel/lib/python3/dist-packages/ds4_driver/msg/__init__.py'...
+[12.895s] -- Up-to-date: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver
+[12.895s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/_Feedback.py
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/_Trackpad.py
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/_Status.py
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/_Report.py
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__pycache__
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__pycache__/_Status.cpython-38.pyc
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__pycache__/_Report.cpython-38.pyc
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__pycache__/__init__.cpython-38.pyc
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__pycache__/_Trackpad.cpython-38.pyc
+[12.896s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__pycache__/_Feedback.cpython-38.pyc
+[12.896s] -- Up-to-date: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/__pycache__
+[12.896s] -- Up-to-date: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/__pycache__/__init__.cpython-38.pyc
+[12.896s] -- Up-to-date: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver
+[12.897s] -- Up-to-date: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__init__.py
+[12.897s] -- Up-to-date: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/msg/__pycache__
+[12.897s] -- Up-to-date: /home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages/ds4_driver/__pycache__
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/pkgconfig/ds4_driver.pc
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driver-msg-extras.cmake
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/package.xml
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/ds4_driver/ds4_driver_node.py
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/ds4_driver/ds4_twist_node.py
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/lib/ds4_driver/demo.py
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/launch
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/launch/ds4_driver.launch
+[12.897s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/launch/demo.launch
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/launch/ds4_twist.launch
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/src
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/src/ds4_driver
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/src/ds4_driver/logger.py
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/src/ds4_driver/controller_ros.py
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/src/ds4_driver/__init__.py
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/src/ds4_driver/controller.py
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/config
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/config/twist_2dof.yaml
+[12.898s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/config/params.yaml
+[12.899s] -- Installing: /home/msi/caato2_ws/install/ds4_driver/share/ds4_driver/config/twist_6dof.yaml
+[12.912s] Invoked command in '/home/msi/caato2_ws/build/ds4_driver' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/ds4_driver

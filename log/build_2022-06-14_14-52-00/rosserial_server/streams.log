@@ -1,0 +1,58 @@
+[0.145s] Invoking command in '/home/msi/caato2_ws/build/rosserial_server': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_server -- -j20 -l20
+[0.180s] [  0%] Built target topic_tools_generate_messages_eus
+[0.183s] [  0%] Built target std_msgs_generate_messages_eus
+[0.183s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.184s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.187s] [  0%] Built target roscpp_generate_messages_cpp
+[0.187s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.187s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.187s] [  0%] Built target rosserial_msgs_generate_messages_eus
+[0.187s] [  0%] Built target topic_tools_generate_messages_py
+[0.187s] [  0%] Built target roscpp_generate_messages_py
+[0.188s] [  0%] Built target rosserial_msgs_generate_messages_lisp
+[0.188s] [  0%] Built target rosserial_msgs_generate_messages_nodejs
+[0.189s] [ 25%] Built target rosserial_server_lookup
+[0.189s] [ 25%] Built target rosserial_msgs_generate_messages_py
+[0.189s] [ 25%] Built target rosserial_msgs_generate_messages_cpp
+[0.189s] [ 25%] Built target topic_tools_generate_messages_nodejs
+[0.189s] [ 25%] Built target rosgraph_msgs_generate_messages_lisp
+[0.189s] [ 25%] Built target roscpp_generate_messages_eus
+[0.189s] [ 25%] Built target std_msgs_generate_messages_lisp
+[0.194s] [ 25%] Built target topic_tools_generate_messages_lisp
+[0.198s] [ 25%] Built target std_msgs_generate_messages_cpp
+[0.198s] [ 25%] Built target std_msgs_generate_messages_nodejs
+[0.198s] [ 25%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.198s] [ 25%] Built target std_msgs_generate_messages_py
+[0.201s] [ 25%] Built target roscpp_generate_messages_lisp
+[0.201s] [ 25%] Built target rosgraph_msgs_generate_messages_eus
+[0.218s] [100%] Built target rosserial_server_serial_node
+[0.219s] [100%] Built target rosserial_server_socket_node
+[0.219s] [100%] Built target rosserial_server_udp_socket_node
+[0.247s] Invoked command in '/home/msi/caato2_ws/build/rosserial_server' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_server -- -j20 -l20
+[0.327s] Invoking command in '/home/msi/caato2_ws/build/rosserial_server': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_server --target tests -- -j20 -l20
+[0.389s] Built target tests
+[0.413s] Invoked command in '/home/msi/caato2_ws/build/rosserial_server' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_server --target tests -- -j20 -l20
+[0.492s] Invoking command in '/home/msi/caato2_ws/build/rosserial_server': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_server
+[0.494s] -- Install configuration: ""
+[0.494s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig/rosserial_server.pc
+[0.495s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/cmake/rosserial_serverConfig.cmake
+[0.495s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/cmake/rosserial_serverConfig-version.cmake
+[0.495s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/package.xml
+[0.496s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/librosserial_server_lookup.so
+[0.496s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/serial_node
+[0.497s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/socket_node
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/udp_socket_node
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/serial.launch
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/udp_socket.launch
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/socket.launch
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/udp_stream.h
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/udp_socket_session.h
+[0.498s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/tcp_server.h
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/session.h
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/msg_lookup.h
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/topic_handlers.h
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/async_read_buffer.h
+[0.499s] -- Up-to-date: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/serial_session.h
+[0.534s] Invoked command in '/home/msi/caato2_ws/build/rosserial_server' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_server

@@ -1,0 +1,17 @@
+Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/lib/pkgconfig/caato2_bringup.pc
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/cmake/caato2_bringupConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/cmake/caato2_bringupConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/caato2_teleop.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/caato2_remote.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/caato2_lasers.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/description.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/caato2_realsense.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/launch/include/caato2_motors.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/rviz
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/rviz/realsense.rviz
+-- Up-to-date: /home/msi/caato2_ws/install/caato2_bringup/share/caato2_bringup/rviz/bringup.rviz

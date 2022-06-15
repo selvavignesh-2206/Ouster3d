@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/msi/caato2_ws/build/rviz_atc_plugins/devel/setup.sh

@@ -1,0 +1,52 @@
+[0.210s] Invoking command in '/home/msi/caato2_ws/build/realsense2_description': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_description -- -j20 -l20
+[0.364s] Invoked command in '/home/msi/caato2_ws/build/realsense2_description' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_description -- -j20 -l20
+[0.533s] Invoking command in '/home/msi/caato2_ws/build/realsense2_description': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_description --target tests -- -j20 -l20
+[0.585s] Built target tests
+[0.648s] Invoked command in '/home/msi/caato2_ws/build/realsense2_description' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/realsense2_description --target tests -- -j20 -l20
+[0.700s] Invoking command in '/home/msi/caato2_ws/build/realsense2_description': /usr/bin/cmake --install /home/msi/caato2_ws/build/realsense2_description
+[0.710s] -- Install configuration: ""
+[0.710s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/cmake/realsense2_descriptionConfig-version.cmake
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/package.xml
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch/view_l515_model.launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch/view_r430_model.launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch/view_d415_model.launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch/view_multiple_d435_models.launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch/view_r410_model.launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch/view_d435_model.launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/launch/view_d435i_model.launch
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/meshes
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/meshes/plug.stl
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/meshes/plug_collision.stl
+[0.711s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/meshes/d415.stl
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/meshes/d435.dae
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/meshes/l515.dae
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/rviz
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/rviz/urdf.rviz
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r410_camera.urdf.xacro
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/test_r430_camera.urdf.xacro
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_materials.urdf.xacro
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.front.gazebo.xacro
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.front.urdf.xacro
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.2.urdf.xacro
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_multiple_cameras.urdf.xacro
+[0.712s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d415.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_l515.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435_camera.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.2.urdf.xacro.bkup
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.2.front.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435i_imu_modules.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d415_camera.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/test_d435i_camera.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.urdf.xacro
+[0.713s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.gazebo.xacro.bkup
+[0.714s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/test_l515_camera.urdf.xacro
+[0.714s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_r410.urdf.xacro
+[0.714s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_usb_plug.urdf.xacro
+[0.714s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_d435.gazebo.xacro
+[0.715s] -- Up-to-date: /home/msi/caato2_ws/install/realsense2_description/share/realsense2_description/urdf/_r430.urdf.xacro
+[0.727s] Invoked command in '/home/msi/caato2_ws/build/realsense2_description' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/realsense2_description

@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/device_diagnostics/devel
+
+Name: device_diagnostics
+Description: Description of device_diagnostics
+Version: 0.0.0
+Cflags: -I/home/msi/caato2_ws/build/device_diagnostics/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp diagnostic_msgs sensor_msgs bond message_runtime

@@ -1,0 +1,949 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/Project/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/Project/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 7 packages in topological order:
+-- ~~  - octomap_mapping (metapackage)
+-- ~~  - perception_pcl (metapackage)
+-- ~~  - rosinrange_msg
+-- ~~  - pcl_conversions
+-- ~~  - pcl_ros
+-- ~~  - amcl3d
+-- ~~  - octomap_server
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'octomap_mapping'
+-- ==> add_subdirectory(octomap_mapping/octomap_mapping)
+-- +++ processing catkin metapackage: 'perception_pcl'
+-- ==> add_subdirectory(perception_pcl/perception_pcl)
+-- +++ processing catkin package: 'rosinrange_msg'
+-- ==> add_subdirectory(amcl3d/rosinrange_msg)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rosinrange_msg: 1 messages, 0 services
+-- +++ processing catkin package: 'pcl_conversions'
+-- ==> add_subdirectory(perception_pcl/pcl_conversions)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Found libusb-1.0: /usr/include  
+-- looking for PCL_COMMON
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL: pcl_common;pcl_octree;pcl_io;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2  
+-- Found Boost: /usr/include (found version "1.71.0") found components: iostreams regex 
+-- +++ processing catkin package: 'pcl_ros'
+-- ==> add_subdirectory(perception_pcl/pcl_ros)
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.9") 
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem thread chrono date_time atomic 
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/msi/caato2_ws/build/Project/perception_pcl/pcl_ros/class_loader_hide_library_symbols__pcl_ros_io.script"
+-- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/msi/caato2_ws/build/Project/perception_pcl/pcl_ros/class_loader_hide_library_symbols__pcl_ros_io.script" - yes
+-- +++ processing catkin package: 'amcl3d'
+-- ==> add_subdirectory(amcl3d/amcl3d)
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'octomap_server'
+-- ==> add_subdirectory(octomap_mapping/octomap_server)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/Project
+[35m[1mScanning dependencies of target _rosinrange_msg_generate_messages_check_deps_RangePose[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target table_scene_lms400.pcd[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target convert_pointcloud_to_image[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target convert_pcd_to_image[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target _rosinrange_msg_generate_messages_check_deps_RangePose
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/convert_pointcloud_to_image.dir/tools/convert_pointcloud_to_image.cpp.o[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+Downloading http://download.ros.org/data/pcl/table_scene_lms400.pcd to /home/msi/caato2_ws/build/Project/devel/share/pcl_ros/samples/data/table_scene_lms400.pcd...[  1%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/convert_pcd_to_image.dir/tools/convert_pcd_to_image.cpp.o[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  1%] Built target nodelet_topic_tools_gencfg
+[  1%] Built target tf_generate_messages_lisp
+[  1%] Built target bond_generate_messages_nodejs
+[  1%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  1%] Built target tf2_msgs_generate_messages_nodejs
+[  1%] Built target bond_generate_messages_py
+[  1%] Built target dynamic_reconfigure_generate_messages_eus
+[  1%] Built target dynamic_reconfigure_gencfg
+[  1%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  1%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  1%] Built target dynamic_reconfigure_generate_messages_lisp
+[  1%] Built target tf2_msgs_generate_messages_cpp
+[  1%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  1%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  1%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  1%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  1%] Built target std_srvs_generate_messages_nodejs
+[  1%] Built target bond_generate_messages_lisp
+[  1%] Built target nodelet_generate_messages_lisp
+[  1%] Built target bond_generate_messages_eus
+[  1%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  1%] Built target actionlib_generate_messages_eus
+[  1%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  1%] Built target actionlib_generate_messages_cpp
+[  1%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  1%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  1%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  1%] Built target actionlib_msgs_generate_messages_lisp
+[  1%] Built target actionlib_msgs_generate_messages_eus
+[  1%] Built target tf_generate_messages_py
+[  1%] Built target tf2_msgs_generate_messages_lisp
+[  1%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  1%] Built target dynamic_reconfigure_generate_messages_py
+[  1%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  1%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  1%] Built target tf2_msgs_generate_messages_py
+[  1%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target pointcloud_to_pcd[0m
+[35m[1mScanning dependencies of target pcd_to_pointcloud[0m
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[  1%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target octomap_msgs_generate_messages_py[0m
+[  1%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target octomap_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target octomap_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target octomap_msgs_generate_messages_nodejs[0m
+[  1%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  1%] Built target nav_msgs_generate_messages_eus
+[  2%] [34m[1mGenerating dynamic reconfigure files from cfg/EuclideanClusterExtraction.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/EuclideanClusterExtractionConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.py[0m
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/ExtractIndices.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/ExtractIndicesConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/ExtractIndicesConfig.py[0m
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/Feature.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/FeatureConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/FeatureConfig.py[0m
+[  4%] [34m[1mGenerating dynamic reconfigure files from cfg/ExtractPolygonalPrismData.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/ExtractPolygonalPrismDataConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.py[0m
+[  4%] Built target octomap_msgs_generate_messages_py
+[  4%] Built target nav_msgs_generate_messages_lisp
+[  4%] Built target nav_msgs_generate_messages_cpp
+[  4%] Built target octomap_msgs_generate_messages_lisp
+[  4%] Built target octomap_msgs_generate_messages_eus
+[  4%] Built target visualization_msgs_generate_messages_py
+[  4%] Built target nav_msgs_generate_messages_py
+[  4%] Built target octomap_msgs_generate_messages_nodejs
+[  4%] Built target visualization_msgs_generate_messages_cpp
+[  4%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target octomap_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  5%] [34m[1mGenerating dynamic reconfigure files from cfg/Filter.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/FilterConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/FilterConfig.py[0m
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  7%] [34m[1mGenerating dynamic reconfigure files from cfg/MLS.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/MLSConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/MLSConfig.py[0m
+[35m[1mScanning dependencies of target octomap_server_gencfg[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_nodejs[0m
+[  7%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_eus[0m
+[  8%] [34m[1mGenerating Javascript code from rosinrange_msg/RangePose.msg[0m
+[  8%] Built target octomap_msgs_generate_messages_cpp
+[  9%] Built target visualization_msgs_generate_messages_eus
+[  9%] [34m[1mGenerating dynamic reconfigure files from cfg/SACSegmentation.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/SACSegmentationConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/SACSegmentationConfig.py[0m
+[  9%] Built target visualization_msgs_generate_messages_lisp
+[ 10%] [34m[1mGenerating dynamic reconfigure files from cfg/OctomapServer.cfg: /home/msi/caato2_ws/build/Project/devel/include/octomap_server/OctomapServerConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py[0m
+[ 10%] [34m[1mGenerating Python from MSG rosinrange_msg/RangePose[0m
+[ 11%] [34m[1mGenerating Lisp code from rosinrange_msg/RangePose.msg[0m
+[ 12%] [34m[1mGenerating EusLisp code from rosinrange_msg/RangePose.msg[0m
+[ 14%] [34m[1mGenerating EusLisp manifest code for rosinrange_msg[0m
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target pcl_ros_tf[0m
+[ 15%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcd_to_pointcloud.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[ 16%] [34m[1mGenerating C++ code from rosinrange_msg/RangePose.msg[0m
+[ 17%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pointcloud_to_pcd.dir/tools/pointcloud_to_pcd.cpp.o[0m
+Generating reconfiguration files for EuclideanClusterExtraction in pcl_ros
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/EuclideanClusterExtractionConfig.h
+Generating reconfiguration files for ExtractIndices in pcl_ros
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/ExtractIndicesConfig.h
+Generating reconfiguration files for ExtractPolygonalPrismData in pcl_ros
+Generating reconfiguration files for Feature in pcl_ros
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/ExtractPolygonalPrismDataConfig.h
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/FeatureConfig.h
+[ 17%] Built target rosinrange_msg_generate_messages_nodejs
+[ 17%] Built target rosinrange_msg_generate_messages_lisp
+Generating reconfiguration files for MLS in pcl_ros
+Generating reconfiguration files for Filter in pcl_ros
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/MLSConfig.h
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/FilterConfig.h
+Generating reconfiguration files for OctomapServer in octomap_server
+Generating reconfiguration files for SACSegmentation in pcl_ros
+[ 18%] [34m[1mGenerating dynamic reconfigure files from cfg/SegmentDifferences.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/SegmentDifferencesConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/SegmentDifferencesConfig.py[0m
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/SACSegmentationConfig.h
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/octomap_server/OctomapServerConfig.h
+[ 21%] [34m[1mGenerating dynamic reconfigure files from cfg/RadiusOutlierRemoval.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/RadiusOutlierRemovalConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.py[0m
+[ 22%] [34m[1mGenerating dynamic reconfigure files from cfg/CropBox.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/CropBoxConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/CropBoxConfig.py[0m
+[ 22%] [34m[1mGenerating dynamic reconfigure files from cfg/StatisticalOutlierRemoval.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/StatisticalOutlierRemovalConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.py[0m
+[ 23%] [34m[1mGenerating dynamic reconfigure files from cfg/SACSegmentationFromNormals.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/SACSegmentationFromNormalsConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.py[0m
+[ 20%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o[0m
+[ 24%] [34m[1mGenerating dynamic reconfigure files from cfg/VoxelGrid.cfg: /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/VoxelGridConfig.h /home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/VoxelGridConfig.py[0m
+[ 24%] Built target octomap_server_gencfg
+[ 25%] [34m[1mGenerating Python msg __init__.py for rosinrange_msg[0m
+[ 25%] Built target rosinrange_msg_generate_messages_cpp
+Generating reconfiguration files for RadiusOutlierRemoval in pcl_ros
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/RadiusOutlierRemovalConfig.h
+Generating reconfiguration files for VoxelGrid in pcl_ros
+Generating reconfiguration files for SegmentDifferences in pcl_ros
+Generating reconfiguration files for CropBox in pcl_ros
+Generating reconfiguration files for StatisticalOutlierRemoval in pcl_ros
+Generating reconfiguration files for SACSegmentationFromNormals in pcl_ros
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/SegmentDifferencesConfig.h
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/StatisticalOutlierRemovalConfig.h
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/VoxelGridConfig.h
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/CropBoxConfig.h
+Wrote header file in /home/msi/caato2_ws/build/Project/devel/include/pcl_ros/SACSegmentationFromNormalsConfig.h
+[ 25%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target pcl_ros_features[0m
+[35m[1mScanning dependencies of target pcl_ros_surface[0m
+[ 25%] Built target rosinrange_msg_generate_messages_py
+[ 27%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_surface.dir/src/pcl_ros/surface/surface.cpp.o[0m
+[ 27%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_surface.dir/src/pcl_ros/surface/convex_hull.cpp.o[0m
+[ 28%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_surface.dir/src/pcl_ros/surface/moving_least_squares.cpp.o[0m
+[ 30%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/boundary.cpp.o[0m
+[ 30%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/feature.cpp.o[0m
+[ 31%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/shot.cpp.o[0m
+[ 32%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/fpfh.cpp.o[0m
+[ 32%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/fpfh_omp.cpp.o[0m
+[ 35%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/moment_invariants.cpp.o[0m
+[ 35%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/shot_omp.cpp.o[0m
+[ 36%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/normal_3d.cpp.o[0m
+[ 37%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/normal_3d_omp.cpp.o[0m
+[ 38%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/principal_curvatures.cpp.o[0m
+[ 38%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/pfh.cpp.o[0m
+[ 38%] Built target rosinrange_msg_generate_messages_eus
+[ 40%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_features.dir/src/pcl_ros/features/vfh.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable ../../devel/lib/pcl_ros/convert_pcd_to_image[0m
+[ 42%] [32m[1mLinking CXX executable ../../devel/lib/pcl_ros/pcd_to_pointcloud[0m
+[ 43%] [32m[1mLinking CXX executable ../../devel/lib/pcl_ros/convert_pointcloud_to_image[0m
+ done.
+Checking md5sum on /home/msi/caato2_ws/build/Project/devel/share/pcl_ros/samples/data/table_scene_lms400.pcd
+[ 43%] Built target table_scene_lms400.pcd
+[35m[1mScanning dependencies of target rosinrange_msg_generate_messages[0m
+[ 43%] Built target rosinrange_msg_generate_messages
+[35m[1mScanning dependencies of target download_extra_data[0m
+[ 43%] Built target convert_pcd_to_image
+[ 43%] Built target download_extra_data
+[35m[1mScanning dependencies of target download[0m
+[ 43%] Built target download
+[ 43%] Built target pcd_to_pointcloud
+[ 43%] Built target convert_pointcloud_to_image
+[ 43%] [32m[1mLinking CXX executable ../../devel/lib/pcl_ros/pointcloud_to_pcd[0m
+[ 43%] Built target pointcloud_to_pcd
+[ 44%] [32m[1mLinking CXX shared library ../../devel/lib/libpcl_ros_surface.so[0m
+[ 45%] [32m[1mLinking CXX shared library ../../devel/lib/libpcl_ros_tf.so[0m
+[ 45%] Built target pcl_ros_tf
+[35m[1mScanning dependencies of target bag_to_pcd[0m
+[35m[1mScanning dependencies of target pcl_ros_filter[0m
+[35m[1mScanning dependencies of target pcl_ros_segmentation[0m
+[35m[1mScanning dependencies of target pcl_ros_io[0m
+[ 48%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filter.dir/src/pcl_ros/filters/filter.cpp.o[0m
+[ 48%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/bag_to_pcd.dir/tools/bag_to_pcd.cpp.o[0m
+[ 49%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/bag_io.cpp.o[0m
+[ 50%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/concatenate_fields.cpp.o[0m
+[ 51%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/concatenate_data.cpp.o[0m
+[ 51%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/io.cpp.o[0m
+[ 52%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_io.dir/src/pcl_ros/io/pcd_io.cpp.o[0m
+[ 55%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/extract_clusters.cpp.o[0m
+[ 55%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/extract_polygonal_prism_data.cpp.o[0m
+[ 55%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/sac_segmentation.cpp.o[0m
+[ 56%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/segmentation.cpp.o[0m
+[ 57%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_segmentation.dir/src/pcl_ros/segmentation/segment_differences.cpp.o[0m
+[ 57%] Built target pcl_ros_surface
+[ 58%] [32m[1mLinking CXX shared library ../../devel/lib/libpcl_ros_features.so[0m
+[ 58%] Built target pcl_ros_features
+[ 60%] [32m[1mLinking CXX executable ../../devel/lib/pcl_ros/bag_to_pcd[0m
+[ 60%] Built target bag_to_pcd
+[ 61%] [32m[1mLinking CXX shared library ../../devel/lib/libpcl_ros_io.so[0m
+[ 61%] Built target pcl_ros_io
+[ 62%] [32m[1mLinking CXX shared library ../../devel/lib/libpcl_ros_segmentation.so[0m
+[ 63%] [32m[1mLinking CXX shared library ../../devel/lib/libpcl_ros_filter.so[0m
+[ 63%] Built target pcl_ros_filter
+[35m[1mScanning dependencies of target octomap_server[0m
+[35m[1mScanning dependencies of target octomap_server_color[0m
+[35m[1mScanning dependencies of target amcl3d[0m
+[35m[1mScanning dependencies of target pcl_ros_filters[0m
+[ 65%] [32mBuilding CXX object amcl3d/amcl3d/CMakeFiles/amcl3d.dir/src/PointCloudTools.cpp.o[0m
+[ 65%] [32mBuilding CXX object amcl3d/amcl3d/CMakeFiles/amcl3d.dir/src/ParticleFilter.cpp.o[0m
+[ 65%] [32mBuilding CXX object amcl3d/amcl3d/CMakeFiles/amcl3d.dir/src/Grid3d.cpp.o[0m
+[ 67%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o[0m
+[ 67%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.o[0m
+[ 68%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o[0m
+[ 69%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.o[0m
+[ 70%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.o[0m
+[ 71%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o[0m
+[ 74%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/extract_indices.cpp.o[0m
+[ 74%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/project_inliers.cpp.o[0m
+[ 74%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/passthrough.cpp.o[0m
+[ 75%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/radius_outlier_removal.cpp.o[0m
+[ 75%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/voxel_grid.cpp.o[0m
+[ 76%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/statistical_outlier_removal.cpp.o[0m
+[ 77%] [32mBuilding CXX object perception_pcl/pcl_ros/CMakeFiles/pcl_ros_filters.dir/src/pcl_ros/filters/crop_box.cpp.o[0m
+[ 77%] Built target pcl_ros_segmentation
+[ 78%] [32m[1mLinking CXX shared library ../../devel/lib/libamcl3d.so[0m
+[ 78%] Built target amcl3d
+[35m[1mScanning dependencies of target amcl3d_node[0m
+[ 81%] [32mBuilding CXX object amcl3d/amcl3d/CMakeFiles/amcl3d_node.dir/src/main.cpp.o[0m
+[ 81%] [32mBuilding CXX object amcl3d/amcl3d/CMakeFiles/amcl3d_node.dir/src/Node.cpp.o[0m
+[ 81%] [32mBuilding CXX object amcl3d/amcl3d/CMakeFiles/amcl3d_node.dir/src/Parameters.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library ../../devel/lib/liboctomap_server_color.so[0m
+[ 82%] [32m[1mLinking CXX shared library ../../devel/lib/libpcl_ros_filters.so[0m
+[ 83%] [32m[1mLinking CXX executable ../../devel/lib/amcl3d/amcl3d_node[0m
+[ 84%] [32m[1mLinking CXX shared library ../../devel/lib/liboctomap_server.so[0m
+[ 84%] Built target pcl_ros_filters
+[ 84%] Built target octomap_server_color
+[35m[1mScanning dependencies of target octomap_color_server_nodelet[0m
+[35m[1mScanning dependencies of target octomap_color_server_node[0m
+[ 87%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.o[0m
+[ 87%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.o[0m
+[ 87%] Built target amcl3d_node
+[ 87%] Built target octomap_server
+[35m[1mScanning dependencies of target octomap_server_nodelet[0m
+[35m[1mScanning dependencies of target octomap_server_static[0m
+[35m[1mScanning dependencies of target octomap_tracking_server_node[0m
+[35m[1mScanning dependencies of target octomap_saver[0m
+[35m[1mScanning dependencies of target octomap_server_node[0m
+[35m[1mScanning dependencies of target octomap_server_multilayer[0m
+[ 89%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o[0m
+[ 89%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o[0m
+[ 90%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o[0m
+[ 90%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.o[0m
+[ 91%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o[0m
+[ 92%] [32mBuilding CXX object octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable ../../devel/lib/octomap_server/octomap_saver[0m
+[ 95%] [32m[1mLinking CXX executable ../../devel/lib/octomap_server/octomap_server_static[0m
+[ 95%] Built target octomap_saver
+[ 95%] Built target octomap_server_static
+[ 96%] [32m[1mLinking CXX shared library ../../devel/lib/liboctomap_color_server_nodelet.so[0m
+[ 96%] [32m[1mLinking CXX executable ../../devel/lib/octomap_server/octomap_color_server_node[0m
+[ 96%] Built target octomap_color_server_nodelet
+[ 96%] Built target octomap_color_server_node
+[ 97%] [32m[1mLinking CXX executable ../../devel/lib/octomap_server/octomap_server_node[0m
+[ 98%] [32m[1mLinking CXX executable ../../devel/lib/octomap_server/octomap_server_multilayer[0m
+[ 98%] [32m[1mLinking CXX executable ../../devel/lib/octomap_server/octomap_tracking_server_node[0m
+[100%] [32m[1mLinking CXX shared library ../../devel/lib/liboctomap_server_nodelet.so[0m
+[100%] Built target octomap_server_nodelet
+[100%] Built target octomap_tracking_server_node
+[100%] Built target octomap_server_multilayer
+[100%] Built target octomap_server_node
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/Project/_setup_util.py
+-- Installing: /home/msi/caato2_ws/install/Project/env.sh
+-- Installing: /home/msi/caato2_ws/install/Project/setup.bash
+-- Installing: /home/msi/caato2_ws/install/Project/local_setup.bash
+-- Installing: /home/msi/caato2_ws/install/Project/setup.sh
+-- Installing: /home/msi/caato2_ws/install/Project/local_setup.sh
+-- Installing: /home/msi/caato2_ws/install/Project/setup.zsh
+-- Installing: /home/msi/caato2_ws/install/Project/local_setup.zsh
+-- Installing: /home/msi/caato2_ws/install/Project/.rosinstall
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_mapping/package.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/perception_pcl/package.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/rosinrange_msg/msg/RangePose.msg
+-- Installing: /home/msi/caato2_ws/install/Project/share/rosinrange_msg/cmake/rosinrange_msg-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/include/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/Project/include/rosinrange_msg/RangePose.h
+-- Installing: /home/msi/caato2_ws/install/Project/share/roseus/ros/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/Project/share/roseus/ros/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/Project/share/roseus/ros/rosinrange_msg/msg/RangePose.l
+-- Installing: /home/msi/caato2_ws/install/Project/share/roseus/ros/rosinrange_msg/manifest.l
+-- Installing: /home/msi/caato2_ws/install/Project/share/common-lisp/ros/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/Project/share/common-lisp/ros/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/Project/share/common-lisp/ros/rosinrange_msg/msg/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/Project/share/common-lisp/ros/rosinrange_msg/msg/rosinrange_msg-msg.asd
+-- Installing: /home/msi/caato2_ws/install/Project/share/common-lisp/ros/rosinrange_msg/msg/_package_RangePose.lisp
+-- Installing: /home/msi/caato2_ws/install/Project/share/common-lisp/ros/rosinrange_msg/msg/RangePose.lisp
+-- Installing: /home/msi/caato2_ws/install/Project/share/gennodejs/ros/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/Project/share/gennodejs/ros/rosinrange_msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/Project/share/gennodejs/ros/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/Project/share/gennodejs/ros/rosinrange_msg/msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/Project/share/gennodejs/ros/rosinrange_msg/msg/RangePose.js
+Listing '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/rosinrange_msg'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/rosinrange_msg/__init__.py'...
+Listing '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/rosinrange_msg/msg'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/rosinrange_msg/msg/_RangePose.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/rosinrange_msg/msg/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/msg
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/msg/_RangePose.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/msg/__pycache__/_RangePose.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/rosinrange_msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pkgconfig/rosinrange_msg.pc
+-- Installing: /home/msi/caato2_ws/install/Project/share/rosinrange_msg/cmake/rosinrange_msg-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/rosinrange_msg/cmake/rosinrange_msgConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/rosinrange_msg/cmake/rosinrange_msgConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/rosinrange_msg/package.xml
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pkgconfig/pcl_conversions.pc
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_conversions/package.xml
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_conversions
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_conversions/pcl_conversions.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/EuclideanClusterExtractionConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/ExtractIndicesConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/ExtractPolygonalPrismDataConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/FeatureConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/FilterConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/MLSConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/SACSegmentationConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/SACSegmentationFromNormalsConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/SegmentDifferencesConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/StatisticalOutlierRemovalConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/RadiusOutlierRemovalConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/VoxelGridConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/CropBoxConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/__init__.py
+Listing '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/CropBoxConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/ExtractIndicesConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/FeatureConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/FilterConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/MLSConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/SACSegmentationConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/SegmentDifferencesConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/VoxelGridConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/pcl_ros/cfg/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/ExtractIndicesConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/EuclideanClusterExtractionConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/FeatureConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/FilterConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/RadiusOutlierRemovalConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/MLSConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/StatisticalOutlierRemovalConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/CropBoxConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/VoxelGridConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/SegmentDifferencesConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/ExtractPolygonalPrismDataConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/SACSegmentationConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/StatisticalOutlierRemovalConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/ExtractPolygonalPrismDataConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/CropBoxConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/MLSConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/VoxelGridConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/SACSegmentationFromNormalsConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/ExtractIndicesConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/RadiusOutlierRemovalConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/SegmentDifferencesConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/FeatureConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/SACSegmentationConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/FilterConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/__pycache__/EuclideanClusterExtractionConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/pcl_ros/cfg/SACSegmentationFromNormalsConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pkgconfig/pcl_ros.pc
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/cmake/pcl_rosConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/Project/include/pcl_ros
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/transforms.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/filter.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/statistical_outlier_removal.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/voxel_grid.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/crop_box.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/project_inliers.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/passthrough.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/radius_outlier_removal.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/filters/extract_indices.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/pcl_nodelet.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/shot.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/moment_invariants.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/normal_3d_omp.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/normal_3d_tbb.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/pfh.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/fpfh.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/vfh.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/feature.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/shot_omp.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/normal_3d.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/boundary.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/principal_curvatures.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/features/fpfh_omp.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/io
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/io/concatenate_fields.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/io/concatenate_data.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/io/bag_io.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/io/pcd_io.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/segmentation
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/segmentation/sac_segmentation.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/segmentation/extract_clusters.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/segmentation/extract_polygonal_prism_data.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/segmentation/segment_differences.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/impl
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/impl/transforms.hpp
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/point_cloud.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/surface
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/surface/convex_hull.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/surface/moving_least_squares.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/pcl_ros/publisher.h
+-- Installing: /home/msi/caato2_ws/install/Project/lib/libpcl_ros_tf.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/libpcl_ros_tf.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/libpcl_ros_io.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/libpcl_ros_io.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/libpcl_ros_features.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/libpcl_ros_features.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/libpcl_ros_filter.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/libpcl_ros_filter.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/libpcl_ros_filters.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/libpcl_ros_filters.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/libpcl_ros_surface.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/libpcl_ros_surface.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/libpcl_ros_segmentation.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/libpcl_ros_segmentation.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pcl_ros/pcd_to_pointcloud
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/pcl_ros/pcd_to_pointcloud" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pcl_ros/pointcloud_to_pcd
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/pcl_ros/pointcloud_to_pcd" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pcl_ros/bag_to_pcd
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/pcl_ros/bag_to_pcd" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pcl_ros/convert_pcd_to_image
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/pcl_ros/convert_pcd_to_image" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pcl_ros/convert_pointcloud_to_image
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/pcl_ros/convert_pointcloud_to_image" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/plugins
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/plugins/nodelet
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/filters
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/filters/config
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/features
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/io
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/segmentation
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/surface
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/data
+-- Installing: /home/msi/caato2_ws/install/Project/share/pcl_ros/samples/data/.gitignore
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pkgconfig/amcl3d.pc
+-- Installing: /home/msi/caato2_ws/install/Project/share/amcl3d/cmake/amcl3dConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/amcl3d/cmake/amcl3dConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/amcl3d/package.xml
+-- Installing: /home/msi/caato2_ws/install/Project/include/octomap_server/OctomapServerConfig.h
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/octomap_server/__init__.py
+Listing '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/octomap_server/cfg'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py'...
+Compiling '/home/msi/caato2_ws/build/Project/devel/lib/python3/dist-packages/octomap_server/cfg/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/octomap_server/cfg
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/octomap_server/cfg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/octomap_server/cfg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/octomap_server/cfg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/python3/dist-packages/octomap_server/cfg/__pycache__/OctomapServerConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/Project/lib/pkgconfig/octomap_server.pc
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/cmake/octomap_serverConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/cmake/octomap_serverConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/package.xml
+-- Installing: /home/msi/caato2_ws/install/Project/lib/liboctomap_server.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/liboctomap_server.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/liboctomap_server_color.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/liboctomap_server_color.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_server_node
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_server_node" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_color_server_node
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_color_server_node" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_server_static
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_server_static" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_server_multilayer
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_server_multilayer" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_saver
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_saver" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_tracking_server_node
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/octomap_server/octomap_tracking_server_node" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/liboctomap_server_nodelet.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/liboctomap_server_nodelet.so" to ""
+-- Installing: /home/msi/caato2_ws/install/Project/lib/liboctomap_color_server_nodelet.so
+-- Set runtime path of "/home/msi/caato2_ws/install/Project/lib/liboctomap_color_server_nodelet.so" to ""
+-- Up-to-date: /home/msi/caato2_ws/install/Project/include/octomap_server
+-- Installing: /home/msi/caato2_ws/install/Project/include/octomap_server/OctomapServerMultilayer.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/octomap_server/TrackingOctomapServer.h
+-- Installing: /home/msi/caato2_ws/install/Project/include/octomap_server/OctomapServer.h
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/launch/octomap_tracking_client.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/launch/octomap_tracking_server.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/launch/octomap_mapping_nodelet.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/launch/octomap_mapping.launch
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/nodelet_plugins.xml
+-- Installing: /home/msi/caato2_ws/install/Project/share/octomap_server/color_nodelet_plugins.xml

@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/install/ouster-gazebo-simulation
+
+Name: ouster_os1_64
+Description: Description of ouster_os1_64
+Version: 2.0.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

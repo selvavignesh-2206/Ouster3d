@@ -1,0 +1,86 @@
+In file included from [01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/modbus_wrapper.h:4[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:13[m[K:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/test_modbus/modbus_mock.h:[m[K In member function ‘[01m[Kchar* modbus_mock::modbus_strerror()[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/test_modbus/modbus_mock.h:91:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+         return [01;35m[K"Invalid Address"[m[K;
+                [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:5[m[K:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:[m[K In member function ‘[01m[Kvoid plc_modbus_manager::regs_callBack(const ConstPtr&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d registers to write but only %d given!"[m[K, [32m[Kit->second.regs_write_addr.size()[m[K, regs_data->data.size());
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d registers to write but only %d given!", it->second.regs_write_addr.size(), regs_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::vector<short unsigned int, std::allocator<short unsigned int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d registers to write but only %d given!"[m[K, it->second.regs_write_addr.size(), [32m[Kregs_data->data.size()[m[K);
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                     [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:238:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d registers to write but only %d given!", it->second.regs_write_addr.size(), regs_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:[m[K In member function ‘[01m[Kvoid plc_modbus_manager::coils_callBack(const ConstPtr&)[m[K’:
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d coils to write but %d given!"[m[K, [32m[Kit->second.coils_addr.size()[m[K, coils_data->data.size());
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d coils to write but %d given!", it->second.coils_addr.size(), coils_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+                 ROS_ERROR([01;35m[K"%d coils to write but %d given!"[m[K, it->second.coils_addr.size(), [32m[Kcoils_data->data.size()[m[K);
+                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+ _location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+                                                                     [01;36m[K^~~~~~~~~~~[m[K
+
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/msi/caato2_ws/src/siot/plc-rosbridge/plc_modbus_node/src/ros_plc_modbus.cpp:268:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+                 [01;36m[KROS_ERROR[m[K("%d coils to write but %d given!", it->second.coils_addr.size(), coils_data->data.size());
+                 [01;36m[K^~~~~~~~~[m[K

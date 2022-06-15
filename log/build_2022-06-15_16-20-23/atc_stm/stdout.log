@@ -1,0 +1,16 @@
+[100%] Built target atc_stm
+Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/lib/pkgconfig/atc_stm.pc
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/cmake/atc_stmConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/cmake/atc_stmConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/atc_stm
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.noGDB.launch
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.noGDB.2.launch
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.frontbackAT.noGDB.launch
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/tutorial.launch
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.GDB.launch
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.launch
+-- Up-to-date: /home/msi/caato2_ws/install/atc_stm/share/atc_stm/launch/astm.apriltag.launch

@@ -1,0 +1,327 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/atc_waypoints/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/atc_waypoints/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- atc_waypoints: 3 messages, 7 services
+-- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/msi/caato2_ws/build/atc_waypoints/class_loader_hide_library_symbols__atc_waypoints.script"
+-- Checking to see if CXX compiler accepts flag -Wl,--version-script,"/home/msi/caato2_ws/build/atc_waypoints/class_loader_hide_library_symbols__atc_waypoints.script" - yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/atc_waypoints
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Wp_2_Group[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Load_Wp[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Delete_Wp[0m
+[  1%] [34m[1mGenerating ui_waypointPanel.h[0m
+[  3%] [34m[1mGenerating include/moc_waypoints_tool.cpp[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_waypointArray[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_waypoint_msg[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Stop_Wp[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Run_Wp[0m
+[  4%] [34m[1mGenerating include/moc_waypointPanel.cpp[0m
+[  4%] Built target std_msgs_generate_messages_cpp
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_Wp_2_Group
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_Delete_Wp
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_Run_Wp
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_waypointArray
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_waypoint_msg
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_Load_Wp
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_waypoint_group[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_Stop_Wp
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Save_Wp[0m
+[35m[1mScanning dependencies of target _atc_waypoints_generate_messages_check_deps_Groups_Wp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  4%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  4%] Built target geometry_msgs_generate_messages_py
+[  4%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_waypoint_group
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_Groups_Wp
+[  4%] Built target _atc_waypoints_generate_messages_check_deps_Save_Wp
+[35m[1mScanning dependencies of target atc_waypoints_generate_messages_cpp[0m
+[  4%] Built target std_msgs_generate_messages_nodejs
+[  4%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  4%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target atc_waypoints_generate_messages_py[0m
+[  4%] Built target std_msgs_generate_messages_eus
+[  7%] [34m[1mGenerating C++ code from atc_waypoints/waypoint_msg.msg[0m
+[  7%] [34m[1mGenerating C++ code from atc_waypoints/waypoint_group.msg[0m
+[  7%] Built target geometry_msgs_generate_messages_lisp
+[ 10%] [34m[1mGenerating Python from MSG atc_waypoints/waypoint_msg[0m
+[ 10%] [34m[1mGenerating Python from MSG atc_waypoints/waypoint_group[0m
+[ 13%] [34m[1mGenerating Python from MSG atc_waypoints/waypointArray[0m
+[ 13%] [34m[1mGenerating C++ code from atc_waypoints/waypointArray.msg[0m
+[ 13%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target atc_waypoints_generate_messages_eus[0m
+[35m[1mScanning dependencies of target atc_waypoints_generate_messages_nodejs[0m
+[ 15%] [34m[1mGenerating C++ code from atc_waypoints/Save_Wp.srv[0m
+[ 16%] [34m[1mGenerating Python code from SRV atc_waypoints/Save_Wp[0m
+[ 18%] [34m[1mGenerating Python code from SRV atc_waypoints/Load_Wp[0m
+[ 20%] [34m[1mGenerating Python code from SRV atc_waypoints/Stop_Wp[0m
+[ 21%] [34m[1mGenerating C++ code from atc_waypoints/Run_Wp.srv[0m
+[ 23%] [34m[1mGenerating EusLisp code from atc_waypoints/waypointArray.msg[0m
+[ 24%] [34m[1mGenerating C++ code from atc_waypoints/Load_Wp.srv[0m
+[ 26%] [34m[1mGenerating Python code from SRV atc_waypoints/Run_Wp[0m
+[ 27%] [34m[1mGenerating Javascript code from atc_waypoints/waypoint_msg.msg[0m
+[ 30%] [34m[1mGenerating C++ code from atc_waypoints/Stop_Wp.srv[0m
+[ 30%] [34m[1mGenerating EusLisp code from atc_waypoints/waypoint_group.msg[0m
+[ 32%] [34m[1mGenerating Python code from SRV atc_waypoints/Delete_Wp[0m
+[ 33%] [34m[1mGenerating EusLisp code from atc_waypoints/waypoint_msg.msg[0m
+[ 35%] [34m[1mGenerating Javascript code from atc_waypoints/waypoint_group.msg[0m
+[ 36%] [34m[1mGenerating Python code from SRV atc_waypoints/Groups_Wp[0m
+[ 38%] [34m[1mGenerating EusLisp code from atc_waypoints/Save_Wp.srv[0m
+[ 40%] [34m[1mGenerating C++ code from atc_waypoints/Delete_Wp.srv[0m
+[ 41%] [34m[1mGenerating EusLisp code from atc_waypoints/Run_Wp.srv[0m
+[ 43%] [34m[1mGenerating EusLisp code from atc_waypoints/Load_Wp.srv[0m
+[ 44%] [34m[1mGenerating Javascript code from atc_waypoints/waypointArray.msg[0m
+[35m[1mScanning dependencies of target atc_waypoints_generate_messages_lisp[0m
+[ 46%] [34m[1mGenerating Python code from SRV atc_waypoints/Wp_2_Group[0m
+[ 47%] [34m[1mGenerating Javascript code from atc_waypoints/Save_Wp.srv[0m
+[ 49%] [34m[1mGenerating EusLisp code from atc_waypoints/Stop_Wp.srv[0m
+[ 50%] [34m[1mGenerating C++ code from atc_waypoints/Wp_2_Group.srv[0m
+[ 52%] [34m[1mGenerating C++ code from atc_waypoints/Groups_Wp.srv[0m
+[ 53%] [34m[1mGenerating EusLisp code from atc_waypoints/Delete_Wp.srv[0m
+[ 55%] [34m[1mGenerating Lisp code from atc_waypoints/waypoint_msg.msg[0m
+[ 56%] [34m[1mGenerating EusLisp code from atc_waypoints/Groups_Wp.srv[0m
+[ 60%] [34m[1mGenerating Lisp code from atc_waypoints/waypointArray.msg[0m
+[ 58%] [34m[1mGenerating Lisp code from atc_waypoints/waypoint_group.msg[0m
+[ 61%] [34m[1mGenerating Javascript code from atc_waypoints/Load_Wp.srv[0m
+[ 63%] [34m[1mGenerating EusLisp code from atc_waypoints/Wp_2_Group.srv[0m
+[ 64%] [34m[1mGenerating Lisp code from atc_waypoints/Save_Wp.srv[0m
+[ 66%] [34m[1mGenerating Javascript code from atc_waypoints/Run_Wp.srv[0m
+[ 67%] [34m[1mGenerating Javascript code from atc_waypoints/Stop_Wp.srv[0m
+[ 69%] [34m[1mGenerating EusLisp manifest code for atc_waypoints[0m
+[ 70%] [34m[1mGenerating Lisp code from atc_waypoints/Load_Wp.srv[0m
+[ 72%] [34m[1mGenerating Lisp code from atc_waypoints/Run_Wp.srv[0m
+[ 73%] [34m[1mGenerating Lisp code from atc_waypoints/Stop_Wp.srv[0m
+[ 75%] [34m[1mGenerating Javascript code from atc_waypoints/Delete_Wp.srv[0m
+[ 76%] [34m[1mGenerating Javascript code from atc_waypoints/Wp_2_Group.srv[0m
+[35m[1mScanning dependencies of target atc_waypoints[0m
+[ 78%] [34m[1mGenerating Lisp code from atc_waypoints/Delete_Wp.srv[0m
+[ 80%] [34m[1mGenerating Javascript code from atc_waypoints/Groups_Wp.srv[0m
+[ 81%] [34m[1mGenerating Lisp code from atc_waypoints/Groups_Wp.srv[0m
+[ 83%] [34m[1mGenerating Lisp code from atc_waypoints/Wp_2_Group.srv[0m
+[ 83%] Built target atc_waypoints_generate_messages_cpp
+[35m[1mScanning dependencies of target atc_waypoints_gencpp[0m
+[ 84%] [34m[1mGenerating Python msg __init__.py for atc_waypoints[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/src/waypoints_tool.cpp.o[0m
+[ 87%] [34m[1mGenerating Python srv __init__.py for atc_waypoints[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/src/waypointPanel.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/include/moc_waypoints_tool.cpp.o[0m
+[ 90%] Built target atc_waypoints_generate_messages_lisp
+[ 90%] Built target atc_waypoints_generate_messages_nodejs
+[ 92%] [32mBuilding CXX object CMakeFiles/atc_waypoints.dir/include/moc_waypointPanel.cpp.o[0m
+[ 92%] Built target atc_waypoints_gencpp
+[35m[1mScanning dependencies of target waypoints_server[0m
+[35m[1mScanning dependencies of target debug_waypoints[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/waypoints_server.dir/src/waypoints_server.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/debug_waypoints.dir/src/debug_waypoints.cpp.o[0m
+[ 95%] Built target atc_waypoints_generate_messages_py
+[ 95%] Built target atc_waypoints_generate_messages_eus
+[35m[1mScanning dependencies of target atc_waypoints_generate_messages[0m
+[ 95%] Built target atc_waypoints_generate_messages
+[ 96%] [32m[1mLinking CXX executable devel/lib/atc_waypoints/debug_waypoints[0m
+[ 96%] Built target debug_waypoints
+[ 98%] [32m[1mLinking CXX shared library devel/lib/libatc_waypoints.so[0m
+[ 98%] Built target atc_waypoints
+[100%] [32m[1mLinking CXX executable devel/lib/atc_waypoints/waypoints_server[0m
+[100%] Built target waypoints_server
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/msg/waypoint_msg.msg
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/msg/waypoint_group.msg
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/msg/waypointArray.msg
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Save_Wp.srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Load_Wp.srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Run_Wp.srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Stop_Wp.srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Delete_Wp.srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Groups_Wp.srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/srv/Wp_2_Group.srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypoints-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Save_Wp.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Run_WpRequest.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Save_WpResponse.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Stop_Wp.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Groups_Wp.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Run_WpResponse.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/waypointArray.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Load_WpRequest.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Wp_2_GroupRequest.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Stop_WpResponse.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Save_WpRequest.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Groups_WpRequest.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Load_WpResponse.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Wp_2_GroupResponse.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Delete_WpRequest.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Delete_Wp.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Run_Wp.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Delete_WpResponse.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Load_Wp.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Stop_WpRequest.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/waypoint_group.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/waypoint_msg.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Wp_2_Group.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/include/atc_waypoints/Groups_WpResponse.h
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg/waypoint_msg.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg/waypointArray.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/msg/waypoint_group.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/manifest.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Groups_Wp.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Wp_2_Group.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Load_Wp.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Run_Wp.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Save_Wp.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Delete_Wp.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/roseus/ros/atc_waypoints/srv/Stop_Wp.l
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/waypoint_msg.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/waypoint_group.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/waypointArray.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/atc_waypoints-msg.asd
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package_waypointArray.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package_waypoint_msg.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/msg/_package_waypoint_group.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Run_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Delete_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Wp_2_Group.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Groups_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Stop_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Save_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Delete_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Stop_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Wp_2_Group.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/_package_Load_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Groups_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/atc_waypoints-srv.asd
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Save_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Load_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/common-lisp/ros/atc_waypoints/srv/Run_Wp.lisp
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/_index.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/waypoint_group.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/waypointArray.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/msg/waypoint_msg.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/_index.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Save_Wp.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Run_Wp.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Stop_Wp.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Delete_Wp.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Load_Wp.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Wp_2_Group.js
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/gennodejs/ros/atc_waypoints/srv/Groups_Wp.js
+Listing '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/__init__.py'...
+Listing '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/__init__.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/_waypointArray.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_group.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_msg.py'...
+Listing '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Delete_Wp.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Groups_Wp.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Load_Wp.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Run_Wp.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Save_Wp.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Stop_Wp.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/_Wp_2_Group.py'...
+Compiling '/home/msi/caato2_ws/build/atc_waypoints/devel/lib/python3/dist-packages/atc_waypoints/srv/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_group.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/_waypointArray.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/_waypoint_msg.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/_waypoint_msg.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/_waypoint_group.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/msg/__pycache__/_waypointArray.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Stop_Wp.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Wp_2_Group.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Save_Wp.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Delete_Wp.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Run_Wp.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__init__.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Load_Wp.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/_Groups_Wp.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Stop_Wp.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Load_Wp.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Groups_Wp.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Wp_2_Group.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Delete_Wp.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Save_Wp.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/srv/__pycache__/_Run_Wp.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/__init__.py
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/__pycache__
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages/atc_waypoints/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/pkgconfig/atc_waypoints.pc
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypoints-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypointsConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/cmake/atc_waypointsConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/package.xml
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/lib/libatc_waypoints.so
+-- Set runtime path of "/home/msi/caato2_ws/install/atc_waypoints/lib/libatc_waypoints.so" to ""
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/waypoints_server
+-- Set runtime path of "/home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/waypoints_server" to ""
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/debug_waypoints
+-- Set runtime path of "/home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/debug_waypoints" to ""
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/launch
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/launch/wpt_controller.launch
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files/mbc_set1_wp.txt
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files/Readme.txt
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/files/mbc_set1_gr.txt
+-- Installing: /home/msi/caato2_ws/install/atc_waypoints/share/atc_waypoints/plugin_description.xml

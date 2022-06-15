@@ -1,0 +1,234 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/apriltag_ros/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/apriltag;/opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/apriltag_ros/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for one of the modules 'apriltag'
+-- Setting build type to 'Release' as none was specified.
+-- apriltag_ros: 2 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/apriltag_ros
+[35m[1mScanning dependencies of target _apriltag_ros_generate_messages_check_deps_AnalyzeSingleImage[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _apriltag_ros_generate_messages_check_deps_AprilTagDetectionArray[0m
+[35m[1mScanning dependencies of target _apriltag_ros_generate_messages_check_deps_AprilTagDetection[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target _apriltag_ros_generate_messages_check_deps_AnalyzeSingleImage
+[  0%] Built target _apriltag_ros_generate_messages_check_deps_AprilTagDetectionArray
+[  0%] Built target _apriltag_ros_generate_messages_check_deps_AprilTagDetection
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target apriltag_ros_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target apriltag_ros_generate_messages_py[0m
+[  3%] [34m[1mGenerating C++ code from apriltag_ros/AprilTagDetection.msg[0m
+[  6%] [34m[1mGenerating Python from MSG apriltag_ros/AprilTagDetection[0m
+[  6%] Built target sensor_msgs_generate_messages_eus
+[ 10%] [34m[1mGenerating C++ code from apriltag_ros/AprilTagDetectionArray.msg[0m
+[ 13%] [34m[1mGenerating Python from MSG apriltag_ros/AprilTagDetectionArray[0m
+[ 13%] Built target std_msgs_generate_messages_eus
+[ 16%] [34m[1mGenerating C++ code from apriltag_ros/AnalyzeSingleImage.srv[0m
+[ 20%] [34m[1mGenerating Python code from SRV apriltag_ros/AnalyzeSingleImage[0m
+[ 16%] Built target geometry_msgs_generate_messages_eus
+[ 20%] Built target geometry_msgs_generate_messages_nodejs
+[ 20%] Built target std_msgs_generate_messages_nodejs
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target sensor_msgs_generate_messages_nodejs
+[ 20%] Built target geometry_msgs_generate_messages_lisp
+[ 20%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target apriltag_ros_generate_messages_eus[0m
+[35m[1mScanning dependencies of target apriltag_ros_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target apriltag_ros_generate_messages_lisp[0m
+[ 23%] [34m[1mGenerating EusLisp code from apriltag_ros/AprilTagDetection.msg[0m
+[ 26%] [34m[1mGenerating EusLisp code from apriltag_ros/AprilTagDetectionArray.msg[0m
+[ 33%] [34m[1mGenerating Javascript code from apriltag_ros/AprilTagDetectionArray.msg[0m
+[ 33%] [34m[1mGenerating EusLisp code from apriltag_ros/AnalyzeSingleImage.srv[0m
+[ 36%] [34m[1mGenerating Javascript code from apriltag_ros/AprilTagDetection.msg[0m
+[ 40%] [34m[1mGenerating Javascript code from apriltag_ros/AnalyzeSingleImage.srv[0m
+[ 43%] [34m[1mGenerating EusLisp manifest code for apriltag_ros[0m
+[ 46%] [34m[1mGenerating Lisp code from apriltag_ros/AprilTagDetection.msg[0m
+[ 50%] [34m[1mGenerating Lisp code from apriltag_ros/AprilTagDetectionArray.msg[0m
+[ 53%] [34m[1mGenerating Lisp code from apriltag_ros/AnalyzeSingleImage.srv[0m
+[ 53%] Built target apriltag_ros_generate_messages_nodejs
+[ 53%] Built target apriltag_ros_generate_messages_lisp
+[ 53%] Built target apriltag_ros_generate_messages_cpp
+[ 56%] [34m[1mGenerating Python msg __init__.py for apriltag_ros[0m
+[ 60%] [34m[1mGenerating Python srv __init__.py for apriltag_ros[0m
+[35m[1mScanning dependencies of target apriltag_ros_common[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/apriltag_ros_common.dir/src/common_functions.cpp.o[0m
+[ 63%] Built target apriltag_ros_generate_messages_py
+[ 63%] Built target apriltag_ros_generate_messages_eus
+[35m[1mScanning dependencies of target apriltag_ros_generate_messages[0m
+[ 63%] Built target apriltag_ros_generate_messages
+[ 66%] [32m[1mLinking CXX shared library devel/lib/libapriltag_ros_common.so[0m
+[ 66%] Built target apriltag_ros_common
+[35m[1mScanning dependencies of target apriltag_ros_continuous_detector[0m
+[35m[1mScanning dependencies of target apriltag_ros_single_image_client_node[0m
+[35m[1mScanning dependencies of target apriltag_ros_single_image_detector[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/apriltag_ros_single_image_client_node.dir/src/apriltag_ros_single_image_client_node.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/apriltag_ros_continuous_detector.dir/src/continuous_detector.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/apriltag_ros_single_image_detector.dir/src/single_image_detector.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable devel/lib/apriltag_ros/apriltag_ros_single_image_client_node[0m
+[ 80%] Built target apriltag_ros_single_image_client_node
+[ 83%] [32m[1mLinking CXX shared library devel/lib/libapriltag_ros_continuous_detector.so[0m
+[ 83%] Built target apriltag_ros_continuous_detector
+[35m[1mScanning dependencies of target apriltag_ros_continuous_node[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/apriltag_ros_continuous_node.dir/src/apriltag_ros_continuous_node.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library devel/lib/libapriltag_ros_single_image_detector.so[0m
+[ 90%] Built target apriltag_ros_single_image_detector
+[35m[1mScanning dependencies of target apriltag_ros_single_image_server_node[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/apriltag_ros_single_image_server_node.dir/src/apriltag_ros_single_image_server_node.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable devel/lib/apriltag_ros/apriltag_ros_continuous_node[0m
+[ 96%] Built target apriltag_ros_continuous_node
+[100%] [32m[1mLinking CXX executable devel/lib/apriltag_ros/apriltag_ros_single_image_server_node[0m
+[100%] Built target apriltag_ros_single_image_server_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: "Release"
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/msg/AprilTagDetection.msg
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/msg/AprilTagDetectionArray.msg
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/srv/AnalyzeSingleImage.srv
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_ros-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AnalyzeSingleImageResponse.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AnalyzeSingleImage.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AprilTagDetection.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AprilTagDetectionArray.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AnalyzeSingleImageRequest.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/msg
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/msg/AprilTagDetectionArray.l
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/msg/AprilTagDetection.l
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/manifest.l
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/srv
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/srv/AnalyzeSingleImage.l
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetection.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetectionArray.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/apriltag_ros-msg.asd
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/_package_AprilTagDetectionArray.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/_package_AprilTagDetection.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/AnalyzeSingleImage.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/apriltag_ros-srv.asd
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/_package_AnalyzeSingleImage.lisp
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/_index.js
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/_index.js
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetectionArray.js
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetection.js
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/srv
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/srv/_index.js
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/srv/AnalyzeSingleImage.js
+Listing '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros'...
+Compiling '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/__init__.py'...
+Listing '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/msg'...
+Compiling '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py'...
+Compiling '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py'...
+Compiling '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/msg/__init__.py'...
+Listing '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/srv'...
+Compiling '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py'...
+Compiling '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/srv/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__/_AprilTagDetection.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__/_AprilTagDetectionArray.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__init__.py
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__pycache__
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__pycache__/_AnalyzeSingleImage.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/__init__.py
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/__pycache__
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_ros-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/continuous_detector.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/single_image_detector.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/common_functions.h
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/tags.yaml.4thMay2021
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/tags.yaml
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/tags.yaml.bkup
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/settings.yaml
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/single_image_server.launch
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/single_image_client.launch
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/continuous_detection.launch
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/continuous_detection.caato.launch
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/nodelet_plugins.xml
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_common.so
+-- Set runtime path of "/home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_common.so" to ""
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_continuous_detector.so
+-- Set runtime path of "/home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_continuous_detector.so" to ""
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_continuous_node
+-- Set runtime path of "/home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_continuous_node" to ""
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_single_image_client_node
+-- Set runtime path of "/home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_single_image_client_node" to ""
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_single_image_detector.so
+-- Set runtime path of "/home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_single_image_detector.so" to ""
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_single_image_server_node
+-- Set runtime path of "/home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_single_image_server_node" to ""
+-- Installing: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/analyze_image

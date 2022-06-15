@@ -1,0 +1,129 @@
+[0.054s] Invoking command in '/home/msi/caato2_ws/build/apriltag': /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_vision_servoing/apriltag -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/apriltag
+[0.121s] -- The C compiler identification is GNU 8.4.0
+[0.153s] -- The CXX compiler identification is GNU 8.4.0
+[0.157s] -- Check for working C compiler: /usr/bin/cc
+[0.235s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.236s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.341s] -- Detecting C compile features
+[0.341s] -- Detecting C compile features - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.426s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.538s] -- Looking for pthread.h
+[0.624s] -- Looking for pthread.h - found
+[0.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.709s] -- Looking for pthread_create in pthreads
+[0.787s] -- Looking for pthread_create in pthreads - not found
+[0.787s] -- Looking for pthread_create in pthread
+[0.856s] -- Looking for pthread_create in pthread - found
+[0.857s] -- Found Threads: TRUE  
+[0.922s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[1.328s] -- Configuring done
+[1.344s] -- Generating done
+[1.345s] -- Build files have been written to: /home/msi/caato2_ws/build/apriltag
+[1.359s] Invoked command in '/home/msi/caato2_ws/build/apriltag' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/atc_vision_servoing/apriltag -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/apriltag
+[1.360s] Invoking command in '/home/msi/caato2_ws/build/apriltag': /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag -- -j20 -l20
+[2.216s] [35m[1mScanning dependencies of target apriltag[0m
+[2.217s] [  2%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[2.217s] [  7%] [32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[2.217s] [  7%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[2.217s] [ 10%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[2.217s] [ 12%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o[0m
+[2.217s] [ 15%] [32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[2.217s] [ 17%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o[0m
+[2.217s] [ 20%] [32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o[0m
+[2.217s] [ 23%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o[0m
+[2.218s] [ 25%] [32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[2.218s] [ 28%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o[0m
+[2.218s] [ 30%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o[0m
+[2.218s] [ 33%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o[0m
+[2.218s] [ 35%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[2.218s] [ 38%] [32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[2.218s] [ 41%] [32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[2.218s] [ 43%] [32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[2.218s] [ 46%] [32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[2.218s] [ 48%] [32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[2.218s] [ 51%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[2.218s] [ 53%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[2.218s] [ 56%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[2.218s] [ 58%] [32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[2.219s] [ 61%] [32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[2.219s] [ 64%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[2.219s] [ 66%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o[0m
+[2.219s] [ 69%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o[0m
+[2.219s] [ 71%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o[0m
+[2.219s] [ 74%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o[0m
+[2.219s] [ 76%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o[0m
+[10.567s] [ 79%] [32m[1mLinking C shared library libapriltag.so[0m
+[10.831s] [ 79%] Built target apriltag
+[10.895s] [35m[1mScanning dependencies of target apriltag_python[0m
+[10.895s] [35m[1mScanning dependencies of target opencv_demo[0m
+[10.906s] [35m[1mScanning dependencies of target apriltag_demo[0m
+[10.951s] [ 82%] [34m[1mGenerating apriltag_py_type.docstring.h[0m
+[10.960s] [ 84%] [34m[1mGenerating apriltag_detect.docstring.h[0m
+[10.963s] [ 87%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[10.978s] [ 89%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[11.056s] [ 92%] [34m[1mGenerating apriltag_pywrap.o[0m
+[11.252s] [ 94%] [32m[1mLinking C executable apriltag_demo[0m
+[11.342s] [ 97%] [34m[1mGenerating apriltag.cpython-38-x86_64-linux-gnu.so[0m
+[11.427s] [ 97%] Built target apriltag_demo
+[11.491s] [ 97%] Built target apriltag_python
+[14.179s] [100%] [32m[1mLinking CXX executable opencv_demo[0m
+[15.077s] [100%] Built target opencv_demo
+[15.114s] Invoked command in '/home/msi/caato2_ws/build/apriltag' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag -- -j20 -l20
+[15.694s] Invoking command in '/home/msi/caato2_ws/build/apriltag': /usr/bin/cmake --install /home/msi/caato2_ws/build/apriltag
+[16.475s] -- Install configuration: "Release"
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/lib/libapriltag.so.3.1.0
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/lib/libapriltag.so.3
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/lib/libapriltag.so
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/apriltag.h
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/apriltag_math.h
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/doubles.h
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/floats.h
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/g2d.h
+[16.476s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/getopt.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/homography.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_types.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_u8.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/matd.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/math_util.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/pam.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/pnm.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[16.477s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/string_util.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/svd22.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/time_util.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/unionfind.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/workerpool.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/zarray.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/zhash.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tag16h5.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tag25h9.h
+[16.478s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tag36h11.h
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[16.479s] -- Installing: /home/msi/.local/lib/python3.8/site-packages/apriltag.cpython-38-x86_64-linux-gnu.so
+[16.479s] -- Installing: /home/msi/caato2_ws/install/apriltag/bin/opencv_demo
+[16.480s] -- Set runtime path of "/home/msi/caato2_ws/install/apriltag/bin/opencv_demo" to ""
+[16.480s] -- Installing: /home/msi/caato2_ws/install/apriltag/bin/apriltag_demo
+[16.480s] -- Set runtime path of "/home/msi/caato2_ws/install/apriltag/bin/apriltag_demo" to ""
+[16.535s] Invoked command in '/home/msi/caato2_ws/build/apriltag' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/apriltag

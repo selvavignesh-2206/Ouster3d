@@ -1,0 +1,20 @@
+[ 18%] Built target map_server-map_saver
+[ 36%] Built target gtest
+[ 54%] Built target image_loader
+[ 81%] Built target rtest
+[100%] Built target map_server
+[ 28%] Built target gtest
+[ 57%] Built target image_loader
+[100%] Built target map_server_utest
+[100%] Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/pkgconfig/map_server.pc
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/share/map_server/cmake/map_serverConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/share/map_server/cmake/map_serverConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/share/map_server/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/map_server/map_saver
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/map_server/map_server
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/libimage_loader.so
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/include/map_server
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/include/map_server/image_loader.h
+-- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/map_server/crop_map

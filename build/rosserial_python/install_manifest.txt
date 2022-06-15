@@ -1,0 +1,6 @@
+/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig/rosserial_python.pc
+/home/msi/caato2_ws/install/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig.cmake
+/home/msi/caato2_ws/install/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake
+/home/msi/caato2_ws/install/rosserial_python/share/rosserial_python/package.xml
+/home/msi/caato2_ws/install/rosserial_python/lib/rosserial_python/message_info_service.py
+/home/msi/caato2_ws/install/rosserial_python/lib/rosserial_python/serial_node.py

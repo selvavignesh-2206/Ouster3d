@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/caato_teleop/devel
+
+Name: caato_teleop
+Description: Description of caato_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

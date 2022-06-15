@@ -1,0 +1,579 @@
+[0.035s] Invoking command in '/home/msi/caato2_ws/build/rosserial_test': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_test -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/rosserial_test
+[0.117s] -- The C compiler identification is GNU 8.4.0
+[0.156s] -- The CXX compiler identification is GNU 8.4.0
+[0.160s] -- Check for working C compiler: /usr/bin/cc
+[0.227s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.230s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.341s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.494s] -- Detecting CXX compiler ABI info
+[0.600s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Detecting CXX compile features
+[0.620s] -- Detecting CXX compile features - done
+[0.622s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/rosserial_test/devel
+[0.622s] -- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/rosserial_server;/home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+[0.622s] -- This workspace overlays: /home/msi/caato2_ws/install/rosserial_server;/home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+[0.645s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.645s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.645s] -- Using Debian Python package layout
+[0.676s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.676s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.851s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.852s] -- Call enable_testing()
+[0.853s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/rosserial_test/test_results
+[1.091s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.092s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.092s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.114s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.115s] -- Found Threads: TRUE  
+[1.119s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.176s] -- catkin 0.8.10
+[1.176s] -- BUILD_SHARED_LIBS is on
+[1.543s] -- Configuring done
+[1.567s] -- Generating done
+[1.572s] -- Build files have been written to: /home/msi/caato2_ws/build/rosserial_test
+[1.584s] Invoked command in '/home/msi/caato2_ws/build/rosserial_test' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_test -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/rosserial_test
+[1.587s] Invoking command in '/home/msi/caato2_ws/build/rosserial_test': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_test -- -j20 -l20
+[1.656s] Invoked command in '/home/msi/caato2_ws/build/rosserial_test' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_test -- -j20 -l20
+[1.690s] Invoking command in '/home/msi/caato2_ws/build/rosserial_test': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_test --target tests -- -j20 -l20
+[1.733s] [35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[1.733s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[1.733s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[1.733s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[1.733s] [35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[1.733s] [35m[1mScanning dependencies of target gtest[0m
+[1.733s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[1.743s] [35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[1.744s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[1.744s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.744s] [  0%] Built target std_msgs_generate_messages_eus
+[1.745s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.745s] [  0%] Built target roscpp_generate_messages_cpp
+[1.747s] [ 20%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.752s] [ 20%] Built target topic_tools_generate_messages_py
+[1.753s] [35m[1mScanning dependencies of target rosserial_msgs_generate_messages_nodejs[0m
+[1.753s] [ 20%] Built target topic_tools_generate_messages_eus
+[1.753s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[1.753s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[1.755s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[1.758s] [35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[1.761s] [ 20%] Built target roscpp_generate_messages_nodejs
+[1.761s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[1.761s] [ 20%] Built target topic_tools_generate_messages_cpp
+[1.761s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[1.765s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[1.768s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[1.775s] [ 20%] Built target rosserial_msgs_generate_messages_nodejs
+[1.775s] [ 20%] Built target topic_tools_generate_messages_nodejs
+[1.775s] [ 20%] Built target roscpp_generate_messages_py
+[1.775s] [ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.775s] [ 20%] Built target rosgraph_msgs_generate_messages_py
+[1.775s] [ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[1.777s] [ 20%] Built target roscpp_generate_messages_eus
+[1.785s] [ 20%] Built target std_msgs_generate_messages_nodejs
+[1.785s] [35m[1mScanning dependencies of target rosserial_msgs_generate_messages_py[0m
+[1.785s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[1.785s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[1.785s] [ 20%] Built target std_msgs_generate_messages_cpp
+[1.787s] [35m[1mScanning dependencies of target rosserial_msgs_generate_messages_lisp[0m
+[1.788s] [35m[1mScanning dependencies of target rosserial_msgs_generate_messages_cpp[0m
+[1.791s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[1.794s] [ 20%] Built target roscpp_generate_messages_lisp
+[1.794s] [ 20%] Built target rosserial_msgs_generate_messages_py
+[1.794s] [35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[1.794s] [ 20%] Built target std_msgs_generate_messages_py
+[1.794s] [35m[1mScanning dependencies of target rosserial_msgs_generate_messages_eus[0m
+[1.794s] [ 20%] Built target rosserial_msgs_generate_messages_lisp
+[1.798s] [ 20%] Built target rosserial_msgs_generate_messages_cpp
+[1.801s] [ 20%] Built target std_msgs_generate_messages_lisp
+[1.803s] [ 20%] Built target topic_tools_generate_messages_lisp
+[1.803s] [ 20%] Built target rosserial_msgs_generate_messages_eus
+[1.811s] [35m[1mScanning dependencies of target rosserial_test_rosserial_lib[0m
+[1.821s] [ 40%] [34m[1mGenerating include/rosserial[0m
+[2.022s] 
+[2.022s] Exporting to /home/msi/caato2_ws/build/rosserial_test/include/rosserial
+[2.045s] Exporting actionlib
+[2.046s] 
+[2.046s]   Messages:
+[2.108s]     TestActionResult,TestAction,TwoIntsActionGoal,TestResult,TestGoal,TwoIntsActionResult,TestActionFeedback,TwoIntsGoal,TestFeedback,TestRequestGoal,TestRequestFeedback,TestRequestActionGoal,TestRequestResult,TwoIntsActionFeedback,TestRequestActionFeedback,TestActionGoal,TestRequestAction,TwoIntsResult,TestRequestActionResult,TwoIntsAction,TwoIntsFeedback,
+[2.108s] 
+[2.109s] Exporting actionlib_msgs
+[2.109s] 
+[2.109s]   Messages:
+[2.110s]     GoalID,GoalStatusArray,GoalStatus,
+[2.110s] 
+[2.110s] Exporting actionlib_tutorials
+[2.110s] 
+[2.110s]   Messages:
+[2.117s]     FibonacciAction,AveragingActionGoal,FibonacciActionResult,AveragingResult,FibonacciFeedback,AveragingAction,FibonacciActionGoal,AveragingGoal,AveragingFeedback,FibonacciGoal,FibonacciResult,AveragingActionResult,AveragingActionFeedback,FibonacciActionFeedback,
+[2.117s] 
+[2.117s] Exporting audio_common_msgs
+[2.117s] 
+[2.117s]   Messages:
+[2.119s]     AudioInfo,AudioData,
+[2.119s] 
+[2.119s] Exporting base_local_planner
+[2.119s] 
+[2.119s]   Messages:
+[2.121s]     Position2DInt,
+[2.121s] 
+[2.121s] Exporting bond
+[2.121s] 
+[2.121s]   Messages:
+[2.123s]     Constants,Status,
+[2.123s] 
+[2.123s] Exporting control_msgs
+[2.123s] 
+[2.123s]   Messages:
+[2.160s]     SingleJointPositionActionGoal,PointHeadActionResult,JointTrajectoryControllerState,JointTrajectoryAction,SingleJointPositionFeedback,FollowJointTrajectoryResult,JointJog,FollowJointTrajectoryActionFeedback,PointHeadResult,GripperCommandFeedback,JointTrajectoryFeedback,JointTrajectoryGoal,SingleJointPositionGoal,GripperCommandGoal,JointTrajectoryActionResult,JointTrajectoryActionGoal,PointHeadFeedback,GripperCommandAction,PointHeadActionFeedback,FollowJointTrajectoryAction,GripperCommandActionGoal,JointTrajectoryResult,GripperCommandActionFeedback,FollowJointTrajectoryFeedback,SingleJointPositionAction,SingleJointPositionResult,PidState,GripperCommand,JointTrajectoryActionFeedback,FollowJointTrajectoryActionGoal,FollowJointTrajectoryGoal,PointHeadAction,PointHeadGoal,FollowJointTrajectoryActionResult,SingleJointPositionActionResult,GripperCommandResult,GripperCommandActionResult,SingleJointPositionActionFeedback,JointTolerance,JointControllerState,PointHeadActionGoal,
+[2.160s] 
+[2.160s]   Services:
+[2.162s]     QueryCalibrationState,QueryTrajectoryState,
+[2.162s] 
+[2.164s] Exporting control_toolbox
+[2.164s] 
+[2.164s]   Services:
+[2.166s]     SetPidGains,
+[2.166s] 
+[2.166s] Exporting controller_manager_msgs
+[2.166s] 
+[2.166s]   Messages:
+[2.169s]     ControllerStatistics,ControllerState,ControllersStatistics,HardwareInterfaceResources,
+[2.169s] 
+[2.169s]   Services:
+[2.174s]     LoadController,SwitchController,ReloadControllerLibraries,UnloadController,ListControllers,ListControllerTypes,
+[2.174s] 
+[2.174s] Exporting costmap_2d
+[2.175s] 
+[2.175s]   Messages:
+[2.177s]     VoxelGrid,
+[2.177s] 
+[2.177s] Exporting diagnostic_msgs
+[2.177s] 
+[2.177s]   Messages:
+[2.179s]     KeyValue,DiagnosticArray,DiagnosticStatus,
+[2.179s] 
+[2.179s]   Services:
+[2.181s]     SelfTest,AddDiagnostics,
+[2.181s] 
+[2.182s] Exporting dynamic_reconfigure
+[2.182s] 
+[2.182s]   Messages:
+[2.188s]     BoolParameter,StrParameter,Group,IntParameter,GroupState,ParamDescription,DoubleParameter,SensorLevels,Config,ConfigDescription,
+[2.188s] 
+[2.188s]   Services:
+[2.189s]     Reconfigure,
+[2.189s] 
+[2.190s] Exporting dynamic_tf_publisher
+[2.190s] 
+[2.190s]   Services:
+[2.194s]     DeleteTF,SetDynamicTF,DissocTF,AssocTF,
+[2.194s] 
+[2.194s] Exporting gazebo_msgs
+[2.194s] 
+[2.194s]   Messages:
+[2.202s]     ContactState,ModelStates,LinkStates,WorldState,SensorPerformanceMetric,PerformanceMetrics,ODEJointProperties,ContactsState,ODEPhysics,LinkState,ModelState,
+[2.202s] 
+[2.202s]   Services:
+[2.221s]     SetLinkProperties,SetModelState,SpawnModel,SetLightProperties,DeleteLight,JointRequest,GetLightProperties,SetModelConfiguration,SetJointProperties,BodyRequest,GetLinkProperties,GetWorldProperties,SetJointTrajectory,GetLinkState,SetLinkState,GetPhysicsProperties,GetModelState,SetPhysicsProperties,ApplyJointEffort,GetModelProperties,DeleteModel,GetJointProperties,ApplyBodyWrench,
+[2.221s] 
+[2.224s] Exporting geographic_msgs
+[2.225s] 
+[2.225s]   Messages:
+[2.236s]     GeoPoseStamped,RouteNetwork,GeoPath,KeyValue,WayPoint,GeoPointStamped,RoutePath,GeoPoint,BoundingBox,GeoPose,MapFeature,GeographicMapChanges,GeographicMap,RouteSegment,
+[2.236s] 
+[2.236s]   Services:
+[2.239s]     GetGeoPath,GetRoutePlan,GetGeographicMap,UpdateGeographicMap,
+[2.239s] 
+[2.240s] Exporting geometry_msgs
+[2.240s] 
+[2.240s]   Messages:
+[2.244s]     Vector3Stamped,AccelStamped,PoseStamped,TwistWithCovarianceStamped,Point32,Twist,Point,Polygon,PolygonStamped,Transform,PoseWithCovarianceStamped,Inertia,WrenchStamped,TransformStamped,AccelWithCovariance,PoseArray,PointStamped,TwistStamped,InertiaStamped,Wrench,QuaternionStamped,Vector3,Quaternion,Pose2D,AccelWithCovarianceStamped,PoseWithCovariance,Accel,TwistWithCovariance,Pose,
+[2.244s] 
+[2.245s] Exporting hector_mapping
+[2.245s] 
+[2.245s]   Messages:
+[2.246s]     HectorIterData,HectorDebugInfo,
+[2.246s] 
+[2.246s]   Services:
+[2.247s]     ResetMapping,
+[2.247s] 
+[2.247s] Exporting hector_nav_msgs
+[2.247s] 
+[2.247s]   Services:
+[2.255s]     GetDistanceToObstacle,GetRobotTrajectory,GetSearchPosition,GetRecoveryInfo,GetNormal,
+[2.255s] 
+[2.255s] Exporting image_view2
+[2.255s] 
+[2.255s]   Messages:
+[2.259s]     ImageMarker2,MouseEvent,PointArrayStamped,
+[2.259s] 
+[2.259s]   Services:
+[2.260s]     ChangeMode,
+[2.260s] 
+[2.260s] Exporting jsk_footstep_msgs
+[2.260s] 
+[2.260s]   Messages:
+[2.270s]     ExecFootstepsAction,ExecFootstepsResult,PlanFootstepsActionResult,ExecFootstepsActionFeedback,PlanFootstepsActionGoal,PlanFootstepsAction,PlanFootstepsActionFeedback,PlanFootstepsFeedback,Footstep,FootstepArray,ExecFootstepsGoal,ExecFootstepsActionResult,ExecFootstepsFeedback,PlanFootstepsResult,PlanFootstepsGoal,ExecFootstepsActionGoal,
+[2.270s] 
+[2.271s] Exporting jsk_gui_msgs
+[2.271s] 
+[2.271s]   Messages:
+[2.291s]     SlackMessage,Tablet,Gravity,VoiceMessage,TouchEvent,AndroidSensor,DeviceSensor,Action,MagneticField,MultiTouch,Touch,
+[2.291s] 
+[2.291s]   Services:
+[2.293s]     YesNo,Query,
+[2.293s] 
+[2.293s] Exporting jsk_hark_msgs
+[2.294s] 
+[2.294s]   Messages:
+[2.295s]     HarkPower,
+[2.295s] 
+[2.295s] Exporting jsk_interactive_marker
+[2.295s] 
+[2.295s]   Messages:
+[2.302s]     MoveObject,SnapFootPrintInput,MarkerDimensions,MarkerPose,MoveModel,JointTrajectoryWithType,JointTrajectoryPointWithType,MarkerMenu,PoseStampedWithName,
+[2.302s] 
+[2.302s]   Services:
+[2.361s]     SetPose,SetHeuristic,RemoveParentMarker,GetMarkerDimensions,SetMarkerDimensions,SetTransformableMarkerFocus,GetTransformableMarkerFocus,SetTransformableMarkerPose,MarkerSetPose,GetType,SetTransformableMarkerColor,GetJointState,IndexRequest,SetParentMarker,GetTransformableMarkerColor,GetTransformableMarkerPose,SnapFootPrint,GetTransformableMarkerExistence,
+[2.361s] 
+[2.362s] Exporting jsk_recognition_msgs
+[2.362s] 
+[2.362s]   Messages:
+[2.373s]     SparseOccupancyGridArray,SegmentStamped,PointsArray,RectArray,SegmentArray,LineArray,ParallelEdge,Rect,Segment,HistogramWithRange,TrackingStatus,HumanSkeletonArray,ImageDifferenceValue,SimpleOccupancyGrid,SimpleHandle,PeoplePoseArray,TorusArray,HeightmapConfig,SparseOccupancyGrid,ModelCoefficientsArray,PlotData,PlotDataArray,SparseImage,ContactSensorArray,RotatedRect,ContactSensor,SnapItRequest,SimpleOccupancyGridArray,SparseOccupancyGridCell,HistogramWithRangeArray,Circle2D,ICPResult,HistogramWithRangeBin,ColorHistogramArray,ParallelEdgeArray,RotatedRectStamped,Circle2DArray,Torus,Object,ClusterPointIndices,BoundingBoxMovement,BoundingBoxArrayWithCameraInfo,PeoplePose,TrackerStatus,SlicedPointCloud,DepthCalibrationParameter,BoundingBox,DepthErrorResult,Spectrum,TimeRange,Line,ObjectArray,ColorHistogram,Int32Stamped,ClassificationResult,PolygonArray,Histogram,Accuracy,SparseOccupancyGridColumn,BoundingBoxArray,Label,VectorArray,HumanSkeleton,BoolStamped,PosedCameraInfo,WeightedPoseArray,LabelArray,
+[2.373s] 
+[2.373s]   Services:
+[2.390s]     RobotPickupReleasePoint,ICPAlignWithBox,CheckCollision,SetTemplate,SetDepthCalibrationParameter,SetLabels,SetPointCloud2,SnapFootstep,ICPAlign,CallPolygon,WhiteBalancePoints,TowerPickUp,EnvironmentLock,SaveMesh,NonMaximumSuppression,TowerRobotMoveCommand,EuclideanSegment,CheckCircle,CallSnapIt,PolygonOnEnvironment,SwitchTopic,UpdateOffset,WhiteBalance,TransformScreenpoint,
+[2.390s] 
+[2.395s] Exporting jsk_rviz_plugins
+[2.395s] 
+[2.395s]   Messages:
+[2.401s]     OverlayText,RecordCommand,ObjectFitCommand,StringStamped,PictogramArray,TransformableMarkerOperate,Pictogram,OverlayMenu,
+[2.401s] 
+[2.401s]   Services:
+[2.404s]     Screenshot,EusCommand,RequestMarkerOperate,
+[2.404s] 
+[2.405s] Exporting jsk_topic_tools
+[2.406s] 
+[2.406s]   Messages:
+[2.542s]     TopicInfo,
+[2.542s] 
+[2.542s]   Services:
+[2.545s]     List,PassthroughDuration,Update,ChangeTopic,
+[2.545s] 
+[2.545s] Exporting laser_assembler
+[2.545s] 
+[2.545s]   Services:
+[2.547s]     AssembleScans,AssembleScans2,
+[2.548s] 
+[2.548s] Exporting map_msgs
+[2.548s] 
+[2.548s]   Messages:
+[2.551s]     OccupancyGridUpdate,PointCloud2Update,ProjectedMapInfo,ProjectedMap,
+[2.551s] 
+[2.551s]   Services:
+[2.556s]     ProjectedMapsInfo,SaveMap,GetPointMap,SetMapProjections,GetPointMapROI,GetMapROI,
+[2.556s] 
+[2.556s] Exporting mavros_msgs
+[2.556s] 
+[2.556s]   Messages:
+[2.596s]     Waypoint,GlobalPositionTarget,RCIn,State,RTKBaseline,HilSensor,MountControl,OpticalFlowRad,ESCStatus,ESCStatusItem,GPSRTK,ActuatorControl,Tunnel,TimesyncStatus,AttitudeTarget,Param,Mavlink,CameraImageCaptured,Thrust,HilControls,LandingTarget,NavControllerOutput,ParamValue,Vibration,GPSINPUT,RTCM,FileEntry,PlayTuneV2,ESCInfo,CamIMUStamp,GPSRAW,WaypointList,ADSBVehicle,TerrainReport,Trajectory,WheelOdomStamped,WaypointReached,EstimatorStatus,StatusText,HomePosition,BatteryStatus,ESCTelemetry,HilActuatorControls,ExtendedState,VehicleInfo,LogData,Altitude,HilStateQuaternion,LogEntry,CompanionProcessStatus,OverrideRCIn,RadioStatus,ESCInfoItem,HilGPS,OnboardComputerStatus,CommandCode,PositionTarget,MagnetometerReporter,DebugValue,RCOut,VFR_HUD,ESCTelemetryItem,ManualControl,
+[2.596s] 
+[2.596s]   Services:
+[2.619s]     VehicleInfoGet,MountConfigure,LogRequestData,FileMakeDir,CommandTOL,CommandBool,FileChecksum,WaypointSetCurrent,CommandTriggerInterval,SetMode,SetMavFrame,FileOpen,LogRequestList,CommandAck,FileClose,ParamPull,WaypointClear,StreamRate,FileRename,FileTruncate,FileRead,FileList,WaypointPush,FileRemove,ParamGet,ParamSet,LogRequestEnd,CommandInt,ParamPush,CommandLong,FileWrite,CommandTriggerControl,FileRemoveDir,CommandVtolTransition,WaypointPull,CommandHome,MessageInterval,
+[2.619s] 
+[2.626s] Exporting move_base_msgs
+[2.626s] 
+[2.626s]   Messages:
+[2.630s]     MoveBaseActionGoal,MoveBaseActionFeedback,MoveBaseFeedback,RecoveryStatus,MoveBaseAction,MoveBaseGoal,MoveBaseActionResult,MoveBaseResult,
+[2.630s] 
+[2.631s] Exporting moveit_msgs
+[2.631s] 
+[2.631s]   Messages:
+[2.711s]     DisplayRobotState,PickupActionGoal,CartesianTrajectory,LinkPadding,ExecuteTrajectoryFeedback,CostSource,ContactInformation,MoveGroupSequenceResult,PlaceAction,LinkScale,MoveGroupFeedback,PickupGoal,ExecuteTrajectoryActionResult,MotionPlanDetailedResponse,JointConstraint,PositionConstraint,PlannerInterfaceDescription,Constraints,PlaceLocation,PlanningSceneComponents,PlannerParams,PickupActionFeedback,GenericTrajectory,MoveGroupAction,PlanningOptions,AllowedCollisionMatrix,AllowedCollisionEntry,ExecuteTrajectoryActionFeedback,MotionSequenceResponse,KinematicSolverInfo,MoveGroupActionGoal,CartesianPoint,AttachedCollisionObject,PlaceGoal,PlaceFeedback,RobotState,PlanningSceneWorld,BoundingVolume,MotionPlanResponse,PlaceActionGoal,CartesianTrajectoryPoint,PickupActionResult,ObjectColor,PlanningScene,MoveGroupSequenceFeedback,MoveGroupActionResult,RobotTrajectory,MoveGroupSequenceAction,ExecuteTrajectoryGoal,MotionPlanRequest,MotionSequenceRequest,WorkspaceParameters,PlaceActionResult,PlaceActionFeedback,PlaceResult,JointLimits,MoveGroupActionFeedback,MoveGroupGoal,GripperTranslation,MoveGroupSequenceActionFeedback,ConstraintEvalResult,Grasp,MoveGroupResult,OrientationConstraint,MotionSequenceItem,VisibilityConstraint,CollisionObject,OrientedBoundingBox,MoveGroupSequenceActionGoal,ExecuteTrajectoryActionGoal,PickupFeedback,PickupAction,MoveGroupSequenceGoal,TrajectoryConstraints,PickupResult,PositionIKRequest,MoveGroupSequenceActionResult,MoveItErrorCodes,ExecuteTrajectoryResult,ExecuteTrajectoryAction,DisplayTrajectory,
+[2.711s] 
+[2.711s]   Services:
+[2.733s]     GetMotionSequence,GetPlannerParams,GetPositionIK,ApplyPlanningScene,ExecuteKnownTrajectory,LoadMap,SaveRobotStateToWarehouse,GetCartesianPath,QueryPlannerInterfaces,SaveMap,ListRobotStatesInWarehouse,GetPositionFK,RenameRobotStateInWarehouse,GraspPlanning,ChangeControlDimensions,DeleteRobotStateFromWarehouse,GetStateValidity,CheckIfRobotStateExistsInWarehouse,ChangeDriftDimensions,GetPlanningScene,GetMotionPlan,GetRobotStateFromWarehouse,SetPlannerParams,UpdatePointcloudOctomap,
+[2.733s] 
+[2.739s] Exporting nav_msgs
+[2.739s] 
+[2.739s]   Messages:
+[2.741s]     MapMetaData,GetMapAction,Path,GetMapActionGoal,GetMapGoal,GetMapActionFeedback,GetMapFeedback,GridCells,GetMapActionResult,GetMapResult,Odometry,OccupancyGrid,
+[2.741s] 
+[2.741s]   Services:
+[2.745s]     SetMap,LoadMap,GetPlan,GetMap,
+[2.745s] 
+[2.745s] Exporting navfn
+[2.745s] 
+[2.745s]   Services:
+[2.748s]     SetCostmap,MakeNavPlan,
+[2.748s] 
+[2.748s] Exporting nodelet
+[2.748s] 
+[2.748s]   Services:
+[2.751s]     NodeletUnload,NodeletLoad,NodeletList,
+[2.751s] 
+[2.751s] Exporting object_recognition_msgs
+[2.751s] 
+[2.751s]   Messages:
+[2.753s]     RecognizedObject,ObjectRecognitionActionResult,ObjectType,ObjectRecognitionFeedback,ObjectRecognitionAction,RecognizedObjectArray,ObjectRecognitionActionGoal,ObjectRecognitionGoal,TableArray,ObjectRecognitionResult,ObjectInformation,ObjectRecognitionActionFeedback,Table,
+[2.754s] 
+[2.754s]   Services:
+[2.755s]     GetObjectInformation,
+[2.755s] 
+[2.755s] Exporting octomap_msgs
+[2.756s] 
+[2.756s]   Messages:
+[2.756s]     Octomap,OctomapWithPose,
+[2.756s] 
+[2.756s]   Services:
+[2.758s]     BoundingBoxQuery,GetOctomap,
+[2.758s] 
+[2.758s] Exporting pcl_msgs
+[2.758s] 
+[2.758s]   Messages:
+[2.759s]     PolygonMesh,Vertices,ModelCoefficients,PointIndices,
+[2.759s] 
+[2.759s]   Services:
+[2.761s]     UpdateFilename,
+[2.761s] 
+[2.761s] Exporting people_msgs
+[2.761s] 
+[2.761s]   Messages:
+[2.765s]     PositionMeasurementArray,PositionMeasurement,Person,People,PersonStamped,
+[2.765s] 
+[2.765s] Exporting polled_camera
+[2.765s] 
+[2.765s]   Services:
+[2.767s]     GetPolledImage,
+[2.767s] 
+[2.767s] Exporting posedetection_msgs
+[2.767s] 
+[2.767s]   Messages:
+[2.772s]     ObjectDetection,Object6DPose,Curve1D,Feature1D,ImageFeature1D,ImageFeature0D,Feature0D,
+[2.772s] 
+[2.772s]   Services:
+[2.776s]     Detect,Feature1DDetect,Feature0DDetect,TargetObj,
+[2.776s] 
+[2.777s] Exporting pr2_msgs
+[2.777s] 
+[2.777s]   Messages:
+[2.785s]     DashboardState,PowerState,PowerBoardState,BatteryState,PeriodicCmd,LaserTrajCmd,BatteryServer,BatteryState2,LaserScannerSignal,BatteryServer2,GPUStatus,PressureState,AccessPoint,AccelerometerState,
+[2.786s] 
+[2.786s]   Services:
+[2.787s]     SetLaserTrajCmd,SetPeriodicCmd,
+[2.787s] 
+[2.789s] Exporting pr2_power_board
+[2.789s] 
+[2.789s]   Services:
+[2.791s]     PowerBoardCommand,PowerBoardCommand2,
+[2.791s] 
+[2.791s] Exporting py_trees_msgs
+[2.791s] 
+[2.791s]   Messages:
+[2.801s]     Behaviour,DockGoal,DockActionFeedback,RotateActionFeedback,DockAction,DockFeedback,DockActionGoal,RotateFeedback,RotateGoal,RotateResult,RotateActionGoal,RotateActionResult,RotateAction,BehaviourTree,DockResult,DockActionResult,
+[2.801s] 
+[2.802s]   Services:
+[2.804s]     GetBlackboardVariables,OpenBlackboardWatcher,CloseBlackboardWatcher,
+[2.804s] 
+[2.805s] Exporting robot_localization
+[2.805s] 
+[2.805s]   Services:
+[2.807s]     GetState,SetPose,ToggleFilterProcessing,ToLL,FromLL,SetDatum,SetUTMZone,
+[2.808s] 
+[2.808s] Exporting roscpp
+[2.808s] 
+[2.808s]   Messages:
+[2.808s]     Logger,
+[2.808s] 
+[2.808s]   Services:
+[2.809s]     SetLoggerLevel,GetLoggers,Empty,
+[2.809s] 
+[2.809s] Exporting roscpp_tutorials
+[2.809s] 
+[2.809s]   Services:
+[2.811s]     TwoInts,
+[2.811s] 
+[2.811s] Exporting rosgraph_msgs
+[2.811s] 
+[2.812s]   Messages:
+[2.814s]     Log,Clock,TopicStatistics,
+[2.815s] 
+[2.815s] Exporting rosmon_msgs
+[2.815s] 
+[2.815s]   Messages:
+[2.815s]     NodeState,State,
+[2.815s] 
+[2.815s]   Services:
+[2.815s]     StartStop,
+[2.815s] 
+[2.816s] Exporting rospy_tutorials
+[2.816s] 
+[2.816s]   Messages:
+[2.818s]     Floats,HeaderString,
+[2.818s] 
+[2.818s]   Services:
+[2.819s]     AddTwoInts,BadTwoInts,
+[2.820s] 
+[2.820s] Exporting rosserial_arduino
+[2.820s] 
+[2.820s]   Messages:
+[2.829s]     Adc,
+[2.829s] 
+[2.829s]   Services:
+[2.830s]     Test,
+[2.830s] 
+[2.831s] Exporting rosserial_msgs
+[2.831s] 
+[2.831s]   Messages:
+[2.831s]     TopicInfo,Log,
+[2.831s] 
+[2.831s]   Services:
+[2.831s]     RequestParam,
+[2.831s] 
+[2.832s] Exporting rviz
+[2.832s] 
+[2.832s]   Services:
+[3.054s]     SendFilePath,
+[3.054s] 
+[3.054s] Exporting sensor_msgs
+[3.054s] 
+[3.054s]   Messages:
+[3.060s]     Image,BatteryState,MultiEchoLaserScan,JoyFeedbackArray,RegionOfInterest,Imu,CompressedImage,LaserScan,NavSatStatus,JointState,NavSatFix,FluidPressure,Range,TimeReference,PointField,LaserEcho,CameraInfo,MagneticField,ChannelFloat32,PointCloud,JoyFeedback,PointCloud2,Illuminance,Joy,MultiDOFJointState,RelativeHumidity,Temperature,
+[3.060s] 
+[3.060s]   Services:
+[3.062s]     SetCameraInfo,
+[3.062s] 
+[3.065s] Exporting shape_msgs
+[3.065s] 
+[3.065s]   Messages:
+[3.066s]     Plane,SolidPrimitive,Mesh,MeshTriangle,
+[3.066s] 
+[3.066s] Exporting smach_msgs
+[3.066s] 
+[3.066s]   Messages:
+[3.069s]     SmachContainerStructure,SmachContainerInitialStatusCmd,SmachContainerStatus,
+[3.069s] 
+[3.070s] Exporting sound_play
+[3.070s] 
+[3.070s]   Messages:
+[3.077s]     SoundRequestActionResult,SoundRequestAction,SoundRequestResult,SoundRequestActionGoal,SoundRequestFeedback,SoundRequestActionFeedback,SoundRequestGoal,SoundRequest,
+[3.078s] 
+[3.078s] Exporting std_msgs
+[3.078s] 
+[3.078s]   Messages:
+[3.085s]     Float32,Int16,String,Bool,Int8,Header,Int32MultiArray,Float64MultiArray,MultiArrayDimension,MultiArrayLayout,Int64,UInt16,UInt64,UInt8MultiArray,Int16MultiArray,Time,Int32,Int8MultiArray,Float64,Duration,Byte,UInt16MultiArray,Char,Empty,UInt32,UInt64MultiArray,ColorRGBA,UInt32MultiArray,Int64MultiArray,ByteMultiArray,Float32MultiArray,UInt8,
+[3.086s] 
+[3.087s] Exporting std_srvs
+[3.087s] 
+[3.088s]   Services:
+[3.088s]     Empty,Trigger,SetBool,
+[3.088s] 
+[3.089s] Exporting stereo_msgs
+[3.089s] 
+[3.089s]   Messages:
+[3.090s]     DisparityImage,
+[3.091s] 
+[3.091s] Exporting tf
+[3.091s] 
+[3.091s]   Messages:
+[3.124s]     tfMessage,
+[3.125s] 
+[3.125s]   Services:
+[3.126s]     FrameGraph,
+[3.126s] 
+[3.126s] Exporting tf2_msgs
+[3.126s] 
+[3.126s]   Messages:
+[3.128s]     LookupTransformActionResult,LookupTransformGoal,LookupTransformActionFeedback,LookupTransformAction,LookupTransformResult,TF2Error,TFMessage,LookupTransformFeedback,LookupTransformActionGoal,
+[3.128s] 
+[3.128s]   Services:
+[3.129s]     FrameGraph,
+[3.129s] 
+[3.129s] Exporting theora_image_transport
+[3.129s] 
+[3.130s]   Messages:
+[3.132s]     Packet,
+[3.132s] 
+[3.132s] Exporting topic_tools
+[3.132s] 
+[3.133s]   Services:
+[3.141s]     DemuxDelete,MuxSelect,DemuxAdd,DemuxList,MuxList,MuxDelete,MuxAdd,DemuxSelect,
+[3.141s] 
+[3.141s] Exporting trajectory_msgs
+[3.141s] 
+[3.141s]   Messages:
+[3.142s]     MultiDOFJointTrajectory,MultiDOFJointTrajectoryPoint,JointTrajectory,JointTrajectoryPoint,
+[3.142s] 
+[3.143s] Exporting turtle_actionlib
+[3.143s] 
+[3.143s]   Messages:
+[3.155s]     Velocity,ShapeAction,ShapeActionGoal,ShapeResult,ShapeGoal,ShapeActionFeedback,ShapeActionResult,ShapeFeedback,
+[3.155s] 
+[3.155s] Exporting turtlebot3_example
+[3.155s] 
+[3.155s]   Messages:
+[3.188s]     Turtlebot3ActionGoal,Turtlebot3Feedback,Turtlebot3Action,Turtlebot3Goal,Turtlebot3Result,Turtlebot3ActionFeedback,Turtlebot3ActionResult,
+[3.188s] 
+[3.189s] Exporting turtlebot3_msgs
+[3.189s] 
+[3.189s]   Messages:
+[3.193s]     Sound,VersionInfo,SensorState,
+[3.193s] 
+[3.193s] Exporting turtlesim
+[3.194s] 
+[3.194s]   Messages:
+[3.196s]     Color,Pose,
+[3.196s] 
+[3.196s]   Services:
+[3.200s]     Kill,SetPen,TeleportAbsolute,Spawn,TeleportRelative,
+[3.200s] 
+[3.201s] Exporting urg_node
+[3.201s] 
+[3.201s]   Messages:
+[3.201s]     Status,
+[3.201s] 
+[3.201s] Exporting uuid_msgs
+[3.201s] 
+[3.202s]   Messages:
+[3.202s]     UniqueID,
+[3.202s] 
+[3.202s] Exporting variant_msgs
+[3.202s] 
+[3.202s]   Messages:
+[3.206s]     Variant,VariantHeader,VariantType,Test,
+[3.206s] 
+[3.207s] Exporting view_controller_msgs
+[3.207s] 
+[3.207s]   Messages:
+[3.211s]     CameraPlacement,CameraTrajectory,CameraMovement,
+[3.211s] 
+[3.211s] Exporting visualization_msgs
+[3.211s] 
+[3.211s]   Messages:
+[3.214s]     InteractiveMarkerPose,InteractiveMarkerUpdate,InteractiveMarkerInit,MarkerArray,MenuEntry,InteractiveMarkerControl,Marker,ImageMarker,InteractiveMarkerFeedback,InteractiveMarker,
+[3.214s] 
+[3.215s] 
+[3.216s] 
+[3.216s] 
+[3.216s] 
+[3.542s] [ 40%] Built target rosserial_test_rosserial_lib
+[3.731s] [ 60%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[3.842s] [ 60%] Built target gtest
+[3.850s] [35m[1mScanning dependencies of target rosserial_test_publish_subscribe[0m
+[3.866s] [ 80%] [32mBuilding CXX object CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o[0m
+[5.547s] [100%] [32m[1mLinking CXX executable devel/lib/rosserial_test/rosserial_test_publish_subscribe[0m
+[5.668s] [100%] Built target rosserial_test_publish_subscribe
+[5.674s] [35m[1mScanning dependencies of target tests[0m
+[5.681s] [100%] Built target tests
+[5.690s] Invoked command in '/home/msi/caato2_ws/build/rosserial_test' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/rosserial_test --target tests -- -j20 -l20
+[5.717s] Invoking command in '/home/msi/caato2_ws/build/rosserial_test': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_test
+[5.723s] -- Install configuration: ""
+[5.723s] -- Installing: /home/msi/caato2_ws/install/rosserial_test/lib/pkgconfig/rosserial_test.pc
+[5.723s] -- Installing: /home/msi/caato2_ws/install/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig.cmake
+[5.723s] -- Installing: /home/msi/caato2_ws/install/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig-version.cmake
+[5.724s] -- Installing: /home/msi/caato2_ws/install/rosserial_test/share/rosserial_test/package.xml
+[5.725s] Invoked command in '/home/msi/caato2_ws/build/rosserial_test' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/rosserial_server:/home/msi/caato2_ws/install/rosserial_python:/home/msi/caato2_ws/install/rosserial_client:/home/msi/caato2_ws/install/rosserial_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/rosserial_server/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/rosserial_server/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_client/lib/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/rosserial_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/rosserial_server/share:/home/msi/caato2_ws/install/rosserial_python/share:/home/msi/caato2_ws/install/rosserial_client/share:/home/msi/caato2_ws/install/rosserial_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/rosserial_test

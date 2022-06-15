@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/install/trolley_arm
+
+Name: trolley_arm
+Description: Description of trolley_arm
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

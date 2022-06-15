@@ -1,0 +1,9 @@
+/home/msi/caato2_ws/install/roboteq_diff_driver/lib/pkgconfig/roboteq_diff_driver.pc
+/home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/cmake/roboteq_diff_driverConfig.cmake
+/home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/cmake/roboteq_diff_driverConfig-version.cmake
+/home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/package.xml
+/home/msi/caato2_ws/install/roboteq_diff_driver/lib/roboteq_diff_driver/driver
+/home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/launch/driver_dbg.launch
+/home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/launch/driver.launch
+/home/msi/caato2_ws/install/roboteq_diff_driver/include/roboteq_diff_driver/driver.h
+/home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/plugin_description.xml

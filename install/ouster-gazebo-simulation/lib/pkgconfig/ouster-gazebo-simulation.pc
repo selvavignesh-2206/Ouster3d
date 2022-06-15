@@ -1,0 +1,22 @@
+prefix=/home/msi/caato2_ws/install/ouster-gazebo-simulation
+exec_prefix=/home/msi/caato2_ws/install/ouster-gazebo-simulation
+libdir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/lib
+bindir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/bin
+pkglibdir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/lib/ouster-gazebo-simulation
+includedir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/include
+datarootdir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/share
+pkgdatarootdir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/share
+docdir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/share/doc/ouster-gazebo-simulation
+doxygendocdir=/home/msi/caato2_ws/install/ouster-gazebo-simulation/share/doc/ouster-gazebo-simulation/doxygen-html
+
+Name: ouster-gazebo-simulation
+Description: package for the simulation of the Ouster OS1-64 with ros and gazebo.
+URL: https://github.com/gepetto/ouster-gazebo-simulation
+Version: 2.1.1
+Requires: 
+Conflicts: 
+Libs: -L${libdir} 
+Libs.private: 
+Cflags:  -I${includedir}
+
+

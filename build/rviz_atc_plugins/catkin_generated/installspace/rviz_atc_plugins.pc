@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/install/rviz_atc_plugins
+
+Name: rviz_atc_plugins
+Description: Description of rviz_atc_plugins
+Version: 0.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

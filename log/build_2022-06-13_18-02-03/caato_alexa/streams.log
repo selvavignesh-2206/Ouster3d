@@ -1,0 +1,12 @@
+[0.102s] Invoking command in '/home/msi/caato2_ws/build/caato_alexa': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa -- -j20 -l20
+[0.407s] Invoked command in '/home/msi/caato2_ws/build/caato_alexa' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa -- -j20 -l20
+[0.480s] Invoking command in '/home/msi/caato2_ws/build/caato_alexa': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa --target tests -- -j20 -l20
+[0.544s] Built target tests
+[0.582s] Invoked command in '/home/msi/caato2_ws/build/caato_alexa' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_alexa --target tests -- -j20 -l20
+[0.632s] Invoking command in '/home/msi/caato2_ws/build/caato_alexa': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_alexa
+[0.649s] -- Install configuration: ""
+[0.649s] -- Up-to-date: /home/msi/caato2_ws/install/caato_alexa/lib/pkgconfig/caato_alexa.pc
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/cmake/caato_alexaConfig.cmake
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/cmake/caato_alexaConfig-version.cmake
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/caato_alexa/share/caato_alexa/package.xml
+[0.685s] Invoked command in '/home/msi/caato2_ws/build/caato_alexa' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_alexa

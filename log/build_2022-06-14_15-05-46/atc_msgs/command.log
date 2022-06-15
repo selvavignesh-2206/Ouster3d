@@ -1,0 +1,6 @@
+Invoking command in '/home/msi/caato2_ws/build/atc_msgs': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs -- -j20 -l20
+Invoked command in '/home/msi/caato2_ws/build/atc_msgs' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs -- -j20 -l20
+Invoking command in '/home/msi/caato2_ws/build/atc_msgs': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs --target tests -- -j20 -l20
+Invoked command in '/home/msi/caato2_ws/build/atc_msgs' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/atc_msgs --target tests -- -j20 -l20
+Invoking command in '/home/msi/caato2_ws/build/atc_msgs': /usr/bin/cmake --install /home/msi/caato2_ws/build/atc_msgs
+Invoked command in '/home/msi/caato2_ws/build/atc_msgs' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/atc_msgs

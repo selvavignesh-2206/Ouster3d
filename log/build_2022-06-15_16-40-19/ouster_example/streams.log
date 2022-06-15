@@ -1,0 +1,34 @@
+[0.227s] Invoking command in '/home/msi/caato2_ws/build/ouster_example': /usr/bin/cmake --build /home/msi/caato2_ws/build/ouster_example -- -j20 -l20
+[0.290s] [  0%] Built target generate_build_header
+[0.322s] [ 44%] Built target ouster_client
+[0.351s] [ 55%] Built target ouster_client_example
+[0.352s] [100%] Built target ouster_viz
+[0.505s] Invoked command in '/home/msi/caato2_ws/build/ouster_example' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/ouster_example -- -j20 -l20
+[0.623s] Invoking command in '/home/msi/caato2_ws/build/ouster_example': /usr/bin/cmake --install /home/msi/caato2_ws/build/ouster_example
+[0.645s] -- Install configuration: "Release"
+[0.646s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKTargets.cmake
+[0.646s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKTargets-release.cmake
+[0.646s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKConfig.cmake
+[0.647s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/cmake/OusterSDK/OusterSDKConfigVersion.cmake
+[0.647s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/share/LICENSE
+[0.647s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/share/LICENSE-bin
+[0.647s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/libouster_client.a
+[0.649s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/bin/ouster_client_example
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/version.h
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/types.h
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl
+[0.650s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl/netcompat.h
+[0.651s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/impl/lidar_scan_impl.h
+[0.651s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/image_processing.h
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/client.h
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/lidar_scan.h
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/buffered_udp_source.h
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/LICENSE.txt
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/nonstd
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/optional-lite/nonstd/optional.hpp
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/lib/libouster_viz.a
+[0.652s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster
+[0.653s] -- Up-to-date: /home/msi/caato2_ws/install/ouster_example/include/ouster/point_viz.h
+[0.681s] Invoked command in '/home/msi/caato2_ws/build/ouster_example' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/ouster_example

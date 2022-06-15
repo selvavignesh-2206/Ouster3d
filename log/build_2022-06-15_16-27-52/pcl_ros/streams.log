@@ -1,0 +1,16 @@
+[0.184s] Invoking command in '/home/msi/caato2_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/pcl_conversions:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/pcl_conversions/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/pcl_conversions/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/perception_pcl/pcl_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/pcl_ros
+[0.243s] CMake Error at CMakeLists.txt:11 (find_package):
+[0.243s]   Could not find a package configuration file provided by "PCL" (requested
+[0.243s]   version 1.9) with any of the following names:
+[0.243s] 
+[0.243s]     PCLConfig.cmake
+[0.243s]     pcl-config.cmake
+[0.243s] 
+[0.243s]   Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+[0.243s]   to a directory containing one of the above files.  If "PCL" provides a
+[0.243s]   separate development package or SDK, be sure it has been installed.
+[0.243s] 
+[0.243s] 
+[0.243s] -- Configuring incomplete, errors occurred!
+[0.243s] See also "/home/msi/caato2_ws/build/pcl_ros/CMakeFiles/CMakeOutput.log".
+[0.284s] Invoked command in '/home/msi/caato2_ws/build/pcl_ros' returned '1': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/pcl_conversions:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/pcl_conversions/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/pcl_conversions/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/perception_pcl/pcl_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/pcl_ros

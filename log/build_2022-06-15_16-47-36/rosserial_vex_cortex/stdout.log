@@ -1,0 +1,34 @@
+Built target tests
+-- Install configuration: ""
++ cd /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_vex_cortex
++ mkdir -p /home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages:/home/msi/caato2_ws/build/rosserial_vex_cortex/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages:/home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_mbed/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosinrange_msg/lib/python3/dist-packages:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages:/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages:/home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages:/home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages:/home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages:/home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages:/home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/msi/caato2_ws/build/rosserial_vex_cortex /usr/bin/python3 /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_vex_cortex/setup.py build --build-base /home/msi/caato2_ws/build/rosserial_vex_cortex install --root=/ --install-layout=deb --prefix=/home/msi/caato2_ws/install/rosserial_vex_cortex --install-scripts=/home/msi/caato2_ws/install/rosserial_vex_cortex/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages/rosserial_vex_cortex-0.9.2.egg-info
+Writing /home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages/rosserial_vex_cortex-0.9.2.egg-info
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/lib/pkgconfig/rosserial_vex_cortex.pc
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/cmake/rosserial_vex_cortexConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/cmake/rosserial_vex_cortexConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/opcontrol.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/auto.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/logger.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/CortexHardware.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/vexstrlen.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/examples
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/examples/joydrive.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/examples/twistdrive.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/examples/helloworld.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/ros.h
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/src/ros_lib/init.cpp
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/lib/rosserial_vex_cortex/genproject.sh
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/joystick.launch
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/minimal_robot.launch
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/hello_world.launch
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_vex_cortex/share/rosserial_vex_cortex/make_libraries.py

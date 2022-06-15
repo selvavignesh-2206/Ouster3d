@@ -1,0 +1,44 @@
+[0.093s] Invoking command in '/home/msi/caato2_ws/build/caato_description': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_description -- -j20 -l20
+[0.285s] Built target caato_description_xacro_generated_to_devel_space_
+[0.372s] Invoked command in '/home/msi/caato2_ws/build/caato_description' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_description -- -j20 -l20
+[0.483s] Invoking command in '/home/msi/caato2_ws/build/caato_description': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_description --target tests -- -j20 -l20
+[0.555s] Built target tests
+[0.591s] Invoked command in '/home/msi/caato2_ws/build/caato_description' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/caato_description --target tests -- -j20 -l20
+[0.659s] Invoking command in '/home/msi/caato2_ws/build/caato_description': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_description
+[0.674s] -- Install configuration: ""
+[0.674s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/lib/pkgconfig/caato_description.pc
+[0.676s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/cmake/caato_descriptionConfig.cmake
+[0.677s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/cmake/caato_descriptionConfig-version.cmake
+[0.677s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/package.xml
+[0.677s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/launch
+[0.677s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/launch/description.launch
+[0.678s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes
+[0.678s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/002._dc_brushed_wheels.stl
+[0.681s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/hokuyo_laser_scanner.stl
+[0.681s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/wheels
+[0.682s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/wheels/front_caster_wheel.stl
+[0.682s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/wheels/drive_wheel.stl
+[0.683s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/wheels/rear_caster_wheel.stl
+[0.684s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/xiaomi_pro_hub_motor.stl
+[0.686s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/sensors
+[0.686s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/sensors/hokuyo_laser_scanner.stl
+[0.686s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/sensors/pal.stl
+[0.687s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/castor_wheel.stl
+[0.687s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/castor_mount.stl
+[0.688s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/bases
+[0.688s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/bases/caato_v1.stl
+[0.688s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/meshes/base_link.stl
+[0.689s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/dreamvue.xacro
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/backup
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/backup/locust_360Cam.urdf.xacro
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/caato_v1f.gazebo.xacro
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/caato.urdf
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/caato_v1f.urdf.xacro
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/common_properties.xacro
+[0.690s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/macro.xacro
+[0.691s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/caato.gazebo.xacro
+[0.691s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/caato_v1m.urdf.xacro
+[0.691s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/caato_v1.gazebo.xacro
+[0.691s] -- Up-to-date: /home/msi/caato2_ws/install/caato_description/share/caato_description/urdf/caato_v1a.urdf.xacro
+[0.710s] Invoked command in '/home/msi/caato2_ws/build/caato_description' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/caato_description

@@ -1,0 +1,18 @@
+Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_python/lib/pkgconfig/rosserial_python.pc
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_python/share/rosserial_python/cmake/rosserial_pythonConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_python/share/rosserial_python/package.xml
++ cd /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_python
++ mkdir -p /home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages
++ /usr/bin/env PYTHONPATH=/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/build/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/xnergy_charger_rcu/lib/python3/dist-packages:/home/msi/caato2_ws/install/trolley_arm/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_xbee/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_v5/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_vex_cortex/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_arduino/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_mbed/lib/python3/dist-packages:/home/msi/caato2_ws/install/rosserial_client/lib/python3/dist-packages:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/realsense2_camera/lib/python3/dist-packages:/home/msi/caato2_ws/install/plc_modbus_node/lib/python3/dist-packages:/home/msi/caato2_ws/install/laser_filters/lib/python3/dist-packages:/home/msi/caato2_ws/install/ira_laser_tools/lib/python3/dist-packages:/home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages:/home/msi/caato2_ws/install/ds4_driver/lib/python3/dist-packages:/home/msi/caato2_ws/install/device_diagnostics/lib/python3/dist-packages:/home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_waypoints/lib/python3/dist-packages:/home/msi/caato2_ws/install/atc_msgs/lib/python3/dist-packages:/home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages CATKIN_BINARY_DIR=/home/msi/caato2_ws/build/rosserial_python /usr/bin/python3 /home/msi/caato2_ws/src/thirdparty/rosserial/rosserial_python/setup.py build --build-base /home/msi/caato2_ws/build/rosserial_python install --root=/ --install-layout=deb --prefix=/home/msi/caato2_ws/install/rosserial_python --install-scripts=/home/msi/caato2_ws/install/rosserial_python/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages/rosserial_python-0.9.2.egg-info
+Writing /home/msi/caato2_ws/install/rosserial_python/lib/python3/dist-packages/rosserial_python-0.9.2.egg-info
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_python/lib/rosserial_python/message_info_service.py
+-- Up-to-date: /home/msi/caato2_ws/install/rosserial_python/lib/rosserial_python/serial_node.py

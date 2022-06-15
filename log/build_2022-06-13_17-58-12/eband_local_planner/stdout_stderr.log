@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/eband_local_planner/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/eband_local_planner/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/eband_local_planner
+[35m[1mScanning dependencies of target eband_local_planner_gencfg[0m
+[ 14%] [34m[1mGenerating dynamic reconfigure files from cfg/EBandPlanner.cfg: /home/msi/caato2_ws/build/eband_local_planner/devel/include/eband_local_planner/EBandPlannerConfig.h /home/msi/caato2_ws/build/eband_local_planner/devel/lib/python3/dist-packages/eband_local_planner/cfg/EBandPlannerConfig.py[0m
+Generating reconfiguration files for EBandPlanner in eband_local_planner
+Wrote header file in /home/msi/caato2_ws/build/eband_local_planner/devel/include/eband_local_planner/EBandPlannerConfig.h
+[ 14%] Built target eband_local_planner_gencfg
+[35m[1mScanning dependencies of target eband_local_planner[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/eband_local_planner.dir/src/conversions_and_types.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/eband_local_planner.dir/src/eband_local_planner.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/eband_local_planner.dir/src/eband_local_planner_ros.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/eband_local_planner.dir/src/eband_visualization.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/eband_local_planner.dir/src/eband_trajectory_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library devel/lib/libeband_local_planner.so[0m
+[100%] Built target eband_local_planner
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/EBandPlannerConfig.h
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/__init__.py
+Listing '/home/msi/caato2_ws/build/eband_local_planner/devel/lib/python3/dist-packages/eband_local_planner/cfg'...
+Compiling '/home/msi/caato2_ws/build/eband_local_planner/devel/lib/python3/dist-packages/eband_local_planner/cfg/EBandPlannerConfig.py'...
+Compiling '/home/msi/caato2_ws/build/eband_local_planner/devel/lib/python3/dist-packages/eband_local_planner/cfg/__init__.py'...
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/EBandPlannerConfig.py
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__init__.py
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__pycache__
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__pycache__/EBandPlannerConfig.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/python3/dist-packages/eband_local_planner/cfg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/pkgconfig/eband_local_planner.pc
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/cmake/eband_local_plannerConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/cmake/eband_local_plannerConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_local_planner_ros.h
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/conversions_and_types.h
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_local_planner.h
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_trajectory_controller.h
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/include/eband_local_planner/eband_visualization.h
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/lib/libeband_local_planner.so
+-- Set runtime path of "/home/msi/caato2_ws/install/eband_local_planner/lib/libeband_local_planner.so" to ""
+-- Installing: /home/msi/caato2_ws/install/eband_local_planner/share/eband_local_planner/elp_plugin.xml

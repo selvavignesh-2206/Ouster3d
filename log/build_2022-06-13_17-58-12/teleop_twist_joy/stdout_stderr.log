@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/teleop_twist_joy/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/teleop_twist_joy/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/teleop_twist_joy
+[35m[1mScanning dependencies of target teleop_twist_joy[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library devel/lib/libteleop_twist_joy.so[0m
+[ 50%] Built target teleop_twist_joy
+[35m[1mScanning dependencies of target teleop_twist_joy_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/teleop_twist_joy/teleop_node[0m
+[100%] Built target teleop_twist_joy_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+-- Set runtime path of "/home/msi/caato2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+-- Set runtime path of "/home/msi/caato2_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/include/teleop_twist_joy
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.h
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop.launch
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+-- Installing: /home/msi/caato2_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml

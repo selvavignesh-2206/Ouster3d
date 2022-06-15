@@ -1,0 +1,571 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/rosserial_test/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/rosserial_server;/home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/rosserial_server;/home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/rosserial_test/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/rosserial_test
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[ 20%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 20%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_nodejs[0m
+[ 20%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[ 20%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 20%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 20%] Built target rosserial_msgs_generate_messages_nodejs
+[ 20%] Built target topic_tools_generate_messages_nodejs
+[ 20%] Built target roscpp_generate_messages_py
+[ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 20%] Built target rosgraph_msgs_generate_messages_py
+[ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[ 20%] Built target roscpp_generate_messages_eus
+[ 20%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 20%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 20%] Built target roscpp_generate_messages_lisp
+[ 20%] Built target rosserial_msgs_generate_messages_py
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[ 20%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_eus[0m
+[ 20%] Built target rosserial_msgs_generate_messages_lisp
+[ 20%] Built target rosserial_msgs_generate_messages_cpp
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target topic_tools_generate_messages_lisp
+[ 20%] Built target rosserial_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosserial_test_rosserial_lib[0m
+[ 40%] [34m[1mGenerating include/rosserial[0m
+
+Exporting to /home/msi/caato2_ws/build/rosserial_test/include/rosserial
+Exporting actionlib
+
+  Messages:
+    TestActionResult,TestAction,TwoIntsActionGoal,TestResult,TestGoal,TwoIntsActionResult,TestActionFeedback,TwoIntsGoal,TestFeedback,TestRequestGoal,TestRequestFeedback,TestRequestActionGoal,TestRequestResult,TwoIntsActionFeedback,TestRequestActionFeedback,TestActionGoal,TestRequestAction,TwoIntsResult,TestRequestActionResult,TwoIntsAction,TwoIntsFeedback,
+
+Exporting actionlib_msgs
+
+  Messages:
+    GoalID,GoalStatusArray,GoalStatus,
+
+Exporting actionlib_tutorials
+
+  Messages:
+    FibonacciAction,AveragingActionGoal,FibonacciActionResult,AveragingResult,FibonacciFeedback,AveragingAction,FibonacciActionGoal,AveragingGoal,AveragingFeedback,FibonacciGoal,FibonacciResult,AveragingActionResult,AveragingActionFeedback,FibonacciActionFeedback,
+
+Exporting audio_common_msgs
+
+  Messages:
+    AudioInfo,AudioData,
+
+Exporting base_local_planner
+
+  Messages:
+    Position2DInt,
+
+Exporting bond
+
+  Messages:
+    Constants,Status,
+
+Exporting control_msgs
+
+  Messages:
+    SingleJointPositionActionGoal,PointHeadActionResult,JointTrajectoryControllerState,JointTrajectoryAction,SingleJointPositionFeedback,FollowJointTrajectoryResult,JointJog,FollowJointTrajectoryActionFeedback,PointHeadResult,GripperCommandFeedback,JointTrajectoryFeedback,JointTrajectoryGoal,SingleJointPositionGoal,GripperCommandGoal,JointTrajectoryActionResult,JointTrajectoryActionGoal,PointHeadFeedback,GripperCommandAction,PointHeadActionFeedback,FollowJointTrajectoryAction,GripperCommandActionGoal,JointTrajectoryResult,GripperCommandActionFeedback,FollowJointTrajectoryFeedback,SingleJointPositionAction,SingleJointPositionResult,PidState,GripperCommand,JointTrajectoryActionFeedback,FollowJointTrajectoryActionGoal,FollowJointTrajectoryGoal,PointHeadAction,PointHeadGoal,FollowJointTrajectoryActionResult,SingleJointPositionActionResult,GripperCommandResult,GripperCommandActionResult,SingleJointPositionActionFeedback,JointTolerance,JointControllerState,PointHeadActionGoal,
+
+  Services:
+    QueryCalibrationState,QueryTrajectoryState,
+
+Exporting control_toolbox
+
+  Services:
+    SetPidGains,
+
+Exporting controller_manager_msgs
+
+  Messages:
+    ControllerStatistics,ControllerState,ControllersStatistics,HardwareInterfaceResources,
+
+  Services:
+    LoadController,SwitchController,ReloadControllerLibraries,UnloadController,ListControllers,ListControllerTypes,
+
+Exporting costmap_2d
+
+  Messages:
+    VoxelGrid,
+
+Exporting diagnostic_msgs
+
+  Messages:
+    KeyValue,DiagnosticArray,DiagnosticStatus,
+
+  Services:
+    SelfTest,AddDiagnostics,
+
+Exporting dynamic_reconfigure
+
+  Messages:
+    BoolParameter,StrParameter,Group,IntParameter,GroupState,ParamDescription,DoubleParameter,SensorLevels,Config,ConfigDescription,
+
+  Services:
+    Reconfigure,
+
+Exporting dynamic_tf_publisher
+
+  Services:
+    DeleteTF,SetDynamicTF,DissocTF,AssocTF,
+
+Exporting gazebo_msgs
+
+  Messages:
+    ContactState,ModelStates,LinkStates,WorldState,SensorPerformanceMetric,PerformanceMetrics,ODEJointProperties,ContactsState,ODEPhysics,LinkState,ModelState,
+
+  Services:
+    SetLinkProperties,SetModelState,SpawnModel,SetLightProperties,DeleteLight,JointRequest,GetLightProperties,SetModelConfiguration,SetJointProperties,BodyRequest,GetLinkProperties,GetWorldProperties,SetJointTrajectory,GetLinkState,SetLinkState,GetPhysicsProperties,GetModelState,SetPhysicsProperties,ApplyJointEffort,GetModelProperties,DeleteModel,GetJointProperties,ApplyBodyWrench,
+
+Exporting geographic_msgs
+
+  Messages:
+    GeoPoseStamped,RouteNetwork,GeoPath,KeyValue,WayPoint,GeoPointStamped,RoutePath,GeoPoint,BoundingBox,GeoPose,MapFeature,GeographicMapChanges,GeographicMap,RouteSegment,
+
+  Services:
+    GetGeoPath,GetRoutePlan,GetGeographicMap,UpdateGeographicMap,
+
+Exporting geometry_msgs
+
+  Messages:
+    Vector3Stamped,AccelStamped,PoseStamped,TwistWithCovarianceStamped,Point32,Twist,Point,Polygon,PolygonStamped,Transform,PoseWithCovarianceStamped,Inertia,WrenchStamped,TransformStamped,AccelWithCovariance,PoseArray,PointStamped,TwistStamped,InertiaStamped,Wrench,QuaternionStamped,Vector3,Quaternion,Pose2D,AccelWithCovarianceStamped,PoseWithCovariance,Accel,TwistWithCovariance,Pose,
+
+Exporting hector_mapping
+
+  Messages:
+    HectorIterData,HectorDebugInfo,
+
+  Services:
+    ResetMapping,
+
+Exporting hector_nav_msgs
+
+  Services:
+    GetDistanceToObstacle,GetRobotTrajectory,GetSearchPosition,GetRecoveryInfo,GetNormal,
+
+Exporting image_view2
+
+  Messages:
+    ImageMarker2,MouseEvent,PointArrayStamped,
+
+  Services:
+    ChangeMode,
+
+Exporting jsk_footstep_msgs
+
+  Messages:
+    ExecFootstepsAction,ExecFootstepsResult,PlanFootstepsActionResult,ExecFootstepsActionFeedback,PlanFootstepsActionGoal,PlanFootstepsAction,PlanFootstepsActionFeedback,PlanFootstepsFeedback,Footstep,FootstepArray,ExecFootstepsGoal,ExecFootstepsActionResult,ExecFootstepsFeedback,PlanFootstepsResult,PlanFootstepsGoal,ExecFootstepsActionGoal,
+
+Exporting jsk_gui_msgs
+
+  Messages:
+    SlackMessage,Tablet,Gravity,VoiceMessage,TouchEvent,AndroidSensor,DeviceSensor,Action,MagneticField,MultiTouch,Touch,
+
+  Services:
+    YesNo,Query,
+
+Exporting jsk_hark_msgs
+
+  Messages:
+    HarkPower,
+
+Exporting jsk_interactive_marker
+
+  Messages:
+    MoveObject,SnapFootPrintInput,MarkerDimensions,MarkerPose,MoveModel,JointTrajectoryWithType,JointTrajectoryPointWithType,MarkerMenu,PoseStampedWithName,
+
+  Services:
+    SetPose,SetHeuristic,RemoveParentMarker,GetMarkerDimensions,SetMarkerDimensions,SetTransformableMarkerFocus,GetTransformableMarkerFocus,SetTransformableMarkerPose,MarkerSetPose,GetType,SetTransformableMarkerColor,GetJointState,IndexRequest,SetParentMarker,GetTransformableMarkerColor,GetTransformableMarkerPose,SnapFootPrint,GetTransformableMarkerExistence,
+
+Exporting jsk_recognition_msgs
+
+  Messages:
+    SparseOccupancyGridArray,SegmentStamped,PointsArray,RectArray,SegmentArray,LineArray,ParallelEdge,Rect,Segment,HistogramWithRange,TrackingStatus,HumanSkeletonArray,ImageDifferenceValue,SimpleOccupancyGrid,SimpleHandle,PeoplePoseArray,TorusArray,HeightmapConfig,SparseOccupancyGrid,ModelCoefficientsArray,PlotData,PlotDataArray,SparseImage,ContactSensorArray,RotatedRect,ContactSensor,SnapItRequest,SimpleOccupancyGridArray,SparseOccupancyGridCell,HistogramWithRangeArray,Circle2D,ICPResult,HistogramWithRangeBin,ColorHistogramArray,ParallelEdgeArray,RotatedRectStamped,Circle2DArray,Torus,Object,ClusterPointIndices,BoundingBoxMovement,BoundingBoxArrayWithCameraInfo,PeoplePose,TrackerStatus,SlicedPointCloud,DepthCalibrationParameter,BoundingBox,DepthErrorResult,Spectrum,TimeRange,Line,ObjectArray,ColorHistogram,Int32Stamped,ClassificationResult,PolygonArray,Histogram,Accuracy,SparseOccupancyGridColumn,BoundingBoxArray,Label,VectorArray,HumanSkeleton,BoolStamped,PosedCameraInfo,WeightedPoseArray,LabelArray,
+
+  Services:
+    RobotPickupReleasePoint,ICPAlignWithBox,CheckCollision,SetTemplate,SetDepthCalibrationParameter,SetLabels,SetPointCloud2,SnapFootstep,ICPAlign,CallPolygon,WhiteBalancePoints,TowerPickUp,EnvironmentLock,SaveMesh,NonMaximumSuppression,TowerRobotMoveCommand,EuclideanSegment,CheckCircle,CallSnapIt,PolygonOnEnvironment,SwitchTopic,UpdateOffset,WhiteBalance,TransformScreenpoint,
+
+Exporting jsk_rviz_plugins
+
+  Messages:
+    OverlayText,RecordCommand,ObjectFitCommand,StringStamped,PictogramArray,TransformableMarkerOperate,Pictogram,OverlayMenu,
+
+  Services:
+    Screenshot,EusCommand,RequestMarkerOperate,
+
+Exporting jsk_topic_tools
+
+  Messages:
+    TopicInfo,
+
+  Services:
+    List,PassthroughDuration,Update,ChangeTopic,
+
+Exporting laser_assembler
+
+  Services:
+    AssembleScans,AssembleScans2,
+
+Exporting map_msgs
+
+  Messages:
+    OccupancyGridUpdate,PointCloud2Update,ProjectedMapInfo,ProjectedMap,
+
+  Services:
+    ProjectedMapsInfo,SaveMap,GetPointMap,SetMapProjections,GetPointMapROI,GetMapROI,
+
+Exporting mavros_msgs
+
+  Messages:
+    Waypoint,GlobalPositionTarget,RCIn,State,RTKBaseline,HilSensor,MountControl,OpticalFlowRad,ESCStatus,ESCStatusItem,GPSRTK,ActuatorControl,Tunnel,TimesyncStatus,AttitudeTarget,Param,Mavlink,CameraImageCaptured,Thrust,HilControls,LandingTarget,NavControllerOutput,ParamValue,Vibration,GPSINPUT,RTCM,FileEntry,PlayTuneV2,ESCInfo,CamIMUStamp,GPSRAW,WaypointList,ADSBVehicle,TerrainReport,Trajectory,WheelOdomStamped,WaypointReached,EstimatorStatus,StatusText,HomePosition,BatteryStatus,ESCTelemetry,HilActuatorControls,ExtendedState,VehicleInfo,LogData,Altitude,HilStateQuaternion,LogEntry,CompanionProcessStatus,OverrideRCIn,RadioStatus,ESCInfoItem,HilGPS,OnboardComputerStatus,CommandCode,PositionTarget,MagnetometerReporter,DebugValue,RCOut,VFR_HUD,ESCTelemetryItem,ManualControl,
+
+  Services:
+    VehicleInfoGet,MountConfigure,LogRequestData,FileMakeDir,CommandTOL,CommandBool,FileChecksum,WaypointSetCurrent,CommandTriggerInterval,SetMode,SetMavFrame,FileOpen,LogRequestList,CommandAck,FileClose,ParamPull,WaypointClear,StreamRate,FileRename,FileTruncate,FileRead,FileList,WaypointPush,FileRemove,ParamGet,ParamSet,LogRequestEnd,CommandInt,ParamPush,CommandLong,FileWrite,CommandTriggerControl,FileRemoveDir,CommandVtolTransition,WaypointPull,CommandHome,MessageInterval,
+
+Exporting move_base_msgs
+
+  Messages:
+    MoveBaseActionGoal,MoveBaseActionFeedback,MoveBaseFeedback,RecoveryStatus,MoveBaseAction,MoveBaseGoal,MoveBaseActionResult,MoveBaseResult,
+
+Exporting moveit_msgs
+
+  Messages:
+    DisplayRobotState,PickupActionGoal,CartesianTrajectory,LinkPadding,ExecuteTrajectoryFeedback,CostSource,ContactInformation,MoveGroupSequenceResult,PlaceAction,LinkScale,MoveGroupFeedback,PickupGoal,ExecuteTrajectoryActionResult,MotionPlanDetailedResponse,JointConstraint,PositionConstraint,PlannerInterfaceDescription,Constraints,PlaceLocation,PlanningSceneComponents,PlannerParams,PickupActionFeedback,GenericTrajectory,MoveGroupAction,PlanningOptions,AllowedCollisionMatrix,AllowedCollisionEntry,ExecuteTrajectoryActionFeedback,MotionSequenceResponse,KinematicSolverInfo,MoveGroupActionGoal,CartesianPoint,AttachedCollisionObject,PlaceGoal,PlaceFeedback,RobotState,PlanningSceneWorld,BoundingVolume,MotionPlanResponse,PlaceActionGoal,CartesianTrajectoryPoint,PickupActionResult,ObjectColor,PlanningScene,MoveGroupSequenceFeedback,MoveGroupActionResult,RobotTrajectory,MoveGroupSequenceAction,ExecuteTrajectoryGoal,MotionPlanRequest,MotionSequenceRequest,WorkspaceParameters,PlaceActionResult,PlaceActionFeedback,PlaceResult,JointLimits,MoveGroupActionFeedback,MoveGroupGoal,GripperTranslation,MoveGroupSequenceActionFeedback,ConstraintEvalResult,Grasp,MoveGroupResult,OrientationConstraint,MotionSequenceItem,VisibilityConstraint,CollisionObject,OrientedBoundingBox,MoveGroupSequenceActionGoal,ExecuteTrajectoryActionGoal,PickupFeedback,PickupAction,MoveGroupSequenceGoal,TrajectoryConstraints,PickupResult,PositionIKRequest,MoveGroupSequenceActionResult,MoveItErrorCodes,ExecuteTrajectoryResult,ExecuteTrajectoryAction,DisplayTrajectory,
+
+  Services:
+    GetMotionSequence,GetPlannerParams,GetPositionIK,ApplyPlanningScene,ExecuteKnownTrajectory,LoadMap,SaveRobotStateToWarehouse,GetCartesianPath,QueryPlannerInterfaces,SaveMap,ListRobotStatesInWarehouse,GetPositionFK,RenameRobotStateInWarehouse,GraspPlanning,ChangeControlDimensions,DeleteRobotStateFromWarehouse,GetStateValidity,CheckIfRobotStateExistsInWarehouse,ChangeDriftDimensions,GetPlanningScene,GetMotionPlan,GetRobotStateFromWarehouse,SetPlannerParams,UpdatePointcloudOctomap,
+
+Exporting nav_msgs
+
+  Messages:
+    MapMetaData,GetMapAction,Path,GetMapActionGoal,GetMapGoal,GetMapActionFeedback,GetMapFeedback,GridCells,GetMapActionResult,GetMapResult,Odometry,OccupancyGrid,
+
+  Services:
+    SetMap,LoadMap,GetPlan,GetMap,
+
+Exporting navfn
+
+  Services:
+    SetCostmap,MakeNavPlan,
+
+Exporting nodelet
+
+  Services:
+    NodeletUnload,NodeletLoad,NodeletList,
+
+Exporting object_recognition_msgs
+
+  Messages:
+    RecognizedObject,ObjectRecognitionActionResult,ObjectType,ObjectRecognitionFeedback,ObjectRecognitionAction,RecognizedObjectArray,ObjectRecognitionActionGoal,ObjectRecognitionGoal,TableArray,ObjectRecognitionResult,ObjectInformation,ObjectRecognitionActionFeedback,Table,
+
+  Services:
+    GetObjectInformation,
+
+Exporting octomap_msgs
+
+  Messages:
+    Octomap,OctomapWithPose,
+
+  Services:
+    BoundingBoxQuery,GetOctomap,
+
+Exporting pcl_msgs
+
+  Messages:
+    PolygonMesh,Vertices,ModelCoefficients,PointIndices,
+
+  Services:
+    UpdateFilename,
+
+Exporting people_msgs
+
+  Messages:
+    PositionMeasurementArray,PositionMeasurement,Person,People,PersonStamped,
+
+Exporting polled_camera
+
+  Services:
+    GetPolledImage,
+
+Exporting posedetection_msgs
+
+  Messages:
+    ObjectDetection,Object6DPose,Curve1D,Feature1D,ImageFeature1D,ImageFeature0D,Feature0D,
+
+  Services:
+    Detect,Feature1DDetect,Feature0DDetect,TargetObj,
+
+Exporting pr2_msgs
+
+  Messages:
+    DashboardState,PowerState,PowerBoardState,BatteryState,PeriodicCmd,LaserTrajCmd,BatteryServer,BatteryState2,LaserScannerSignal,BatteryServer2,GPUStatus,PressureState,AccessPoint,AccelerometerState,
+
+  Services:
+    SetLaserTrajCmd,SetPeriodicCmd,
+
+Exporting pr2_power_board
+
+  Services:
+    PowerBoardCommand,PowerBoardCommand2,
+
+Exporting py_trees_msgs
+
+  Messages:
+    Behaviour,DockGoal,DockActionFeedback,RotateActionFeedback,DockAction,DockFeedback,DockActionGoal,RotateFeedback,RotateGoal,RotateResult,RotateActionGoal,RotateActionResult,RotateAction,BehaviourTree,DockResult,DockActionResult,
+
+  Services:
+    GetBlackboardVariables,OpenBlackboardWatcher,CloseBlackboardWatcher,
+
+Exporting robot_localization
+
+  Services:
+    GetState,SetPose,ToggleFilterProcessing,ToLL,FromLL,SetDatum,SetUTMZone,
+
+Exporting roscpp
+
+  Messages:
+    Logger,
+
+  Services:
+    SetLoggerLevel,GetLoggers,Empty,
+
+Exporting roscpp_tutorials
+
+  Services:
+    TwoInts,
+
+Exporting rosgraph_msgs
+
+  Messages:
+    Log,Clock,TopicStatistics,
+
+Exporting rosmon_msgs
+
+  Messages:
+    NodeState,State,
+
+  Services:
+    StartStop,
+
+Exporting rospy_tutorials
+
+  Messages:
+    Floats,HeaderString,
+
+  Services:
+    AddTwoInts,BadTwoInts,
+
+Exporting rosserial_arduino
+
+  Messages:
+    Adc,
+
+  Services:
+    Test,
+
+Exporting rosserial_msgs
+
+  Messages:
+    TopicInfo,Log,
+
+  Services:
+    RequestParam,
+
+Exporting rviz
+
+  Services:
+    SendFilePath,
+
+Exporting sensor_msgs
+
+  Messages:
+    Image,BatteryState,MultiEchoLaserScan,JoyFeedbackArray,RegionOfInterest,Imu,CompressedImage,LaserScan,NavSatStatus,JointState,NavSatFix,FluidPressure,Range,TimeReference,PointField,LaserEcho,CameraInfo,MagneticField,ChannelFloat32,PointCloud,JoyFeedback,PointCloud2,Illuminance,Joy,MultiDOFJointState,RelativeHumidity,Temperature,
+
+  Services:
+    SetCameraInfo,
+
+Exporting shape_msgs
+
+  Messages:
+    Plane,SolidPrimitive,Mesh,MeshTriangle,
+
+Exporting smach_msgs
+
+  Messages:
+    SmachContainerStructure,SmachContainerInitialStatusCmd,SmachContainerStatus,
+
+Exporting sound_play
+
+  Messages:
+    SoundRequestActionResult,SoundRequestAction,SoundRequestResult,SoundRequestActionGoal,SoundRequestFeedback,SoundRequestActionFeedback,SoundRequestGoal,SoundRequest,
+
+Exporting std_msgs
+
+  Messages:
+    Float32,Int16,String,Bool,Int8,Header,Int32MultiArray,Float64MultiArray,MultiArrayDimension,MultiArrayLayout,Int64,UInt16,UInt64,UInt8MultiArray,Int16MultiArray,Time,Int32,Int8MultiArray,Float64,Duration,Byte,UInt16MultiArray,Char,Empty,UInt32,UInt64MultiArray,ColorRGBA,UInt32MultiArray,Int64MultiArray,ByteMultiArray,Float32MultiArray,UInt8,
+
+Exporting std_srvs
+
+  Services:
+    Empty,Trigger,SetBool,
+
+Exporting stereo_msgs
+
+  Messages:
+    DisparityImage,
+
+Exporting tf
+
+  Messages:
+    tfMessage,
+
+  Services:
+    FrameGraph,
+
+Exporting tf2_msgs
+
+  Messages:
+    LookupTransformActionResult,LookupTransformGoal,LookupTransformActionFeedback,LookupTransformAction,LookupTransformResult,TF2Error,TFMessage,LookupTransformFeedback,LookupTransformActionGoal,
+
+  Services:
+    FrameGraph,
+
+Exporting theora_image_transport
+
+  Messages:
+    Packet,
+
+Exporting topic_tools
+
+  Services:
+    DemuxDelete,MuxSelect,DemuxAdd,DemuxList,MuxList,MuxDelete,MuxAdd,DemuxSelect,
+
+Exporting trajectory_msgs
+
+  Messages:
+    MultiDOFJointTrajectory,MultiDOFJointTrajectoryPoint,JointTrajectory,JointTrajectoryPoint,
+
+Exporting turtle_actionlib
+
+  Messages:
+    Velocity,ShapeAction,ShapeActionGoal,ShapeResult,ShapeGoal,ShapeActionFeedback,ShapeActionResult,ShapeFeedback,
+
+Exporting turtlebot3_example
+
+  Messages:
+    Turtlebot3ActionGoal,Turtlebot3Feedback,Turtlebot3Action,Turtlebot3Goal,Turtlebot3Result,Turtlebot3ActionFeedback,Turtlebot3ActionResult,
+
+Exporting turtlebot3_msgs
+
+  Messages:
+    Sound,VersionInfo,SensorState,
+
+Exporting turtlesim
+
+  Messages:
+    Color,Pose,
+
+  Services:
+    Kill,SetPen,TeleportAbsolute,Spawn,TeleportRelative,
+
+Exporting urg_node
+
+  Messages:
+    Status,
+
+Exporting uuid_msgs
+
+  Messages:
+    UniqueID,
+
+Exporting variant_msgs
+
+  Messages:
+    Variant,VariantHeader,VariantType,Test,
+
+Exporting view_controller_msgs
+
+  Messages:
+    CameraPlacement,CameraTrajectory,CameraMovement,
+
+Exporting visualization_msgs
+
+  Messages:
+    InteractiveMarkerPose,InteractiveMarkerUpdate,InteractiveMarkerInit,MarkerArray,MenuEntry,InteractiveMarkerControl,Marker,ImageMarker,InteractiveMarkerFeedback,InteractiveMarker,
+
+
+
+
+
+[ 40%] Built target rosserial_test_rosserial_lib
+[ 60%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[ 60%] Built target gtest
+[35m[1mScanning dependencies of target rosserial_test_publish_subscribe[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/rosserial_test/rosserial_test_publish_subscribe[0m
+[100%] Built target rosserial_test_publish_subscribe
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/rosserial_test/lib/pkgconfig/rosserial_test.pc
+-- Installing: /home/msi/caato2_ws/install/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/rosserial_test/share/rosserial_test/cmake/rosserial_testConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/rosserial_test/share/rosserial_test/package.xml

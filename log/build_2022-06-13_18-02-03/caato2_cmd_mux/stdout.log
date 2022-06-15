@@ -1,0 +1,151 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/caato2_cmd_mux/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/xnergy_charger_rcu;/home/msi/caato2_ws/install/trolley_arm;/home/msi/caato2_ws/install/teleop_twist_joy;/home/msi/caato2_ws/install/rviz_atc_plugins;/home/msi/caato2_ws/install/rosserial_xbee;/home/msi/caato2_ws/install/rosserial_windows;/home/msi/caato2_ws/install/rosserial_vex_v5;/home/msi/caato2_ws/install/rosserial_vex_cortex;/home/msi/caato2_ws/install/rosserial_tivac;/home/msi/caato2_ws/install/rosserial_test;/home/msi/caato2_ws/install/rosserial_server;/home/msi/caato2_ws/install/rosserial_arduino;/home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_mbed;/home/msi/caato2_ws/install/rosserial_embeddedlinux;/home/msi/caato2_ws/install/rosserial_chibios;/home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/home/msi/caato2_ws/install/caato_teleop;/home/msi/caato2_ws/install/caato_slam;/home/msi/caato2_ws/install/caato_navigation;/home/msi/caato2_ws/install/caato_bringup;/home/msi/caato2_ws/install/caato2_navigation;/home/msi/caato2_ws/install/caato2_bringup;/home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/realsense_gazebo_plugin;/home/msi/caato2_ws/install/realsense2_description;/home/msi/caato2_ws/install/realsense2_camera;/home/msi/caato2_ws/install/plc_modbus_node;/home/msi/caato2_ws/install/ouster_example;/home/msi/caato2_ws/install/ouster-gazebo-simulation;/home/msi/caato2_ws/install/map_server;/home/msi/caato2_ws/install/laser_filters;/home/msi/caato2_ws/install/ira_laser_tools;/home/msi/caato2_ws/install/eband_local_planner;/home/msi/caato2_ws/install/ds4_driver;/home/msi/caato2_ws/install/device_diagnostics;/home/msi/caato2_ws/install/decada_sim_assets;/home/msi/caato2_ws/install/caato_gazebo;/home/msi/caato2_ws/install/caato_description;/home/msi/caato2_ws/install/caato_alexa;/home/msi/caato2_ws/install/caato2_gazebo;/home/msi/caato2_ws/install/caato2_description;/home/msi/caato2_ws/install/atc_waypoints;/home/msi/caato2_ws/install/atc_stm;/home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/home/msi/caato2_ws/install/apriltag_ros;/home/msi/caato2_ws/install/apriltag;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/xnergy_charger_rcu;/home/msi/caato2_ws/install/trolley_arm;/home/msi/caato2_ws/install/teleop_twist_joy;/home/msi/caato2_ws/install/rviz_atc_plugins;/home/msi/caato2_ws/install/rosserial_xbee;/home/msi/caato2_ws/install/rosserial_windows;/home/msi/caato2_ws/install/rosserial_vex_v5;/home/msi/caato2_ws/install/rosserial_vex_cortex;/home/msi/caato2_ws/install/rosserial_tivac;/home/msi/caato2_ws/install/rosserial_test;/home/msi/caato2_ws/install/rosserial_server;/home/msi/caato2_ws/install/rosserial_arduino;/home/msi/caato2_ws/install/rosserial_python;/home/msi/caato2_ws/install/rosserial_mbed;/home/msi/caato2_ws/install/rosserial_embeddedlinux;/home/msi/caato2_ws/install/rosserial_chibios;/home/msi/caato2_ws/install/rosserial_client;/home/msi/caato2_ws/install/rosserial_msgs;/home/msi/caato2_ws/install/caato_teleop;/home/msi/caato2_ws/install/caato_slam;/home/msi/caato2_ws/install/caato_navigation;/home/msi/caato2_ws/install/caato_bringup;/home/msi/caato2_ws/install/caato2_navigation;/home/msi/caato2_ws/install/caato2_bringup;/home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/realsense_gazebo_plugin;/home/msi/caato2_ws/install/realsense2_description;/home/msi/caato2_ws/install/realsense2_camera;/home/msi/caato2_ws/install/plc_modbus_node;/home/msi/caato2_ws/install/ouster-gazebo-simulation;/home/msi/caato2_ws/install/map_server;/home/msi/caato2_ws/install/laser_filters;/home/msi/caato2_ws/install/ira_laser_tools;/home/msi/caato2_ws/install/eband_local_planner;/home/msi/caato2_ws/install/ds4_driver;/home/msi/caato2_ws/install/device_diagnostics;/home/msi/caato2_ws/install/decada_sim_assets;/home/msi/caato2_ws/install/caato_gazebo;/home/msi/caato2_ws/install/caato_description;/home/msi/caato2_ws/install/caato_alexa;/home/msi/caato2_ws/install/caato2_gazebo;/home/msi/caato2_ws/install/caato2_description;/home/msi/caato2_ws/install/atc_waypoints;/home/msi/caato2_ws/install/atc_stm;/home/msi/caato2_ws/install/atc_utils;/home/msi/caato2_ws/install/atc_msgs;/home/msi/caato2_ws/install/apriltag_ros;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/caato2_cmd_mux/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- caato2_cmd_mux: 0 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/caato2_cmd_mux
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _caato2_cmd_mux_generate_messages_check_deps_change_sub_topic[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _caato2_cmd_mux_generate_messages_check_deps_change_sub_topic
+[35m[1mScanning dependencies of target caato2_cmd_mux_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target caato2_cmd_mux_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target caato2_cmd_mux_generate_messages_eus[0m
+[35m[1mScanning dependencies of target caato2_cmd_mux_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target caato2_cmd_mux_generate_messages_py[0m
+[ 44%] [34m[1mGenerating Javascript code from caato2_cmd_mux/change_sub_topic.srv[0m
+[ 44%] [34m[1mGenerating C++ code from caato2_cmd_mux/change_sub_topic.srv[0m
+[ 44%] [34m[1mGenerating Python code from SRV caato2_cmd_mux/change_sub_topic[0m
+[ 44%] [34m[1mGenerating Lisp code from caato2_cmd_mux/change_sub_topic.srv[0m
+[ 55%] [34m[1mGenerating EusLisp manifest code for caato2_cmd_mux[0m
+[ 66%] [34m[1mGenerating EusLisp code from caato2_cmd_mux/change_sub_topic.srv[0m
+[ 66%] Built target caato2_cmd_mux_generate_messages_lisp
+[ 66%] Built target caato2_cmd_mux_generate_messages_nodejs
+[ 66%] Built target caato2_cmd_mux_generate_messages_cpp
+[ 77%] [34m[1mGenerating Python srv __init__.py for caato2_cmd_mux[0m
+[ 77%] Built target caato2_cmd_mux_generate_messages_py
+[ 77%] Built target caato2_cmd_mux_generate_messages_eus
+[35m[1mScanning dependencies of target caato2_cmd_mux_node[0m
+[35m[1mScanning dependencies of target caato2_cmd_mux_generate_messages[0m
+[ 77%] Built target caato2_cmd_mux_generate_messages
+[ 88%] [32mBuilding CXX object CMakeFiles/caato2_cmd_mux_node.dir/src/cmd_vel_mux.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/caato2_cmd_mux/caato2_cmd_mux_node[0m
+[100%] Built target caato2_cmd_mux_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/srv/change_sub_topic.srv
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_mux-msg-paths.cmake
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux/change_sub_topicRequest.h
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux/change_sub_topic.h
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/include/caato2_cmd_mux/change_sub_topicResponse.h
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux/manifest.l
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux/srv
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/roseus/ros/caato2_cmd_mux/srv/change_sub_topic.l
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/_package.lisp
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/change_sub_topic.lisp
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/_package_change_sub_topic.lisp
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/common-lisp/ros/caato2_cmd_mux/srv/caato2_cmd_mux-srv.asd
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/_index.js
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/srv
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/srv/_index.js
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/gennodejs/ros/caato2_cmd_mux/srv/change_sub_topic.js
+Listing '/home/msi/caato2_ws/build/caato2_cmd_mux/devel/lib/python3/dist-packages/caato2_cmd_mux'...
+Compiling '/home/msi/caato2_ws/build/caato2_cmd_mux/devel/lib/python3/dist-packages/caato2_cmd_mux/__init__.py'...
+Listing '/home/msi/caato2_ws/build/caato2_cmd_mux/devel/lib/python3/dist-packages/caato2_cmd_mux/srv'...
+Compiling '/home/msi/caato2_ws/build/caato2_cmd_mux/devel/lib/python3/dist-packages/caato2_cmd_mux/srv/__init__.py'...
+Compiling '/home/msi/caato2_ws/build/caato2_cmd_mux/devel/lib/python3/dist-packages/caato2_cmd_mux/srv/_change_sub_topic.py'...
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__init__.py
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/_change_sub_topic.py
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__pycache__
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__pycache__/_change_sub_topic.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/__init__.py
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/__pycache__
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/python3/dist-packages/caato2_cmd_mux/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/pkgconfig/caato2_cmd_mux.pc
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_mux-msg-extras.cmake
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_muxConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/cmake/caato2_cmd_muxConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/package.xml
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/lib/caato2_cmd_mux/caato2_cmd_mux_node
+-- Set runtime path of "/home/msi/caato2_ws/install/caato2_cmd_mux/lib/caato2_cmd_mux/caato2_cmd_mux_node" to ""
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/launch
+-- Installing: /home/msi/caato2_ws/install/caato2_cmd_mux/share/caato2_cmd_mux/launch/cmd_vel_mux.launch

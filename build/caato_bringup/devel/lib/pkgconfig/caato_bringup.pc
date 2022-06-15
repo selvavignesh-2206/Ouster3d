@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/caato_bringup/devel
+
+Name: caato_bringup
+Description: Description of caato_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

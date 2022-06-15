@@ -1,0 +1,14 @@
+CMake Error at CMakeLists.txt:11 (find_package):
+  Could not find a package configuration file provided by "PCL" (requested
+  version 1.9) with any of the following names:
+
+    PCLConfig.cmake
+    pcl-config.cmake
+
+  Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+  to a directory containing one of the above files.  If "PCL" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/msi/caato2_ws/build/pcl_ros/CMakeFiles/CMakeOutput.log".

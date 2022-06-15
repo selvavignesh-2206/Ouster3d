@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/rosserial_server/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/rosserial_msgs;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/rosserial_server/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/rosserial_server
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosserial_server_lookup[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[ 12%] [32mBuilding CXX object CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o[0m
+[ 12%] Built target std_msgs_generate_messages_eus
+[ 12%] Built target rosgraph_msgs_generate_messages_cpp
+[ 12%] Built target topic_tools_generate_messages_cpp
+[ 12%] Built target roscpp_generate_messages_cpp
+[ 12%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 12%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 12%] Built target rosgraph_msgs_generate_messages_py
+[ 12%] Built target rosgraph_msgs_generate_messages_lisp
+[ 12%] Built target std_msgs_generate_messages_lisp
+[ 12%] Built target roscpp_generate_messages_py
+[ 12%] Built target rosserial_msgs_generate_messages_py
+[ 12%] Built target rosserial_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 12%] Built target rosserial_msgs_generate_messages_lisp
+[ 12%] Built target topic_tools_generate_messages_lisp
+[ 12%] Built target rosserial_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosserial_msgs_generate_messages_nodejs[0m
+[ 12%] Built target roscpp_generate_messages_eus
+[ 25%] [32m[1mLinking CXX shared library devel/lib/librosserial_server_lookup.so[0m
+[ 25%] Built target topic_tools_generate_messages_nodejs
+[ 25%] Built target rosserial_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 25%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 25%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 25%] Built target std_msgs_generate_messages_nodejs
+[ 25%] Built target rosgraph_msgs_generate_messages_eus
+[ 25%] Built target std_msgs_generate_messages_py
+[ 25%] Built target roscpp_generate_messages_lisp
+[ 25%] Built target rosserial_server_lookup
+[35m[1mScanning dependencies of target rosserial_server_udp_socket_node[0m
+[35m[1mScanning dependencies of target rosserial_server_socket_node[0m
+[35m[1mScanning dependencies of target rosserial_server_serial_node[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rosserial_server_udp_socket_node.dir/src/udp_socket_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosserial_server_serial_node.dir/src/serial_node.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/rosserial_server_socket_node.dir/src/socket_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable devel/lib/rosserial_server/udp_socket_node[0m
+[ 87%] [32m[1mLinking CXX executable devel/lib/rosserial_server/socket_node[0m
+[100%] [32m[1mLinking CXX executable devel/lib/rosserial_server/serial_node[0m
+[100%] Built target rosserial_server_socket_node
+[100%] Built target rosserial_server_serial_node
+[100%] Built target rosserial_server_udp_socket_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/lib/pkgconfig/rosserial_server.pc
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/cmake/rosserial_serverConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/cmake/rosserial_serverConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/package.xml
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/lib/librosserial_server_lookup.so
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/serial_node
+-- Set runtime path of "/home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/serial_node" to ""
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/socket_node
+-- Set runtime path of "/home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/socket_node" to ""
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/udp_socket_node
+-- Set runtime path of "/home/msi/caato2_ws/install/rosserial_server/lib/rosserial_server/udp_socket_node" to ""
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/serial.launch
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/udp_socket.launch
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/share/rosserial_server/launch/socket.launch
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/udp_stream.h
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/udp_socket_session.h
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/tcp_server.h
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/session.h
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/msg_lookup.h
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/topic_handlers.h
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/async_read_buffer.h
+-- Installing: /home/msi/caato2_ws/install/rosserial_server/include/rosserial_server/serial_session.h

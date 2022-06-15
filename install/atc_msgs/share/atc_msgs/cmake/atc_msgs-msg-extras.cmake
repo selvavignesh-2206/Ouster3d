@@ -1,0 +1,2 @@
+set(atc_msgs_MESSAGE_FILES "msg/BoundingBox.msg;msg/AprilTag_Has_Solution.msg;msg/Detector.msg;msg/Detector_Has_Solution.msg;msg/AGVStatus.msg;msg/Stop_To_STM.msg;msg/Latch.msg;msg/waypoint_msg.msg;msg/waypoint_group.msg;msg/waypointArray.msg;msg/RunSpecificWp.msg")
+set(atc_msgs_SERVICE_FILES "srv/Update_Movement_Mode.srv;srv/Navigate_To_Trolley.srv;srv/Dock_To_Tag.srv;srv/Click_To_Turn.srv;srv/Save_Wp.srv;srv/Load_Wp.srv;srv/Run_Wp.srv;srv/Run_Specific_Wp.srv;srv/Stop_Wp.srv;srv/Delete_Wp.srv;srv/Groups_Wp.srv;srv/Wp_2_Group.srv;srv/Reset_ClearCostMap.srv")

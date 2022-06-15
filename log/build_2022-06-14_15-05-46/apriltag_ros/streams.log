@@ -1,0 +1,125 @@
+[0.139s] Invoking command in '/home/msi/caato2_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/apriltag:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/msi/caato2_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag_ros -- -j20 -l20
+[0.199s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.200s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.200s] [  0%] Built target std_msgs_generate_messages_py
+[0.200s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.200s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.200s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.200s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.200s] [  0%] Built target std_msgs_generate_messages_eus
+[0.200s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.200s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.201s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.201s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.201s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.201s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.201s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.202s] [  0%] Built target _apriltag_ros_generate_messages_check_deps_AnalyzeSingleImage
+[0.202s] [  0%] Built target _apriltag_ros_generate_messages_check_deps_AprilTagDetectionArray
+[0.203s] [  0%] Built target _apriltag_ros_generate_messages_check_deps_AprilTagDetection
+[0.213s] [ 26%] Built target apriltag_ros_generate_messages_nodejs
+[0.214s] [ 26%] Built target apriltag_ros_generate_messages_cpp
+[0.214s] [ 30%] Built target apriltag_ros_generate_messages_lisp
+[0.214s] [ 60%] Built target apriltag_ros_generate_messages_eus
+[0.215s] [ 60%] Built target apriltag_ros_generate_messages_py
+[0.226s] [ 60%] Built target apriltag_ros_generate_messages
+[0.232s] [ 66%] Built target apriltag_ros_common
+[0.251s] [ 86%] Built target apriltag_ros_continuous_detector
+[0.251s] [ 86%] Built target apriltag_ros_single_image_client_node
+[0.251s] [ 86%] Built target apriltag_ros_single_image_detector
+[0.268s] [ 93%] Built target apriltag_ros_continuous_node
+[0.270s] [100%] Built target apriltag_ros_single_image_server_node
+[0.316s] Invoked command in '/home/msi/caato2_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/apriltag:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/msi/caato2_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag_ros -- -j20 -l20
+[0.587s] Invoking command in '/home/msi/caato2_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/apriltag:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/msi/caato2_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag_ros --target tests -- -j20 -l20
+[0.645s] Built target tests
+[0.674s] Invoked command in '/home/msi/caato2_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/apriltag:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/msi/caato2_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/apriltag_ros --target tests -- -j20 -l20
+[0.786s] Invoking command in '/home/msi/caato2_ws/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/apriltag:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/msi/caato2_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/apriltag_ros
+[0.797s] -- Install configuration: "Release"
+[0.797s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/msg/AprilTagDetection.msg
+[0.798s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/msg/AprilTagDetectionArray.msg
+[0.798s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/srv/AnalyzeSingleImage.srv
+[0.799s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_ros-msg-paths.cmake
+[0.799s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros
+[0.799s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AnalyzeSingleImageResponse.h
+[0.800s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AnalyzeSingleImage.h
+[0.801s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AprilTagDetection.h
+[0.801s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AprilTagDetectionArray.h
+[0.802s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/AnalyzeSingleImageRequest.h
+[0.802s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros
+[0.804s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/msg
+[0.804s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/msg/AprilTagDetectionArray.l
+[0.804s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/msg/AprilTagDetection.l
+[0.804s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/manifest.l
+[0.805s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/srv
+[0.806s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/roseus/ros/apriltag_ros/srv/AnalyzeSingleImage.l
+[0.806s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros
+[0.807s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg
+[0.809s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/_package.lisp
+[0.809s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetection.lisp
+[0.810s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/AprilTagDetectionArray.lisp
+[0.810s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/apriltag_ros-msg.asd
+[0.810s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/_package_AprilTagDetectionArray.lisp
+[0.810s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/msg/_package_AprilTagDetection.lisp
+[0.811s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv
+[0.811s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/_package.lisp
+[0.811s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/AnalyzeSingleImage.lisp
+[0.811s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/apriltag_ros-srv.asd
+[0.812s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/common-lisp/ros/apriltag_ros/srv/_package_AnalyzeSingleImage.lisp
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/_index.js
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg
+[0.813s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/_index.js
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetectionArray.js
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/msg/AprilTagDetection.js
+[0.814s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/srv
+[0.815s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/srv/_index.js
+[0.815s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/gennodejs/ros/apriltag_ros/srv/AnalyzeSingleImage.js
+[0.832s] Listing '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros'...
+[0.832s] Listing '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/msg'...
+[0.832s] Listing '/home/msi/caato2_ws/build/apriltag_ros/devel/lib/python3/dist-packages/apriltag_ros/srv'...
+[0.833s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros
+[0.833s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg
+[0.834s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetection.py
+[0.835s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/_AprilTagDetectionArray.py
+[0.835s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__init__.py
+[0.836s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__
+[0.836s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__/_AprilTagDetection.cpython-38.pyc
+[0.837s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__/__init__.cpython-38.pyc
+[0.837s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/msg/__pycache__/_AprilTagDetectionArray.cpython-38.pyc
+[0.839s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv
+[0.839s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/_AnalyzeSingleImage.py
+[0.840s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__init__.py
+[0.841s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__pycache__
+[0.841s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__pycache__/__init__.cpython-38.pyc
+[0.842s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/srv/__pycache__/_AnalyzeSingleImage.cpython-38.pyc
+[0.842s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/__init__.py
+[0.843s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/__pycache__
+[0.844s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/python3/dist-packages/apriltag_ros/__pycache__/__init__.cpython-38.pyc
+[0.844s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc
+[0.844s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_ros-msg-extras.cmake
+[0.844s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake
+[0.845s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake
+[0.847s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/package.xml
+[0.847s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros
+[0.847s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/continuous_detector.h
+[0.847s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/single_image_detector.h
+[0.847s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/include/apriltag_ros/common_functions.h
+[0.849s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config
+[0.849s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/tags.yaml.4thMay2021
+[0.849s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/tags.yaml
+[0.849s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/tags.yaml.bkup
+[0.849s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/config/settings.yaml
+[0.850s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch
+[0.850s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/single_image_server.launch
+[0.850s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/single_image_client.launch
+[0.850s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/continuous_detection.launch
+[0.852s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/launch/continuous_detection.caato.launch
+[0.852s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/share/apriltag_ros/nodelet_plugins.xml
+[0.852s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_common.so
+[0.852s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_continuous_detector.so
+[0.852s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_continuous_node
+[0.852s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_single_image_client_node
+[0.853s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/libapriltag_ros_single_image_detector.so
+[0.853s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/apriltag_ros_single_image_server_node
+[0.853s] -- Up-to-date: /home/msi/caato2_ws/install/apriltag_ros/lib/apriltag_ros/analyze_image
+[0.862s] Invoked command in '/home/msi/caato2_ws/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/apriltag:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/msi/caato2_ws/install/apriltag/lib:${LD_LIBRARY_PATH} PATH=/home/msi/caato2_ws/install/apriltag/bin:${PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/apriltag/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/apriltag/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/apriltag_ros

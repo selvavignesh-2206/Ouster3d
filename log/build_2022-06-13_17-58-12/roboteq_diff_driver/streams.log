@@ -1,0 +1,131 @@
+[0.194s] Invoking command in '/home/msi/caato2_ws/build/roboteq_diff_driver': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/roboteq_diff_driver/roboteq_diff_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/roboteq_diff_driver
+[2.307s] -- The C compiler identification is GNU 8.4.0
+[2.307s] -- The CXX compiler identification is GNU 8.4.0
+[2.307s] -- Check for working C compiler: /usr/bin/cc
+[2.307s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.307s] -- Detecting C compiler ABI info
+[2.307s] -- Detecting C compiler ABI info - done
+[2.307s] -- Detecting C compile features
+[2.307s] -- Detecting C compile features - done
+[2.307s] -- Check for working CXX compiler: /usr/bin/c++
+[2.308s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.308s] -- Detecting CXX compiler ABI info
+[2.308s] -- Detecting CXX compiler ABI info - done
+[2.308s] -- Detecting CXX compile features
+[2.308s] -- Detecting CXX compile features - done
+[2.308s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/roboteq_diff_driver/devel
+[2.308s] -- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/roboteq_diff_msgs;/opt/ros/noetic
+[2.308s] -- This workspace overlays: /home/msi/caato2_ws/install/roboteq_diff_msgs;/opt/ros/noetic
+[2.308s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.308s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.308s] -- Using Debian Python package layout
+[2.308s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.308s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.309s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.309s] -- Call enable_testing()
+[2.309s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/roboteq_diff_driver/test_results
+[3.077s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.077s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.077s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.146s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.148s] -- Found Threads: TRUE  
+[3.154s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.313s] -- catkin 0.8.10
+[3.313s] -- BUILD_SHARED_LIBS is on
+[3.851s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.207s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+[4.778s] CMake Warning (dev) in /usr/src/googletest/googlemock/CMakeLists.txt:
+[4.778s]   AUTOGEN: No valid Qt version found for target gmock_main.  AUTOMOC
+[4.778s]   disabled.  Consider adding:
+[4.778s] 
+[4.778s]     find_package(Qt<QTVERSION> COMPONENTS Core)
+[4.779s] 
+[4.779s]   to your CMakeLists.txt file.
+[4.779s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.779s] 
+[4.779s] CMake Warning (dev) in /usr/src/googletest/googlemock/CMakeLists.txt:
+[4.779s]   AUTOGEN: No valid Qt version found for target gmock.  AUTOMOC disabled.
+[4.779s]   Consider adding:
+[4.779s] 
+[4.779s]     find_package(Qt<QTVERSION> COMPONENTS Core)
+[4.779s] 
+[4.779s]   to your CMakeLists.txt file.
+[4.779s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.779s] 
+[4.780s] CMake Warning (dev) in /usr/src/googletest/googletest/CMakeLists.txt:
+[4.780s]   AUTOGEN: No valid Qt version found for target gtest_main.  AUTOMOC
+[4.780s]   disabled.  Consider adding:
+[4.780s] 
+[4.780s]     find_package(Qt<QTVERSION> COMPONENTS Core)
+[4.780s] 
+[4.780s]   to your CMakeLists.txt file.
+[4.780s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.780s] 
+[4.780s] CMake Warning (dev) in /usr/src/googletest/googletest/CMakeLists.txt:
+[4.780s]   AUTOGEN: No valid Qt version found for target gtest.  AUTOMOC disabled.
+[4.780s]   Consider adding:
+[4.780s] 
+[4.781s]     find_package(Qt<QTVERSION> COMPONENTS Core)
+[4.781s] 
+[4.781s]   to your CMakeLists.txt file.
+[4.781s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.781s] 
+[4.781s] -- Configuring done
+[4.805s] CMake Warning (dev) at CMakeLists.txt:39 (add_dependencies):
+[4.805s]   Policy CMP0046 is not set: Error on non-existent dependency in
+[4.805s]   add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[4.805s]   Use the cmake_policy command to set the policy and suppress this warning.
+[4.805s] 
+[4.806s]   The dependency target "roboteq_diff_msgs_gencpp" of target
+[4.806s]   "roboteq_diff_driver_driver" does not exist.
+[4.806s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.806s] 
+[4.806s] CMake Warning (dev) in CMakeLists.txt:
+[4.806s]   Policy CMP0046 is not set: Error on non-existent dependency in
+[4.806s]   add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+[4.806s]   Use the cmake_policy command to set the policy and suppress this warning.
+[4.806s] 
+[4.806s]   The dependency target "roboteq_diff_msgs_gencpp" of target
+[4.806s]   "roboteq_diff_driver_driver_autogen" does not exist.
+[4.806s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.807s] 
+[4.863s] -- Generating done
+[4.871s] -- Build files have been written to: /home/msi/caato2_ws/build/roboteq_diff_driver
+[4.930s] Invoked command in '/home/msi/caato2_ws/build/roboteq_diff_driver' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/roboteq_diff_driver/roboteq_diff_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/roboteq_diff_driver
+[4.931s] Invoking command in '/home/msi/caato2_ws/build/roboteq_diff_driver': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/roboteq_diff_driver -- -j20 -l20
+[5.005s] [35m[1mScanning dependencies of target roboteq_diff_driver_autogen[0m
+[5.017s] [ 12%] [34m[1mAutomatic MOC for target roboteq_diff_driver[0m
+[5.018s] [35m[1mScanning dependencies of target roboteq_diff_driver_driver_autogen[0m
+[5.078s] [ 25%] [34m[1mAutomatic MOC for target roboteq_diff_driver_driver[0m
+[5.132s] [ 25%] Built target roboteq_diff_driver_driver_autogen
+[5.143s] [35m[1mScanning dependencies of target roboteq_diff_driver_driver[0m
+[5.178s] [ 37%] [32mBuilding CXX object CMakeFiles/roboteq_diff_driver_driver.dir/roboteq_diff_driver_driver_autogen/mocs_compilation.cpp.o[0m
+[5.237s] [ 50%] [32mBuilding CXX object CMakeFiles/roboteq_diff_driver_driver.dir/src/driver.cpp.o[0m
+[6.021s] [ 50%] Built target roboteq_diff_driver_autogen
+[6.087s] [35m[1mScanning dependencies of target roboteq_diff_driver[0m
+[6.187s] [ 62%] [32mBuilding CXX object CMakeFiles/roboteq_diff_driver.dir/roboteq_diff_driver_autogen/mocs_compilation.cpp.o[0m
+[6.199s] [ 75%] [32mBuilding CXX object CMakeFiles/roboteq_diff_driver.dir/src/roboteq_panel.cpp.o[0m
+[9.337s] [ 87%] [32m[1mLinking CXX executable devel/lib/roboteq_diff_driver/driver[0m
+[9.645s] [ 87%] Built target roboteq_diff_driver_driver
+[9.795s] [100%] [32m[1mLinking CXX shared library devel/lib/libroboteq_diff_driver.so[0m
+[10.622s] [100%] Built target roboteq_diff_driver
+[10.650s] Invoked command in '/home/msi/caato2_ws/build/roboteq_diff_driver' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/roboteq_diff_driver -- -j20 -l20
+[12.067s] Invoking command in '/home/msi/caato2_ws/build/roboteq_diff_driver': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/roboteq_diff_driver --target tests -- -j20 -l20
+[12.239s] [35m[1mScanning dependencies of target tests[0m
+[12.301s] Built target tests
+[12.473s] Invoked command in '/home/msi/caato2_ws/build/roboteq_diff_driver' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/roboteq_diff_driver --target tests -- -j20 -l20
+[13.887s] Invoking command in '/home/msi/caato2_ws/build/roboteq_diff_driver': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/roboteq_diff_driver
+[16.182s] -- Install configuration: ""
+[16.182s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/lib/pkgconfig/roboteq_diff_driver.pc
+[16.182s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/cmake/roboteq_diff_driverConfig.cmake
+[16.182s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/cmake/roboteq_diff_driverConfig-version.cmake
+[16.182s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/package.xml
+[16.182s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/lib/roboteq_diff_driver/driver
+[16.182s] -- Set runtime path of "/home/msi/caato2_ws/install/roboteq_diff_driver/lib/roboteq_diff_driver/driver" to ""
+[16.182s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/launch
+[16.182s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/launch/driver_dbg.launch
+[16.183s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/launch/driver.launch
+[16.183s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/include/roboteq_diff_driver
+[16.183s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/include/roboteq_diff_driver/driver.h
+[16.183s] -- Installing: /home/msi/caato2_ws/install/roboteq_diff_driver/share/roboteq_diff_driver/plugin_description.xml
+[16.249s] Invoked command in '/home/msi/caato2_ws/build/roboteq_diff_driver' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/lib/python3/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/roboteq_diff_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/roboteq_diff_driver

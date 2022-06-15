@@ -1,0 +1,224 @@
+[0.142s] Invoking command in '/home/msi/caato2_ws/build/caato2_gazebo': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/caato2/caato2_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/caato2_gazebo
+[1.372s] -- The C compiler identification is GNU 8.4.0
+[1.372s] -- The CXX compiler identification is GNU 8.4.0
+[1.372s] -- Check for working C compiler: /usr/bin/cc
+[1.372s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.373s] -- Detecting C compiler ABI info
+[1.373s] -- Detecting C compiler ABI info - done
+[1.373s] -- Detecting C compile features
+[1.373s] -- Detecting C compile features - done
+[1.373s] -- Check for working CXX compiler: /usr/bin/c++
+[1.543s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.544s] -- Detecting CXX compiler ABI info
+[1.817s] -- Detecting CXX compiler ABI info - done
+[1.833s] -- Detecting CXX compile features
+[1.834s] -- Detecting CXX compile features - done
+[1.837s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/caato2_gazebo/devel
+[1.837s] -- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/caato2_description;/opt/ros/noetic
+[1.837s] -- This workspace overlays: /home/msi/caato2_ws/install/caato2_description;/opt/ros/noetic
+[1.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.905s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.905s] -- Using Debian Python package layout
+[2.001s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[2.003s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[2.342s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.343s] -- Call enable_testing()
+[2.354s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/caato2_gazebo/test_results
+[3.515s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[3.516s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.516s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.578s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.580s] -- Found Threads: TRUE  
+[3.585s] -- Using Python nosetests: /usr/bin/nosetests3
+[3.731s] -- catkin 0.8.10
+[3.731s] -- BUILD_SHARED_LIBS is on
+[4.247s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[4.554s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[4.557s] -- Checking for module 'bullet>=2.82'
+[4.666s] --   Found bullet, version 2.88
+[5.461s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[5.809s] -- Found fcl: /opt/ros/noetic/include (found suitable version "0.6.1", minimum required is "0.3.2") 
+[6.295s] -- Found assimp: /usr/include (found version "5.0.0") 
+[6.319s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.421s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[6.502s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[6.507s] -- Looking for ignition-math6 -- found version 6.11.0
+[6.529s] -- Searching for dependencies of ignition-math6
+[6.531s] -- Looking for OGRE...
+[6.532s] -- OGRE_PREFIX_WATCH changed.
+[6.552s] -- Checking for module 'OGRE'
+[6.633s] --   Found OGRE, version 1.9.0
+[6.868s] -- Found Ogre Ghadamon (1.9.0)
+[6.924s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[6.953s] -- Looking for OGRE_Paging...
+[7.014s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[7.014s] -- Looking for OGRE_Terrain...
+[7.050s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[7.065s] -- Looking for OGRE_Property...
+[7.127s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.127s] -- Looking for OGRE_RTShaderSystem...
+[7.129s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.129s] -- Looking for OGRE_Volume...
+[7.152s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[7.152s] -- Looking for OGRE_Overlay...
+[7.181s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.678s] -- Looking for ignition-math6 -- found version 6.11.0
+[7.680s] -- Looking for ignition-transport8 -- found version 8.2.1
+[7.680s] -- Searching for dependencies of ignition-transport8
+[7.750s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[7.776s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.804s] -- Checking for module 'libzmq >= 4'
+[7.888s] --   Found libzmq , version 4.3.2
+[8.194s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[8.206s] -- Checking for module 'uuid'
+[8.338s] --   Found uuid, version 2.34.0
+[8.646s] -- Found UUID: TRUE  
+[8.648s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[8.649s] -- Searching for dependencies of ignition-msgs5
+[8.674s] -- Looking for ignition-math6 -- found version 6.11.0
+[8.686s] -- Checking for module 'tinyxml2'
+[8.767s] --   Found tinyxml2, version 6.2.0
+[8.906s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[8.926s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.926s] -- Searching for dependencies of ignition-common3
+[8.926s] -- Looking for dlfcn.h - found
+[8.926s] -- Looking for libdl - found
+[8.926s] -- Found DL: TRUE  
+[8.938s] -- Searching for <ignition-common3> component [graphics]
+[8.941s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.941s] -- Searching for dependencies of ignition-common3-graphics
+[8.942s] -- Looking for ignition-math6 -- found version 6.11.0
+[8.946s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.946s] -- Searching for dependencies of ignition-fuel_tools4
+[9.214s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[9.224s] -- Checking for module 'jsoncpp'
+[9.265s] --   Found jsoncpp, version 1.7.4
+[9.482s] -- Found JSONCPP: TRUE  
+[9.513s] -- Checking for module 'yaml-0.1'
+[9.586s] --   Found yaml-0.1, version 0.2.2
+[9.750s] -- Found YAML: TRUE  
+[9.766s] -- Checking for module 'libzip'
+[9.802s] --   Found libzip, version 1.5.1
+[9.953s] -- Found ZIP: TRUE  
+[9.954s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.954s] -- Looking for ignition-math6 -- found version 6.11.0
+[9.954s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[10.185s] -- Configuring done
+[10.212s] -- Generating done
+[10.219s] -- Build files have been written to: /home/msi/caato2_ws/build/caato2_gazebo
+[10.238s] Invoked command in '/home/msi/caato2_ws/build/caato2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/msi/caato2_ws/src/siot/caato2/caato2_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/caato2_gazebo
+[10.242s] Invoking command in '/home/msi/caato2_ws/build/caato2_gazebo': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_gazebo -- -j20 -l20
+[10.331s] Invoked command in '/home/msi/caato2_ws/build/caato2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_gazebo -- -j20 -l20
+[10.601s] Invoking command in '/home/msi/caato2_ws/build/caato2_gazebo': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_gazebo --target tests -- -j20 -l20
+[10.836s] [35m[1mScanning dependencies of target tests[0m
+[10.836s] Built target tests
+[10.853s] Invoked command in '/home/msi/caato2_ws/build/caato2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/msi/caato2_ws/build/caato2_gazebo --target tests -- -j20 -l20
+[11.020s] Invoking command in '/home/msi/caato2_ws/build/caato2_gazebo': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/caato2_gazebo
+[11.035s] -- Install configuration: ""
+[11.035s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/lib/pkgconfig/caato2_gazebo.pc
+[11.035s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/cmake/caato2_gazeboConfig.cmake
+[11.035s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/cmake/caato2_gazeboConfig-version.cmake
+[11.035s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/package.xml
+[11.035s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/launch
+[11.035s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/launch/caato2_emptyworld.launch
+[11.036s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/launch/caato2_mbc_eband.launch
+[11.036s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/launch/caato2_testurdf.launch
+[11.036s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/launch/caato2_mbc.launch
+[11.036s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/worlds
+[11.036s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/worlds/turtlebot3_world.world
+[11.036s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/worlds/empty.world
+[11.037s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/worlds/traffic-editor-file
+[11.037s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/worlds/traffic-editor-file/sam_mbc.building.yaml
+[11.037s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/worlds/sam_mbc.world
+[11.037s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models
+[11.037s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1
+[11.037s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/floor_1.png
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/default.png
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/floor_2.png
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/floor_2.mtl
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/wall_1.obj
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/floor_1.mtl
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/floor_2.obj
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/wall_1.mtl
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/meshes/floor_1.obj
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/model.sdf
+[11.038s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/mbc_building_L1/model.config
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/caato_360Cam.urdf.xacro.bkup
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/meshes
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/meshes/002._dc_brushed_wheels.stl
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/meshes/hokuyo_laser_scanner.stl
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/meshes/xiaomi_pro_hub_motor.stl
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/meshes/castor_wheel.stl
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/meshes/castor_mount.stl
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/meshes/base_link.stl
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/model.sdf
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/Caato/model.config
+[11.039s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes/model.material
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes/default.png
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes/blue_linoleum.png
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes/wall_1.obj
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes/floor_1.mtl
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes/wall_1.mtl
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/meshes/floor_1.obj
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/model.sdf
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L9/model.config
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes/model.material
+[11.040s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes/default.png
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes/blue_linoleum.png
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes/wall_1.obj
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes/floor_1.mtl
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes/wall_1.mtl
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/meshes/floor_1.obj
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/model.sdf
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/sam_mbc_mbc_lvl10/model.config
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/model.material
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/default.png
+[11.041s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/floor_3.mtl
+[11.042s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/blue_linoleum.png
+[11.042s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/floor_2.mtl
+[11.042s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/wall_1.obj
+[11.042s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/floor_1.mtl
+[11.042s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/white_beige_tiles.png
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/floor_2.obj
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/wall_1.mtl
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/floor_3.obj
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/gray_flooring.png
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/meshes/floor_1.obj
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/model.sdf
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/models/building_L10/model.config
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/rviz
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/rviz/with_realsense.rviz
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/rviz/sample.rviz
+[11.043s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/rviz/urdf.rviz
+[11.044s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/rviz/with_tag_detection.rviz
+[11.044s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/house.yaml
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/test2.pgm
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/mbc_lvl_10_060522.pgm
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/test2.yaml
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/mbc_lvl_10_060522.yaml
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/house.pgm
+[11.045s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/world.pgm
+[11.046s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/others/world.yaml
+[11.046s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc
+[11.046s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/mbc_lvl_10_060522.png
+[11.046s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/lvl10.png
+[11.046s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/old_mbc
+[11.046s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/old_mbc/mbc.pgm
+[11.047s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/old_mbc/mbc.png
+[11.047s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/old_mbc/mbc.yaml
+[11.047s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/mbc_lvl_10_060522.pgm
+[11.048s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/mbc/mbc_lvl_10_060522.yaml
+[11.048s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/tb3_world
+[11.048s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/tb3_world/world.pgm
+[11.048s] -- Installing: /home/msi/caato2_ws/install/caato2_gazebo/share/caato2_gazebo/maps/tb3_world/world.yaml
+[11.054s] Invoked command in '/home/msi/caato2_ws/build/caato2_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/msi/caato2_ws/install/caato2_description:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/msi/caato2_ws/install/caato2_description/lib/x86_64-linux-gnu/pkgconfig:/home/msi/caato2_ws/install/caato2_description/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/msi/caato2_ws/install/caato2_description/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --install /home/msi/caato2_ws/build/caato2_gazebo

@@ -1,0 +1,16 @@
+[0.112s] Invoking command in '/home/msi/caato2_ws/build/pcl_conversions': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions -- -j20 -l20
+[0.426s] Invoked command in '/home/msi/caato2_ws/build/pcl_conversions' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions -- -j20 -l20
+[0.601s] Invoking command in '/home/msi/caato2_ws/build/pcl_conversions': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions --target tests -- -j20 -l20
+[0.689s] [ 50%] Built target gtest
+[0.700s] [100%] Built target test_pcl_conversions
+[0.710s] [100%] Built target tests
+[0.755s] Invoked command in '/home/msi/caato2_ws/build/pcl_conversions' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions --target tests -- -j20 -l20
+[0.900s] Invoking command in '/home/msi/caato2_ws/build/pcl_conversions': /usr/bin/cmake --install /home/msi/caato2_ws/build/pcl_conversions
+[0.916s] -- Install configuration: ""
+[0.916s] -- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc
+[0.916s] -- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+[0.916s] -- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+[0.916s] -- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/package.xml
+[0.916s] -- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/include/pcl_conversions
+[0.916s] -- Up-to-date: /home/msi/caato2_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions.h
+[1.020s] Invoked command in '/home/msi/caato2_ws/build/pcl_conversions' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/pcl_conversions

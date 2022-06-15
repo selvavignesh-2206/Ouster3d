@@ -1,0 +1,121 @@
+[0.057s] Invoking command in '/home/msi/caato2_ws/build/pcl_conversions': /usr/bin/cmake /home/msi/caato2_ws/src/siot/perception_pcl/pcl_conversions -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/pcl_conversions
+[0.226s] -- The C compiler identification is GNU 8.4.0
+[0.226s] -- The CXX compiler identification is GNU 8.4.0
+[0.226s] -- Check for working C compiler: /usr/bin/cc
+[0.327s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.327s] -- Detecting C compiler ABI info
+[0.436s] -- Detecting C compiler ABI info - done
+[0.454s] -- Detecting C compile features
+[0.456s] -- Detecting C compile features - done
+[0.460s] -- Check for working CXX compiler: /usr/bin/c++
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.525s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.580s] -- Detecting CXX compile features
+[0.581s] -- Detecting CXX compile features - done
+[0.584s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/pcl_conversions/devel
+[0.584s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.584s] -- This workspace overlays: /opt/ros/noetic
+[0.606s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.607s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.607s] -- Using Debian Python package layout
+[0.629s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.630s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.764s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.764s] -- Call enable_testing()
+[0.764s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/pcl_conversions/test_results
+[0.931s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.931s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.931s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.953s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.953s] -- Found Threads: TRUE  
+[0.954s] -- Using Python nosetests: /usr/bin/nosetests3
+[0.980s] -- catkin 0.8.10
+[0.980s] -- BUILD_SHARED_LIBS is on
+[1.134s] -- Checking for module 'eigen3'
+[1.159s] --   Found eigen3, version 3.3.7
+[1.208s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.208s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.256s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.261s] -- Checking for module 'libusb-1.0'
+[1.276s] --   Found libusb-1.0, version 1.0.23
+[1.331s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.416s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[1.417s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.514s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[1.514s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.515s] ** WARNING ** io features related to pcap will be disabled
+[1.516s] ** WARNING ** io features related to png will be disabled
+[1.567s] -- The imported target "vtkParseOGLExt" references the file
+[1.567s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.567s] but this file does not exist.  Possible reasons include:
+[1.567s] * The file was deleted, renamed, or moved to another location.
+[1.568s] * An install or uninstall procedure did not complete successfully.
+[1.568s] * The installation package was faulty and contained
+[1.568s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.568s] but not all the files it references.
+[1.568s] 
+[1.569s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.569s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.569s] but this file does not exist.  Possible reasons include:
+[1.569s] * The file was deleted, renamed, or moved to another location.
+[1.569s] * An install or uninstall procedure did not complete successfully.
+[1.569s] * The installation package was faulty and contained
+[1.569s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.569s] but not all the files it references.
+[1.569s] 
+[1.569s] -- The imported target "vtk" references the file
+[1.569s]    "/usr/bin/vtk"
+[1.570s] but this file does not exist.  Possible reasons include:
+[1.570s] * The file was deleted, renamed, or moved to another location.
+[1.570s] * An install or uninstall procedure did not complete successfully.
+[1.570s] * The installation package was faulty and contained
+[1.570s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.570s] but not all the files it references.
+[1.570s] 
+[1.570s] -- The imported target "pvtk" references the file
+[1.570s]    "/usr/bin/pvtk"
+[1.570s] but this file does not exist.  Possible reasons include:
+[1.570s] * The file was deleted, renamed, or moved to another location.
+[1.570s] * An install or uninstall procedure did not complete successfully.
+[1.570s] * The installation package was faulty and contained
+[1.570s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.571s] but not all the files it references.
+[1.571s] 
+[1.571s] -- Found libusb-1.0: /usr/include  
+[1.572s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.572s] -- looking for PCL_COMMON
+[1.572s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.572s] -- looking for PCL_OCTREE
+[1.572s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.572s] -- looking for PCL_IO
+[1.572s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.572s] -- Found PCL: pcl_common;pcl_octree;pcl_io;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2  
+[1.721s] -- Found Boost: /usr/include (found version "1.71.0") found components: iostreams regex 
+[1.798s] -- Configuring done
+[1.813s] -- Generating done
+[1.815s] -- Build files have been written to: /home/msi/caato2_ws/build/pcl_conversions
+[1.847s] Invoked command in '/home/msi/caato2_ws/build/pcl_conversions' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/perception_pcl/pcl_conversions -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/pcl_conversions
+[1.849s] Invoking command in '/home/msi/caato2_ws/build/pcl_conversions': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions -- -j20 -l20
+[1.933s] Invoked command in '/home/msi/caato2_ws/build/pcl_conversions' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions -- -j20 -l20
+[1.990s] Invoking command in '/home/msi/caato2_ws/build/pcl_conversions': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions --target tests -- -j20 -l20
+[2.016s] [35m[1mScanning dependencies of target gtest[0m
+[2.033s] [ 25%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.670s] [ 50%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[3.740s] [ 50%] Built target gtest
+[3.746s] [35m[1mScanning dependencies of target test_pcl_conversions[0m
+[3.773s] [ 75%] [32mBuilding CXX object CMakeFiles/test_pcl_conversions.dir/test/test_pcl_conversions.cpp.o[0m
+[6.701s] [100%] [32m[1mLinking CXX executable devel/lib/pcl_conversions/test_pcl_conversions[0m
+[6.762s] [100%] Built target test_pcl_conversions
+[6.767s] [35m[1mScanning dependencies of target tests[0m
+[6.773s] [100%] Built target tests
+[6.781s] Invoked command in '/home/msi/caato2_ws/build/pcl_conversions' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/pcl_conversions --target tests -- -j20 -l20
+[6.808s] Invoking command in '/home/msi/caato2_ws/build/pcl_conversions': /usr/bin/cmake --install /home/msi/caato2_ws/build/pcl_conversions
+[6.813s] -- Install configuration: ""
+[6.813s] -- Installing: /home/msi/caato2_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc
+[6.813s] -- Installing: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+[6.813s] -- Installing: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+[6.813s] -- Installing: /home/msi/caato2_ws/install/pcl_conversions/share/pcl_conversions/package.xml
+[6.813s] -- Installing: /home/msi/caato2_ws/install/pcl_conversions/include/pcl_conversions
+[6.813s] -- Installing: /home/msi/caato2_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions.h
+[6.814s] Invoked command in '/home/msi/caato2_ws/build/pcl_conversions' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/pcl_conversions

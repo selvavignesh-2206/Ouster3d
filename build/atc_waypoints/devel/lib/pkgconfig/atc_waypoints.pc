@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/atc_waypoints/devel
+
+Name: atc_waypoints
+Description: Description of atc_waypoints
+Version: 0.0.0
+Cflags: -I/home/msi/caato2_ws/build/atc_waypoints/devel/include
+Libs: -L${prefix}/lib -latc_waypoints
+Requires: roscpp rviz message_runtime

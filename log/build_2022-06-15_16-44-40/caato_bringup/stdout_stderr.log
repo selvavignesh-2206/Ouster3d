@@ -1,0 +1,10 @@
+Built target tests
+-- Install configuration: ""
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/lib/pkgconfig/caato_bringup.pc
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/cmake/caato_bringupConfig.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/cmake/caato_bringupConfig-version.cmake
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/package.xml
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_realsense.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_ouster.launch
+-- Up-to-date: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_core.launch

@@ -1,0 +1,26 @@
+[0.097s] Invoking command in '/home/msi/caato2_ws/build/map_server': /usr/bin/cmake --build /home/msi/caato2_ws/build/map_server -- -j20 -l20
+[0.291s] [ 18%] Built target gtest
+[0.291s] [ 36%] Built target image_loader
+[0.292s] [ 54%] Built target map_server-map_saver
+[0.292s] [ 72%] Built target map_server
+[0.292s] [100%] Built target rtest
+[0.495s] Invoked command in '/home/msi/caato2_ws/build/map_server' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/map_server -- -j20 -l20
+[0.602s] Invoking command in '/home/msi/caato2_ws/build/map_server': /usr/bin/cmake --build /home/msi/caato2_ws/build/map_server --target tests -- -j20 -l20
+[0.667s] [ 28%] Built target gtest
+[0.669s] [ 57%] Built target image_loader
+[0.681s] [100%] Built target map_server_utest
+[0.696s] [100%] Built target tests
+[0.749s] Invoked command in '/home/msi/caato2_ws/build/map_server' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/map_server --target tests -- -j20 -l20
+[0.914s] Invoking command in '/home/msi/caato2_ws/build/map_server': /usr/bin/cmake --install /home/msi/caato2_ws/build/map_server
+[0.987s] -- Install configuration: ""
+[0.988s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/pkgconfig/map_server.pc
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/share/map_server/cmake/map_serverConfig.cmake
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/share/map_server/cmake/map_serverConfig-version.cmake
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/share/map_server/package.xml
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/map_server/map_saver
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/map_server/map_server
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/libimage_loader.so
+[0.989s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/include/map_server
+[0.990s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/include/map_server/image_loader.h
+[0.991s] -- Up-to-date: /home/msi/caato2_ws/install/map_server/lib/map_server/crop_map
+[0.995s] Invoked command in '/home/msi/caato2_ws/build/map_server' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/map_server

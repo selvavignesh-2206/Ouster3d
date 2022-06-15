@@ -1,0 +1,6 @@
+/home/msi/caato2_ws/install/rosserial_xbee/lib/pkgconfig/rosserial_xbee.pc
+/home/msi/caato2_ws/install/rosserial_xbee/share/rosserial_xbee/cmake/rosserial_xbeeConfig.cmake
+/home/msi/caato2_ws/install/rosserial_xbee/share/rosserial_xbee/cmake/rosserial_xbeeConfig-version.cmake
+/home/msi/caato2_ws/install/rosserial_xbee/share/rosserial_xbee/package.xml
+/home/msi/caato2_ws/install/rosserial_xbee/lib/rosserial_xbee/setup_xbee.py
+/home/msi/caato2_ws/install/rosserial_xbee/lib/rosserial_xbee/xbee_network.py

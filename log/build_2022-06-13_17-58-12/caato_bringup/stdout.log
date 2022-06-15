@@ -1,0 +1,47 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/caato_bringup/devel
+-- Using CMAKE_PREFIX_PATH: /home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/ira_laser_tools;/opt/ros/noetic
+-- This workspace overlays: /home/msi/caato2_ws/install/roboteq_diff_driver;/home/msi/caato2_ws/install/roboteq_diff_msgs;/home/msi/caato2_ws/install/ira_laser_tools;/opt/ros/noetic
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+-- Using empy: /usr/lib/python3/dist-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/caato_bringup/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/msi/caato2_ws/build/caato_bringup
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+-- Install configuration: ""
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/lib/pkgconfig/caato_bringup.pc
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/cmake/caato_bringupConfig.cmake
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/cmake/caato_bringupConfig-version.cmake
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/package.xml
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_realsense.launch
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_ouster.launch
+-- Installing: /home/msi/caato2_ws/install/caato_bringup/share/caato_bringup/launch/caato_core.launch

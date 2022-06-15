@@ -1,0 +1,7 @@
+/home/msi/caato2_ws/install/realsense_gazebo_plugin/lib/pkgconfig/realsense_gazebo_plugin.pc
+/home/msi/caato2_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake
+/home/msi/caato2_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+/home/msi/caato2_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/package.xml
+/home/msi/caato2_ws/install/realsense_gazebo_plugin/lib/librealsense_gazebo_plugin.so
+/home/msi/caato2_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include/realsense_gazebo_plugin/gazebo_ros_realsense.h
+/home/msi/caato2_ws/install/realsense_gazebo_plugin/share/realsense_gazebo_plugin/include/realsense_gazebo_plugin/RealSensePlugin.h

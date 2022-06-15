@@ -1,0 +1,8 @@
+/home/msi/caato2_ws/install/caato_slam/lib/pkgconfig/caato_slam.pc
+/home/msi/caato2_ws/install/caato_slam/share/caato_slam/cmake/caato_slamConfig.cmake
+/home/msi/caato2_ws/install/caato_slam/share/caato_slam/cmake/caato_slamConfig-version.cmake
+/home/msi/caato2_ws/install/caato_slam/share/caato_slam/package.xml
+/home/msi/caato2_ws/install/caato_slam/share/caato_slam/config/gmapping_params.yaml
+/home/msi/caato2_ws/install/caato_slam/share/caato_slam/launch/hector.launch
+/home/msi/caato2_ws/install/caato_slam/share/caato_slam/launch/gmapping_bringup.launch
+/home/msi/caato2_ws/install/caato_slam/share/caato_slam/launch/gmapping.launch

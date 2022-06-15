@@ -1,0 +1,294 @@
+[0.060s] Invoking command in '/home/msi/caato2_ws/build/decada_sim_assets': /usr/bin/cmake /home/msi/caato2_ws/src/siot/decada_sim_assets -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/decada_sim_assets
+[1.340s] -- The C compiler identification is GNU 8.4.0
+[1.340s] -- The CXX compiler identification is GNU 8.4.0
+[1.340s] -- Check for working C compiler: /usr/bin/cc
+[1.340s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.340s] -- Detecting C compiler ABI info
+[1.341s] -- Detecting C compiler ABI info - done
+[1.341s] -- Detecting C compile features
+[1.341s] -- Detecting C compile features - done
+[1.341s] -- Check for working CXX compiler: /usr/bin/c++
+[1.341s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.341s] -- Detecting CXX compiler ABI info
+[1.341s] -- Detecting CXX compiler ABI info - done
+[1.341s] -- Detecting CXX compile features
+[1.341s] -- Detecting CXX compile features - done
+[1.341s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.341s] -- Checking for module 'bullet>=2.82'
+[1.341s] --   Found bullet, version 2.88
+[1.342s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.342s] -- Found fcl: /opt/ros/noetic/include (found suitable version "0.6.1", minimum required is "0.3.2") 
+[1.342s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.342s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.431s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.477s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.482s] -- Looking for ignition-math6 -- found version 6.11.0
+[1.488s] -- Searching for dependencies of ignition-math6
+[1.490s] -- Looking for OGRE...
+[1.491s] -- OGRE_PREFIX_WATCH changed.
+[1.520s] -- Checking for module 'OGRE'
+[1.618s] --   Found OGRE, version 1.9.0
+[1.885s] -- Found Ogre Ghadamon (1.9.0)
+[1.922s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.936s] -- Looking for OGRE_Paging...
+[1.958s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.959s] -- Looking for OGRE_Terrain...
+[1.983s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.983s] -- Looking for OGRE_Property...
+[2.008s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.008s] -- Looking for OGRE_RTShaderSystem...
+[2.033s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.033s] -- Looking for OGRE_Volume...
+[2.058s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.058s] -- Looking for OGRE_Overlay...
+[2.086s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.478s] -- Looking for ignition-math6 -- found version 6.11.0
+[2.480s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.481s] -- Searching for dependencies of ignition-transport8
+[2.515s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.532s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.545s] -- Checking for module 'libzmq >= 4'
+[2.606s] --   Found libzmq , version 4.3.2
+[2.925s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.950s] -- Checking for module 'uuid'
+[3.087s] --   Found uuid, version 2.34.0
+[3.487s] -- Found UUID: TRUE  
+[3.489s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[3.489s] -- Searching for dependencies of ignition-msgs5
+[3.534s] -- Looking for ignition-math6 -- found version 6.11.0
+[3.545s] -- Checking for module 'tinyxml2'
+[3.662s] --   Found tinyxml2, version 6.2.0
+[4.195s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[4.197s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.199s] -- Searching for dependencies of ignition-common3
+[4.206s] -- Looking for dlfcn.h - found
+[4.208s] -- Looking for libdl - found
+[4.210s] -- Found DL: TRUE  
+[4.245s] -- Searching for <ignition-common3> component [graphics]
+[4.280s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.280s] -- Searching for dependencies of ignition-common3-graphics
+[4.281s] -- Looking for ignition-math6 -- found version 6.11.0
+[4.306s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.307s] -- Searching for dependencies of ignition-fuel_tools4
+[5.120s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[5.162s] -- Checking for module 'jsoncpp'
+[5.359s] --   Found jsoncpp, version 1.7.4
+[5.914s] -- Found JSONCPP: TRUE  
+[5.992s] -- Checking for module 'yaml-0.1'
+[6.149s] --   Found yaml-0.1, version 0.2.2
+[6.558s] -- Found YAML: TRUE  
+[6.591s] -- Checking for module 'libzip'
+[6.766s] --   Found libzip, version 1.5.1
+[7.101s] -- Found ZIP: TRUE  
+[7.101s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.102s] -- Looking for ignition-math6 -- found version 6.11.0
+[7.102s] -- Looking for ignition-msgs5 -- found version 5.9.0
+[7.106s] -- Using CATKIN_DEVEL_PREFIX: /home/msi/caato2_ws/build/decada_sim_assets/devel
+[7.106s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[7.118s] -- This workspace overlays: /opt/ros/noetic
+[7.199s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.200s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.200s] -- Using Debian Python package layout
+[7.311s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[7.311s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[7.620s] -- Using CATKIN_ENABLE_TESTING: ON
+[7.621s] -- Call enable_testing()
+[7.628s] -- Using CATKIN_TEST_RESULTS_DIR: /home/msi/caato2_ws/build/decada_sim_assets/test_results
+[7.662s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[7.663s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[7.663s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[7.768s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[7.771s] -- Found Threads: TRUE  
+[7.777s] -- Using Python nosetests: /usr/bin/nosetests3
+[7.960s] -- catkin 0.8.10
+[7.961s] -- BUILD_SHARED_LIBS is on
+[8.539s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[9.500s] -- Configuring done
+[9.564s] -- Generating done
+[9.586s] -- Build files have been written to: /home/msi/caato2_ws/build/decada_sim_assets
+[9.629s] Invoked command in '/home/msi/caato2_ws/build/decada_sim_assets' returned '0': /usr/bin/cmake /home/msi/caato2_ws/src/siot/decada_sim_assets -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/msi/caato2_ws/install/decada_sim_assets
+[9.630s] Invoking command in '/home/msi/caato2_ws/build/decada_sim_assets': /usr/bin/cmake --build /home/msi/caato2_ws/build/decada_sim_assets -- -j20 -l20
+[10.673s] Invoked command in '/home/msi/caato2_ws/build/decada_sim_assets' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/decada_sim_assets -- -j20 -l20
+[11.565s] Invoking command in '/home/msi/caato2_ws/build/decada_sim_assets': /usr/bin/cmake --build /home/msi/caato2_ws/build/decada_sim_assets --target tests -- -j20 -l20
+[13.370s] [35m[1mScanning dependencies of target tests[0m
+[13.370s] Built target tests
+[13.422s] Invoked command in '/home/msi/caato2_ws/build/decada_sim_assets' returned '0': /usr/bin/cmake --build /home/msi/caato2_ws/build/decada_sim_assets --target tests -- -j20 -l20
+[14.456s] Invoking command in '/home/msi/caato2_ws/build/decada_sim_assets': /usr/bin/cmake --install /home/msi/caato2_ws/build/decada_sim_assets
+[15.487s] -- Install configuration: ""
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/lib/pkgconfig/decada_sim_assets.pc
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/cmake/decada_sim_assetsConfig.cmake
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/cmake/decada_sim_assetsConfig-version.cmake
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/package.xml
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/floor_1.png
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/default.png
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/floor_2.png
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/floor_2.mtl
+[15.488s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/wall_1.obj
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/floor_1.mtl
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/floor_2.obj
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/wall_1.mtl
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/meshes/floor_1.obj
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/model.sdf
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/mbc_building_L1/model.config
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/materials
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/materials/textures
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/materials/textures/AprilTag.003.png
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/materials/textures/AprilTag.002.png
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/materials/scripts
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/materials/scripts/AprilTag.003.material
+[15.489s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/materials/scripts/AprilTag.002.material
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes/front_wheel.dae
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes/Trolley
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes/Trolley/__Terrazzo_4.jpg
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes/caster_wheel.dae
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes/caster_wheel.2.dae
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes/Trolley.dae
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/meshes/caster_wheel_hub.dae
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/Readme.txt
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/model.sdf
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id3/model.config
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/materials
+[15.490s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/materials/textures
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/materials/textures/AprilTag.jpeg
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/materials/textures/QrImage.png.bkup
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/materials/scripts
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/materials/scripts/AprilTag.material
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/materials/scripts/QrImage.material.bkup
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes/front_wheel.dae
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes/Trolley
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes/Trolley/__Terrazzo_4.jpg
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes/caster_wheel.dae
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes/caster_wheel.2.dae
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes/Trolley.dae
+[15.491s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/meshes/caster_wheel_hub.dae
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/model.sdf.bkup
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/model.sdf
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley/model.config
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/materials
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/materials/textures
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/materials/textures/AprilTag.jpeg
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/materials/textures/QrImage.png.bkup
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/materials/scripts
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/materials/scripts/AprilTag.material
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/materials/scripts/QrImage.material.bkup
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/meshes
+[15.492s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/meshes/Receiver-Unit.dae
+[15.493s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/model.sdf
+[15.493s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_RCU/model.config
+[15.493s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/textures
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/textures/AprilTag.015.png
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/textures/AprilTag.jpeg
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/textures/QrImage.png.bkup
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/scripts
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/scripts/AprilTag.material
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/scripts/QrImage.material.bkup
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/materials/scripts/AprilTag.015.material
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/meshes
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/meshes/Transmitter-Pad.dae
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/model.sdf
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Xnergy_TPU/model.config
+[15.494s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/materials
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/materials/textures
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/materials/textures/AprilTag.001.png
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/materials/textures/AprilTag.000.png
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/materials/scripts
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/materials/scripts/AprilTag.001.material
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/materials/scripts/AprilTag.000.material
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes/front_wheel.dae
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes/Trolley
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes/Trolley/__Terrazzo_4.jpg
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes/caster_wheel.dae
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes/caster_wheel.2.dae
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes/Trolley.dae
+[15.495s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/meshes/caster_wheel_hub.dae
+[15.496s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/Readme.txt
+[15.496s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/model.sdf
+[15.498s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id1/model.config
+[15.498s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato
+[15.498s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/caato_360Cam.urdf.xacro.bkup
+[15.498s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/meshes
+[15.499s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/meshes/002._dc_brushed_wheels.stl
+[15.499s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/meshes/hokuyo_laser_scanner.stl
+[15.499s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/meshes/xiaomi_pro_hub_motor.stl
+[15.499s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/meshes/castor_wheel.stl
+[15.499s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/meshes/castor_mount.stl
+[15.500s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/meshes/base_link.stl
+[15.500s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/model.sdf
+[15.500s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Caato/model.config
+[15.500s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9
+[15.500s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes
+[15.500s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes/model.material
+[15.500s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes/default.png
+[15.501s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes/blue_linoleum.png
+[15.501s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes/wall_1.obj
+[15.501s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes/floor_1.mtl
+[15.501s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes/wall_1.mtl
+[15.501s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/meshes/floor_1.obj
+[15.501s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/model.sdf
+[15.501s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L9/model.config
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/materials
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/materials/textures
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/materials/textures/AprilTag.005.png
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/materials/textures/AprilTag.004.png
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/materials/scripts
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/materials/scripts/AprilTag.005.material
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/materials/scripts/AprilTag.004.material
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes
+[15.502s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes/front_wheel.dae
+[15.503s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes/Trolley
+[15.503s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes/Trolley/__Terrazzo_4.jpg
+[15.503s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes/caster_wheel.dae
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes/caster_wheel.2.dae
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes/Trolley.dae
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/meshes/caster_wheel_hub.dae
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/Readme.txt
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/model.sdf
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/Trolley_id5/model.config
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/model.material
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/default.png
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/floor_3.mtl
+[15.504s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/blue_linoleum.png
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/floor_2.mtl
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/wall_1.obj
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/floor_1.mtl
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/white_beige_tiles.png
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/floor_2.obj
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/wall_1.mtl
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/floor_3.obj
+[15.507s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/gray_flooring.png
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/meshes/floor_1.obj
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/model.sdf
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/models/building_L10/model.config
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/house.yaml
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/mbc
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/mbc/lvl10
+[15.508s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/mbc/lvl10/mbc.pgm
+[15.509s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/mbc/lvl10/mbc.png
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/mbc/lvl10/mbc.yaml
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/house.pgm
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/world.pgm
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/maps/world.yaml
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/rviz
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/rviz/single_caato_ff.rviz
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/worlds
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/worlds/mbc.building.nodoors.2.world
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/worlds/empty.world
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/worlds/mbc.building.world
+[15.512s] -- Installing: /home/msi/caato2_ws/install/decada_sim_assets/share/decada_sim_assets/worlds/mbc.building.nodoors.world
+[15.538s] Invoked command in '/home/msi/caato2_ws/build/decada_sim_assets' returned '0': /usr/bin/cmake --install /home/msi/caato2_ws/build/decada_sim_assets

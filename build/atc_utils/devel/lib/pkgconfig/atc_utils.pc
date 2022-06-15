@@ -1,0 +1,8 @@
+prefix=/home/msi/caato2_ws/build/atc_utils/devel
+
+Name: atc_utils
+Description: Description of atc_utils
+Version: 0.0.0
+Cflags: -I/home/msi/caato2_ws/src/siot/atc_meta_package/atc_utils/include
+Libs: -L${prefix}/lib -latc_utils
+Requires: 
